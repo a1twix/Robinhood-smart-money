@@ -81,17 +81,22 @@ FORCE_RECHECK_TOKEN_SYMBOLS: set[str] = set()
 # VEX is a known API-problem token.
 # The remaining symbols are deliberately abandoned from the previous
 # unfinished scanner batch and must not be retried by Stage 2.
-SKIP_TOKEN_SYMBOLS = {
-    "VEX",
-    "DOGO",
-    "BOW",
-    "FLOCK",
-    "MANCER",
-    "AAPL",
-    "ANON",
-    "RIPE",
-    "WTH",
-    "GLD",
+# VEX remains excluded by symbol because it is a known API-problem token.
+SKIP_TOKEN_SYMBOLS = {"VEX"}
+
+# Exact contracts deliberately abandoned from the previous unfinished batch.
+# Using contracts prevents an unrelated future token with the same symbol
+# from being accidentally skipped.
+SKIP_TOKEN_CONTRACTS = {
+    "0xaf3d76f1834a1d425780943c99ea8a608f8a93f9",  # AAPL
+    "0x79bbf4508b1391af3a0f4b30bb5fc4aa9ab0e07c",  # ANON
+    "0x451b42a15100c340ca12f7c66de06fac5ea2d751",  # BOW
+    "0x77b0aa38451ccdc1b42587e2f80b9879a7f82356",  # DOGO
+    "0x5ab3d4c385b400f3abb49e80de2faf6a88a7b691",  # FLOCK
+    "0xc9a981fee1f9dec688bb123ccdecc63d0debfc4e",  # GLD
+    "0xc72f232a6869e6cf34dc06129affd07f8a2a246a",  # MANCER
+    "0x4d3f37a965b21ab4122e92dd41d2693e742c883b",  # RIPE
+    "0xb8fa8010833463aac5595b55b9045479239eff79",  # WTH
 }
 
 # Historical tokens whose profitable-wallet reports were accidentally lost
@@ -3401,8 +3406,12 @@ def main() -> None:
     tokens_to_process = [
         token
         for token in tokens_to_process
-        if str(token.get("symbol") or "").upper()
-        not in SKIP_TOKEN_SYMBOLS
+        if (
+            str(token.get("symbol") or "").upper()
+            not in SKIP_TOKEN_SYMBOLS
+            and normalise_address(token.get("contract"))
+            not in SKIP_TOKEN_CONTRACTS
+        )
     ]
 
     if explicitly_skipped_tokens:
