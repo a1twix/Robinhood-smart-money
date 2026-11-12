@@ -69,7 +69,7 @@ MIN_REALISED_PROFIT_ETH = 2.0
 ORIGINAL_POSITION_EXIT_FRACTION = 0.95
 
 # 0 means analyse every unprocessed token.
-MAX_NEW_TOKENS_PER_RUN = 0
+MAX_NEW_TOKENS_PER_RUN = 3
 
 # Explicit force-recheck list. Keep empty during normal operation.
 # A token listed here is reanalysed even if a completed report already exists.
@@ -695,7 +695,7 @@ def load_scanner_tokens() -> list[dict[str, Any]]:
             token["contract"] = contract
             by_contract[contract] = token
 
-    for recovery_token in RECOVERY_TOKENS:
+    for recovery_token in []:  # Fresh-only mode; recovery list preserved
         contract = normalise_address(
             recovery_token.get("contract")
         )
