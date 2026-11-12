@@ -69,7 +69,7 @@ PRO_LEGACY_API_URL = "https://api.blockscout.com/v2/api"
 
 RPC_URL = os.getenv("ALCHEMY_RPC_URL") or "https://rpc.mainnet.chain.robinhood.com"
 
-INPUT_FILE = Path("scanner_qualifying_tokens.json")
+INPUT_FILE = Path("scanner_seen_qualifying_tokens.json")
 FULL_OUTPUT_FILE = Path("conviction_holder_results.json")
 TOP_OUTPUT_FILE = Path("top_conviction_holders.json")
 CHECKPOINT_FILE = Path("conviction_holder_checkpoint.json")
