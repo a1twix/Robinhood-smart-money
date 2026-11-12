@@ -1765,6 +1765,8 @@ def run_tracker():
 
     try:
         while True:
+            # AUTO REFRESH IN MONITORING LOOP
+            refresh_conviction_wallets()
             latest_block = get_latest_block_number()
 
             if latest_block is None:
