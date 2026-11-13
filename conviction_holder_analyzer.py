@@ -73,6 +73,7 @@ INPUT_FILE = Path("scanner_seen_qualifying_tokens.json")
 FULL_OUTPUT_FILE = Path("conviction_holder_results.json")
 TOP_OUTPUT_FILE = Path("top_conviction_holders.json")
 CHECKPOINT_FILE = Path("conviction_holder_checkpoint.json")
+PENDING_REVIEW_FILE = Path("conviction_pending_review.json")
 TX_CACHE_FILE = Path("conviction_transaction_cache.json")
 INTERNAL_CACHE_FILE = Path("conviction_internal_cache.json")
 SALE_PROBE_CACHE_FILE = Path("conviction_rpc_sale_probe_cache.json")
@@ -89,6 +90,9 @@ TOP_CONVICTION_PER_TOKEN = 5
 
 # 0 = analyse every pending token.
 MAX_NEW_TOKENS_PER_RUN = 1
+
+# Version 2 includes all major holders, not only confirmed DEX buyers.
+ANALYSIS_VERSION = 2
 
 # ProjectVex repeatedly caused prolonged Blockscout HTTP 500 loops in the
 # existing analyser. Keep this targeted exclusion separate from retry logic.
@@ -673,11 +677,16 @@ def merge_top_results(
         by_contract[contract] = {
             "token": report["token"],
             "launch": report["launch"],
+            "analysis_version": report.get("analysis_version", 1),
+            "token_analysis_complete": report.get("token_analysis_complete", False),
             "qualifying_holder_count": len(
                 report.get("qualifying_holders") or []
             ),
             "top_conviction_holders": (
                 report.get("top_conviction_holders") or []
+            ),
+            "holders_checked": (
+                report.get("holders_checked") or []
             ),
         }
 
@@ -2391,6 +2400,52 @@ def stablecoin_to_eth_value(
     return (amount * stable_usd) / eth_usd
 
 
+
+def calculate_whale_holdings(wallet, wallet_rows, decimals, current_balance):
+    """Summarise observed token movements without assuming they are trades."""
+    grouped = group_holder_token_transactions(
+        normalise_address(wallet), wallet_rows, decimals
+    )
+
+    received = sum(
+        max(0.0, safe_float(item.get("tokens_in")))
+        for item in grouped
+    )
+    sent = sum(
+        max(0.0, safe_float(item.get("tokens_out")))
+        for item in grouped
+    )
+
+    balance = safe_float(current_balance)
+
+    first_inbound = next(
+        (
+            item for item in grouped
+            if safe_float(item.get("tokens_in")) > 0
+        ),
+        None,
+    )
+
+    return {
+        "first_acquisition_block": (
+            first_inbound["block_number"]
+            if first_inbound else None
+        ),
+        "first_acquisition_transaction": (
+            first_inbound["transaction_hash"]
+            if first_inbound else None
+        ),
+        "first_acquisition_method": "OBSERVED TOKEN INBOUND",
+        "total_tokens_received": received,
+        "total_tokens_sent": sent,
+        "current_tokens_held": balance,
+        "retained_percentage_of_received": (
+            balance / received * 100.0 if received > 0 else None
+        ),
+        "sales_not_inferred_from_transfers": True,
+    }
+
+
 def reconstruct_holder_position(
     wallet: str,
     wallet_rows: list[dict[str, Any]],
@@ -2933,6 +2988,27 @@ def analyse_holder_sales(
 # CHECKPOINT / SAVING
 # =========================================================
 
+
+def load_pending_reviews():
+    if not PENDING_REVIEW_FILE.exists():
+        return {}
+    data = json.loads(PENDING_REVIEW_FILE.read_text())
+    return data if isinstance(data, dict) else {}
+
+
+def save_pending_review():
+    checkpoint = json.loads(CHECKPOINT_FILE.read_text())
+    contract = normalise_address(
+        checkpoint.get("token", {}).get("contract")
+    )
+    if not contract:
+        return
+
+    pending = load_pending_reviews()
+    pending[contract] = checkpoint
+    write_json(PENDING_REVIEW_FILE, pending)
+
+
 def save_checkpoint(
     token: dict[str, Any],
     launch: dict[str, Any],
@@ -3221,46 +3297,27 @@ def analyse_token(
             decimals=decimals,
         )
 
-        if not first_buy:
-            checked = {
-                **holder,
-                "analysis_complete": (
-                    API_FAILURE_COUNT == holder_api_failure_start
-                ),
-                "qualifies_30_minute_filter": False,
-                "reason": (
-                    "No genuine DEX buy found; "
-                    "holder may have received/transferred tokens"
-                ),
-            }
-
-            holders_checked.append(checked)
-
-            print(
-                "    No genuine DEX buy found — not qualified."
-            )
-
-            save_checkpoint(
-                token=token_summary,
-                launch=launch,
-                holders_checked=holders_checked,
-                qualifying_holders=qualifying_holders,
-            )
-
-            continue
-
-        entry_time = parse_time(
-            first_buy.get("entry_time_utc")
+        entry_time = (
+            parse_time(first_buy.get("entry_time_utc"))
+            if first_buy else None
         )
 
-        seconds_after_launch = (
-            int(
-                (
-                    entry_time - launch_time
-                ).total_seconds()
+        # If no DEX buy was detected, use the earliest inbound
+        # token transfer as a provisional acquisition reference.
+        acquisition_method = (
+            "DEX BUY CONFIRMED" if first_buy
+            else "DEX BUY NOT CONFIRMED"
+        )
+
+        if not first_buy:
+            print(
+                "    No confirmed DEX buy — continuing with "
+                "full holder position analysis."
             )
-            if entry_time is not None
-            else None
+
+        seconds_after_launch = (
+            int((entry_time - launch_time).total_seconds())
+            if entry_time is not None else None
         )
 
         qualifies_window = (
@@ -3270,7 +3327,8 @@ def analyse_token(
 
         checked = {
             **holder,
-            **first_buy,
+            **(first_buy or {}),
+            "acquisition_method": acquisition_method,
             "seconds_after_launch": seconds_after_launch,
             "delay_after_launch": format_duration(
                 seconds_after_launch
@@ -3281,6 +3339,45 @@ def analyse_token(
             ),
         }
 
+        whale_holdings = calculate_whale_holdings(
+            wallet=wallet,
+            wallet_rows=wallet_rows,
+            decimals=decimals,
+            current_balance=holder["current_balance"],
+        )
+        checked["whale_holdings"] = whale_holdings
+
+        # Use the first observed inbound transfer when a DEX buy
+        # has not been confirmed.
+        if not first_buy:
+            first_block = whale_holdings.get(
+                "first_acquisition_block"
+            )
+
+            first_time = (
+                parse_time(rpc_block_timestamp(first_block))
+                if first_block and first_block > 0
+                else None
+            )
+
+            acquisition_delay = (
+                int((first_time - launch_time).total_seconds())
+                if first_time is not None
+                else None
+            )
+
+            checked["entry_time_utc"] = (
+                first_time.isoformat()
+                if first_time is not None else None
+            )
+            checked["seconds_after_launch"] = acquisition_delay
+            checked["delay_after_launch"] = format_duration(
+                acquisition_delay
+            )
+            checked["acquisition_method"] = (
+                "FIRST OBSERVED TOKEN INBOUND"
+            )
+
         # Entry timing is descriptive, not an exclusion criterion.
         # All verified genuine buyers proceed to sale analysis.
         # Full-position reconstruction is the authoritative qualification
@@ -3289,7 +3386,7 @@ def analyse_token(
             **checked,
             "classification": "HOLDER UNDER EVALUATION",
             "reason": (
-                "Current major holder with a genuine DEX purchase; "
+                "Current major holder; acquisition method recorded separately; "
                 "full-position profitability verification pending"
             ),
         }
@@ -3470,6 +3567,7 @@ def analyse_token(
         },
         "launch": launch,
         "token_analysis_complete": True,
+        "analysis_version": ANALYSIS_VERSION,
         "analysis_method": (
             "Current Top 30 holders -> genuine DEX trading history -> "
             "complete ETH-denominated position reconstruction -> "
@@ -3541,7 +3639,10 @@ def main() -> None:
     completed_contracts = {
         report_contract(report)
         for report in existing_reports
-        if report_is_complete(report)
+        if (
+            report_is_complete(report)
+            and report.get("analysis_version", 1) >= ANALYSIS_VERSION
+        )
     }
 
     completed_contracts.discard("")
@@ -3552,10 +3653,12 @@ def main() -> None:
             f"{len(completed_contracts)}"
         )
 
+    pending_reviews = load_pending_reviews()
     pending_tokens = [
         token
         for token in scanner_tokens
         if token["contract"] not in completed_contracts
+        and normalise_address(token["contract"]) not in pending_reviews
     ]
 
     if MAX_NEW_TOKENS_PER_RUN > 0:
@@ -3603,9 +3706,10 @@ def main() -> None:
                 )
 
             else:
+                save_pending_review()
                 print(
-                    "\n  Token remains pending; no false completed "
-                    "record was written."
+                    "\n  Token saved for pending review; "
+                    "the next run will advance to another token."
                 )
 
             save_persistent_api_caches()
