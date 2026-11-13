@@ -69,7 +69,7 @@ PRO_LEGACY_API_URL = "https://api.blockscout.com/v2/api"
 
 RPC_URL = os.getenv("ALCHEMY_RPC_URL") or "https://rpc.mainnet.chain.robinhood.com"
 
-INPUT_FILE = Path("scanner_seen_qualifying_tokens.json")
+INPUT_FILE = Path("conviction_priority_tokens.json")
 FULL_OUTPUT_FILE = Path("conviction_holder_results.json")
 TOP_OUTPUT_FILE = Path("top_conviction_holders.json")
 CHECKPOINT_FILE = Path("conviction_holder_checkpoint.json")
@@ -96,7 +96,7 @@ ANALYSIS_VERSION = 2
 
 # ProjectVex repeatedly caused prolonged Blockscout HTTP 500 loops in the
 # existing analyser. Keep this targeted exclusion separate from retry logic.
-SKIP_TOKEN_SYMBOLS = {"VEX", "CRCL"}
+SKIP_TOKEN_SYMBOLS = {"VEX"}
 
 # Pagination / request safety.
 PAGE_SIZE = 1000
@@ -3347,12 +3347,18 @@ def analyse_token(
         )
         checked["whale_holdings"] = whale_holdings
 
-        # Use the first observed inbound transfer when a DEX buy
-        # has not been confirmed.
-        if not first_buy:
-            first_block = whale_holdings.get(
-                "first_acquisition_block"
-            )
+        # Use the earliest observed inbound acquisition for timing,
+        # even when a later DEX buy has been confirmed.
+        first_block = whale_holdings.get(
+            "first_acquisition_block"
+        )
+
+        if first_block and first_block > 0:
+            # Never fall back to a later DEX buy if the
+            # earliest inbound timestamp cannot be verified.
+            checked["entry_time_utc"] = None
+            checked["seconds_after_launch"] = None
+            checked["delay_after_launch"] = None
 
             first_time = (
                 parse_time(rpc_block_timestamp(first_block))
@@ -3374,14 +3380,51 @@ def analyse_token(
             checked["delay_after_launch"] = format_duration(
                 acquisition_delay
             )
-            checked["acquisition_method"] = (
+            checked["entry_timing_method"] = (
                 "FIRST OBSERVED TOKEN INBOUND"
             )
 
-        # Entry timing is descriptive, not an exclusion criterion.
-        # All verified genuine buyers proceed to sale analysis.
-        # Full-position reconstruction is the authoritative qualification
-        # method. Do not run the legacy first-buy sale analysis.
+        # Version 2: only analyse holders entering within 48 hours.
+        # Unknown acquisition times are not assumed to be early.
+        entry_delay = checked.get("seconds_after_launch")
+        max_entry_seconds = 48 * 60 * 60
+
+        if entry_delay is None or entry_delay < 0:
+            checked["classification"] = "ENTRY TIME UNVERIFIED"
+            checked["reason"] = (
+                "First acquisition time could not be verified"
+            )
+            checked["entry_screening_complete"] = True
+            checked["analysis_complete"] = False
+            holders_checked.append(checked)
+            save_checkpoint(
+                token=token_summary,
+                launch=launch,
+                holders_checked=holders_checked,
+                qualifying_holders=qualifying_holders,
+            )
+            print("    Entry time unverified — skipping profitability analysis.")
+            continue
+
+        if entry_delay > max_entry_seconds:
+            checked["classification"] = "LATE ENTRY EXCLUDED"
+            checked["reason"] = (
+                "First observed acquisition exceeded 48 hours"
+            )
+            checked["analysis_complete"] = True
+            holders_checked.append(checked)
+            save_checkpoint(
+                token=token_summary,
+                launch=launch,
+                holders_checked=holders_checked,
+                qualifying_holders=qualifying_holders,
+            )
+            print("    Entry exceeded 48 hours — skipping profitability analysis.")
+            continue
+
+        checked["qualifies_48_hour_filter"] = True
+
+        # Only eligible early entrants proceed to profitability analysis.
         qualified = {
             **checked,
             "classification": "HOLDER UNDER EVALUATION",
@@ -3479,7 +3522,10 @@ def analyse_token(
     incomplete_holders = [
         holder
         for holder in holders_checked
-        if holder.get("analysis_complete") is not True
+        if (
+            holder.get("analysis_complete") is not True
+            and holder.get("entry_screening_complete") is not True
+        )
     ]
 
     token_api_failures = (
