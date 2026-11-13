@@ -2996,12 +2996,21 @@ def load_pending_reviews():
     return data if isinstance(data, dict) else {}
 
 
-def save_pending_review():
+def save_pending_review(expected_contract=None):
+    if not CHECKPOINT_FILE.exists():
+        print("  No checkpoint available for pending review.")
+        return
+
     checkpoint = json.loads(CHECKPOINT_FILE.read_text())
     contract = normalise_address(
         checkpoint.get("token", {}).get("contract")
     )
-    if not contract:
+
+    if not contract or (
+        expected_contract is not None
+        and contract != normalise_address(expected_contract)
+    ):
+        print("  Checkpoint does not match current token; preserving existing records.")
         return
 
     pending = load_pending_reviews()
@@ -3014,14 +3023,21 @@ def save_checkpoint(
     launch: dict[str, Any],
     holders_checked: list[dict[str, Any]],
     qualifying_holders: list[dict[str, Any]],
+    snapshot_block: int | None = None,
 ) -> None:
     write_json(
         CHECKPOINT_FILE,
         {
             "updated_at_utc": utc_now(),
+            "snapshot_block": snapshot_block,
             "token": token,
             "launch": launch,
             "holders_checked": holders_checked,
+            "early_whales": [
+                holder for holder in holders_checked
+                if holder.get("early_whale_classification")
+                == "EARLY WHALE - HOLDING"
+            ],
             "qualifying_holders": qualifying_holders,
             "api_failure_count": API_FAILURE_COUNT,
             "api_failure_log": API_FAILURE_LOG[-100:],
@@ -3266,7 +3282,7 @@ def analyse_token(
         wallet_rows = fetch_token_transfers(
             contract=contract,
             address=wallet,
-            start_block=launch_block,
+            start_block=0,
             max_pages=MAX_HOLDER_WALLET_PAGES,
             end_block=snapshot_block,
         )
@@ -3286,6 +3302,7 @@ def analyse_token(
                 launch=launch,
                 holders_checked=holders_checked,
                 qualifying_holders=qualifying_holders,
+                snapshot_block=snapshot_block,
             )
 
             continue
@@ -3402,6 +3419,7 @@ def analyse_token(
                 launch=launch,
                 holders_checked=holders_checked,
                 qualifying_holders=qualifying_holders,
+                snapshot_block=snapshot_block,
             )
             print("    Entry time unverified — skipping profitability analysis.")
             continue
@@ -3418,11 +3436,23 @@ def analyse_token(
                 launch=launch,
                 holders_checked=holders_checked,
                 qualifying_holders=qualifying_holders,
+                snapshot_block=snapshot_block,
             )
             print("    Entry exceeded 48 hours — skipping profitability analysis.")
             continue
 
         checked["qualifies_48_hour_filter"] = True
+
+        # Early-whale identification is independent of realised profit.
+        # Current major-holder status comes from the holder shortlist.
+        retention = checked.get("whale_holdings") or {}
+        retained_pct = retention.get("retained_percentage_of_received")
+
+        checked["early_whale_classification"] = (
+            "EARLY WHALE - HOLDING"
+        )
+        checked["early_whale_retention_percentage"] = retained_pct
+        checked["early_whale_profitability_status"] = "PENDING"
 
         # Only eligible early entrants proceed to profitability analysis.
         qualified = {
@@ -3441,12 +3471,17 @@ def analyse_token(
             decimals=decimals,
             current_balance=holder["current_balance"],
             snapshot_block=snapshot_block,
-            history_start_block=launch_block,
+            history_start_block=None,
         )
 
         qualified["full_position_analysis"] = position
 
         position_status = position.get("position_status")
+
+        # Preserve early-whale status independently of profitability.
+        qualified["early_whale_profitability_status"] = (
+            position_status or "UNKNOWN"
+        )
 
         qualified["analysis_complete"] = (
             checked.get("analysis_complete") is True
@@ -3606,6 +3641,27 @@ def analyse_token(
             f"{format_number(holder['retained_purchase_percentage'])}%"
         )
 
+    # Independently identify early whales, regardless of profit verification.
+    early_whales = [
+        holder for holder in holders_checked
+        if holder.get("early_whale_classification") == "EARLY WHALE - HOLDING"
+    ]
+
+    early_whales.sort(
+        key=lambda holder: (
+            safe_int(holder.get("holder_rank"), 999_999),
+            -safe_float(holder.get("early_whale_retention_percentage")),
+        )
+    )
+
+    print(f"\\n  EARLY WHALES STILL HOLDING: {len(early_whales)}")
+    for holder in early_whales:
+        print(
+            f"  #{holder.get('holder_rank')} {holder.get('wallet')} | "
+            f"retained {format_number(holder.get('early_whale_retention_percentage'))}% | "
+            f"profitability {holder.get('early_whale_profitability_status')}"
+        )
+
     return {
         "token": {
             **token_summary,
@@ -3640,6 +3696,8 @@ def analyse_token(
         },
         "current_top_holders": top_holders,
         "holders_checked": holders_checked,
+        "early_whale_count": len(early_whales),
+        "early_whales": early_whales,
         "qualifying_holder_count": len(qualifying_holders),
         "qualifying_holders": qualifying_holders,
         "top_conviction_holders": top_conviction_holders,
@@ -3704,7 +3762,19 @@ def main() -> None:
         token
         for token in scanner_tokens
         if token["contract"] not in completed_contracts
-        and normalise_address(token["contract"]) not in pending_reviews
+        and (
+            normalise_address(token["contract"]) not in pending_reviews
+            or (
+                str(token.get("symbol") or "").upper() == "CASHCAT"
+                and not any(
+                    str(report.get("token", {}).get("symbol") or "").upper()
+                    == "CASHCAT"
+                    and report_is_complete(report)
+                    and report.get("analysis_version", 1) >= ANALYSIS_VERSION
+                    for report in existing_reports
+                )
+            )
+        )
     ]
 
     if MAX_NEW_TOKENS_PER_RUN > 0:
@@ -3752,7 +3822,7 @@ def main() -> None:
                 )
 
             else:
-                save_pending_review()
+                save_pending_review(expected_contract=token["contract"])
                 print(
                     "\n  Token saved for pending review; "
                     "the next run will advance to another token."
