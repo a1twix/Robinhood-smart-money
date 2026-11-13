@@ -1957,16 +1957,8 @@ def rpc_probe_sale_candidate(
         else raw_input
     )
 
-    if selector not in SWAP_SELECTORS:
-        result = {
-            "probe_complete": True,
-            "is_confirmed_sale": False,
-            "reason": "Non-swap selector",
-        }
-
-        SALE_PROBE_CACHE[cache_key] = result
-        return result
-
+    # Do not reject solely because the selector is unknown.
+    # Require receipt-based evidence of token outflow and proceeds.
     target_out_seen = False
     incoming_quote: defaultdict[str, float] = defaultdict(float)
 
@@ -2527,10 +2519,8 @@ def reconstruct_holder_position(
             mark_unresolved(tx_hash, "Wallet was not transaction initiator")
             continue
 
-        if not rpc_is_swap_transaction(transaction):
-            mark_unresolved(tx_hash, "Unrecognised swap selector")
-            continue
-
+        # An unknown selector alone does not prove this is not a swap.
+        # Continue to asset-flow analysis; do not automatically verify it.
         asset_flows = rpc_wallet_asset_flows(
             transaction, receipt, wallet, contract
         )
@@ -2648,8 +2638,13 @@ def reconstruct_holder_position(
 
     if rpc_balance is None:
         return {
-            "position_status": "INCOMPLETE",
-            "reason": "Independent RPC token balance unavailable",
+            "position_status": "PROVISIONAL",
+            "reason": "Profit calculated but independent historical RPC balance unavailable",
+            **calculation,
+            "reconstructed_balance": reconstructed,
+            "checkpoint_balance": current_balance,
+            "snapshot_block": snapshot_block,
+            "rpc_balance_verified": False,
         }
 
     tolerance = max(
@@ -3485,14 +3480,14 @@ def analyse_token(
 
         qualified["analysis_complete"] = (
             checked.get("analysis_complete") is True
-            and position_status in {"VERIFIED", "UNVERIFIED"}
+            and position_status in {"VERIFIED", "UNVERIFIED", "PROVISIONAL"}
         )
 
         if position_status == "INCOMPLETE":
             qualified["classification"] = "ANALYSIS INCOMPLETE"
         elif position_status == "UNVERIFIED":
             qualified["classification"] = "PROFITABILITY UNVERIFIED"
-        elif position_status == "VERIFIED":
+        elif position_status in {"VERIFIED", "PROVISIONAL"}:
             bought = safe_float(position.get("total_tokens_bought"))
             retained = safe_float(position.get("reconstructed_tokens_held"))
             retained_pct = (
@@ -3506,14 +3501,17 @@ def analyse_token(
                 and safe_int(position.get("sell_count")) > 0
                 and retained_pct >= 25.0
                 and qualified.get("analysis_complete") is True
-                and position_status == "VERIFIED"
+                and position_status in {"VERIFIED", "PROVISIONAL"}
             )
 
             if profitable:
-                qualified["classification"] = "VERIFIED PROFITABLE CONVICTION HOLDER"
+                qualified["classification"] = (
+                    f"{position_status} PROFITABLE CONVICTION HOLDER"
+                )
                 qualified["reason"] = (
-                    "Verified positive realised ETH profit with at least "
-                    "25% of purchased tokens retained"
+                    "Positive calculated realised ETH profit with at least "
+                    "25% of purchased tokens retained; "
+                    f"verification status: {position_status}"
                 )
                 qualifying_holders.append(qualified)
             else:
@@ -3527,9 +3525,9 @@ def analyse_token(
             f"entry {qualified.get('delay_after_launch')}"
         )
 
-        if position_status == "VERIFIED":
+        if position_status in {"VERIFIED", "PROVISIONAL"}:
             print(
-                "    Full-position realised profit: "
+                f"    {position_status} full-position realised profit: "
                 f"{format_number(position.get('realised_profit_eth'))} ETH | "
                 "ROI "
                 f"{format_number(position.get('realised_roi_percent'))}% | "
