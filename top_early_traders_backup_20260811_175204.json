@@ -1,0 +1,2848 @@
+{
+    "generated_at_utc": "2026-08-04T20:20:32.499088+00:00",
+    "tokens_completed": 11,
+    "results": [
+        {
+            "token": {
+                "name": "Virtuals Protocol",
+                "symbol": "VIRTUAL",
+                "contract": "0xc6911796042b15d7fa4f6cde69e245ddcd3d9c31",
+                "decimals": 18,
+                "scanner_data": {
+                    "name": "Virtuals Protocol",
+                    "symbol": "VIRTUAL",
+                    "contract": "0xc6911796042b15d7fa4f6cde69e245ddcd3d9c31",
+                    "holders_count": "5013",
+                    "blockscout_market_cap": 390660336.4205061,
+                    "dexscreener": {
+                        "market_cap": 5058786.0,
+                        "fdv": 5058786.0,
+                        "effective_market_cap": 5058786.0,
+                        "valuation_type": "Market cap",
+                        "liquidity": 4056912.78,
+                        "volume_24h": 10338957.68,
+                        "buys_24h": 36937,
+                        "sells_24h": 30200,
+                        "transactions_24h": 67137,
+                        "liquidity_market_cap_ratio": 0.8019538244946515,
+                        "volume_liquidity_ratio": 2.548479161536226,
+                        "sell_buy_ratio": 0.8176083601808485,
+                        "price_usd": 0.598,
+                        "price_change_24h": 7.6,
+                        "pair_created_at_utc": "2026-07-02T03:23:35+00:00",
+                        "pair_age_hours": 318.5235460438889,
+                        "pair_address": "0xd95e8e2Cd04c207625C6F23c974d365a5F3A91D3",
+                        "dex_id": "uniswap",
+                        "dex_url": "https://dexscreener.com/robinhood/0xd95e8e2cd04c207625c6f23c974d365a5f3a91d3"
+                    }
+                }
+            },
+            "launch": {
+                "first_token_activity_block": 168473,
+                "first_confirmed_buy_block": 524363,
+                "first_confirmed_buy_time_utc": "2026-06-30T04:05:34+00:00"
+            },
+            "top_traders": []
+        },
+        {
+            "token": {
+                "name": "WISHBONE",
+                "symbol": "WISHBONE",
+                "contract": "0x77581054581b9c525e7dd7a0155de43867532d03",
+                "decimals": 18,
+                "scanner_data": {
+                    "name": "WISHBONE",
+                    "symbol": "WISHBONE",
+                    "contract": "0x77581054581b9c525e7dd7a0155de43867532d03",
+                    "holders_count": "3074",
+                    "blockscout_market_cap": 4078705.298566006,
+                    "dexscreener": {
+                        "market_cap": 3948351.0,
+                        "fdv": 3948351.0,
+                        "effective_market_cap": 3948351.0,
+                        "valuation_type": "Market cap",
+                        "liquidity": 313578.25,
+                        "volume_24h": 3726286.9,
+                        "buys_24h": 4610,
+                        "sells_24h": 3636,
+                        "transactions_24h": 8246,
+                        "liquidity_market_cap_ratio": 0.07942005409346839,
+                        "volume_liquidity_ratio": 11.8831165745711,
+                        "sell_buy_ratio": 0.7887201735357917,
+                        "price_usd": 0.004144,
+                        "price_change_24h": -55.77,
+                        "pair_created_at_utc": "2026-07-08T16:58:55+00:00",
+                        "pair_age_hours": 160.93602736861112,
+                        "pair_address": "0x6Ec89bFF5E684C2561d0a88e185D8D4eb4b3AA30",
+                        "dex_id": "uniswap",
+                        "dex_url": "https://dexscreener.com/robinhood/0x6ec89bff5e684c2561d0a88e185d8d4eb4b3aa30"
+                    }
+                }
+            },
+            "launch": {
+                "first_token_activity_block": 4518131,
+                "first_confirmed_buy_block": 4518209,
+                "first_confirmed_buy_time_utc": "2026-07-08T16:59:03+00:00"
+            },
+            "top_traders": [
+                {
+                    "wallet": "0xb35522495e33e3c962788e4e2098a5b4798d2d60",
+                    "early_buy_rank": 15,
+                    "entry_transaction_hash": "0xa9007a498bc30b0af682313219b49d08c0aada551d40fb929b90c3981b1f49ce",
+                    "entry_time_utc": "2026-07-08T17:42:08+00:00",
+                    "entry_block": 4544003,
+                    "seconds_after_launch": 2585,
+                    "delay_after_launch": "43m 5s",
+                    "blocks_after_launch": 25794,
+                    "initial_tokens_bought": 14835513.289656755,
+                    "initial_spent_eth": 0.23,
+                    "initial_spent_stable": 0.0,
+                    "confirmed_sell_count": 20,
+                    "confirmed_sells": [
+                        {
+                            "transaction_hash": "0xbaceff6bac94123651ca694559b747130e7bae9a756d4db863cd3c916c005da2",
+                            "block_number": 4587816,
+                            "transaction_index": 5,
+                            "tokens_out": 1186841.0631725404,
+                            "timestamp_utc": "2026-07-08T18:55:18+00:00",
+                            "method": "SigmaSwap",
+                            "tokens_out_counted": 1186841.0631725404,
+                            "received_eth": 0.4445836762896876,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.4445836762896876
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x5423c148ffa72feb6bcd1687214214c144d79cb00c5cbd1486434c34ac535bf8",
+                            "block_number": 4628449,
+                            "transaction_index": 2,
+                            "tokens_out": 818920.3335890528,
+                            "timestamp_utc": "2026-07-08T20:03:11+00:00",
+                            "method": "SigmaSwap",
+                            "tokens_out_counted": 818920.3335890528,
+                            "received_eth": 0.509531776752053,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.509531776752053
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0xbaa7326863dd098bacba23fec08d258fb4211bc233ed5e6eed443a1e52a05bfa",
+                            "block_number": 4888626,
+                            "transaction_index": 1,
+                            "tokens_out": 641487.594644758,
+                            "timestamp_utc": "2026-07-09T03:18:09+00:00",
+                            "method": "SigmaSwap",
+                            "tokens_out_counted": 641487.594644758,
+                            "received_eth": 0.560654445734256,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.560654445734256
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0xf4b22f89e78349298b2b6b7ea1a2c2af9aab51857fb2b008a441180c8ef79adf",
+                            "block_number": 4890453,
+                            "transaction_index": 2,
+                            "tokens_out": 609413.2149125201,
+                            "timestamp_utc": "2026-07-09T03:21:13+00:00",
+                            "method": "SigmaSwap",
+                            "tokens_out_counted": 609413.2149125201,
+                            "received_eth": 0.5042815909673998,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.5042815909673998
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x187c5215798645b39a850b52ad9d5aeefead67525add60d9f0cec0beea508639",
+                            "block_number": 6807357,
+                            "transaction_index": 11,
+                            "tokens_out": 2246297.1101675495,
+                            "timestamp_utc": "2026-07-11T08:42:17+00:00",
+                            "method": "SigmaSwap",
+                            "tokens_out_counted": 2246297.1101675495,
+                            "received_eth": 0.7020442195685959,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.7020442195685959
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0xa71a4439beda7a230eb33f96c36fc1e651d0840fce2015bfe7f17aed8a3b6ce9",
+                            "block_number": 7221731,
+                            "transaction_index": 5,
+                            "tokens_out": 426796.45093183435,
+                            "timestamp_utc": "2026-07-11T20:13:50+00:00",
+                            "method": "SigmaSwap",
+                            "tokens_out_counted": 426796.45093183435,
+                            "received_eth": 0.28233009209267224,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.28233009209267224
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x18997216f2d79e88caf432c9071afd1ff01f7a8edbc6f485b1c7f70e19cc615b",
+                            "block_number": 7222092,
+                            "transaction_index": 5,
+                            "tokens_out": 486547.9540622912,
+                            "timestamp_utc": "2026-07-11T20:14:26+00:00",
+                            "method": "SigmaSwap",
+                            "tokens_out_counted": 486547.9540622912,
+                            "received_eth": 0.3531274845663272,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.3531274845663272
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0xf17876dab8f4a7a17b1ebf5786781796b7c8ca84e2ae89109ec4d9e372fd4fb8",
+                            "block_number": 7222367,
+                            "transaction_index": 7,
+                            "tokens_out": 457355.07681855373,
+                            "timestamp_utc": "2026-07-11T20:14:54+00:00",
+                            "method": "SigmaSwap",
+                            "tokens_out_counted": 457355.07681855373,
+                            "received_eth": 0.3229646964454969,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.3229646964454969
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x93be86362eb61ec8d3eac912ef05d958a043d5dc196ac09b6657734ea0e0cbd6",
+                            "block_number": 7222555,
+                            "transaction_index": 7,
+                            "tokens_out": 429913.7722094405,
+                            "timestamp_utc": "2026-07-11T20:15:13+00:00",
+                            "method": "SigmaSwap",
+                            "tokens_out_counted": 429913.7722094405,
+                            "received_eth": 0.3118265875975633,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.3118265875975633
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x6614634f7a6ec2b99108ac6017d12eb5e3803b3b2da130b9bfc60192c70ce9ee",
+                            "block_number": 7223299,
+                            "transaction_index": 1,
+                            "tokens_out": 404118.94587687403,
+                            "timestamp_utc": "2026-07-11T20:16:28+00:00",
+                            "method": "SigmaSwap",
+                            "tokens_out_counted": 404118.94587687403,
+                            "received_eth": 0.2920608722943322,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.2920608722943322
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x4ea82134e87498d99c41e93db44820bae78df61fd81f1efbb572d43b856a66c2",
+                            "block_number": 7223696,
+                            "transaction_index": 5,
+                            "tokens_out": 443183.7773116385,
+                            "timestamp_utc": "2026-07-11T20:17:08+00:00",
+                            "method": "SigmaSwap",
+                            "tokens_out_counted": 443183.7773116385,
+                            "received_eth": 0.35914953663373334,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.35914953663373334
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0xa25adeaf090ca3e9fdc35a3bdf7697bc3487caa245812a74223296b3efaf8170",
+                            "block_number": 7224000,
+                            "transaction_index": 8,
+                            "tokens_out": 547585.2128526231,
+                            "timestamp_utc": "2026-07-11T20:17:38+00:00",
+                            "method": "SigmaSwap",
+                            "tokens_out_counted": 547585.2128526231,
+                            "received_eth": 0.5313841804600388,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.5313841804600388
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0xc6ee423f83993e71b9059722b016393c0d2081141c4e1148fc83c95435b64a5b",
+                            "block_number": 7224129,
+                            "transaction_index": 2,
+                            "tokens_out": 591392.029880833,
+                            "timestamp_utc": "2026-07-11T20:17:51+00:00",
+                            "method": "SigmaSwap",
+                            "tokens_out_counted": 591392.029880833,
+                            "received_eth": 0.5382593844867152,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.5382593844867152
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x0cc9489ecc0335541cbe9fdd45c1862d4e81a64e8bbd40be85bc522b71897878",
+                            "block_number": 7225592,
+                            "transaction_index": 6,
+                            "tokens_out": 390318.73972134973,
+                            "timestamp_utc": "2026-07-11T20:20:17+00:00",
+                            "method": "SigmaSwap",
+                            "tokens_out_counted": 390318.73972134973,
+                            "received_eth": 0.42127584068474305,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.42127584068474305
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0xb32538809e4824a8aaf0078f09e264c2888b1e2fe62e43b7bb5d2a2091a4fffb",
+                            "block_number": 7226930,
+                            "transaction_index": 4,
+                            "tokens_out": 351286.8657492148,
+                            "timestamp_utc": "2026-07-11T20:22:32+00:00",
+                            "method": "SigmaSwap",
+                            "tokens_out_counted": 351286.8657492148,
+                            "received_eth": 0.3879381980993396,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.3879381980993396
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x8d63ae2a84049e099549b64dcb6e3e732b2b0fe8dc087db720720aecac5fbb73",
+                            "block_number": 7227662,
+                            "transaction_index": 15,
+                            "tokens_out": 284542.361256864,
+                            "timestamp_utc": "2026-07-11T20:23:46+00:00",
+                            "method": "SigmaSwap",
+                            "tokens_out_counted": 284542.361256864,
+                            "received_eth": 0.288210285604071,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.288210285604071
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x474c250c795c0ba113ecdcca3ff2b169d06c2aea0b8d56ef08450847d61221bc",
+                            "block_number": 7240815,
+                            "transaction_index": 3,
+                            "tokens_out": 256088.12513117757,
+                            "timestamp_utc": "2026-07-11T20:45:43+00:00",
+                            "method": "SigmaSwap",
+                            "tokens_out_counted": 256088.12513117757,
+                            "received_eth": 0.27333478837667774,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.27333478837667774
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x039b5b6327fd2832ef727bb678b430b315d9ad641e6c9e4b24e1e7ac8e334b3c",
+                            "block_number": 7321376,
+                            "transaction_index": 5,
+                            "tokens_out": 684523.5584756377,
+                            "timestamp_utc": "2026-07-11T23:00:08+00:00",
+                            "method": "SigmaSwap",
+                            "tokens_out_counted": 684523.5584756377,
+                            "received_eth": 0.4710360236161933,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.4710360236161933
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x116c4d99afb3ded1c56e3627b6c9879ae129880360d6e73e34187ff78b1fc4ce",
+                            "block_number": 7324176,
+                            "transaction_index": 2,
+                            "tokens_out": 458630.78417867725,
+                            "timestamp_utc": "2026-07-11T23:04:49+00:00",
+                            "method": "SigmaSwap",
+                            "tokens_out_counted": 458630.78417867725,
+                            "received_eth": 0.3113994636344603,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.3113994636344603
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x8150bb5831485dcf794af4627f2d26c30682f377996605614dba6776e1a4dfdc",
+                            "block_number": 7331437,
+                            "transaction_index": 6,
+                            "tokens_out": 931159.4709082234,
+                            "timestamp_utc": "2026-07-11T23:16:56+00:00",
+                            "method": "SigmaSwap",
+                            "tokens_out_counted": 931159.4709082234,
+                            "received_eth": 0.8093016130302049,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.8093016130302049
+                                },
+                                "outgoing": {}
+                            }
+                        }
+                    ],
+                    "cumulative_tokens_sold": 12646402.441851655,
+                    "cumulative_percentage_sold": 85.24411791446855,
+                    "cumulative_received_eth": 8.674694756934564,
+                    "cumulative_received_stable": 0.0,
+                    "cumulative_cost_basis_eth": 0.19606147120327766,
+                    "cumulative_cost_basis_stable": 0.0,
+                    "first_exit_time_utc": "2026-07-08T18:55:18+00:00",
+                    "final_counted_exit_time_utc": "2026-07-11T23:16:56+00:00",
+                    "time_to_first_exit": "1h 13m",
+                    "time_to_final_counted_exit": "3d 5h",
+                    "current_balance": 0.0,
+                    "percentage_of_initial_buy_remaining": 0.0,
+                    "realised_profit": 8.478633285731286,
+                    "realised_roi": 4324.477029421345,
+                    "ranking_asset": "ETH",
+                    "profit_status": "Cumulative ETH/WETH realised estimate",
+                    "qualifies_profit_filter": true,
+                    "minimum_profit_required_eth": 2.0,
+                    "trader_score": 84.0,
+                    "outgoing_candidates_checked": 26,
+                    "failed_transaction_hashes": [],
+                    "analysis_complete": true,
+                    "performance_rank": 1
+                },
+                {
+                    "wallet": "0xb3d9658bffad502fc09fce3d31e61a44bc310a6e",
+                    "early_buy_rank": 6,
+                    "entry_transaction_hash": "0xb8bd04a8d7a35029b7b7a3c1ae5a01228f2f5f0aa5c0c44f35a9aa2fa2a9b0ee",
+                    "entry_time_utc": "2026-07-08T17:01:39+00:00",
+                    "entry_block": 4519771,
+                    "seconds_after_launch": 156,
+                    "delay_after_launch": "2m 36s",
+                    "blocks_after_launch": 1562,
+                    "initial_tokens_bought": 8657347.190757921,
+                    "initial_spent_eth": 0.02594503,
+                    "initial_spent_stable": 0.0,
+                    "confirmed_sell_count": 4,
+                    "confirmed_sells": [
+                        {
+                            "transaction_hash": "0x8c6c8496625ec45cb8434ea9734335a1b798abe4ec22f4523e2d6b9f9fef598a",
+                            "block_number": 4543409,
+                            "transaction_index": 1,
+                            "tokens_out": 3657347.1907579214,
+                            "timestamp_utc": "2026-07-08T17:41:08+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 3657347.1907579214,
+                            "received_eth": 0.04127804898036265,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.04127804898036265
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x32e731ce59b9c6b5022a082573af24502d6c8548888ecf50be8b2036ab74f31a",
+                            "block_number": 4551502,
+                            "transaction_index": 1,
+                            "tokens_out": 2500001.0,
+                            "timestamp_utc": "2026-07-08T17:54:39+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 2500001.0,
+                            "received_eth": 1.2408032991407059,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 1.2408032991407059
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0xd4bfcce517bf661ec5567093e26651a49c04656f2dce46cd4b811bb2907bb146",
+                            "block_number": 4927720,
+                            "transaction_index": 7,
+                            "tokens_out": 1499999.0,
+                            "timestamp_utc": "2026-07-09T04:23:37+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 1499999.0,
+                            "received_eth": 1.0510439661451636,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 1.0510439661451636
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0xa95dfd2ac94feb1238fb1838ca7833c5757da46b0c3a3a587265334a614f6c94",
+                            "block_number": 8926892,
+                            "transaction_index": 8,
+                            "tokens_out": 750000.0,
+                            "timestamp_utc": "2026-07-13T19:41:45+00:00",
+                            "method": "execute",
+                            "tokens_out_counted": 750000.0,
+                            "received_eth": 2.205635273095865,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 2.205635273095865
+                                },
+                                "outgoing": {}
+                            }
+                        }
+                    ],
+                    "cumulative_tokens_sold": 8407347.190757921,
+                    "cumulative_percentage_sold": 97.11227937968243,
+                    "cumulative_received_eth": 4.538760587362097,
+                    "cumulative_received_stable": 0.0,
+                    "cumulative_cost_basis_eth": 0.02519581001874242,
+                    "cumulative_cost_basis_stable": 0.0,
+                    "first_exit_time_utc": "2026-07-08T17:41:08+00:00",
+                    "final_counted_exit_time_utc": "2026-07-13T19:41:45+00:00",
+                    "time_to_first_exit": "39m 29s",
+                    "time_to_final_counted_exit": "5d 2h",
+                    "current_balance": 200000.0,
+                    "percentage_of_initial_buy_remaining": 2.3101764962540527,
+                    "realised_profit": 4.513564777343354,
+                    "realised_roi": 17913.949874942882,
+                    "ranking_asset": "ETH",
+                    "profit_status": "Cumulative ETH/WETH realised estimate",
+                    "qualifies_profit_filter": true,
+                    "minimum_profit_required_eth": 2.0,
+                    "trader_score": 85.0,
+                    "outgoing_candidates_checked": 4,
+                    "failed_transaction_hashes": [],
+                    "analysis_complete": true,
+                    "performance_rank": 2
+                },
+                {
+                    "wallet": "0x9d34151abe8d1594e74f463d350840119ab0689b",
+                    "early_buy_rank": 20,
+                    "entry_transaction_hash": "0xe0df6eaf11365d1482e7719205f56c454d10a08b08514ce4fd990e28a4c8ed60",
+                    "entry_time_utc": "2026-07-08T17:43:33+00:00",
+                    "entry_block": 4544854,
+                    "seconds_after_launch": 2670,
+                    "delay_after_launch": "44m 30s",
+                    "blocks_after_launch": 26645,
+                    "initial_tokens_bought": 7851003.18492247,
+                    "initial_spent_eth": 0.2,
+                    "initial_spent_stable": 0.0,
+                    "confirmed_sell_count": 5,
+                    "confirmed_sells": [
+                        {
+                            "transaction_hash": "0x7cf26a682cf475c57b063f6c167a873e400a60dfeee666893950ccc6988bb53d",
+                            "block_number": 4547205,
+                            "transaction_index": 4,
+                            "tokens_out": 3925501.592461235,
+                            "timestamp_utc": "2026-07-08T17:47:29+00:00",
+                            "method": "execute",
+                            "tokens_out_counted": 3925501.592461235,
+                            "received_eth": 0.5930272942588017,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.5930272942588017
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x8784d5d98fb193c4753e624772b1d95c0a95bc72c0f452e783ccff031799ba72",
+                            "block_number": 4549260,
+                            "transaction_index": 2,
+                            "tokens_out": 981375.3981153087,
+                            "timestamp_utc": "2026-07-08T17:50:55+00:00",
+                            "method": "execute",
+                            "tokens_out_counted": 981375.3981153087,
+                            "received_eth": 0.45656312734206617,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.45656312734206617
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x4f7b04558ce4fd52db58b0f563a3bd3737826e78b30b8f3f45f1ea3dbcad51dc",
+                            "block_number": 4549303,
+                            "transaction_index": 7,
+                            "tokens_out": 736031.5485864815,
+                            "timestamp_utc": "2026-07-08T17:51:00+00:00",
+                            "method": "execute",
+                            "tokens_out_counted": 736031.5485864815,
+                            "received_eth": 0.37766372429480943,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.37766372429480943
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x2f5f9798620db3e8ef88a1c01de3cd23804bbd34ccaf76a4c3c3e7610aa1341d",
+                            "block_number": 4551837,
+                            "transaction_index": 9,
+                            "tokens_out": 552023.6614398612,
+                            "timestamp_utc": "2026-07-08T17:55:13+00:00",
+                            "method": "execute",
+                            "tokens_out_counted": 552023.6614398612,
+                            "received_eth": 0.2602071289370233,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.2602071289370233
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x07a0cccb1a8047b1be222b96fa44e8495a92952e445fd161fa34bba5b6bbffcd",
+                            "block_number": 4658743,
+                            "transaction_index": 15,
+                            "tokens_out": 1656070.9843195835,
+                            "timestamp_utc": "2026-07-08T20:53:47+00:00",
+                            "method": "execute",
+                            "tokens_out_counted": 1656070.9843195835,
+                            "received_eth": 0.725538864300973,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.725538864300973
+                                },
+                                "outgoing": {}
+                            }
+                        }
+                    ],
+                    "cumulative_tokens_sold": 7851003.18492247,
+                    "cumulative_percentage_sold": 100.0,
+                    "cumulative_received_eth": 2.4130001391336737,
+                    "cumulative_received_stable": 0.0,
+                    "cumulative_cost_basis_eth": 0.2,
+                    "cumulative_cost_basis_stable": 0.0,
+                    "first_exit_time_utc": "2026-07-08T17:47:29+00:00",
+                    "final_counted_exit_time_utc": "2026-07-08T20:53:47+00:00",
+                    "time_to_first_exit": "3m 56s",
+                    "time_to_final_counted_exit": "3h 10m",
+                    "current_balance": 0.0,
+                    "percentage_of_initial_buy_remaining": 0.0,
+                    "realised_profit": 2.2130001391336735,
+                    "realised_roi": 1106.5000695668366,
+                    "ranking_asset": "ETH",
+                    "profit_status": "Cumulative ETH/WETH realised estimate",
+                    "qualifies_profit_filter": true,
+                    "minimum_profit_required_eth": 2.0,
+                    "trader_score": 76.0,
+                    "outgoing_candidates_checked": 5,
+                    "failed_transaction_hashes": [],
+                    "analysis_complete": true,
+                    "performance_rank": 3
+                },
+                {
+                    "wallet": "0x6b6e4c1afd72024b1749a1322a524557f033ac04",
+                    "early_buy_rank": 12,
+                    "entry_transaction_hash": "0x9cc67aea6065b04ae4c7021bf22359514798a988bc50dcbb8d3c0bb42f37c304",
+                    "entry_time_utc": "2026-07-08T17:41:31+00:00",
+                    "entry_block": 4543637,
+                    "seconds_after_launch": 2548,
+                    "delay_after_launch": "42m 28s",
+                    "blocks_after_launch": 25428,
+                    "initial_tokens_bought": 9514456.474810792,
+                    "initial_spent_eth": 0.1,
+                    "initial_spent_stable": 0.0,
+                    "confirmed_sell_count": 11,
+                    "confirmed_sells": [
+                        {
+                            "transaction_hash": "0xb0c604df83d17a8a4aa504547b9b02c0d2df638925dd691edd3b24df322dd1dd",
+                            "block_number": 6479982,
+                            "transaction_index": 3,
+                            "tokens_out": 302555.85102235764,
+                            "timestamp_utc": "2026-07-10T23:36:08+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 302555.85102235764,
+                            "received_eth": 0.15310882311065618,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.15310882311065618
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0xc4d499bdeed05a91f8eafb8564dc936e3842b7147cfc22876d45e817b307294d",
+                            "block_number": 6982915,
+                            "transaction_index": 12,
+                            "tokens_out": 415124.3124968171,
+                            "timestamp_utc": "2026-07-11T13:35:26+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 415124.3124968171,
+                            "received_eth": 0.14708115767305488,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.14708115767305488
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x763975581b359d1ff055d2d41204ae0e633549c6ae312db2c59a50d530b5f0b1",
+                            "block_number": 7129073,
+                            "transaction_index": 12,
+                            "tokens_out": 306957.0620585102,
+                            "timestamp_utc": "2026-07-11T17:39:15+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 306957.0620585102,
+                            "received_eth": 0.10681072640918159,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.10681072640918159
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0xa77bfdeab42d70aba37e1631f5eb2e417bffb0b9521f8f844640de6e59a6edc3",
+                            "block_number": 7230032,
+                            "transaction_index": 1,
+                            "tokens_out": 462285.36197215744,
+                            "timestamp_utc": "2026-07-11T20:27:43+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 462285.36197215744,
+                            "received_eth": 0.3694112104852057,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.3694112104852057
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0xe8d6688cf60822160ff176277aee689f440c6a58fcbc6e8443ca2cc1987de959",
+                            "block_number": 7388923,
+                            "transaction_index": 8,
+                            "tokens_out": 160640.13333328936,
+                            "timestamp_utc": "2026-07-12T00:52:59+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 160640.13333328936,
+                            "received_eth": 0.1905518528357283,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.1905518528357283
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x89448c9bf507f0393ee88118d8632b44e1bf992aac6ecc03328192c89d64da40",
+                            "block_number": 7443760,
+                            "transaction_index": 1,
+                            "tokens_out": 109016.75453577761,
+                            "timestamp_utc": "2026-07-12T02:24:36+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 109016.75453577761,
+                            "received_eth": 0.1983477004118682,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.1983477004118682
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x1235bc3458d7dd8c09b1be8e839b37df1f77f558121d2ca46807aa4c656db950",
+                            "block_number": 7992344,
+                            "transaction_index": 9,
+                            "tokens_out": 48275.504727033316,
+                            "timestamp_utc": "2026-07-12T17:41:07+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 48275.504727033316,
+                            "received_eth": 0.09944042111609654,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.09944042111609654
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x00cd664f2ed5f6b8f68581c7931a0db582139b1d01d68f19956b3c2eb558faac",
+                            "block_number": 8085513,
+                            "transaction_index": 6,
+                            "tokens_out": 84296.25534539338,
+                            "timestamp_utc": "2026-07-12T20:16:42+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 84296.25534539338,
+                            "received_eth": 0.20257000450305207,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.20257000450305207
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x969b6a946d26b4fafcdba8de785b0a4cdbbbeae6e90125bfa57a24471aca2532",
+                            "block_number": 8263661,
+                            "transaction_index": 4,
+                            "tokens_out": 36249.46438604833,
+                            "timestamp_utc": "2026-07-13T01:14:08+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 36249.46438604833,
+                            "received_eth": 0.09850151048948935,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.09850151048948935
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x55705e95d0136229dc89cb95de4b2e4b9976adb77d4aeb591d46207a327f6192",
+                            "block_number": 8266612,
+                            "transaction_index": 6,
+                            "tokens_out": 30487.032260356835,
+                            "timestamp_utc": "2026-07-13T01:19:04+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 30487.032260356835,
+                            "received_eth": 0.1002228274234232,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.1002228274234232
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0xf73e63ad4a1d6bb483708a19539ab212198f596fa77708d2e52f5c39e85e0c9d",
+                            "block_number": 9900281,
+                            "transaction_index": 2,
+                            "tokens_out": 133214.96304725407,
+                            "timestamp_utc": "2026-07-14T22:47:03+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 133214.96304725407,
+                            "received_eth": 0.4945512833795882,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.4945512833795882
+                                },
+                                "outgoing": {}
+                            }
+                        }
+                    ],
+                    "cumulative_tokens_sold": 2089102.6951849957,
+                    "cumulative_percentage_sold": 21.957141752824512,
+                    "cumulative_received_eth": 2.160597517837344,
+                    "cumulative_received_stable": 0.0,
+                    "cumulative_cost_basis_eth": 0.021957141752824514,
+                    "cumulative_cost_basis_stable": 0.0,
+                    "first_exit_time_utc": "2026-07-10T23:36:08+00:00",
+                    "final_counted_exit_time_utc": "2026-07-14T22:47:03+00:00",
+                    "time_to_first_exit": "2d 5h",
+                    "time_to_final_counted_exit": "6d 5h",
+                    "current_balance": 0.0,
+                    "percentage_of_initial_buy_remaining": 0.0,
+                    "realised_profit": 2.1386403760845196,
+                    "realised_roi": 9740.06726448997,
+                    "ranking_asset": "ETH",
+                    "profit_status": "Cumulative ETH/WETH realised estimate",
+                    "qualifies_profit_filter": true,
+                    "minimum_profit_required_eth": 2.0,
+                    "trader_score": 81.0,
+                    "outgoing_candidates_checked": 13,
+                    "failed_transaction_hashes": [],
+                    "analysis_complete": true,
+                    "performance_rank": 4
+                }
+            ]
+        },
+        {
+            "token": {
+                "name": "Lady Marian",
+                "symbol": "MARIAN",
+                "contract": "0x01637b14b7378b99de75a64d50656d98488d9a4d",
+                "decimals": 18,
+                "scanner_data": {
+                    "name": "Lady Marian",
+                    "symbol": "MARIAN",
+                    "contract": "0x01637b14b7378b99de75a64d50656d98488d9a4d",
+                    "holders_count": "4525",
+                    "blockscout_market_cap": 3884316.925153517,
+                    "dexscreener": {
+                        "market_cap": 3314897.0,
+                        "fdv": 3314897.0,
+                        "effective_market_cap": 3314897.0,
+                        "valuation_type": "Market cap",
+                        "liquidity": 325587.21,
+                        "volume_24h": 6988133.04,
+                        "buys_24h": 10623,
+                        "sells_24h": 7636,
+                        "transactions_24h": 18259,
+                        "liquidity_market_cap_ratio": 0.09821940470548558,
+                        "volume_liquidity_ratio": 21.46316816314744,
+                        "sell_buy_ratio": 0.7188176597947848,
+                        "price_usd": 0.003314,
+                        "price_change_24h": 2.7,
+                        "pair_created_at_utc": "2026-06-15T15:00:10+00:00",
+                        "pair_age_hours": 714.9153132513889,
+                        "pair_address": "0xFE331fD29b54bCE09D52988FA691e3B18B0A4081",
+                        "dex_id": "uniswap",
+                        "dex_url": "https://dexscreener.com/robinhood/0xfe331fd29b54bce09d52988fa691e3b18b0a4081"
+                    }
+                }
+            },
+            "launch": {
+                "first_token_activity_block": 58539,
+                "first_confirmed_buy_block": 58821,
+                "first_confirmed_buy_time_utc": "2026-06-15T16:06:21+00:00"
+            },
+            "top_traders": [
+                {
+                    "wallet": "0x700499b35771565e8c9bad73e9a3b3476afffab6",
+                    "early_buy_rank": 8,
+                    "entry_transaction_hash": "0x9a409ca7f3c261038eea16fdf9decb1ca4fd9c9eb8e5b17f60c67f5961d721e6",
+                    "entry_time_utc": "2026-06-16T10:40:20+00:00",
+                    "entry_block": 60632,
+                    "seconds_after_launch": 66839,
+                    "delay_after_launch": "18h 33m",
+                    "blocks_after_launch": 1811,
+                    "initial_tokens_bought": 23240639.928927664,
+                    "initial_spent_eth": 0.085,
+                    "initial_spent_stable": 0.0,
+                    "confirmed_sell_count": 20,
+                    "confirmed_sells": [
+                        {
+                            "transaction_hash": "0x7f7402f78a24ada1a607e9bd0d85d027a9c5b0cfcb5a237bcd748fb55730abd8",
+                            "block_number": 71131,
+                            "transaction_index": 1,
+                            "tokens_out": 1240639.9289276646,
+                            "timestamp_utc": "2026-06-17T13:48:19+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 1240639.9289276646,
+                            "received_eth": 0.37638007874329,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.37638007874329
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x547fa45e3215c184c64c9c9051ff9f92db417f0d48dd060d40e54d2c7e1844b7",
+                            "block_number": 71264,
+                            "transaction_index": 1,
+                            "tokens_out": 1500000.0,
+                            "timestamp_utc": "2026-06-17T13:51:47+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 1500000.0,
+                            "received_eth": 0.39986520207458465,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.39986520207458465
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x15fd2d428aff740017f20736d074d441fd3d0ae8f8516ab4e6feade1cf0981d3",
+                            "block_number": 72430,
+                            "transaction_index": 1,
+                            "tokens_out": 1500000.0,
+                            "timestamp_utc": "2026-06-17T14:24:00+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 1500000.0,
+                            "received_eth": 0.5065911127074667,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.5065911127074667
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x5d3ce50ca8125a09e51c07337ad099e7a0ab08848532402a7c3c712ab8d5595c",
+                            "block_number": 78315,
+                            "transaction_index": 1,
+                            "tokens_out": 1500000.0,
+                            "timestamp_utc": "2026-06-17T16:26:12+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 1500000.0,
+                            "received_eth": 0.46267072147077815,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.46267072147077815
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x4d14eca38383bb8d5d5441f8b429c5cf5be79ef190be0764e42caf797057ff06",
+                            "block_number": 78323,
+                            "transaction_index": 1,
+                            "tokens_out": 1375000.0,
+                            "timestamp_utc": "2026-06-17T16:26:32+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 1375000.0,
+                            "received_eth": 0.4117332187811195,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.4117332187811195
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x36c3ad963dabc65621b12c51264b25e9e1c0e1a4cb538333db8d77fb7d83fa1d",
+                            "block_number": 98682,
+                            "transaction_index": 1,
+                            "tokens_out": 1031250.0000000003,
+                            "timestamp_utc": "2026-06-19T07:24:24+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 1031250.0000000003,
+                            "received_eth": 0.4535794659108222,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.4535794659108222
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x1d3944bed2a24fd005526bd37e94b0a9d48eb41c1f1c4f8678466de4ff219058",
+                            "block_number": 294603,
+                            "transaction_index": 1,
+                            "tokens_out": 273437.5,
+                            "timestamp_utc": "2026-06-28T11:27:03+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 273437.5,
+                            "received_eth": 0.19363813281349254,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.19363813281349254
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0xeb0b885659845dea7043a1a2fd9d89ca133967a002d83ff7675ea64c458f6b22",
+                            "block_number": 294999,
+                            "transaction_index": 1,
+                            "tokens_out": 305078.1249999995,
+                            "timestamp_utc": "2026-06-28T11:39:33+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 305078.1249999995,
+                            "received_eth": 0.21448668174923832,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.21448668174923832
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0xeed10fba4735a8fbe07fff1894698320bbee306b98297da38d6224daaf820953",
+                            "block_number": 298096,
+                            "transaction_index": 1,
+                            "tokens_out": 628808.59375,
+                            "timestamp_utc": "2026-06-28T12:46:40+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 628808.59375,
+                            "received_eth": 0.4261530132896226,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.4261530132896226
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x43f96fd0a49b8c6f86f07b7f735bb0b62c1d5562aa2f5b152eb562ecb4ac5c01",
+                            "block_number": 4064245,
+                            "transaction_index": 8,
+                            "tokens_out": 1471606.4453125,
+                            "timestamp_utc": "2026-07-08T04:20:25+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 1471606.4453125,
+                            "received_eth": 0.4813768098317579,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.4813768098317579
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0xb0c5b31debace91d89b3a39ad7d5112404b2b899d981b9469286afd5ff5ca5d3",
+                            "block_number": 4525247,
+                            "transaction_index": 2,
+                            "tokens_out": 203704.833984375,
+                            "timestamp_utc": "2026-07-08T17:10:48+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 203704.833984375,
+                            "received_eth": 0.1923758109757914,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.1923758109757914
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x1f8aa439fb39bcddc57180fd5f2fbeaff1b2651342f9211f469db1f7b89dc201",
+                            "block_number": 4525693,
+                            "transaction_index": 6,
+                            "tokens_out": 352778.6254882817,
+                            "timestamp_utc": "2026-07-08T17:11:33+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 352778.6254882817,
+                            "received_eth": 0.3421589272063518,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.3421589272063518
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x0126d83a2e8898dc7ee5a18bd07cf37c544ee5b238194458a37f1be4cf8136db",
+                            "block_number": 4527710,
+                            "transaction_index": 1,
+                            "tokens_out": 252778.6254882817,
+                            "timestamp_utc": "2026-07-08T17:14:54+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 252778.6254882817,
+                            "received_eth": 0.24651226916665783,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.24651226916665783
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0xbf7f5ec9f9175fbd9976d2c00e4ac61dca7ecddc3aa2a0c4ac392c19f90d5e26",
+                            "block_number": 4528817,
+                            "transaction_index": 8,
+                            "tokens_out": 264583.9691162105,
+                            "timestamp_utc": "2026-07-08T17:16:45+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 264583.9691162105,
+                            "received_eth": 0.2617271787620905,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.2617271787620905
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x0ce4805ed0eeb02ccac933b695acadf4a00700a1a4b33d28f99a383705d17077",
+                            "block_number": 4954197,
+                            "transaction_index": 2,
+                            "tokens_out": 101389.31274414,
+                            "timestamp_utc": "2026-07-09T05:07:57+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 101389.31274414,
+                            "received_eth": 0.11590022126558662,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.11590022126558662
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x6d00710490fdacd2728efee39ccbb75afcde9117b647885205eed355adc52e28",
+                            "block_number": 4956785,
+                            "transaction_index": 1,
+                            "tokens_out": 835243.320465088,
+                            "timestamp_utc": "2026-07-09T05:12:17+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 835243.320465088,
+                            "received_eth": 0.897285202261215,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.897285202261215
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x7e932cb291077451e07b682d7610d35c713c951bfd56a4c441fd17e4ab213925",
+                            "block_number": 5028552,
+                            "transaction_index": 3,
+                            "tokens_out": 201085.1621627808,
+                            "timestamp_utc": "2026-07-09T07:12:31+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 201085.1621627808,
+                            "received_eth": 0.3180859869888145,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.3180859869888145
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0xf530bfad3017c7ca2250b2f60f04e9be8a527855a1c8198d349fa5e75f079609",
+                            "block_number": 5142456,
+                            "transaction_index": 1,
+                            "tokens_out": 150813.8716220856,
+                            "timestamp_utc": "2026-07-09T10:23:20+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 150813.8716220856,
+                            "received_eth": 0.27710799306625394,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.27710799306625394
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x1254aed6f009f384233a5d34d37fabf3d49b6c8e970543687b9e0b449742cb9a",
+                            "block_number": 5144552,
+                            "transaction_index": 5,
+                            "tokens_out": 150813.8716220856,
+                            "timestamp_utc": "2026-07-09T10:26:50+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 150813.8716220856,
+                            "received_eth": 0.25692921321557005,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.25692921321557005
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x787ca9f73a186cba0c6e7fafff9186019799503038e199abd5f42ee382552244",
+                            "block_number": 5968400,
+                            "transaction_index": 7,
+                            "tokens_out": 1475406.935811043,
+                            "timestamp_utc": "2026-07-10T09:22:48+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 1475406.935811043,
+                            "received_eth": 1.4092264689860585,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 1.4092264689860585
+                                },
+                                "outgoing": {}
+                            }
+                        }
+                    ],
+                    "cumulative_tokens_sold": 14814419.121494535,
+                    "cumulative_percentage_sold": 63.74359383734095,
+                    "cumulative_received_eth": 8.243783709266562,
+                    "cumulative_received_stable": 0.0,
+                    "cumulative_cost_basis_eth": 0.05418205476173981,
+                    "cumulative_cost_basis_stable": 0.0,
+                    "first_exit_time_utc": "2026-06-17T13:48:19+00:00",
+                    "final_counted_exit_time_utc": "2026-07-10T09:22:48+00:00",
+                    "time_to_first_exit": "1d 3h",
+                    "time_to_final_counted_exit": "23d 22h",
+                    "current_balance": 0.0,
+                    "percentage_of_initial_buy_remaining": 0.0,
+                    "realised_profit": 8.189601654504823,
+                    "realised_roi": 15114.970612535424,
+                    "ranking_asset": "ETH",
+                    "profit_status": "Cumulative ETH/WETH realised estimate",
+                    "qualifies_profit_filter": true,
+                    "minimum_profit_required_eth": 2.0,
+                    "trader_score": 75.0,
+                    "outgoing_candidates_checked": 21,
+                    "failed_transaction_hashes": [],
+                    "analysis_complete": true,
+                    "performance_rank": 1
+                },
+                {
+                    "wallet": "0x287420053b8fdfc042945358d530173c90109da6",
+                    "early_buy_rank": 4,
+                    "entry_transaction_hash": "0x1eb9e5575da44b8127dda902424e9b45a94668f149c2bc9714ad2fc8e4f7b5b7",
+                    "entry_time_utc": "2026-06-16T07:16:13+00:00",
+                    "entry_block": 60271,
+                    "seconds_after_launch": 54592,
+                    "delay_after_launch": "15h 9m",
+                    "blocks_after_launch": 1450,
+                    "initial_tokens_bought": 20116255.12081172,
+                    "initial_spent_eth": 0.062,
+                    "initial_spent_stable": 0.0,
+                    "confirmed_sell_count": 12,
+                    "confirmed_sells": [
+                        {
+                            "transaction_hash": "0x19c56f7390bcdffe480575e58c0c540792fb158c71c61a3542714a5b73f326d3",
+                            "block_number": 135040,
+                            "transaction_index": 1,
+                            "tokens_out": 1000000.0,
+                            "timestamp_utc": "2026-06-21T15:27:50+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 1000000.0,
+                            "received_eth": 0.38486765743355345,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.38486765743355345
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0xcfb8f5d81a9843aea8b908763e91f44839552b31f9ae77b6037c24ff661ab896",
+                            "block_number": 298538,
+                            "transaction_index": 1,
+                            "tokens_out": 1000000.0,
+                            "timestamp_utc": "2026-06-28T12:57:00+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 1000000.0,
+                            "received_eth": 0.6481968597922387,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.6481968597922387
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0xd39f9f232bef3b21ee7a84f56a5281566a72a5749bbe7fa5384f5decb4f7e502",
+                            "block_number": 844286,
+                            "transaction_index": 4,
+                            "tokens_out": 1000000.0,
+                            "timestamp_utc": "2026-07-01T19:56:40+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 1000000.0,
+                            "received_eth": 0.5118036830570161,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.5118036830570161
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x9fd6ed5f7deeab3f5a6c11c849a46f418099b1458f750dfba594cd62dd4bf41d",
+                            "block_number": 1177018,
+                            "transaction_index": 1,
+                            "tokens_out": 2810860.5636668964,
+                            "timestamp_utc": "2026-07-02T10:07:08+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 2810860.5636668964,
+                            "received_eth": 0.615623490301969,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.615623490301969
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x17496f12fdaa4e650a2e194a2ef9bdf43f907d99b6f24a8bb0b4298b1df79c50",
+                            "block_number": 2329688,
+                            "transaction_index": 1,
+                            "tokens_out": 2000000.0,
+                            "timestamp_utc": "2026-07-04T11:01:38+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 2000000.0,
+                            "received_eth": 0.21333201842127397,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.21333201842127397
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x9b8a533fabe11c790ab6e11f3dae075f78092aff405920f78c2b232b3267e1b7",
+                            "block_number": 2446498,
+                            "transaction_index": 1,
+                            "tokens_out": 1379980.3574233532,
+                            "timestamp_utc": "2026-07-04T16:30:58+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 1379980.3574233532,
+                            "received_eth": 0.18900612608855652,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.18900612608855652
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x2812f31c5b749c1dae9062fcf51eea320495385bee527fe87b8e90e9eea85d71",
+                            "block_number": 3139033,
+                            "transaction_index": 2,
+                            "tokens_out": 1000000.0,
+                            "timestamp_utc": "2026-07-06T13:42:21+00:00",
+                            "method": "swap",
+                            "tokens_out_counted": 1000000.0,
+                            "received_eth": 0.17261868362280247,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.17261868362280247
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x9cddb2d7e7512b8bc8c9a26ed19246aba84654dc9467695675eab18d3f9f867e",
+                            "block_number": 3341204,
+                            "transaction_index": 1,
+                            "tokens_out": 1000000.0,
+                            "timestamp_utc": "2026-07-06T21:35:55+00:00",
+                            "method": "swap",
+                            "tokens_out_counted": 1000000.0,
+                            "received_eth": 0.118875291336745,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.118875291336745
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x318f815f8990d198d94d6868e787bce5711bfd56d3062136be20df2be69ee42c",
+                            "block_number": 3786960,
+                            "transaction_index": 1,
+                            "tokens_out": 1000000.0,
+                            "timestamp_utc": "2026-07-07T19:56:10+00:00",
+                            "method": "swap",
+                            "tokens_out_counted": 1000000.0,
+                            "received_eth": 0.12123293623495435,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.12123293623495435
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x36b734a0abeddf86180c85ab22abe16d953e8a3b00b97a324b1da2f202625eb9",
+                            "block_number": 4566849,
+                            "transaction_index": 8,
+                            "tokens_out": 1000000.0,
+                            "timestamp_utc": "2026-07-08T18:20:16+00:00",
+                            "method": "swap",
+                            "tokens_out_counted": 1000000.0,
+                            "received_eth": 0.7722369548637318,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.7722369548637318
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0xfabfd56fd0a0e3356ade6277c123b46b6324b13752e8474eaa09319b5506ea0a",
+                            "block_number": 5887896,
+                            "transaction_index": 1,
+                            "tokens_out": 500000.0,
+                            "timestamp_utc": "2026-07-10T07:08:27+00:00",
+                            "method": "swap",
+                            "tokens_out_counted": 500000.0,
+                            "received_eth": 0.6223731312884875,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.6223731312884875
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0xacdd2e2fde9bc2a5345dae2209312cdac4d5b788827d4e374548e1ca24d90130",
+                            "block_number": 6988804,
+                            "transaction_index": 4,
+                            "tokens_out": 500000.0,
+                            "timestamp_utc": "2026-07-11T13:45:16+00:00",
+                            "method": "swap",
+                            "tokens_out_counted": 500000.0,
+                            "received_eth": 0.8561068349334662,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.8561068349334662
+                                },
+                                "outgoing": {}
+                            }
+                        }
+                    ],
+                    "cumulative_tokens_sold": 14190840.92109025,
+                    "cumulative_percentage_sold": 70.54414867908888,
+                    "cumulative_received_eth": 5.2262736673747945,
+                    "cumulative_received_stable": 0.0,
+                    "cumulative_cost_basis_eth": 0.04373737218103511,
+                    "cumulative_cost_basis_stable": 0.0,
+                    "first_exit_time_utc": "2026-06-21T15:27:50+00:00",
+                    "final_counted_exit_time_utc": "2026-07-11T13:45:16+00:00",
+                    "time_to_first_exit": "5d 8h",
+                    "time_to_final_counted_exit": "25d 6h",
+                    "current_balance": 16000000.0,
+                    "percentage_of_initial_buy_remaining": 79.53766694600549,
+                    "realised_profit": 5.182536295193759,
+                    "realised_roi": 11849.217355223162,
+                    "ranking_asset": "ETH",
+                    "profit_status": "Cumulative ETH/WETH realised estimate",
+                    "qualifies_profit_filter": true,
+                    "minimum_profit_required_eth": 2.0,
+                    "trader_score": 75.0,
+                    "outgoing_candidates_checked": 12,
+                    "failed_transaction_hashes": [],
+                    "analysis_complete": true,
+                    "performance_rank": 2
+                },
+                {
+                    "wallet": "0x3b4fc8851d4db362431fd4bf45518d00eae08b5b",
+                    "early_buy_rank": 20,
+                    "entry_transaction_hash": "0x3c3f91201a11ff658626071041d0660eaa5a8e0c0479efa9cccf19e6bc50a416",
+                    "entry_time_utc": "2026-06-16T11:23:33+00:00",
+                    "entry_block": 60733,
+                    "seconds_after_launch": 69432,
+                    "delay_after_launch": "19h 17m",
+                    "blocks_after_launch": 1912,
+                    "initial_tokens_bought": 13652073.347400628,
+                    "initial_spent_eth": 0.095,
+                    "initial_spent_stable": 0.0,
+                    "confirmed_sell_count": 5,
+                    "confirmed_sells": [
+                        {
+                            "transaction_hash": "0x92b06e6093b2a637e58c6d9ebe331fa113ce8930f3f7c6938c0d570747705aa8",
+                            "block_number": 61525,
+                            "transaction_index": 1,
+                            "tokens_out": 3652073.347400628,
+                            "timestamp_utc": "2026-06-16T13:44:36+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 3652073.347400628,
+                            "received_eth": 0.11529507205678202,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.11529507205678202
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x448afef06d8d616b854837220a3faf1b418766e3d32e14e0b41d21c489928f9d",
+                            "block_number": 90579,
+                            "transaction_index": 1,
+                            "tokens_out": 2500000.0,
+                            "timestamp_utc": "2026-06-18T21:32:46+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 2500000.0,
+                            "received_eth": 1.2069294329278035,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 1.2069294329278035
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0xef478d11f2d13f07c085c55d5331b27cb30b4f536ee5d5a92d87867d5cbc7f14",
+                            "block_number": 94757,
+                            "transaction_index": 1,
+                            "tokens_out": 2500000.0,
+                            "timestamp_utc": "2026-06-18T23:19:46+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 2500000.0,
+                            "received_eth": 1.4877683514932298,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 1.4877683514932298
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x80ee852f5c3e4bc98433ee292c12bee50de437e98971af43f61a3e0d7d8fe668",
+                            "block_number": 108749,
+                            "transaction_index": 1,
+                            "tokens_out": 2500000.0,
+                            "timestamp_utc": "2026-06-19T14:01:34+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 2500000.0,
+                            "received_eth": 1.0286979499162223,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 1.0286979499162223
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x56993f2ad3b8912585b4ee01d318e1e7ae34bcc752269970e7296996b4910730",
+                            "block_number": 115120,
+                            "transaction_index": 1,
+                            "tokens_out": 2500000.5598516213,
+                            "timestamp_utc": "2026-06-20T16:54:30+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 2500000.0,
+                            "received_eth": 0.9054331555783882,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.9054333583416763
+                                },
+                                "outgoing": {}
+                            }
+                        }
+                    ],
+                    "cumulative_tokens_sold": 13652073.347400628,
+                    "cumulative_percentage_sold": 100.0,
+                    "cumulative_received_eth": 4.744123961972425,
+                    "cumulative_received_stable": 0.0,
+                    "cumulative_cost_basis_eth": 0.095,
+                    "cumulative_cost_basis_stable": 0.0,
+                    "first_exit_time_utc": "2026-06-16T13:44:36+00:00",
+                    "final_counted_exit_time_utc": "2026-06-20T16:54:30+00:00",
+                    "time_to_first_exit": "2h 21m",
+                    "time_to_final_counted_exit": "4d 5h",
+                    "current_balance": 0.0,
+                    "percentage_of_initial_buy_remaining": 0.0,
+                    "realised_profit": 4.649123961972426,
+                    "realised_roi": 4893.8146968130795,
+                    "ranking_asset": "ETH",
+                    "profit_status": "Cumulative ETH/WETH realised estimate",
+                    "qualifies_profit_filter": true,
+                    "minimum_profit_required_eth": 2.0,
+                    "trader_score": 72.0,
+                    "outgoing_candidates_checked": 5,
+                    "failed_transaction_hashes": [],
+                    "analysis_complete": true,
+                    "performance_rank": 3
+                },
+                {
+                    "wallet": "0xc38f2021b6b6349b8f662b7f207d84beb7bc8308",
+                    "early_buy_rank": 15,
+                    "entry_transaction_hash": "0x4991820a526d44537ad7e7792c43b0e3b4cd9b9e7d155397acfb6e75b09c5de5",
+                    "entry_time_utc": "2026-06-16T11:17:06+00:00",
+                    "entry_block": 60704,
+                    "seconds_after_launch": 69045,
+                    "delay_after_launch": "19h 10m",
+                    "blocks_after_launch": 1883,
+                    "initial_tokens_bought": 8711765.821210193,
+                    "initial_spent_eth": 0.05,
+                    "initial_spent_stable": 0.0,
+                    "confirmed_sell_count": 20,
+                    "confirmed_sells": [
+                        {
+                            "transaction_hash": "0xfe26df8b87d075fe20321dca7e4607a0597de9fa45871c8c9a497e87ca0176c4",
+                            "block_number": 64140,
+                            "transaction_index": 1,
+                            "tokens_out": 1657937.1478697204,
+                            "timestamp_utc": "2026-06-16T20:23:37+00:00",
+                            "method": "exactInputSingle",
+                            "tokens_out_counted": 1657937.1478697204,
+                            "received_eth": 0.13976757083030958,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "WETH": 0.13976757083030958
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x2c80cab4405b9d322d121287be8e7c94990734934da8d3dd5bb24e2f7816c6bc",
+                            "block_number": 65100,
+                            "transaction_index": 1,
+                            "tokens_out": 1492143.4330827484,
+                            "timestamp_utc": "2026-06-16T23:53:36+00:00",
+                            "method": "exactInputSingle",
+                            "tokens_out_counted": 1492143.4330827484,
+                            "received_eth": 0.12911051107630345,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "WETH": 0.12911051107630345
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0xd0c3f6dbf03cf7f5a56e12dabd4298b72023298ae86e7d1ae42a2817671a0040",
+                            "block_number": 65206,
+                            "transaction_index": 1,
+                            "tokens_out": 671464.5448872368,
+                            "timestamp_utc": "2026-06-17T00:17:29+00:00",
+                            "method": "exactInputSingle",
+                            "tokens_out_counted": 671464.5448872368,
+                            "received_eth": 0.07192388620777336,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "WETH": 0.07192388620777336
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x501dbac0b3a42d5ac6616ffd988b2f846a060f875aa2b705bfc2ec735d0b7d01",
+                            "block_number": 65385,
+                            "transaction_index": 1,
+                            "tokens_out": 637891.3176428749,
+                            "timestamp_utc": "2026-06-17T00:49:04+00:00",
+                            "method": "exactInputSingle",
+                            "tokens_out_counted": 637891.3176428749,
+                            "received_eth": 0.07246180891748992,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "WETH": 0.07246180891748992
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0xea1fd91cff662c7be7a8bf8447887ae99f82ef7992324596392982012daa53a6",
+                            "block_number": 68067,
+                            "transaction_index": 1,
+                            "tokens_out": 1211993.5035214624,
+                            "timestamp_utc": "2026-06-17T09:56:06+00:00",
+                            "method": "exactInputSingle",
+                            "tokens_out_counted": 1211993.5035214624,
+                            "received_eth": 0.18714037819711848,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "WETH": 0.18714037819711848
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x42c95f947603e2412535987c9c93c20f00cd9e0aae50e7bf98374c6c0a097d72",
+                            "block_number": 74295,
+                            "transaction_index": 1,
+                            "tokens_out": 545397.076584658,
+                            "timestamp_utc": "2026-06-17T15:00:46+00:00",
+                            "method": "exactInputSingle",
+                            "tokens_out_counted": 545397.076584658,
+                            "received_eth": 0.22954836162379968,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "WETH": 0.22954836162379968
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0xfcf9f741ff380ea3a76776a6235af53e59a09d27e97a28c07272672b691db1d5",
+                            "block_number": 91067,
+                            "transaction_index": 1,
+                            "tokens_out": 259063.61137771257,
+                            "timestamp_utc": "2026-06-18T21:57:19+00:00",
+                            "method": "exactInputSingle",
+                            "tokens_out_counted": 259063.61137771257,
+                            "received_eth": 0.14249191818442755,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "WETH": 0.14249191818442755
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x195ff4b6046b8f765e6b52ec28fd079d021cde0234421e4d7692e774c518492c",
+                            "block_number": 4721585,
+                            "transaction_index": 4,
+                            "tokens_out": 101034.8084373079,
+                            "timestamp_utc": "2026-07-08T22:38:29+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 101034.8084373079,
+                            "received_eth": 0.16371825178260926,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.16371825178260926
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x728486dffe15c3674a2ddbeb5dc6bf888bae27f96379b6f18e711e9d7dd23fca",
+                            "block_number": 4721686,
+                            "transaction_index": 1,
+                            "tokens_out": 100024.46035293482,
+                            "timestamp_utc": "2026-07-08T22:38:39+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 100024.46035293482,
+                            "received_eth": 0.16140030360602708,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.16140030360602708
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x0b53fcb3f63b886295c3a43705874477aef470a8282b5a229dd23542a6db938e",
+                            "block_number": 9842274,
+                            "transaction_index": 1,
+                            "tokens_out": 99024.21574940547,
+                            "timestamp_utc": "2026-07-14T21:10:11+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 99024.21574940547,
+                            "received_eth": 0.31762028633707706,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.31762028633707706
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x11224a71184bb246d411381734797619380bf0946d8f7a590f6213a9bfa62977",
+                            "block_number": 9889885,
+                            "transaction_index": 5,
+                            "tokens_out": 98033.97359191142,
+                            "timestamp_utc": "2026-07-14T22:29:40+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 98033.97359191142,
+                            "received_eth": 0.3420904042352864,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.3420904042352864
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0xac66c8143f09309313ae340fcfe2ff922957f068e01936a4765224b5f04e274a",
+                            "block_number": 9896059,
+                            "transaction_index": 4,
+                            "tokens_out": 97053.6338559923,
+                            "timestamp_utc": "2026-07-14T22:39:59+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 97053.6338559923,
+                            "received_eth": 0.32964233045643715,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.32964233045643715
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x0614d6a00428a2514a1216b2a24c9935d6b0b13ed11f4b3c9d5bedf4c0227ad6",
+                            "block_number": 9898838,
+                            "transaction_index": 14,
+                            "tokens_out": 96083.09751743238,
+                            "timestamp_utc": "2026-07-14T22:44:37+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 96083.09751743238,
+                            "received_eth": 0.3154782819476012,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.3154782819476012
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x7057fcbf74b5e5ba37b76b9aa6f63da369a296d0717df20b2212b8600355be1a",
+                            "block_number": 9899268,
+                            "transaction_index": 7,
+                            "tokens_out": 95122.26654225806,
+                            "timestamp_utc": "2026-07-14T22:45:21+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 95122.26654225806,
+                            "received_eth": 0.32312002467615164,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.32312002467615164
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x1b9b31cafd2ee6a65ebdbe377239ec47727b8bf776866e33ff34125e70532638",
+                            "block_number": 9900008,
+                            "transaction_index": 5,
+                            "tokens_out": 94171.04387683548,
+                            "timestamp_utc": "2026-07-14T22:46:35+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 94171.04387683548,
+                            "received_eth": 0.32487126767218855,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.32487126767218855
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x496b8c023d16e310511ac1181b6e8c18676fcfc3cba2a87c10f072313aebf818",
+                            "block_number": 9900653,
+                            "transaction_index": 8,
+                            "tokens_out": 93229.33343806713,
+                            "timestamp_utc": "2026-07-14T22:47:38+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 93229.33343806713,
+                            "received_eth": 0.32651623351323444,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.32651623351323444
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x343e34823d889c6029f328487cbe5e07fa25789376fc228fdeae0179d8717969",
+                            "block_number": 9904357,
+                            "transaction_index": 6,
+                            "tokens_out": 92297.04010368645,
+                            "timestamp_utc": "2026-07-14T22:53:50+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 92297.04010368645,
+                            "received_eth": 0.2922340695805629,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.2922340695805629
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x3358ef2c8ac038c0509477f88efd1f53a07ab72e987063f41c9b0b2dde4c0319",
+                            "block_number": 9963356,
+                            "transaction_index": 3,
+                            "tokens_out": 91374.06970264959,
+                            "timestamp_utc": "2026-07-15T00:32:26+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 91374.06970264959,
+                            "received_eth": 0.2160876887362926,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.2160876887362926
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0xb93715c80b447836903ee1017ca8c746ad5c0496ad758abaec245e098d42478e",
+                            "block_number": 9963486,
+                            "transaction_index": 1,
+                            "tokens_out": 90460.32900562309,
+                            "timestamp_utc": "2026-07-15T00:32:39+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 90460.32900562309,
+                            "received_eth": 0.21605928432366697,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.21605928432366697
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0xa84dbfddf22138305e6ccc56a04290d534eacd7a04a46eeb2cf4e50727e25fb3",
+                            "block_number": 9963565,
+                            "transaction_index": 2,
+                            "tokens_out": 89555.72571556686,
+                            "timestamp_utc": "2026-07-15T00:32:47+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 89555.72571556686,
+                            "received_eth": 0.2132239031647399,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.2132239031647399
+                                },
+                                "outgoing": {}
+                            }
+                        }
+                    ],
+                    "cumulative_tokens_sold": 7713354.632856082,
+                    "cumulative_percentage_sold": 88.53950842063135,
+                    "cumulative_received_eth": 4.514506765069097,
+                    "cumulative_received_stable": 0.0,
+                    "cumulative_cost_basis_eth": 0.044269754210315676,
+                    "cumulative_cost_basis_stable": 0.0,
+                    "first_exit_time_utc": "2026-06-16T20:23:37+00:00",
+                    "final_counted_exit_time_utc": "2026-07-15T00:32:47+00:00",
+                    "time_to_first_exit": "9h 6m",
+                    "time_to_final_counted_exit": "28d 13h",
+                    "current_balance": 8866016.845841119,
+                    "percentage_of_initial_buy_remaining": 101.77060572789247,
+                    "realised_profit": 4.4702370108587814,
+                    "realised_roi": 10097.722679059134,
+                    "ranking_asset": "ETH",
+                    "profit_status": "Cumulative ETH/WETH realised estimate",
+                    "qualifies_profit_filter": true,
+                    "minimum_profit_required_eth": 2.0,
+                    "trader_score": 72.0,
+                    "outgoing_candidates_checked": 20,
+                    "failed_transaction_hashes": [],
+                    "analysis_complete": true,
+                    "performance_rank": 4
+                },
+                {
+                    "wallet": "0xdcef4dd17028a9f10a826db9965a6d3f9298c607",
+                    "early_buy_rank": 9,
+                    "entry_transaction_hash": "0xa0438c32f94cf61ed2dc5dc3359974df9f0c8b17c7445cf7a221ba6e7acd2030",
+                    "entry_time_utc": "2026-06-16T10:42:26+00:00",
+                    "entry_block": 60634,
+                    "seconds_after_launch": 66965,
+                    "delay_after_launch": "18h 36m",
+                    "blocks_after_launch": 1813,
+                    "initial_tokens_bought": 15147494.159494922,
+                    "initial_spent_eth": 0.058,
+                    "initial_spent_stable": 0.0,
+                    "confirmed_sell_count": 7,
+                    "confirmed_sells": [
+                        {
+                            "transaction_hash": "0x218a0339ecefb56da9cab45d92955b619853fec26c81ecfd8726292339267441",
+                            "block_number": 66249,
+                            "transaction_index": 1,
+                            "tokens_out": 3890666.2382825636,
+                            "timestamp_utc": "2026-06-17T05:15:38+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 3890666.2382825636,
+                            "received_eth": 0.3787977731793235,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.3787977731793235
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0xfe44ea49bd44e5fb63c8adb273c4a744fe58d059d2b5f388bf7471922bf269df",
+                            "block_number": 67904,
+                            "transaction_index": 1,
+                            "tokens_out": 2917999.678711923,
+                            "timestamp_utc": "2026-06-17T09:31:29+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 2917999.678711923,
+                            "received_eth": 0.4133021181152404,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.4133021181152404
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0xfc5e52ecf0bb95b703a3e6c9e1b8935a197becd6b34232fde99aa724b10a4f73",
+                            "block_number": 115057,
+                            "transaction_index": 1,
+                            "tokens_out": 2190953.24064363,
+                            "timestamp_utc": "2026-06-20T16:53:02+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 2190953.24064363,
+                            "received_eth": 0.8317564761271313,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.8317564761271313
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0xd193b31e6caa67b8fb296b719c010fccb7752aaf71c3e4b87034c1efdf73a127",
+                            "block_number": 191832,
+                            "transaction_index": 1,
+                            "tokens_out": 1643214.9304827226,
+                            "timestamp_utc": "2026-06-25T10:29:17+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 1643214.9304827226,
+                            "received_eth": 0.64216887963412,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.64216887963412
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x14feec8f0738af0fc4466feb55bf6d1f36824d65d77f79ac17e6d24c9eb63f76",
+                            "block_number": 310059,
+                            "transaction_index": 1,
+                            "tokens_out": 432411.1978620419,
+                            "timestamp_utc": "2026-06-28T16:24:01+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 432411.1978620419,
+                            "received_eth": 0.31955056599839526,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.31955056599839526
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x5b8d941d5ef769492d0c31d09cad4fb204242edb26106a58ba524b58f726d25f",
+                            "block_number": 674472,
+                            "transaction_index": 1,
+                            "tokens_out": 2248616.7967930627,
+                            "timestamp_utc": "2026-07-01T04:24:01+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 2248616.7967930627,
+                            "received_eth": 1.1191651687785615,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 1.1191651687785615
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x0ba7c18001ee1cde776408ea9e4465c68c25d727a67f93597605e546df24a931",
+                            "block_number": 832623,
+                            "transaction_index": 1,
+                            "tokens_out": 2248616.7967930627,
+                            "timestamp_utc": "2026-07-01T19:35:46+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 1823632.0767189786,
+                            "received_eth": 0.7842779717998548,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.967048476092204
+                                },
+                                "outgoing": {}
+                            }
+                        }
+                    ],
+                    "cumulative_tokens_sold": 15147494.159494922,
+                    "cumulative_percentage_sold": 100.0,
+                    "cumulative_received_eth": 4.489018953632627,
+                    "cumulative_received_stable": 0.0,
+                    "cumulative_cost_basis_eth": 0.058,
+                    "cumulative_cost_basis_stable": 0.0,
+                    "first_exit_time_utc": "2026-06-17T05:15:38+00:00",
+                    "final_counted_exit_time_utc": "2026-07-01T19:35:46+00:00",
+                    "time_to_first_exit": "18h 33m",
+                    "time_to_final_counted_exit": "15d 8h",
+                    "current_balance": 0.0,
+                    "percentage_of_initial_buy_remaining": 0.0,
+                    "realised_profit": 4.431018953632627,
+                    "realised_roi": 7639.687851090735,
+                    "ranking_asset": "ETH",
+                    "profit_status": "Cumulative ETH/WETH realised estimate",
+                    "qualifies_profit_filter": true,
+                    "minimum_profit_required_eth": 2.0,
+                    "trader_score": 72.0,
+                    "outgoing_candidates_checked": 7,
+                    "failed_transaction_hashes": [],
+                    "analysis_complete": true,
+                    "performance_rank": 5
+                }
+            ]
+        },
+        {
+            "token": {
+                "name": "TENDIES",
+                "symbol": "TENDIES",
+                "contract": "0x45242320dbb855eea8fd36804c6487e10e97fcf9",
+                "decimals": 18,
+                "scanner_data": {
+                    "name": "TENDIES",
+                    "symbol": "TENDIES",
+                    "contract": "0x45242320dbb855eea8fd36804c6487e10e97fcf9",
+                    "holders_count": "3157",
+                    "blockscout_market_cap": 3358483.019149257,
+                    "dexscreener": {
+                        "market_cap": 3079126.0,
+                        "fdv": 3079126.0,
+                        "effective_market_cap": 3079126.0,
+                        "valuation_type": "Market cap",
+                        "liquidity": 244850.98,
+                        "volume_24h": 1386503.42,
+                        "buys_24h": 2078,
+                        "sells_24h": 1783,
+                        "transactions_24h": 3861,
+                        "liquidity_market_cap_ratio": 0.07951963641630774,
+                        "volume_liquidity_ratio": 5.662641905701173,
+                        "sell_buy_ratio": 0.858036573628489,
+                        "price_usd": 0.003184,
+                        "price_change_24h": -25.11,
+                        "pair_created_at_utc": "2026-06-18T23:32:08+00:00",
+                        "pair_age_hours": 634.3828227366666,
+                        "pair_address": "0x237609918F330ADD285b8bC5f8f2922283D1C4C5",
+                        "dex_id": "uniswap",
+                        "dex_url": "https://dexscreener.com/robinhood/0x237609918f330add285b8bc5f8f2922283d1c4c5"
+                    }
+                }
+            },
+            "launch": {
+                "first_token_activity_block": 95557,
+                "first_confirmed_buy_block": 95577,
+                "first_confirmed_buy_time_utc": "2026-06-18T23:32:20+00:00"
+            },
+            "top_traders": [
+                {
+                    "wallet": "0x3e68c81f62a9bbf78c820458bc60e327f2b22295",
+                    "early_buy_rank": 8,
+                    "entry_transaction_hash": "0xd9d673ad4a8738b375064d475ff6b2828687fc35aa0e1d7b13bda8da06275941",
+                    "entry_time_utc": "2026-06-18T23:33:30+00:00",
+                    "entry_block": 95653,
+                    "seconds_after_launch": 70,
+                    "delay_after_launch": "1m 10s",
+                    "blocks_after_launch": 76,
+                    "initial_tokens_bought": 10411828.982794823,
+                    "initial_spent_eth": 0.02,
+                    "initial_spent_stable": 0.0,
+                    "confirmed_sell_count": 1,
+                    "confirmed_sells": [
+                        {
+                            "transaction_hash": "0xe5b17fe0209ced5c05a2a1714973ab89d3a25e3d741db59b7c08d8964ae1f768",
+                            "block_number": 5511459,
+                            "transaction_index": 1,
+                            "tokens_out": 2506016.185432495,
+                            "timestamp_utc": "2026-07-09T20:39:39+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 2506016.185432495,
+                            "received_eth": 4.8792076314040855,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 4.8792076314040855
+                                },
+                                "outgoing": {}
+                            }
+                        }
+                    ],
+                    "cumulative_tokens_sold": 2506016.185432495,
+                    "cumulative_percentage_sold": 24.068933417688644,
+                    "cumulative_received_eth": 4.8792076314040855,
+                    "cumulative_received_stable": 0.0,
+                    "cumulative_cost_basis_eth": 0.0048137866835377295,
+                    "cumulative_cost_basis_stable": 0.0,
+                    "first_exit_time_utc": "2026-07-09T20:39:39+00:00",
+                    "final_counted_exit_time_utc": "2026-07-09T20:39:39+00:00",
+                    "time_to_first_exit": "20d 21h",
+                    "time_to_final_counted_exit": "20d 21h",
+                    "current_balance": 16101468.687466431,
+                    "percentage_of_initial_buy_remaining": 154.6459196945468,
+                    "realised_profit": 4.874393844720548,
+                    "realised_roi": 101259.03296442454,
+                    "ranking_asset": "ETH",
+                    "profit_status": "Cumulative ETH/WETH realised estimate",
+                    "qualifies_profit_filter": true,
+                    "minimum_profit_required_eth": 2.0,
+                    "trader_score": 89.0,
+                    "outgoing_candidates_checked": 2,
+                    "failed_transaction_hashes": [],
+                    "analysis_complete": true,
+                    "performance_rank": 1
+                }
+            ]
+        },
+        {
+            "token": {
+                "name": "Pons",
+                "symbol": "PONS",
+                "contract": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+                "decimals": 18,
+                "scanner_data": {
+                    "name": "Pons",
+                    "symbol": "PONS",
+                    "contract": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+                    "holders_count": "11713",
+                    "blockscout_market_cap": 29082553.481040537,
+                    "dexscreener": {
+                        "market_cap": 27042501.0,
+                        "fdv": 27042501.0,
+                        "effective_market_cap": 27042501.0,
+                        "valuation_type": "Market cap",
+                        "liquidity": 1171791.36,
+                        "volume_24h": 9995525.99,
+                        "buys_24h": 8140,
+                        "sells_24h": 7024,
+                        "transactions_24h": 15164,
+                        "liquidity_market_cap_ratio": 0.04333147144933082,
+                        "volume_liquidity_ratio": 8.530124330324469,
+                        "sell_buy_ratio": 0.8628992628992629,
+                        "price_usd": 0.03381,
+                        "price_change_24h": 81.24,
+                        "pair_created_at_utc": "2026-07-13T20:42:21+00:00",
+                        "pair_age_hours": 187.74662875555555,
+                        "pair_address": "0x10CC6BD38112cAc182db90B6a71d8Bb5939526bA",
+                        "dex_id": "uniswap",
+                        "dex_url": "https://dexscreener.com/robinhood/0x10cc6bd38112cac182db90b6a71d8bb5939526ba"
+                    }
+                }
+            },
+            "launch": {
+                "first_token_activity_block": 8963150,
+                "first_confirmed_buy_block": 8963443,
+                "first_confirmed_buy_time_utc": "2026-07-13T20:42:50+00:00"
+            },
+            "top_traders": [
+                {
+                    "wallet": "0x7a426099120f387378a1fad0ad6e1ad5c6bd8871",
+                    "early_buy_rank": 4,
+                    "entry_transaction_hash": "0xc9a8efee264116f60c66c804731813f40ce2dd57d68ef8e5c7af4b2d2ce9d69d",
+                    "entry_time_utc": "2026-07-13T20:45:19+00:00",
+                    "entry_block": 8964920,
+                    "seconds_after_launch": 149,
+                    "delay_after_launch": "2m 29s",
+                    "blocks_after_launch": 1477,
+                    "initial_tokens_bought": 11030586.952188564,
+                    "initial_spent_eth": 0.02,
+                    "initial_spent_stable": 0.0,
+                    "confirmed_sell_count": 6,
+                    "confirmed_sells": [
+                        {
+                            "transaction_hash": "0x738626c5c3e04fa3dc3efa361531a9238c7a460c15dc01d08a9d1e5eb4756895",
+                            "block_number": 10193575,
+                            "transaction_index": 8,
+                            "tokens_out": 534421.7726275376,
+                            "timestamp_utc": "2026-07-15T06:57:05+00:00",
+                            "method": "multicall",
+                            "tokens_out_counted": 534421.7726275376,
+                            "received_eth": 0.3717131028447184,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.3717131028447184
+                                },
+                                "outgoing": {
+                                    "ETH": 0.6710790085151744
+                                }
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x266aef1071194a4149ec6be8e7c3320d4864066c90e1a80a4f3c7da970f2c4de",
+                            "block_number": 10373525,
+                            "transaction_index": 11,
+                            "tokens_out": 91580.38311382993,
+                            "timestamp_utc": "2026-07-15T11:56:06+00:00",
+                            "method": "execute",
+                            "tokens_out_counted": 91580.38311382993,
+                            "received_eth": 0.6605401881109938,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.6605401881109938
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0xfd5ff7e4d70df0f506c5ec1c22a0f6031d51f70e0169eb48439d420dabef79e7",
+                            "block_number": 10377490,
+                            "transaction_index": 11,
+                            "tokens_out": 68685.28733537244,
+                            "timestamp_utc": "2026-07-15T12:02:43+00:00",
+                            "method": "execute",
+                            "tokens_out_counted": 68685.28733537244,
+                            "received_eth": 0.4937237071263105,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.4937237071263105
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x6a7ae644e039a340c9c4ddde86682a6bf80bead38d5fb7412d3eaa3f8170cc01",
+                            "block_number": 10378489,
+                            "transaction_index": 13,
+                            "tokens_out": 100027.93100305866,
+                            "timestamp_utc": "2026-07-15T12:04:23+00:00",
+                            "method": "execute",
+                            "tokens_out_counted": 100027.93100305866,
+                            "received_eth": 0.7171299298646281,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.7171299298646281
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x0f12b7b0156999c5b4bbee75b5c1fa9cdd4d816e1a2295afe79388b90131d354",
+                            "block_number": 10379283,
+                            "transaction_index": 9,
+                            "tokens_out": 53013.96550152933,
+                            "timestamp_utc": "2026-07-15T12:05:43+00:00",
+                            "method": "execute",
+                            "tokens_out_counted": 53013.96550152933,
+                            "received_eth": 0.3803297852766335,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.3803297852766335
+                                },
+                                "outgoing": {}
+                            }
+                        },
+                        {
+                            "transaction_hash": "0x716ccc060066fb209d26542f84b57c66564582aa54f1948d60fd742c70efbc17",
+                            "block_number": 10380505,
+                            "transaction_index": 13,
+                            "tokens_out": 53013.96550152933,
+                            "timestamp_utc": "2026-07-15T12:07:43+00:00",
+                            "method": "execute",
+                            "tokens_out_counted": 53013.96550152933,
+                            "received_eth": 0.38845054140441876,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "ETH": 0.38845054140441876
+                                },
+                                "outgoing": {}
+                            }
+                        }
+                    ],
+                    "cumulative_tokens_sold": 900743.3050828571,
+                    "cumulative_percentage_sold": 8.165869223343023,
+                    "cumulative_received_eth": 3.0118872546277036,
+                    "cumulative_received_stable": 0.0,
+                    "cumulative_cost_basis_eth": 0.0016331738446686045,
+                    "cumulative_cost_basis_stable": 0.0,
+                    "first_exit_time_utc": "2026-07-15T06:57:05+00:00",
+                    "final_counted_exit_time_utc": "2026-07-15T12:07:43+00:00",
+                    "time_to_first_exit": "1d 10h",
+                    "time_to_final_counted_exit": "1d 15h",
+                    "current_balance": 0.0,
+                    "percentage_of_initial_buy_remaining": 0.0,
+                    "realised_profit": 3.010254080783035,
+                    "realised_roi": 184319.26831364734,
+                    "ranking_asset": "ETH",
+                    "profit_status": "Cumulative ETH/WETH realised estimate",
+                    "qualifies_profit_filter": true,
+                    "minimum_profit_required_eth": 2.0,
+                    "trader_score": 85.0,
+                    "outgoing_candidates_checked": 16,
+                    "failed_transaction_hashes": [],
+                    "analysis_complete": true,
+                    "performance_rank": 1
+                }
+            ]
+        },
+        {
+            "token": {
+                "name": "YOLO",
+                "symbol": "YOLO",
+                "contract": "0x62c71cd34a52c30d894419cbcc55db2afa8032ea",
+                "decimals": 18,
+                "scanner_data": {
+                    "name": "YOLO",
+                    "symbol": "YOLO",
+                    "contract": "0x62c71cd34a52c30d894419cbcc55db2afa8032ea",
+                    "holders_count": "2046",
+                    "blockscout_market_cap": 6054776.592589962,
+                    "dexscreener": {
+                        "market_cap": 6631415.0,
+                        "fdv": 6631415.0,
+                        "effective_market_cap": 6631415.0,
+                        "valuation_type": "Market cap",
+                        "liquidity": 345693.02,
+                        "volume_24h": 2248453.97,
+                        "buys_24h": 3659,
+                        "sells_24h": 3090,
+                        "transactions_24h": 6749,
+                        "liquidity_market_cap_ratio": 0.05212960129927022,
+                        "volume_liquidity_ratio": 6.504192563679765,
+                        "sell_buy_ratio": 0.8444930308827548,
+                        "price_usd": 0.006631,
+                        "price_change_24h": 134.0,
+                        "pair_created_at_utc": "2026-07-15T07:15:15+00:00",
+                        "pair_age_hours": 153.19884588611112,
+                        "pair_address": "0x52FcB1D83191E06ef2d2D9f460609CA22a923558",
+                        "dex_id": "uniswap",
+                        "dex_url": "https://dexscreener.com/robinhood/0x52fcb1d83191e06ef2d2d9f460609ca22a923558"
+                    }
+                }
+            },
+            "launch": {
+                "first_token_activity_block": 10204613,
+                "first_confirmed_buy_block": 10204719,
+                "first_confirmed_buy_time_utc": "2026-07-15T07:15:25+00:00"
+            },
+            "top_traders": []
+        },
+        {
+            "token": {
+                "name": "pipedog",
+                "symbol": "PIPEDOG",
+                "contract": "0x5cb6f181081301b44905f3ae15419112ecabd8a6",
+                "decimals": 18,
+                "scanner_data": {
+                    "name": "pipedog",
+                    "symbol": "PIPEDOG",
+                    "contract": "0x5cb6f181081301b44905f3ae15419112ecabd8a6",
+                    "holders_count": "5291",
+                    "blockscout_market_cap": 29118611.878224496,
+                    "dexscreener": {
+                        "market_cap": 28781290.0,
+                        "fdv": 28781290.0,
+                        "effective_market_cap": 28781290.0,
+                        "valuation_type": "Market cap",
+                        "liquidity": 8217834.77,
+                        "volume_24h": 2624263.26,
+                        "buys_24h": 763,
+                        "sells_24h": 701,
+                        "transactions_24h": 1464,
+                        "liquidity_market_cap_ratio": 0.28552697846413416,
+                        "volume_liquidity_ratio": 0.31933755465370595,
+                        "sell_buy_ratio": 0.9187418086500655,
+                        "price_usd": 0.002331,
+                        "price_change_24h": -7.3,
+                        "pair_created_at_utc": "2026-07-28T20:31:52+00:00",
+                        "pair_age_hours": 160.3410999338889,
+                        "pair_address": "0xB7f10f74B39291b9290b779978e19A7637C742D6",
+                        "dex_id": "uniswap",
+                        "dex_url": "https://dexscreener.com/robinhood/0xb7f10f74b39291b9290b779978e19a7637c742d6"
+                    }
+                }
+            },
+            "launch": {
+                "first_token_activity_block": 21879606,
+                "first_confirmed_buy_block": 21881318,
+                "first_confirmed_buy_time_utc": "2026-07-28T20:32:02+00:00"
+            },
+            "top_traders": [
+                {
+                    "wallet": "0xd128cb4732e15b2302d6993e065bc0a78b19224d",
+                    "early_buy_rank": 13,
+                    "entry_transaction_hash": "0x26951091fc37178074cf9234a058931eac03aece80d5d3f8934f6b83b7910478",
+                    "entry_time_utc": "2026-07-28T20:32:03+00:00",
+                    "entry_block": 21881324,
+                    "seconds_after_launch": 1,
+                    "delay_after_launch": "1s",
+                    "blocks_after_launch": 6,
+                    "initial_tokens_bought": 25723818.12880887,
+                    "initial_spent_eth": 0.5979528334060042,
+                    "initial_spent_stable": 0.0,
+                    "confirmed_sell_count": 1,
+                    "confirmed_sells": [
+                        {
+                            "transaction_hash": "0x5112ea776143e136ded17e9eb75854a9d8f49a7e4e433715b8b2d7d0bc208182",
+                            "block_number": 21949530,
+                            "transaction_index": 11,
+                            "tokens_out": 10031363.550951948,
+                            "timestamp_utc": "2026-07-28T22:25:53+00:00",
+                            "method": "exactInputSingle",
+                            "tokens_out_counted": 10031363.550951948,
+                            "received_eth": 13.604162555684045,
+                            "received_stable": 0.0,
+                            "quote_flows": {
+                                "incoming": {
+                                    "WETH": 13.604162555684045
+                                },
+                                "outgoing": {}
+                            }
+                        }
+                    ],
+                    "cumulative_tokens_sold": 10031363.550951948,
+                    "cumulative_percentage_sold": 38.99640209210438,
+                    "cumulative_received_eth": 13.604162555684045,
+                    "cumulative_received_stable": 0.0,
+                    "cumulative_cost_basis_eth": 0.23318009123613648,
+                    "cumulative_cost_basis_stable": 0.0,
+                    "first_exit_time_utc": "2026-07-28T22:25:53+00:00",
+                    "final_counted_exit_time_utc": "2026-07-28T22:25:53+00:00",
+                    "time_to_first_exit": "1h 53m",
+                    "time_to_final_counted_exit": "1h 53m",
+                    "current_balance": 29521221.37173703,
+                    "percentage_of_initial_buy_remaining": 114.7622068540258,
+                    "realised_profit": 13.37098246444791,
+                    "realised_roi": 5734.18699408064,
+                    "ranking_asset": "ETH",
+                    "profit_status": "Cumulative ETH/WETH realised estimate",
+                    "qualifies_profit_filter": true,
+                    "minimum_profit_required_eth": 2.0,
+                    "trader_score": 95.0,
+                    "outgoing_candidates_checked": 1,
+                    "failed_transaction_hashes": [],
+                    "analysis_complete": true,
+                    "api_failures_during_analysis": 0,
+                    "performance_rank": 1
+                }
+            ]
+        },
+        {
+            "token": {
+                "name": "What IF",
+                "symbol": "IF",
+                "contract": "0x232cdfc415d10b673845d83dc02ba2eabe7e30d1",
+                "decimals": 18,
+                "scanner_data": {
+                    "name": "What IF",
+                    "symbol": "IF",
+                    "contract": "0x232cdfc415d10b673845d83dc02ba2eabe7e30d1",
+                    "holders_count": "4657",
+                    "blockscout_market_cap": 19457501.81563974,
+                    "dexscreener": {
+                        "market_cap": 19590189.0,
+                        "fdv": 19590189.0,
+                        "effective_market_cap": 19590189.0,
+                        "valuation_type": "Market cap",
+                        "liquidity": 594116.01,
+                        "volume_24h": 3210696.19,
+                        "buys_24h": 4201,
+                        "sells_24h": 2901,
+                        "transactions_24h": 7102,
+                        "liquidity_market_cap_ratio": 0.030327221957889228,
+                        "volume_liquidity_ratio": 5.404156992840506,
+                        "sell_buy_ratio": 0.6905498690787908,
+                        "price_usd": 0.02147,
+                        "price_change_24h": -26.89,
+                        "pair_created_at_utc": "2026-07-11T04:32:42+00:00",
+                        "pair_age_hours": 584.3274021313889,
+                        "pair_address": "0x39A200271525E9641e799127bdAB299DAeF21953",
+                        "dex_id": "uniswap",
+                        "dex_url": "https://dexscreener.com/robinhood/0x39a200271525e9641e799127bdab299daef21953"
+                    }
+                }
+            },
+            "launch": {
+                "first_token_activity_block": 6657668,
+                "first_confirmed_buy_block": 6657747,
+                "first_confirmed_buy_time_utc": "2026-07-11T04:32:48+00:00"
+            },
+            "top_traders": []
+        },
+        {
+            "token": {
+                "name": "The Index",
+                "symbol": "INDEX",
+                "contract": "0x56910d4409f3a0c78c64dd8d0545ff0705389870",
+                "decimals": 18,
+                "scanner_data": {
+                    "name": "The Index",
+                    "symbol": "INDEX",
+                    "contract": "0x56910d4409f3a0c78c64dd8d0545ff0705389870",
+                    "holders_count": "10884",
+                    "blockscout_market_cap": 7813444.138532103,
+                    "dexscreener": {
+                        "market_cap": 7835387.0,
+                        "fdv": 7683045.0,
+                        "effective_market_cap": 7835387.0,
+                        "valuation_type": "Market cap",
+                        "liquidity": 349066.95,
+                        "volume_24h": 108504.53,
+                        "buys_24h": 308,
+                        "sells_24h": 224,
+                        "transactions_24h": 532,
+                        "liquidity_market_cap_ratio": 0.04455005859953057,
+                        "volume_liquidity_ratio": 0.31084160216256507,
+                        "sell_buy_ratio": 0.7272727272727273,
+                        "price_usd": 0.007835,
+                        "price_change_24h": 20.46,
+                        "pair_created_at_utc": "2026-07-03T02:55:56+00:00",
+                        "pair_age_hours": 777.9406958847222,
+                        "pair_address": "0x00dd2df2f17d431cf3a0938f06c9cf9abc5e9643b6cc466ca3f71f3af246edf3",
+                        "dex_id": "uniswap",
+                        "dex_url": "https://dexscreener.com/robinhood/0x00dd2df2f17d431cf3a0938f06c9cf9abc5e9643b6cc466ca3f71f3af246edf3"
+                    }
+                }
+            },
+            "launch": {
+                "first_token_activity_block": 1670725,
+                "first_confirmed_buy_block": 2214553,
+                "first_confirmed_buy_time_utc": "2026-07-04T04:02:07+00:00"
+            },
+            "top_traders": []
+        },
+        {
+            "token": {
+                "name": "NVIDIA \u2022 Robinhood Token",
+                "symbol": "NVDA",
+                "contract": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+                "decimals": 18,
+                "scanner_data": {
+                    "name": "NVIDIA \u2022 Robinhood Token",
+                    "symbol": "NVDA",
+                    "contract": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+                    "holders_count": "33171",
+                    "blockscout_market_cap": 4497199.45050266,
+                    "dexscreener": {
+                        "market_cap": 4349832.0,
+                        "fdv": 4349832.0,
+                        "effective_market_cap": 4349832.0,
+                        "valuation_type": "Market cap",
+                        "liquidity": 1640527.9,
+                        "volume_24h": 695217.86,
+                        "buys_24h": 740,
+                        "sells_24h": 172,
+                        "transactions_24h": 912,
+                        "liquidity_market_cap_ratio": 0.37714741626803056,
+                        "volume_liquidity_ratio": 0.4237769196122785,
+                        "sell_buy_ratio": 0.23243243243243245,
+                        "price_usd": 209.9,
+                        "price_change_24h": 5.42,
+                        "pair_created_at_utc": "2026-07-02T23:28:11+00:00",
+                        "pair_age_hours": 781.4033612611111,
+                        "pair_address": "0x3bb34a44f1b2b5f32c034c38a53065a521a47b199700fa9bd19d60985ff24bf1",
+                        "dex_id": "uniswap",
+                        "dex_url": "https://dexscreener.com/robinhood/0x3bb34a44f1b2b5f32c034c38a53065a521a47b199700fa9bd19d60985ff24bf1"
+                    }
+                }
+            },
+            "launch": {
+                "first_token_activity_block": 153563,
+                "first_confirmed_buy_block": 461784,
+                "first_confirmed_buy_time_utc": "2026-06-29T16:25:01+00:00"
+            },
+            "top_traders": []
+        },
+        {
+            "token": {
+                "name": "Shibinhood",
+                "symbol": "WOOF",
+                "contract": "0xe15db7c8547a0add11eb26a700246cca08aefce5",
+                "decimals": 18,
+                "scanner_data": {
+                    "name": "Shibinhood",
+                    "symbol": "WOOF",
+                    "contract": "0xe15db7c8547a0add11eb26a700246cca08aefce5",
+                    "holders_count": "2432",
+                    "blockscout_market_cap": 3181804.7266246593,
+                    "dexscreener": {
+                        "market_cap": 3483310.0,
+                        "fdv": 3483310.0,
+                        "effective_market_cap": 3483310.0,
+                        "valuation_type": "Market cap",
+                        "liquidity": 233573.75,
+                        "volume_24h": 1380610.18,
+                        "buys_24h": 7779,
+                        "sells_24h": 7973,
+                        "transactions_24h": 15752,
+                        "liquidity_market_cap_ratio": 0.06705511424478441,
+                        "volume_liquidity_ratio": 5.910810525583461,
+                        "sell_buy_ratio": 1.0249389381668594,
+                        "price_usd": 3.483e-06,
+                        "price_change_24h": 141.0,
+                        "pair_created_at_utc": "2026-07-27T22:57:08+00:00",
+                        "pair_age_hours": 181.92165587222223,
+                        "pair_address": "0x2a004148BE6eFeE250420d93a1AC6393E32D2D60",
+                        "dex_id": "uniswap",
+                        "dex_url": "https://dexscreener.com/robinhood/0x2a004148be6efee250420d93a1ac6393e32d2d60"
+                    }
+                }
+            },
+            "launch": {
+                "first_token_activity_block": 21107086,
+                "first_confirmed_buy_block": 21113895,
+                "first_confirmed_buy_time_utc": "2026-07-27T23:08:31+00:00"
+            },
+            "top_traders": []
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+  "token": {
+    "name": "Cash Cat",
+    "symbol": "CASHCAT",
+    "contract": "0x020bfc650a365f8bb26819deaabf3e21291018b4",
+    "decimals": 18
+  },
+  "snapshot_block": 113544308,
+  "analysis_complete": false,
+  "results": [
+    {
+      "holder_rank": 18,
+      "wallet": "0xc38f2021b6b6349b8f662b7f207d84beb7bc8308",
+      "original_whale_holdings": {
+        "first_acquisition_block": 89479,
+        "first_acquisition_transaction": "0x4c3ba4405d5797eef191b2754248c61656e711348aae8252ba4179dead9f3360",
+        "first_acquisition_method": "OBSERVED TOKEN INBOUND",
+        "total_tokens_received": 10109405.739453401,
+        "total_tokens_sent": 5015740.885120255,
+        "current_tokens_held": 5093664.854333147,
+        "retained_percentage_of_received": 50.38540331262392,
+        "sales_not_inferred_from_transfers": true
+      },
+      "full_position_analysis": {
+        "position_status": "INCOMPLETE",
+        "reason": "Independent RPC token balance unavailable"
+      }
+    },
+    {
+      "holder_rank": 25,
+      "wallet": "0x255a80c3307011abc09669114627edece667a743",
+      "original_whale_holdings": {
+        "first_acquisition_block": 101878,
+        "first_acquisition_transaction": "0x51ccbc5bbc5fba94bdf296e86c45ec0df38caa5ee21e6c180db801a5abef0e93",
+        "first_acquisition_method": "OBSERVED TOKEN INBOUND",
+        "total_tokens_received": 5674350.376513334,
+        "total_tokens_sent": 974350.015,
+        "current_tokens_held": 4700000.361513334,
+        "retained_percentage_of_received": 82.82887114209716,
+        "sales_not_inferred_from_transfers": true
+      },
+      "full_position_analysis": {
+        "position_status": "INCOMPLETE",
+        "reason": "Independent RPC token balance unavailable"
+      }
+    }
+  ]
+}

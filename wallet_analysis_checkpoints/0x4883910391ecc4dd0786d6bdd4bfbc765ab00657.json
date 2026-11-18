@@ -1,0 +1,71 @@
+{
+    "updated_at_utc": "2026-10-14T15:50:57.387318+00:00",
+    "wallet": "0x4883910391ecc4dd0786d6bdd4bfbc765ab00657",
+    "completed_tokens": {
+        "0x348cc963411fb82cd6e0b64345714fec94f242cb": {
+            "wallet": "0x4883910391ecc4dd0786d6bdd4bfbc765ab00657",
+            "early_buy_rank": null,
+            "entry_transaction_hash": "0x57b0b0b19488c15205a10c1205b8d6a174f965952ea8930798d6fe305d4a3e75",
+            "entry_time_utc": "2026-08-26T15:45:43+00:00",
+            "entry_block": 46704255,
+            "seconds_after_launch": null,
+            "delay_after_launch": "Unknown",
+            "blocks_after_launch": null,
+            "initial_tokens_bought": 49190.46534046747,
+            "initial_spent_eth": 0.0211,
+            "initial_spent_stable": 0.0,
+            "confirmed_sell_count": 1,
+            "confirmed_sells": [
+                {
+                    "transaction_hash": "0x385e3073d0351331912be6b8db4458f246c90c77bfa9bdac9fc59cabdbeb22ae",
+                    "block_number": 46711964,
+                    "transaction_index": 5,
+                    "tokens_out": 58792.9,
+                    "timestamp_utc": "2026-08-26T15:58:41+00:00",
+                    "method": "0x3593564c",
+                    "tokens_out_counted": 49190.46534046747,
+                    "received_eth": 0.04662542624201151,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.05572714150050584
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                }
+            ],
+            "cumulative_tokens_sold": 49190.46534046747,
+            "cumulative_percentage_sold": 100.0,
+            "cumulative_received_eth": 0.04662542624201151,
+            "cumulative_received_stable": 0.0,
+            "cumulative_cost_basis_eth": 0.0211,
+            "cumulative_cost_basis_stable": 0.0,
+            "first_exit_time_utc": "2026-08-26T15:58:41+00:00",
+            "final_counted_exit_time_utc": "2026-08-26T15:58:41+00:00",
+            "time_to_first_exit": "12m 58s",
+            "time_to_final_counted_exit": "12m 58s",
+            "current_balance": 488355.41154058336,
+            "percentage_of_initial_buy_remaining": 992.7846954902224,
+            "realised_profit": 0.025525426242011512,
+            "realised_roi": 120.9735840853626,
+            "ranking_asset": "ETH",
+            "profit_status": "Cumulative ETH/WETH realised estimate",
+            "qualifies_profit_filter": false,
+            "minimum_profit_required_eth": 2.0,
+            "trader_score": 32.0,
+            "outgoing_candidates_checked": 1,
+            "failed_transaction_hashes": [],
+            "analysis_complete": true,
+            "api_failures_during_analysis": 0,
+            "token": {
+                "name": "Goose Token",
+                "symbol": "GOOSE",
+                "contract": "0x348cc963411fb82cd6e0b64345714fec94f242cb",
+                "decimals": 18
+            },
+            "wallet_profile_note": "Measures first genuine buy allocation; later buys are not merged."
+        }
+    }
+}

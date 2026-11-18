@@ -1,0 +1,61 @@
+{
+    "token_contract": "0x77581054581b9c525e7dd7a0155de43867532d03",
+    "start_block": 2138404,
+    "maximum_trace_hops": 10,
+    "traces": {
+        "Wallet 1": {
+            "starting_wallet": "0xd1b13c91bbe6322d0c7dbc36334d184728addb88",
+            "trace": [
+                {
+                    "hop": 1,
+                    "wallet": "0xd1b13c91bbe6322d0c7dbc36334d184728addb88",
+                    "matching_transfer_rows": 0,
+                    "classification": "No earlier incoming token transfer found",
+                    "terminal": true
+                }
+            ]
+        },
+        "Wallet 2": {
+            "starting_wallet": "0x9963597a9246b39b13330992f571f8378c18c262",
+            "trace": [
+                {
+                    "wallet": "0x9963597a9246b39b13330992f571f8378c18c262",
+                    "timestamp_utc": "2026-07-08T20:18:40+00:00",
+                    "block_number": 4637722,
+                    "transaction_hash": "0xf3f7b989d1a356ca89d7d835fd635b8dedb92889b25145fd67b5c2f468e1742a",
+                    "transfer_from": "0xafa0adb782345aaa73d9341f6b5c0da0afcedec6",
+                    "transfer_to": "0x9963597a9246b39b13330992f571f8378c18c262",
+                    "token_amount": 3484305.518267476,
+                    "method": "workMyDirefulOwner",
+                    "transaction_sender": "0xafa0adb782345aaa73d9341f6b5c0da0afcedec6",
+                    "sender_is_contract": false,
+                    "sender_name": null,
+                    "classification": "Direct wallet-to-wallet transfer \u2014 trace previous sender",
+                    "terminal": false,
+                    "confirmed_buy": false,
+                    "next_wallet": "0xafa0adb782345aaa73d9341f6b5c0da0afcedec6",
+                    "hop": 1,
+                    "matching_transfer_rows": 12
+                },
+                {
+                    "wallet": "0xafa0adb782345aaa73d9341f6b5c0da0afcedec6",
+                    "timestamp_utc": "2026-07-08T17:48:13+00:00",
+                    "block_number": 4547651,
+                    "transaction_hash": "0x857d6c1c7954907f6a1e14940616a17f883ba0e255a628f9622f6f77037a57de",
+                    "transfer_from": "0x6ec89bff5e684c2561d0a88e185d8d4eb4b3aa30",
+                    "transfer_to": "0xafa0adb782345aaa73d9341f6b5c0da0afcedec6",
+                    "token_amount": 512918.5330426573,
+                    "method": "0x39ecce49",
+                    "transaction_sender": "0xafa0adb782345aaa73d9341f6b5c0da0afcedec6",
+                    "sender_is_contract": true,
+                    "sender_name": "UniswapV3Pool",
+                    "classification": "Tokens received from a contract or project-controlled address",
+                    "terminal": true,
+                    "confirmed_buy": false,
+                    "hop": 2,
+                    "matching_transfer_rows": 7
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,546 @@
+{
+    "generated_at_utc": "2026-10-14T14:57:46.527528+00:00",
+    "count": 20,
+    "tokens": [
+        {
+            "name": "Unity USD",
+            "symbol": "UUSD",
+            "contract": "0x61a10e8556bed032ea176330e7f17d6a12a10000",
+            "holders_count": "1406",
+            "blockscout_market_cap": 99910493.71485645,
+            "dexscreener": {
+                "market_cap": 100001744.0,
+                "fdv": 100001744.0,
+                "effective_market_cap": 100001744.0,
+                "valuation_type": "Market cap",
+                "liquidity": 2320074.61,
+                "volume_24h": 23181.37,
+                "buys_24h": 108,
+                "sells_24h": 110,
+                "transactions_24h": 218,
+                "liquidity_market_cap_ratio": 0.023200341486044482,
+                "volume_liquidity_ratio": 0.009991648501338497,
+                "sell_buy_ratio": 1.0185185185185186,
+                "price_usd": 1.000017,
+                "price_change_24h": 0.0,
+                "pair_created_at_utc": "2026-09-17T14:49:12+00:00",
+                "pair_age_hours": 648.1385416772222,
+                "pair_address": "0xD8d602562902DDC5A253f894dB006e1F0091Ba31",
+                "dex_id": "uniswap",
+                "dex_url": "https://dexscreener.com/robinhood/0xd8d602562902ddc5a253f894db006e1f0091ba31"
+            },
+            "reasons": [
+                "valuation above $100.00M",
+                "24h volume below $25.00K",
+                "24h volume below 5.0% of liquidity"
+            ]
+        },
+        {
+            "name": "Sushi",
+            "symbol": "SUSHI",
+            "contract": "0x0bb40d7fbae7f0c69bc5910c601987dce697d85f",
+            "holders_count": "2533",
+            "blockscout_market_cap": 65400301.679822534,
+            "dexscreener": {
+                "market_cap": 65451294.0,
+                "fdv": 66540057.0,
+                "effective_market_cap": 65451294.0,
+                "valuation_type": "Market cap",
+                "liquidity": 56662.57,
+                "volume_24h": 5689.28,
+                "buys_24h": 94,
+                "sells_24h": 117,
+                "transactions_24h": 211,
+                "liquidity_market_cap_ratio": 0.0008657211574762754,
+                "volume_liquidity_ratio": 0.10040631760966719,
+                "sell_buy_ratio": 1.2446808510638299,
+                "price_usd": 0.2282,
+                "price_change_24h": -3.95,
+                "pair_created_at_utc": "2026-07-15T18:04:48+00:00",
+                "pair_age_hours": 2180.878962366111,
+                "pair_address": "0x7fff70d5748390779E573A1995952c3DdDF57a9c",
+                "dex_id": "sushiswap",
+                "dex_url": "https://dexscreener.com/robinhood/0x7fff70d5748390779e573a1995952c3dddf57a9c"
+            },
+            "reasons": [
+                "liquidity below $75.00K",
+                "24h volume below $25.00K",
+                "liquidity below 1.0% of valuation"
+            ]
+        },
+        {
+            "name": "Origami hOHM",
+            "symbol": "HOHM",
+            "contract": "0x76cf788606f3d968b93b8a243d0e185c974ee407",
+            "holders_count": "104",
+            "blockscout_market_cap": 53141117.05592632,
+            "dexscreener": {
+                "market_cap": 1493122.0,
+                "fdv": 1493122.0,
+                "effective_market_cap": 1493122.0,
+                "valuation_type": "Market cap",
+                "liquidity": 481487.75,
+                "volume_24h": 32493.03,
+                "buys_24h": 94,
+                "sells_24h": 40,
+                "transactions_24h": 134,
+                "liquidity_market_cap_ratio": 0.32247046791889744,
+                "volume_liquidity_ratio": 0.06748464524798398,
+                "sell_buy_ratio": 0.425531914893617,
+                "price_usd": 0.009045,
+                "price_change_24h": 1.68,
+                "pair_created_at_utc": "2026-09-17T20:05:33+00:00",
+                "pair_age_hours": 642.8666058997222,
+                "pair_address": "0x9b646837dd7713cf145036482e572e03045435f0fcc4be09a214c8bd094b05ba",
+                "dex_id": "uniswap",
+                "dex_url": "https://dexscreener.com/robinhood/0x9b646837dd7713cf145036482e572e03045435f0fcc4be09a214c8bd094b05ba"
+            },
+            "reasons": [
+                "valuation below $6.00M"
+            ]
+        },
+        {
+            "name": "Degen",
+            "symbol": "DEGEN",
+            "contract": "0x0830a9dd26a04e959657ab6788d45f5725590c32",
+            "holders_count": "2625",
+            "blockscout_market_cap": 34482736.30493339,
+            "dexscreener": {
+                "market_cap": 34978451.0,
+                "fdv": 1217774.0,
+                "effective_market_cap": 34978451.0,
+                "valuation_type": "Market cap",
+                "liquidity": 231942.96,
+                "volume_24h": 5469.73,
+                "buys_24h": 99,
+                "sells_24h": 138,
+                "transactions_24h": 237,
+                "liquidity_market_cap_ratio": 0.006631024341243698,
+                "volume_liquidity_ratio": 0.02358222038728832,
+                "sell_buy_ratio": 1.393939393939394,
+                "price_usd": 0.0009462,
+                "price_change_24h": -3.54,
+                "pair_created_at_utc": "2026-09-18T08:46:00+00:00",
+                "pair_age_hours": 630.1927151350001,
+                "pair_address": "0x5408AD4b4F1D5091B99953Af963500a792f47bc3",
+                "dex_id": "uniswap",
+                "dex_url": "https://dexscreener.com/robinhood/0x5408ad4b4f1d5091b99953af963500a792f47bc3"
+            },
+            "reasons": [
+                "24h volume below $25.00K",
+                "liquidity below 1.0% of valuation",
+                "24h volume below 5.0% of liquidity"
+            ]
+        },
+        {
+            "name": "BankrCoin",
+            "symbol": "BNKR",
+            "contract": "0x178e54df3d091ee4d0b2534742ef9e3692b76526",
+            "holders_count": "658",
+            "blockscout_market_cap": 29622242.63684444,
+            "dexscreener": {
+                "market_cap": 394456.0,
+                "fdv": 394456.0,
+                "effective_market_cap": 394456.0,
+                "valuation_type": "Market cap",
+                "liquidity": 57528.57,
+                "volume_24h": 5885.96,
+                "buys_24h": 14,
+                "sells_24h": 7,
+                "transactions_24h": 21,
+                "liquidity_market_cap_ratio": 0.1458428062952522,
+                "volume_liquidity_ratio": 0.10231368518285784,
+                "sell_buy_ratio": 0.5,
+                "price_usd": 0.000298,
+                "price_change_24h": -3.11,
+                "pair_created_at_utc": "2026-07-12T19:03:26+00:00",
+                "pair_age_hours": 2251.9022995241667,
+                "pair_address": "0x559Ec27d7DD5512783126ceCae5266E6d346abC2",
+                "dex_id": "uniswap",
+                "dex_url": "https://dexscreener.com/robinhood/0x559ec27d7dd5512783126cecae5266e6d346abc2"
+            },
+            "reasons": [
+                "valuation below $6.00M",
+                "liquidity below $75.00K",
+                "24h volume below $25.00K",
+                "fewer than 40 24h transactions"
+            ]
+        },
+        {
+            "name": "SWARM ENGINE",
+            "symbol": "SWARM",
+            "contract": "0x7eebda046d451bc7a7d12491eff72a861aa8136e",
+            "holders_count": "258",
+            "blockscout_market_cap": 26389387.16230211,
+            "dexscreener": {
+                "market_cap": 14322.0,
+                "fdv": 14322.0,
+                "effective_market_cap": 14322.0,
+                "valuation_type": "Market cap",
+                "liquidity": 10171.59,
+                "volume_24h": 4140.28,
+                "buys_24h": 29,
+                "sells_24h": 9,
+                "transactions_24h": 38,
+                "liquidity_market_cap_ratio": 0.7102073732718894,
+                "volume_liquidity_ratio": 0.40704353989887515,
+                "sell_buy_ratio": 0.3103448275862069,
+                "price_usd": 1.432e-05,
+                "price_change_24h": 271.0,
+                "pair_created_at_utc": "2026-10-08T13:48:14+00:00",
+                "pair_age_hours": 145.15595939305555,
+                "pair_address": "0xd8a01cDE92D5072bF981614B2592E01640B8C962",
+                "dex_id": "uniswap",
+                "dex_url": "https://dexscreener.com/robinhood/0xd8a01cde92d5072bf981614b2592e01640b8c962"
+            },
+            "reasons": [
+                "valuation below $6.00M",
+                "liquidity below $75.00K",
+                "24h volume below $25.00K",
+                "fewer than 40 24h transactions"
+            ]
+        },
+        {
+            "name": "Edel",
+            "symbol": "EDEL",
+            "contract": "0x88c4c42ed68584ff02f5a00d5d3d985108a3961c",
+            "holders_count": "486",
+            "blockscout_market_cap": 23092887.674457833,
+            "dexscreener": {
+                "market_cap": 16115265.0,
+                "fdv": 1580083.0,
+                "effective_market_cap": 16115265.0,
+                "valuation_type": "Market cap",
+                "liquidity": 238611.03,
+                "volume_24h": 14602.21,
+                "buys_24h": 62,
+                "sells_24h": 109,
+                "transactions_24h": 171,
+                "liquidity_market_cap_ratio": 0.014806522263208206,
+                "volume_liquidity_ratio": 0.06119670997606439,
+                "sell_buy_ratio": 1.7580645161290323,
+                "price_usd": 0.03367,
+                "price_change_24h": -1.31,
+                "pair_created_at_utc": "2026-09-15T22:33:54+00:00",
+                "pair_age_hours": 688.3951282016667,
+                "pair_address": "0x30c574a6d9bdffbc4b170259d24f1ead2488fa8649f0444ac20e3b1be9a88875",
+                "dex_id": "uniswap",
+                "dex_url": "https://dexscreener.com/robinhood/0x30c574a6d9bdffbc4b170259d24f1ead2488fa8649f0444ac20e3b1be9a88875"
+            },
+            "reasons": [
+                "24h volume below $25.00K"
+            ]
+        },
+        {
+            "name": "Dual",
+            "symbol": "DUAL",
+            "contract": "0xca6f20e241c73de4eeb873107b217ce2463c3b1d",
+            "holders_count": "38",
+            "blockscout_market_cap": 19336691.96327721,
+            "dexscreener": {
+                "market_cap": 37580.0,
+                "fdv": 37580.0,
+                "effective_market_cap": 37580.0,
+                "valuation_type": "Market cap",
+                "liquidity": 27167.04,
+                "volume_24h": 154968.62,
+                "buys_24h": 370,
+                "sells_24h": 370,
+                "transactions_24h": 740,
+                "liquidity_market_cap_ratio": 0.7229121873336881,
+                "volume_liquidity_ratio": 5.704287990152773,
+                "sell_buy_ratio": 1.0,
+                "price_usd": 0.00253,
+                "price_change_24h": -3.12,
+                "pair_created_at_utc": "2026-09-16T19:41:00+00:00",
+                "pair_age_hours": 667.2770970161112,
+                "pair_address": "0x1E632da448Bc2870fd98A0bb3Fca1d5892410A17",
+                "dex_id": "uniswap",
+                "dex_url": "https://dexscreener.com/robinhood/0x1e632da448bc2870fd98a0bb3fca1d5892410a17"
+            },
+            "reasons": [
+                "valuation below $6.00M",
+                "liquidity below $75.00K"
+            ]
+        },
+        {
+            "name": "Halo",
+            "symbol": "HALO",
+            "contract": "0xf4f0d634915a522f05ec0b89064950e91e435565",
+            "reasons": [
+                "No Robinhood DexScreener pair"
+            ]
+        },
+        {
+            "name": "Little John",
+            "symbol": "JOHN",
+            "contract": "0xe170dc96ca10103e0d4c5d9293c5a3a72ee365a5",
+            "reasons": [
+                "No Robinhood DexScreener pair"
+            ]
+        },
+        {
+            "name": "Superform",
+            "symbol": "UP",
+            "contract": "0xa85abef37c7e812aca761b2bec62fff7f3728f1e",
+            "reasons": [
+                "No Robinhood DexScreener pair"
+            ]
+        },
+        {
+            "name": "Autonolas",
+            "symbol": "OLAS",
+            "contract": "0x092963938debd8013a2e545b3549f8a5ec0d2286",
+            "holders_count": "50",
+            "blockscout_market_cap": 15939226.914127674,
+            "dexscreener": {
+                "market_cap": 3083.0,
+                "fdv": 3083.0,
+                "effective_market_cap": 3083.0,
+                "valuation_type": "Market cap",
+                "liquidity": 1702.42,
+                "volume_24h": 325.4,
+                "buys_24h": 10,
+                "sells_24h": 5,
+                "transactions_24h": 15,
+                "liquidity_market_cap_ratio": 0.5521959130716835,
+                "volume_liquidity_ratio": 0.19113967176137497,
+                "sell_buy_ratio": 0.5,
+                "price_usd": 0.04889,
+                "price_change_24h": 6.75,
+                "pair_created_at_utc": "2026-09-10T08:58:47+00:00",
+                "pair_age_hours": 821.9809644377777,
+                "pair_address": "0xc2eA98b5A75Fd85f7ce57Af856baaFfECD445659",
+                "dex_id": "uniswap",
+                "dex_url": "https://dexscreener.com/robinhood/0xc2ea98b5a75fd85f7ce57af856baaffecd445659"
+            },
+            "reasons": [
+                "valuation below $6.00M",
+                "liquidity below $75.00K",
+                "24h volume below $25.00K",
+                "fewer than 40 24h transactions"
+            ]
+        },
+        {
+            "name": "OpenRoboto",
+            "symbol": "SN80",
+            "contract": "0x6f63d869011f95274498023b4abfc00b30c34378",
+            "holders_count": "34",
+            "blockscout_market_cap": 15467108.299089318,
+            "dexscreener": {
+                "market_cap": 67595.0,
+                "fdv": 67595.0,
+                "effective_market_cap": 67595.0,
+                "valuation_type": "Market cap",
+                "liquidity": 45670.31,
+                "volume_24h": 13976.51,
+                "buys_24h": 25,
+                "sells_24h": 24,
+                "transactions_24h": 49,
+                "liquidity_market_cap_ratio": 0.6756462756121014,
+                "volume_liquidity_ratio": 0.3060305480737924,
+                "sell_buy_ratio": 0.96,
+                "price_usd": 6.97,
+                "price_change_24h": -2.95,
+                "pair_created_at_utc": "2026-09-21T14:18:24+00:00",
+                "pair_age_hours": 552.6541672430556,
+                "pair_address": "0xBB17f4Db7831128239a34C2F7bd291622FC2Cc38",
+                "dex_id": "uniswap",
+                "dex_url": "https://dexscreener.com/robinhood/0xbb17f4db7831128239a34c2f7bd291622fc2cc38"
+            },
+            "reasons": [
+                "valuation below $6.00M",
+                "liquidity below $75.00K",
+                "24h volume below $25.00K"
+            ]
+        },
+        {
+            "name": "Wowbit",
+            "symbol": "WWB",
+            "contract": "0x10b5ca68a5509b93e6c8f62ed76a7086164f1f11",
+            "holders_count": "52",
+            "blockscout_market_cap": 15034291.025694277,
+            "dexscreener": {
+                "market_cap": 2090.0,
+                "fdv": 2090.0,
+                "effective_market_cap": 2090.0,
+                "valuation_type": "Market cap",
+                "liquidity": 1557.11,
+                "volume_24h": 226.53,
+                "buys_24h": 1,
+                "sells_24h": 4,
+                "transactions_24h": 5,
+                "liquidity_market_cap_ratio": 0.7450287081339713,
+                "volume_liquidity_ratio": 0.1454810514350303,
+                "sell_buy_ratio": 4.0,
+                "price_usd": 0.03688,
+                "price_change_24h": -14.2,
+                "pair_created_at_utc": "2026-09-08T11:24:40+00:00",
+                "pair_age_hours": 867.5498735719444,
+                "pair_address": "0x32896bc035c00735d7b1a6f684b2625e9b1993494bb478bc2c74def41af7013a",
+                "dex_id": "uniswap",
+                "dex_url": "https://dexscreener.com/robinhood/0x32896bc035c00735d7b1a6f684b2625e9b1993494bb478bc2c74def41af7013a"
+            },
+            "reasons": [
+                "valuation below $6.00M",
+                "liquidity below $75.00K",
+                "24h volume below $25.00K",
+                "fewer than 40 24h transactions",
+                "fewer than 10 24h buys",
+                "fewer than 5 24h sells"
+            ]
+        },
+        {
+            "name": "A Meme Coin",
+            "symbol": "AMC",
+            "contract": "0x385f4f8ae47651ce5f58f5265395a669f8281e18",
+            "holders_count": "28983",
+            "blockscout_market_cap": 11440744.926680544,
+            "dexscreener": {
+                "market_cap": 2162232.0,
+                "fdv": 2162232.0,
+                "effective_market_cap": 2162232.0,
+                "valuation_type": "Market cap",
+                "liquidity": 1347458.56,
+                "volume_24h": 279326.92,
+                "buys_24h": 718,
+                "sells_24h": 629,
+                "transactions_24h": 1347,
+                "liquidity_market_cap_ratio": 0.6231794553035938,
+                "volume_liquidity_ratio": 0.20729908012903936,
+                "sell_buy_ratio": 0.8760445682451253,
+                "price_usd": 3.061,
+                "price_change_24h": -0.85,
+                "pair_created_at_utc": "2026-09-03T20:30:05+00:00",
+                "pair_age_hours": 978.4599641155555,
+                "pair_address": "0x27ccf0a6d1ee74840220715bcca7d3b01e0d33aa30d0259b47ae1585b3f4c071",
+                "dex_id": "uniswap",
+                "dex_url": "https://dexscreener.com/robinhood/0x27ccf0a6d1ee74840220715bcca7d3b01e0d33aa30d0259b47ae1585b3f4c071"
+            },
+            "reasons": [
+                "valuation below $6.00M"
+            ]
+        },
+        {
+            "name": "heyAura",
+            "symbol": "ADX",
+            "contract": "0xf82119ebd01eb6ab67105c9536a713d61a25cf9f",
+            "holders_count": "133",
+            "blockscout_market_cap": 9406196.014529267,
+            "dexscreener": {
+                "market_cap": 13061.0,
+                "fdv": 13061.0,
+                "effective_market_cap": 13061.0,
+                "valuation_type": "Market cap",
+                "liquidity": 12790.13,
+                "volume_24h": 308.12,
+                "buys_24h": 1,
+                "sells_24h": 4,
+                "transactions_24h": 5,
+                "liquidity_market_cap_ratio": 0.9792611591761733,
+                "volume_liquidity_ratio": 0.024090450996197853,
+                "sell_buy_ratio": 4.0,
+                "price_usd": 0.0644,
+                "price_change_24h": -3.22,
+                "pair_created_at_utc": "2026-07-13T12:36:58+00:00",
+                "pair_age_hours": 2234.345636308889,
+                "pair_address": "0xcd6765a98bcea0f6e2f896a0b16f85b3383e768487f90aad90cd0fb6bc9d8a82",
+                "dex_id": "uniswap",
+                "dex_url": "https://dexscreener.com/robinhood/0xcd6765a98bcea0f6e2f896a0b16f85b3383e768487f90aad90cd0fb6bc9d8a82"
+            },
+            "reasons": [
+                "valuation below $6.00M",
+                "liquidity below $75.00K",
+                "24h volume below $25.00K",
+                "fewer than 40 24h transactions",
+                "fewer than 10 24h buys",
+                "fewer than 5 24h sells",
+                "24h volume below 5.0% of liquidity"
+            ]
+        },
+        {
+            "name": "saffron.finance",
+            "symbol": "SFI",
+            "contract": "0xe77d354898a44808ff3999947002785cd727bed5",
+            "holders_count": "158",
+            "blockscout_market_cap": 8481737.93009698,
+            "dexscreener": {
+                "market_cap": 313168.0,
+                "fdv": 313168.0,
+                "effective_market_cap": 313168.0,
+                "valuation_type": "Market cap",
+                "liquidity": 129187.07,
+                "volume_24h": 535.4,
+                "buys_24h": 0,
+                "sells_24h": 3,
+                "transactions_24h": 3,
+                "liquidity_market_cap_ratio": 0.4125168280284065,
+                "volume_liquidity_ratio": 0.004144377606830157,
+                "sell_buy_ratio": 0,
+                "price_usd": 107.84,
+                "price_change_24h": -0.58,
+                "pair_created_at_utc": "2026-07-10T17:27:13+00:00",
+                "pair_age_hours": 2301.508290397222,
+                "pair_address": "0x013E9F1303e76dB3A318cc3012b5de64eccbE50d",
+                "dex_id": "uniswap",
+                "dex_url": "https://dexscreener.com/robinhood/0x013e9f1303e76db3a318cc3012b5de64eccbe50d"
+            },
+            "reasons": [
+                "valuation below $6.00M",
+                "24h volume below $25.00K",
+                "fewer than 40 24h transactions",
+                "fewer than 10 24h buys",
+                "fewer than 5 24h sells",
+                "24h volume below 5.0% of liquidity",
+                "too few sells relative to buys"
+            ]
+        },
+        {
+            "name": "Pareton",
+            "symbol": "SN10",
+            "contract": "0xddde5965d49e69b6362bd8743e139a45dbfeb7b3",
+            "reasons": [
+                "No Robinhood DexScreener pair"
+            ]
+        },
+        {
+            "name": "Statics Protocol",
+            "symbol": "STATICS",
+            "contract": "0x2d8d6f4a93acd7a916a5a654ec8b690ba3b3eadd",
+            "holders_count": "1043",
+            "blockscout_market_cap": 6970624.560016642,
+            "dexscreener": {
+                "market_cap": 6885342.0,
+                "fdv": 9755029.0,
+                "effective_market_cap": 6885342.0,
+                "valuation_type": "Market cap",
+                "liquidity": 6679692.71,
+                "volume_24h": 98336.7,
+                "buys_24h": 27,
+                "sells_24h": 30,
+                "transactions_24h": 57,
+                "liquidity_market_cap_ratio": 0.9701323057010095,
+                "volume_liquidity_ratio": 0.014721740096334462,
+                "sell_buy_ratio": 1.1111111111111112,
+                "price_usd": 0.009755,
+                "price_change_24h": -5.73,
+                "pair_created_at_utc": "2026-08-27T19:24:28+00:00",
+                "pair_age_hours": 1147.5548808483334,
+                "pair_address": "0xe79228d6cae086a58bf5b22220b454e5d1ca4f13da767ea5bbe032d5a1e82e8a",
+                "dex_id": "uniswap",
+                "dex_url": "https://dexscreener.com/robinhood/0xe79228d6cae086a58bf5b22220b454e5d1ca4f13da767ea5bbe032d5a1e82e8a"
+            },
+            "reasons": [
+                "24h volume below 5.0% of liquidity"
+            ]
+        },
+        {
+            "name": "Wrapped iTRY",
+            "symbol": "WITRY",
+            "contract": "0x15b271d9012b5820fc42b1c495b4c1e206547de5",
+            "reasons": [
+                "No Robinhood DexScreener pair"
+            ]
+        }
+    ]
+}

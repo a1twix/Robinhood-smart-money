@@ -1,0 +1,12 @@
+{
+  "2026-10-14": {
+    "eth_usd": 2496.5900876439555,
+    "source": "CoinGecko daily historical price",
+    "precision": "daily_reference"
+  },
+  "2026-11-07": {
+    "eth_usd": 2236.2815321686544,
+    "source": "CoinGecko daily historical price",
+    "precision": "daily_reference"
+  }
+}

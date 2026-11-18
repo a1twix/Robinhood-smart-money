@@ -1,0 +1,19 @@
+# Credentials and local configuration
+.env
+.env.*
+config.py
+*secret*
+*credential*
+*.pem
+*.key
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local backups and temporary files
+*.tar.gz
+*.log
+
+# Large historical transaction cache — keep locally
+/early_transaction_cache.json

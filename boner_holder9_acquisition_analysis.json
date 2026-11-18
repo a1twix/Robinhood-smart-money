@@ -1,0 +1,34 @@
+{
+  "0x60849db158a77f6118ed6b01290d62de7e15780b18525fe130b7df93273fb380": {
+    "boner_received": "6174306.027578092691533699",
+    "classification": "UNVERIFIED",
+    "initiated_by_wallet": true,
+    "recognised_swap": false
+  },
+  "0xc0037f89614a7ce76b6e2c93d0e09251d98f7f85cfacf404fda405d8ddf1d6ae": {
+    "boner_received": "3402412.741604336620661095",
+    "classification": "UNVERIFIED",
+    "initiated_by_wallet": true,
+    "recognised_swap": false
+  },
+  "0xd3f7740394f828465ea8089c9eb4a761f713af42df51bd5edb5e4236fafb4c60": {
+    "boner_received": "2095023.36",
+    "classification": "UNVERIFIED",
+    "initiated_by_wallet": true,
+    "recognised_swap": false
+  },
+  "0x36ee6a10bc82a6fcdeacbdb32bffdc4d0e587552da53dd73d2e10ff4cba8faa9": {
+    "boner_received": "1812276.24775247305983756",
+    "classification": "UNVERIFIED",
+    "initiated_by_wallet": true,
+    "recognised_swap": false
+  },
+  "0x1a2b4802c588493be5f1fce57c9f3875697ffac9894d92dd8af3e58e7ad24290": {
+    "boner_received": "1145217.407108342535557298",
+    "classification": "ETH_PURCHASE_CANDIDATE",
+    "initiated_by_wallet": true,
+    "recognised_swap": true,
+    "spent_eth": 20.0,
+    "spent_stable": 0.0
+  }
+}

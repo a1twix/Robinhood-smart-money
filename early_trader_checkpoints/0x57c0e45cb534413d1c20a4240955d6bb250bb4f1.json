@@ -1,0 +1,2726 @@
+{
+    "updated_at_utc": "2026-08-11T19:00:44.928719+00:00",
+    "token": {
+        "name": "up",
+        "symbol": "UP",
+        "contract": "0x57c0e45cb534413d1c20a4240955d6bb250bb4f1",
+        "decimals": 18
+    },
+    "early_buyers_found": 20,
+    "traders_completed": 20,
+    "trader_results": [
+        {
+            "wallet": "0x6d61aa96216b6f103b5455197e6742b0565439c6",
+            "early_buy_rank": 1,
+            "entry_transaction_hash": "0xecbab6486fe1ee2ff8d7c3b72e2e3c9b73f8e51987bd3e121552eb3e042194e6",
+            "entry_time_utc": "2026-07-10T20:29:52+00:00",
+            "entry_block": 6368343,
+            "seconds_after_launch": 0,
+            "delay_after_launch": "0s",
+            "blocks_after_launch": 0,
+            "initial_tokens_bought": 173529.6069496837,
+            "initial_spent_eth": 0.1,
+            "initial_spent_stable": 0.0,
+            "confirmed_sell_count": 0,
+            "confirmed_sells": [],
+            "cumulative_tokens_sold": 0.0,
+            "cumulative_percentage_sold": 0.0,
+            "cumulative_received_eth": 0.0,
+            "cumulative_received_stable": 0.0,
+            "cumulative_cost_basis_eth": 0.0,
+            "cumulative_cost_basis_stable": 0.0,
+            "first_exit_time_utc": null,
+            "final_counted_exit_time_utc": null,
+            "time_to_first_exit": "Unknown",
+            "time_to_final_counted_exit": "Unknown",
+            "current_balance": 1006815.8838403563,
+            "percentage_of_initial_buy_remaining": 580.1983313039433,
+            "realised_profit": null,
+            "realised_roi": null,
+            "ranking_asset": null,
+            "profit_status": "No confirmed cumulative sale found",
+            "qualifies_profit_filter": false,
+            "minimum_profit_required_eth": 2.0,
+            "trader_score": 20.0,
+            "outgoing_candidates_checked": 5,
+            "failed_transaction_hashes": [],
+            "analysis_complete": true,
+            "api_failures_during_analysis": 0
+        },
+        {
+            "wallet": "0x74bb3e6e3960ff4cc387c6ff81e368c410af5f0d",
+            "early_buy_rank": 2,
+            "entry_transaction_hash": "0x9aa710b4e551bab3daea3024423c94deed6e5eddccee221aabda2b1726697c4d",
+            "entry_time_utc": "2026-07-10T20:30:07+00:00",
+            "entry_block": 6368493,
+            "seconds_after_launch": 15,
+            "delay_after_launch": "15s",
+            "blocks_after_launch": 150,
+            "initial_tokens_bought": 83888.32659765265,
+            "initial_spent_eth": 0.05,
+            "initial_spent_stable": 0.0,
+            "confirmed_sell_count": 1,
+            "confirmed_sells": [
+                {
+                    "transaction_hash": "0x4df53e098ec63cd3c717e9290e0dd9800a35c8f7daf08fe69e588f0aa682b575",
+                    "block_number": 6502340,
+                    "transaction_index": 9,
+                    "tokens_out": 1628578.1104979212,
+                    "timestamp_utc": "2026-07-11T00:13:25+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 83888.32659765265,
+                    "received_eth": 0.22953862115436965,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 4.456181081294114
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                }
+            ],
+            "cumulative_tokens_sold": 83888.32659765265,
+            "cumulative_percentage_sold": 100.0,
+            "cumulative_received_eth": 0.22953862115436965,
+            "cumulative_received_stable": 0.0,
+            "cumulative_cost_basis_eth": 0.05,
+            "cumulative_cost_basis_stable": 0.0,
+            "first_exit_time_utc": "2026-07-11T00:13:25+00:00",
+            "final_counted_exit_time_utc": "2026-07-11T00:13:25+00:00",
+            "time_to_first_exit": "3h 43m",
+            "time_to_final_counted_exit": "3h 43m",
+            "current_balance": 0.0,
+            "percentage_of_initial_buy_remaining": 0.0,
+            "realised_profit": 0.17953862115436964,
+            "realised_roi": 359.07724230873924,
+            "ranking_asset": "ETH",
+            "profit_status": "Cumulative ETH/WETH realised estimate",
+            "qualifies_profit_filter": false,
+            "minimum_profit_required_eth": 2.0,
+            "trader_score": 60.0,
+            "outgoing_candidates_checked": 1,
+            "failed_transaction_hashes": [],
+            "analysis_complete": true,
+            "api_failures_during_analysis": 0
+        },
+        {
+            "wallet": "0x594e6aeec7db691cc45852111a8871134afb37e7",
+            "early_buy_rank": 3,
+            "entry_transaction_hash": "0x73bf281923351d07ccbfb8db36769828738cf8f0fe16047e4dfeb5646c38b692",
+            "entry_time_utc": "2026-07-10T20:32:44+00:00",
+            "entry_block": 6370053,
+            "seconds_after_launch": 172,
+            "delay_after_launch": "2m 52s",
+            "blocks_after_launch": 1710,
+            "initial_tokens_bought": 149569.5261549579,
+            "initial_spent_eth": 0.1,
+            "initial_spent_stable": 0.0,
+            "confirmed_sell_count": 3,
+            "confirmed_sells": [
+                {
+                    "transaction_hash": "0xf8f2963a85c25c7d16d85ea34db363ebf7852198ffd7cbc89443c58627e6d2a4",
+                    "block_number": 7107623,
+                    "transaction_index": 1,
+                    "tokens_out": 50000.0,
+                    "timestamp_utc": "2026-07-11T17:03:28+00:00",
+                    "method": "0x3593564c",
+                    "tokens_out_counted": 50000.0,
+                    "received_eth": 1.1955878777133904,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 1.1955878777133904
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0xb60d05ee77722368d73b41df979724e974f8ea3e59497d96f39ddb58413eb3fe",
+                    "block_number": 7112114,
+                    "transaction_index": 8,
+                    "tokens_out": 50000.0,
+                    "timestamp_utc": "2026-07-11T17:10:58+00:00",
+                    "method": "0x3593564c",
+                    "tokens_out_counted": 50000.0,
+                    "received_eth": 1.4638091014241936,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 1.4638091014241936
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0x0813e4a71f4aa58932d0918899307f9e656d1076cd393ad871167494bf38bb72",
+                    "block_number": 7113817,
+                    "transaction_index": 11,
+                    "tokens_out": 56863.0,
+                    "timestamp_utc": "2026-07-11T17:13:49+00:00",
+                    "method": "0x3593564c",
+                    "tokens_out_counted": 49569.526154957886,
+                    "received_eth": 1.7086637027726923,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 1.960070060525398
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                }
+            ],
+            "cumulative_tokens_sold": 149569.5261549579,
+            "cumulative_percentage_sold": 100.0,
+            "cumulative_received_eth": 4.3680606819102765,
+            "cumulative_received_stable": 0.0,
+            "cumulative_cost_basis_eth": 0.1,
+            "cumulative_cost_basis_stable": 0.0,
+            "first_exit_time_utc": "2026-07-11T17:03:28+00:00",
+            "final_counted_exit_time_utc": "2026-07-11T17:13:49+00:00",
+            "time_to_first_exit": "20h 30m",
+            "time_to_final_counted_exit": "20h 41m",
+            "current_balance": 0.0,
+            "percentage_of_initial_buy_remaining": 0.0,
+            "realised_profit": 4.268060681910277,
+            "realised_roi": 4268.060681910276,
+            "ranking_asset": "ETH",
+            "profit_status": "Cumulative ETH/WETH realised estimate",
+            "qualifies_profit_filter": true,
+            "minimum_profit_required_eth": 2.0,
+            "trader_score": 85.0,
+            "outgoing_candidates_checked": 5,
+            "failed_transaction_hashes": [],
+            "analysis_complete": true,
+            "api_failures_during_analysis": 0
+        },
+        {
+            "wallet": "0x5aa3b0b953bd381211e8c0cf982cfcb7977a0690",
+            "early_buy_rank": 4,
+            "entry_transaction_hash": "0x0c55c090fd60d4d5e08cf3454ab80f50d5ecb34853b55fde052d814c41091c34",
+            "entry_time_utc": "2026-07-10T20:33:26+00:00",
+            "entry_block": 6370480,
+            "seconds_after_launch": 214,
+            "delay_after_launch": "3m 34s",
+            "blocks_after_launch": 2137,
+            "initial_tokens_bought": 184821.88309900006,
+            "initial_spent_eth": 0.15,
+            "initial_spent_stable": 0.0,
+            "confirmed_sell_count": 12,
+            "confirmed_sells": [
+                {
+                    "transaction_hash": "0xa845925df74e5843f976e4796bfbb68d0b70f629f6cc18905f84a6907a800dd8",
+                    "block_number": 7091936,
+                    "transaction_index": 3,
+                    "tokens_out": 15882.30642047,
+                    "timestamp_utc": "2026-07-11T16:37:21+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 15882.30642047,
+                    "received_eth": 0.335946500697104,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.335946500697104
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0xdddd088ef505194b4f067ffee9338b3f722e29baa4aabe6c59e2a4dc589266f6",
+                    "block_number": 7092662,
+                    "transaction_index": 4,
+                    "tokens_out": 45000.0,
+                    "timestamp_utc": "2026-07-11T16:38:34+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 45000.0,
+                    "received_eth": 1.208390098133409,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 1.208390098133409
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0x6ce303c149f68f23e6ba0953aa3d7db960aa54b7bb7bd70f1cad8debc11ed3e5",
+                    "block_number": 7093654,
+                    "transaction_index": 20,
+                    "tokens_out": 12000.0,
+                    "timestamp_utc": "2026-07-11T16:40:13+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 12000.0,
+                    "received_eth": 0.3210221144326963,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.3210221144326963
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0x232d8bff75354d327774d19fe84813e0afdef1740a2331e7b2fb9543c737fdbb",
+                    "block_number": 7095918,
+                    "transaction_index": 4,
+                    "tokens_out": 28000.0,
+                    "timestamp_utc": "2026-07-11T16:43:59+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 28000.0,
+                    "received_eth": 0.720009491049314,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.720009491049314
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0x18c6c0e82038816914a44307011943a2273057b304fc2bb634c5c2d6ed4806d1",
+                    "block_number": 7103098,
+                    "transaction_index": 23,
+                    "tokens_out": 14000.0,
+                    "timestamp_utc": "2026-07-11T16:55:56+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 14000.0,
+                    "received_eth": 0.3460476254527662,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.3460476254527662
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0xbda67186673b26fc4d10df6776acf13ba73a9c11e2a9fff341f3590cd8c4f089",
+                    "block_number": 7105687,
+                    "transaction_index": 5,
+                    "tokens_out": 16000.0,
+                    "timestamp_utc": "2026-07-11T17:00:16+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 16000.0,
+                    "received_eth": 0.38570367268961414,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.38570367268961414
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0xc7082ac9c5c5d69a0942012ce084d3100b30f4c3d9465171ddfb343a88d095ba",
+                    "block_number": 7109780,
+                    "transaction_index": 7,
+                    "tokens_out": 10000.0,
+                    "timestamp_utc": "2026-07-11T17:07:05+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 10000.0,
+                    "received_eth": 0.31351806545856975,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.31351806545856975
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0x235565d5771173786847cf13eb67fa06bcce973fa772d2d66a46f576a6fa5695",
+                    "block_number": 7114595,
+                    "transaction_index": 2,
+                    "tokens_out": 10000.0,
+                    "timestamp_utc": "2026-07-11T17:15:05+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 10000.0,
+                    "received_eth": 0.3498905167360114,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.3498905167360114
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0x89c66dbc3be8dafb83fdc58089235751a135bfe9fa3d81a19d1fdfb7ded7b5ce",
+                    "block_number": 7115871,
+                    "transaction_index": 4,
+                    "tokens_out": 10000.0,
+                    "timestamp_utc": "2026-07-11T17:17:14+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 10000.0,
+                    "received_eth": 0.3246155714213687,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.3246155714213687
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0x603470d43ce343e27566cc89b3ccc0eb78c43e7ab4b78d95e9bcafa32f979680",
+                    "block_number": 7120741,
+                    "transaction_index": 5,
+                    "tokens_out": 5000.0,
+                    "timestamp_utc": "2026-07-11T17:25:21+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 5000.0,
+                    "received_eth": 0.11991251796137832,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.11991251796137832
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0xb3d80a264ab815d624bb99e61c59d70a648962ac56a691524047c4b9ee80ea19",
+                    "block_number": 7129854,
+                    "transaction_index": 7,
+                    "tokens_out": 5000.0,
+                    "timestamp_utc": "2026-07-11T17:40:31+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 5000.0,
+                    "received_eth": 0.13127485344326217,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.13127485344326217
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0x7715136ce4882ababd3b958b8559666e0c0abca0d1f2c907695ee97b7f85cc2a",
+                    "block_number": 7135240,
+                    "transaction_index": 5,
+                    "tokens_out": 5014.13,
+                    "timestamp_utc": "2026-07-11T17:49:31+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 5014.13,
+                    "received_eth": 0.1134033320264206,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.1134033320264206
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                }
+            ],
+            "cumulative_tokens_sold": 175896.43642047,
+            "cumulative_percentage_sold": 95.17078468800736,
+            "cumulative_received_eth": 4.6697343595019145,
+            "cumulative_received_stable": 0.0,
+            "cumulative_cost_basis_eth": 0.14275617703201104,
+            "cumulative_cost_basis_stable": 0.0,
+            "first_exit_time_utc": "2026-07-11T16:37:21+00:00",
+            "final_counted_exit_time_utc": "2026-07-11T17:49:31+00:00",
+            "time_to_first_exit": "20h 3m",
+            "time_to_final_counted_exit": "21h 16m",
+            "current_balance": 57750.3958096467,
+            "percentage_of_initial_buy_remaining": 31.246514125555485,
+            "realised_profit": 4.526978182469904,
+            "realised_roi": 3171.125955169557,
+            "ranking_asset": "ETH",
+            "profit_status": "Cumulative ETH/WETH realised estimate",
+            "qualifies_profit_filter": true,
+            "minimum_profit_required_eth": 2.0,
+            "trader_score": 85.0,
+            "outgoing_candidates_checked": 12,
+            "failed_transaction_hashes": [],
+            "analysis_complete": true,
+            "api_failures_during_analysis": 0
+        },
+        {
+            "wallet": "0x45dfb9c769da834916beb568fd11f329fc3d5a7f",
+            "early_buy_rank": 5,
+            "entry_transaction_hash": "0x9992284d916ef71610746bf39a26be9d61c928076d9166b096f4eac53a6f9545",
+            "entry_time_utc": "2026-07-10T20:35:18+00:00",
+            "entry_block": 6371593,
+            "seconds_after_launch": 326,
+            "delay_after_launch": "5m 26s",
+            "blocks_after_launch": 3250,
+            "initial_tokens_bought": 799501.2283071225,
+            "initial_spent_eth": 1.0,
+            "initial_spent_stable": 0.0,
+            "confirmed_sell_count": 46,
+            "confirmed_sells": [
+                {
+                    "transaction_hash": "0xfeef1957c06ddbd77433fd58da33f9c0d59744483391e2e238ab7631be3b581d",
+                    "block_number": 7116308,
+                    "transaction_index": 1,
+                    "tokens_out": 25000.0,
+                    "timestamp_utc": "2026-07-11T17:17:58+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 25000.0,
+                    "received_eth": 0.7926975085419685,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.7926975085419685
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0x2d20580271440138c9c5998d74473574b82f2dac40924eef06304f5e1fdd954f",
+                    "block_number": 7116764,
+                    "transaction_index": 4,
+                    "tokens_out": 25000.0,
+                    "timestamp_utc": "2026-07-11T17:18:43+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 25000.0,
+                    "received_eth": 0.6946368781304353,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.6946368781304353
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0x6df0587a7f913c00a3599b07d2c7a41ac8dc33ac98ad9139f11aba3dad373915",
+                    "block_number": 7117394,
+                    "transaction_index": 3,
+                    "tokens_out": 25000.0,
+                    "timestamp_utc": "2026-07-11T17:19:47+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 25000.0,
+                    "received_eth": 0.6339790353354744,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.6339790353354744
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0x809389b0438a38a8819e5547795abd5cbd6fb1e2c17ab7fec4e579b4c47e058a",
+                    "block_number": 7117806,
+                    "transaction_index": 5,
+                    "tokens_out": 25000.0,
+                    "timestamp_utc": "2026-07-11T17:20:28+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 25000.0,
+                    "received_eth": 0.5975456978014175,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.5975456978014175
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0x17f19f0e16fd5b8aece4b90c47bf68fad546c3549feb5ef98824f2d8d1810084",
+                    "block_number": 7118065,
+                    "transaction_index": 9,
+                    "tokens_out": 25000.0,
+                    "timestamp_utc": "2026-07-11T17:20:52+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 25000.0,
+                    "received_eth": 0.6141049878160807,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.6141049878160807
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0x63a6d38595a296caaf53f34d433a3dd871d46d8630bfa797175f93bca31aee53",
+                    "block_number": 7118333,
+                    "transaction_index": 7,
+                    "tokens_out": 25000.0,
+                    "timestamp_utc": "2026-07-11T17:21:19+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 25000.0,
+                    "received_eth": 0.6272709248632707,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.6272709248632707
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0x2c5c931fb4da4a04d2d7a86f0ff6fb0a821230ea0520c3440da007b6d30c9cbf",
+                    "block_number": 7118726,
+                    "transaction_index": 3,
+                    "tokens_out": 25000.0,
+                    "timestamp_utc": "2026-07-11T17:21:58+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 25000.0,
+                    "received_eth": 0.5986426733820869,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.5986426733820869
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0x52aa1538eff1e18cb733c832bcc31b433855ed5dc5324e663cba8a64f3033345",
+                    "block_number": 7118955,
+                    "transaction_index": 7,
+                    "tokens_out": 25000.0,
+                    "timestamp_utc": "2026-07-11T17:22:21+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 25000.0,
+                    "received_eth": 0.5917342762932596,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.5917342762932596
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0xea3b0446264049fd73fdbe427801560c7f2dedef45798955b514c6b1436220c5",
+                    "block_number": 7119217,
+                    "transaction_index": 5,
+                    "tokens_out": 25000.0,
+                    "timestamp_utc": "2026-07-11T17:22:48+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 25000.0,
+                    "received_eth": 0.5858321468983453,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.5858321468983453
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0x71b0733db386ddf7e8840035afb5ad4540fb17e6eae298f8de183f2228322405",
+                    "block_number": 7119534,
+                    "transaction_index": 9,
+                    "tokens_out": 25000.0,
+                    "timestamp_utc": "2026-07-11T17:23:20+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 25000.0,
+                    "received_eth": 0.5765152971842229,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.5765152971842229
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0x6bec8814ad29b39dca17a1acb27597f817e9ce709350996d91196f5bc16379e8",
+                    "block_number": 7119954,
+                    "transaction_index": 14,
+                    "tokens_out": 25000.0,
+                    "timestamp_utc": "2026-07-11T17:24:02+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 25000.0,
+                    "received_eth": 0.5550698581606156,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.5550698581606156
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0x9016344419cbbccf060cde59f9c6f645f8ab2b0b4a52ad9d45603c04f0524538",
+                    "block_number": 8132525,
+                    "transaction_index": 3,
+                    "tokens_out": 50000.0,
+                    "timestamp_utc": "2026-07-12T21:35:14+00:00",
+                    "method": "0x3593564c",
+                    "tokens_out_counted": 50000.0,
+                    "received_eth": 1.2950432193647359,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 1.2950432193647359
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0x1bb720fd69437debe1dff224122b73fe9a8d268d4ad6091b0a624898ad78ed22",
+                    "block_number": 8136195,
+                    "transaction_index": 5,
+                    "tokens_out": 50000.0,
+                    "timestamp_utc": "2026-07-12T21:41:22+00:00",
+                    "method": "0x3593564c",
+                    "tokens_out_counted": 50000.0,
+                    "received_eth": 1.3509622005421202,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 1.3509622005421202
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0x585041787cf35738d3f0d750e6c480361fd1697839b3bbca81c5e16220a1625b",
+                    "block_number": 8433963,
+                    "transaction_index": 5,
+                    "tokens_out": 25000.0,
+                    "timestamp_utc": "2026-07-13T05:58:48+00:00",
+                    "method": "0x3593564c",
+                    "tokens_out_counted": 25000.0,
+                    "received_eth": 1.3799166216511471,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 1.3799166216511471
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0xebfdf1645f9d7ad2e36871b2dedf73cbc5e1d49cae1edf40d6700003496fdb89",
+                    "block_number": 8442666,
+                    "transaction_index": 4,
+                    "tokens_out": 25000.0,
+                    "timestamp_utc": "2026-07-13T06:13:21+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 25000.0,
+                    "received_eth": 1.1987142227422687,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 1.1987142227422687
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0x49f377f0eb6f8a477ae8c92f0ade66bdf450b4f540a1f80a9b5dab439a611872",
+                    "block_number": 8453593,
+                    "transaction_index": 4,
+                    "tokens_out": 25000.0,
+                    "timestamp_utc": "2026-07-13T06:31:37+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 25000.0,
+                    "received_eth": 1.1526433533510243,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 1.1526433533510243
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0xaede3d475836b30e45e15bcab2b516072fc8ae4c4ff412a405c34eb5c3323e9a",
+                    "block_number": 8457607,
+                    "transaction_index": 1,
+                    "tokens_out": 25000.0,
+                    "timestamp_utc": "2026-07-13T06:38:20+00:00",
+                    "method": "0x3593564c",
+                    "tokens_out_counted": 25000.0,
+                    "received_eth": 1.1568215266081179,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 1.1568215266081179
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0xb661652d35fff0b284ff3e87b1cd3c66cc47ae772cd3722762b31631c6fbcb27",
+                    "block_number": 8808643,
+                    "transaction_index": 4,
+                    "tokens_out": 25000.0,
+                    "timestamp_utc": "2026-07-13T16:24:19+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 25000.0,
+                    "received_eth": 1.2378458833725603,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 1.2378458833725603
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0x74b9d89c7df65e55da90fd75041e629cb78b45d47f2d2e9e1be273cdb39709c7",
+                    "block_number": 10284899,
+                    "transaction_index": 10,
+                    "tokens_out": 25000.0,
+                    "timestamp_utc": "2026-07-15T09:28:44+00:00",
+                    "method": "0x3593564c",
+                    "tokens_out_counted": 25000.0,
+                    "received_eth": 1.2865546681526963,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 1.2865546681526963
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0xce781327821f4c3362bad36ea7a7cf4c1103f1f6f18eb0050d02e12e38fbb169",
+                    "block_number": 10820079,
+                    "transaction_index": 6,
+                    "tokens_out": 25000.0,
+                    "timestamp_utc": "2026-07-16T00:19:04+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 25000.0,
+                    "received_eth": 0.9188631305419465,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.9188631305419465
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0xaabf794368321394d1ff4c0f29461d26e4ce94b908ae14328b3d308992320d14",
+                    "block_number": 11360268,
+                    "transaction_index": 2,
+                    "tokens_out": 2660.0,
+                    "timestamp_utc": "2026-07-16T15:20:18+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 2660.0,
+                    "received_eth": 0.10679796556747093,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.10679796556747093
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0xb83204f32722d0bd75fefe60635418fe23df7f71d38deb4798105afc8fec0c8d",
+                    "block_number": 12232934,
+                    "transaction_index": 1,
+                    "tokens_out": 10000.0,
+                    "timestamp_utc": "2026-07-17T15:38:28+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 10000.0,
+                    "received_eth": 0.7280813060830609,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.7280813060830609
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0x66aae2b56ede8326caeab40449382bf7fdc8131fbbc79b4a13ad166635bb4ade",
+                    "block_number": 12297404,
+                    "transaction_index": 2,
+                    "tokens_out": 16000.0,
+                    "timestamp_utc": "2026-07-17T17:26:11+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 16000.0,
+                    "received_eth": 1.298150113985812,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 1.298150113985812
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0xc16da968f2727b4a17f3e4e9101aaf99226aeae276d79f76d09a2716245e65e1",
+                    "block_number": 13728783,
+                    "transaction_index": 3,
+                    "tokens_out": 4200.0,
+                    "timestamp_utc": "2026-07-19T09:20:57+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 4200.0,
+                    "received_eth": 0.30594175861296313,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.30594175861296313
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0x534a67b5897f7971a58eedbdd00a151df398394f5276f68029c6ab50ac3aaad5",
+                    "block_number": 15872566,
+                    "transaction_index": 3,
+                    "tokens_out": 3160.0,
+                    "timestamp_utc": "2026-07-21T21:05:04+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 3160.0,
+                    "received_eth": 0.18259350744557215,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.18259350744557215
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0xc5bfec6356952e7d14fc39e4d1729d54f180f38a9fa38e7f31f9a118e891b53e",
+                    "block_number": 18392095,
+                    "transaction_index": 4,
+                    "tokens_out": 4451.0,
+                    "timestamp_utc": "2026-07-24T19:14:40+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 4451.0,
+                    "received_eth": 0.1687429663914119,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.1687429663914119
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0x3974cd1f6a87912a7de3460afdb2e41fb200396689fc0cd8161acb6c175341f2",
+                    "block_number": 19353273,
+                    "transaction_index": 2,
+                    "tokens_out": 2716.0,
+                    "timestamp_utc": "2026-07-25T22:02:44+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 2716.0,
+                    "received_eth": 0.12423910308102043,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.12423910308102043
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0xa907d6bc87fa82f129efd6f4033caa0018d03673ed869f559d3b4d2d2db26180",
+                    "block_number": 20199590,
+                    "transaction_index": 5,
+                    "tokens_out": 2366.0,
+                    "timestamp_utc": "2026-07-26T21:37:41+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 2366.0,
+                    "received_eth": 0.10759367578792542,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.10759367578792542
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0xb411441df9956a9f6aa35840e93861d09df535153f4cab1587d677dc28bcd69d",
+                    "block_number": 22531228,
+                    "transaction_index": 7,
+                    "tokens_out": 6501.0,
+                    "timestamp_utc": "2026-07-29T14:38:08+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 6501.0,
+                    "received_eth": 0.2062873531583132,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.2062873531583132
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0xb841aa7ef3364ec0f0b53472f7f08a3eb21cd6a2a94e34fc3aa7f6b404d09ec9",
+                    "block_number": 24119263,
+                    "transaction_index": 2,
+                    "tokens_out": 4396.0,
+                    "timestamp_utc": "2026-07-31T10:51:33+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 4396.0,
+                    "received_eth": 0.09745548296311085,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.09745548296311085
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0xa1f060f7ce52603348d8bd5428b19e6c37b974ca19c9adf05fc34bf1a07749b2",
+                    "block_number": 27107763,
+                    "transaction_index": 11,
+                    "tokens_out": 10899.0,
+                    "timestamp_utc": "2026-08-03T22:05:13+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 10899.0,
+                    "received_eth": 0.330983629815593,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.330983629815593
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0xe38f63c066d64b14a29802d63f0d2100c1f37dec9dfd9811fd648129ccf4a101",
+                    "block_number": 28906302,
+                    "transaction_index": 21,
+                    "tokens_out": 10000.0,
+                    "timestamp_utc": "2026-08-06T00:09:38+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 10000.0,
+                    "received_eth": 0.3957992235056916,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.3957992235056916
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0x5699871940ef143432b500f261f3763cf4bc62b30bd24682484d564eb8a66b97",
+                    "block_number": 33119555,
+                    "transaction_index": 2,
+                    "tokens_out": 10000.0,
+                    "timestamp_utc": "2026-08-10T21:24:11+00:00",
+                    "method": "0xc04b8d59",
+                    "tokens_out_counted": 10000.0,
+                    "received_eth": 0.0,
+                    "received_stable": 2335.567732,
+                    "quote_flows": {
+                        "incoming": {
+                            "USDG": 2335.567732
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": false
+                },
+                {
+                    "transaction_hash": "0x15c8d2a611c1685e5827d558dd4014406c723919a2d3252b1a1eb1d333081b49",
+                    "block_number": 33120468,
+                    "transaction_index": 8,
+                    "tokens_out": 10000.0,
+                    "timestamp_utc": "2026-08-10T21:25:43+00:00",
+                    "method": "0xc04b8d59",
+                    "tokens_out_counted": 10000.0,
+                    "received_eth": 0.0,
+                    "received_stable": 2464.920833,
+                    "quote_flows": {
+                        "incoming": {
+                            "USDG": 2464.920833
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": false
+                },
+                {
+                    "transaction_hash": "0x843f8687f7998993e4b756eb81401c32a605e975e82ae447015f6c3300bf5001",
+                    "block_number": 33121419,
+                    "transaction_index": 8,
+                    "tokens_out": 10000.0,
+                    "timestamp_utc": "2026-08-10T21:27:18+00:00",
+                    "method": "0xc04b8d59",
+                    "tokens_out_counted": 10000.0,
+                    "received_eth": 0.0,
+                    "received_stable": 3219.589608,
+                    "quote_flows": {
+                        "incoming": {
+                            "USDG": 3219.589608
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": false
+                },
+                {
+                    "transaction_hash": "0xe5f8c5a19751c129e7dfef694399eb70dc4188bc373d2fa77aca96403a74e218",
+                    "block_number": 33122219,
+                    "transaction_index": 19,
+                    "tokens_out": 10000.0,
+                    "timestamp_utc": "2026-08-10T21:28:39+00:00",
+                    "method": "0xc04b8d59",
+                    "tokens_out_counted": 10000.0,
+                    "received_eth": 0.0,
+                    "received_stable": 3383.984639,
+                    "quote_flows": {
+                        "incoming": {
+                            "USDG": 3383.984639
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": false
+                },
+                {
+                    "transaction_hash": "0x9bf8acbe4bb285e1f913322552d74c9257e3bf5365d214d74a07ae31f4913632",
+                    "block_number": 33122588,
+                    "transaction_index": 20,
+                    "tokens_out": 10000.0,
+                    "timestamp_utc": "2026-08-10T21:29:16+00:00",
+                    "method": "0xc04b8d59",
+                    "tokens_out_counted": 10000.0,
+                    "received_eth": 0.0,
+                    "received_stable": 3144.934668,
+                    "quote_flows": {
+                        "incoming": {
+                            "USDG": 3144.934668
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": false
+                },
+                {
+                    "transaction_hash": "0xcd360d44650d21f4013e83dd67b3dc78d949cc5d7994698b811a5417ec5ad4a4",
+                    "block_number": 33123052,
+                    "transaction_index": 41,
+                    "tokens_out": 10000.0,
+                    "timestamp_utc": "2026-08-10T21:30:02+00:00",
+                    "method": "0xc04b8d59",
+                    "tokens_out_counted": 10000.0,
+                    "received_eth": 0.0,
+                    "received_stable": 2758.351587,
+                    "quote_flows": {
+                        "incoming": {
+                            "USDG": 2758.351587
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": false
+                },
+                {
+                    "transaction_hash": "0xcdcf2fcff2573ff9e1186d6d428edbca6e3767616837d7ba9dc487cf58aa5d02",
+                    "block_number": 33124119,
+                    "transaction_index": 20,
+                    "tokens_out": 10000.0,
+                    "timestamp_utc": "2026-08-10T21:31:47+00:00",
+                    "method": "0xc04b8d59",
+                    "tokens_out_counted": 10000.0,
+                    "received_eth": 0.0,
+                    "received_stable": 3107.575313,
+                    "quote_flows": {
+                        "incoming": {
+                            "USDG": 3107.575313
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": false
+                },
+                {
+                    "transaction_hash": "0x2b18a7142304559c8bc34c6acf629d8219248f7b7de2d6eefb9c211e7e360c4e",
+                    "block_number": 33125798,
+                    "transaction_index": 4,
+                    "tokens_out": 10000.0,
+                    "timestamp_utc": "2026-08-10T21:34:36+00:00",
+                    "method": "0xc04b8d59",
+                    "tokens_out_counted": 10000.0,
+                    "received_eth": 0.0,
+                    "received_stable": 4119.639426,
+                    "quote_flows": {
+                        "incoming": {
+                            "USDG": 4119.639426
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": false
+                },
+                {
+                    "transaction_hash": "0x4843cb6ebc9bab82e21c14de7085861befc28be4979d6e068bc18b3d43dde0b8",
+                    "block_number": 33126282,
+                    "transaction_index": 13,
+                    "tokens_out": 10000.0,
+                    "timestamp_utc": "2026-08-10T21:35:25+00:00",
+                    "method": "0xc04b8d59",
+                    "tokens_out_counted": 10000.0,
+                    "received_eth": 0.0,
+                    "received_stable": 3195.344038,
+                    "quote_flows": {
+                        "incoming": {
+                            "USDG": 3195.344038
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": false
+                },
+                {
+                    "transaction_hash": "0xc8cb0642a39bcc30e81a40831e468893331e4a245449453c37ade033322fbc30",
+                    "block_number": 33126884,
+                    "transaction_index": 66,
+                    "tokens_out": 10000.0,
+                    "timestamp_utc": "2026-08-10T21:36:25+00:00",
+                    "method": "0xc04b8d59",
+                    "tokens_out_counted": 10000.0,
+                    "received_eth": 0.0,
+                    "received_stable": 3095.032068,
+                    "quote_flows": {
+                        "incoming": {
+                            "USDG": 3095.032068
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": false
+                },
+                {
+                    "transaction_hash": "0xd2998371fb2847df72d37f7d5ae705fd285467681e2284f23c9761d6b1cb35fa",
+                    "block_number": 33128101,
+                    "transaction_index": 2,
+                    "tokens_out": 10000.0,
+                    "timestamp_utc": "2026-08-10T21:38:25+00:00",
+                    "method": "0xc04b8d59",
+                    "tokens_out_counted": 10000.0,
+                    "received_eth": 0.0,
+                    "received_stable": 2603.78114,
+                    "quote_flows": {
+                        "incoming": {
+                            "USDG": 2603.78114
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": false
+                },
+                {
+                    "transaction_hash": "0xe62b5650661f868c3c517054c73507dc4d71a98e20c696aeab55d10f732ae33e",
+                    "block_number": 33129338,
+                    "transaction_index": 7,
+                    "tokens_out": 10000.0,
+                    "timestamp_utc": "2026-08-10T21:40:30+00:00",
+                    "method": "0xc04b8d59",
+                    "tokens_out_counted": 10000.0,
+                    "received_eth": 0.0,
+                    "received_stable": 2655.93267,
+                    "quote_flows": {
+                        "incoming": {
+                            "USDG": 2655.93267
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": false
+                },
+                {
+                    "transaction_hash": "0x4e4e3169f9eb1c55574d4343e501817522c473e3b7f7945c541cb36916b9dbd4",
+                    "block_number": 33129971,
+                    "transaction_index": 7,
+                    "tokens_out": 10000.0,
+                    "timestamp_utc": "2026-08-10T21:41:33+00:00",
+                    "method": "0xc04b8d59",
+                    "tokens_out_counted": 10000.0,
+                    "received_eth": 0.0,
+                    "received_stable": 2516.992518,
+                    "quote_flows": {
+                        "incoming": {
+                            "USDG": 2516.992518
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": false
+                },
+                {
+                    "transaction_hash": "0xec61fbd90a2f06fc224a52b39197c4934e2cf4fec52ffb8ee33deb4e251837c9",
+                    "block_number": 33130271,
+                    "transaction_index": 10,
+                    "tokens_out": 10000.0,
+                    "timestamp_utc": "2026-08-10T21:42:03+00:00",
+                    "method": "0xc04b8d59",
+                    "tokens_out_counted": 10000.0,
+                    "received_eth": 0.0,
+                    "received_stable": 2325.235269,
+                    "quote_flows": {
+                        "incoming": {
+                            "USDG": 2325.235269
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": false
+                }
+            ],
+            "cumulative_tokens_sold": 767349.0,
+            "cumulative_percentage_sold": 95.97846417632127,
+            "cumulative_received_eth": 21.898060197131738,
+            "cumulative_received_stable": 40926.881509,
+            "cumulative_cost_basis_eth": 0.9597846417632127,
+            "cumulative_cost_basis_stable": 0.0,
+            "first_exit_time_utc": "2026-07-11T17:17:58+00:00",
+            "final_counted_exit_time_utc": "2026-08-10T21:42:03+00:00",
+            "time_to_first_exit": "20h 42m",
+            "time_to_final_counted_exit": "31d 1h",
+            "current_balance": 130000.64672502087,
+            "percentage_of_initial_buy_remaining": 16.260218511519543,
+            "realised_profit": null,
+            "realised_roi": null,
+            "ranking_asset": null,
+            "profit_status": "Mixed/unresolved cumulative quote assets",
+            "qualifies_profit_filter": false,
+            "minimum_profit_required_eth": 2.0,
+            "trader_score": 18.0,
+            "outgoing_candidates_checked": 54,
+            "failed_transaction_hashes": [],
+            "analysis_complete": true,
+            "api_failures_during_analysis": 0
+        },
+        {
+            "wallet": "0x393d4197b6e3e3f9bc316dff3158f9220c4895bb",
+            "early_buy_rank": 6,
+            "entry_transaction_hash": "0x194543c4e9338407204b1d53e6d717cd433248937842c30036d3174f24286984",
+            "entry_time_utc": "2026-07-10T20:36:33+00:00",
+            "entry_block": 6372342,
+            "seconds_after_launch": 401,
+            "delay_after_launch": "6m 41s",
+            "blocks_after_launch": 3999,
+            "initial_tokens_bought": 1006768.8625548562,
+            "initial_spent_eth": 1.6,
+            "initial_spent_stable": 0.0,
+            "confirmed_sell_count": 6,
+            "confirmed_sells": [
+                {
+                    "transaction_hash": "0xe6116f8aa2869040222b6dcff1b767a780041d5a2d66f5da374b630be027e219",
+                    "block_number": 7089102,
+                    "transaction_index": 3,
+                    "tokens_out": 100000.0,
+                    "timestamp_utc": "2026-07-11T16:32:38+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 100000.0,
+                    "received_eth": 2.321174266561497,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 2.321174266561497
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0xd7517ac75b400f666bcfa942e14c3ee270084c001d25b352dd513fc0ff98f039",
+                    "block_number": 7089383,
+                    "transaction_index": 14,
+                    "tokens_out": 125000.0,
+                    "timestamp_utc": "2026-07-11T16:33:06+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 125000.0,
+                    "received_eth": 3.4756455736570597,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 3.4756455736570597
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0x6cadbb5aa4e1ac0d819226ff60d29db40c75b0ed14319622655abd36d91e00a0",
+                    "block_number": 7089838,
+                    "transaction_index": 19,
+                    "tokens_out": 136000.0,
+                    "timestamp_utc": "2026-07-11T16:33:52+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 136000.0,
+                    "received_eth": 3.8310844932569066,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 3.8310844932569066
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0x68b1d569b317ecf8fd7b1c14971a7e980b308042d58d4c908cd71815924dabbb",
+                    "block_number": 7090284,
+                    "transaction_index": 5,
+                    "tokens_out": 150000.0,
+                    "timestamp_utc": "2026-07-11T16:34:37+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 150000.0,
+                    "received_eth": 3.1753140851444956,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 3.1753140851444956
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0xcbfafdbdd4cfd2682bceb9a973eb6ba3c439261f2e6497120235ee797402ac2c",
+                    "block_number": 7090594,
+                    "transaction_index": 9,
+                    "tokens_out": 170000.0,
+                    "timestamp_utc": "2026-07-11T16:35:08+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 170000.0,
+                    "received_eth": 3.272849336599388,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 3.272849336599388
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0x855c42e59b9cb3fe30b53238b94d787fcbd97ee24ca9e34a6189a1bf168cff85",
+                    "block_number": 7090805,
+                    "transaction_index": 11,
+                    "tokens_out": 325768.86255485617,
+                    "timestamp_utc": "2026-07-11T16:35:29+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 325768.86255485617,
+                    "received_eth": 6.445821228279558,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 6.445821228279558
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                }
+            ],
+            "cumulative_tokens_sold": 1006768.8625548561,
+            "cumulative_percentage_sold": 99.99999999999999,
+            "cumulative_received_eth": 22.521888983498908,
+            "cumulative_received_stable": 0.0,
+            "cumulative_cost_basis_eth": 1.5999999999999999,
+            "cumulative_cost_basis_stable": 0.0,
+            "first_exit_time_utc": "2026-07-11T16:32:38+00:00",
+            "final_counted_exit_time_utc": "2026-07-11T16:35:29+00:00",
+            "time_to_first_exit": "19h 56m",
+            "time_to_final_counted_exit": "19h 58m",
+            "current_balance": 0.0,
+            "percentage_of_initial_buy_remaining": 0.0,
+            "realised_profit": 20.921888983498906,
+            "realised_roi": 1307.6180614686818,
+            "ranking_asset": "ETH",
+            "profit_status": "Cumulative ETH/WETH realised estimate",
+            "qualifies_profit_filter": true,
+            "minimum_profit_required_eth": 2.0,
+            "trader_score": 83.0,
+            "outgoing_candidates_checked": 6,
+            "failed_transaction_hashes": [],
+            "analysis_complete": true,
+            "api_failures_during_analysis": 0
+        },
+        {
+            "wallet": "0x30c1b05b6847b9799e2b8b8c82163aa40a0bcb50",
+            "early_buy_rank": 7,
+            "entry_transaction_hash": "0x2fb67b631d8bbd8b0df29ed84293d70055177b9a62347d24b026ad03a5ff430f",
+            "entry_time_utc": "2026-07-10T20:36:52+00:00",
+            "entry_block": 6372534,
+            "seconds_after_launch": 420,
+            "delay_after_launch": "7m",
+            "blocks_after_launch": 4191,
+            "initial_tokens_bought": 57567.47428912576,
+            "initial_spent_eth": 0.1,
+            "initial_spent_stable": 0.0,
+            "confirmed_sell_count": 0,
+            "confirmed_sells": [],
+            "cumulative_tokens_sold": 0.0,
+            "cumulative_percentage_sold": 0.0,
+            "cumulative_received_eth": 0.0,
+            "cumulative_received_stable": 0.0,
+            "cumulative_cost_basis_eth": 0.0,
+            "cumulative_cost_basis_stable": 0.0,
+            "first_exit_time_utc": null,
+            "final_counted_exit_time_utc": null,
+            "time_to_first_exit": "Unknown",
+            "time_to_final_counted_exit": "Unknown",
+            "current_balance": 977599.0156250179,
+            "percentage_of_initial_buy_remaining": 1698.1794454193764,
+            "realised_profit": null,
+            "realised_roi": null,
+            "ranking_asset": null,
+            "profit_status": "No confirmed cumulative sale found",
+            "qualifies_profit_filter": false,
+            "minimum_profit_required_eth": 2.0,
+            "trader_score": 13.0,
+            "outgoing_candidates_checked": 0,
+            "failed_transaction_hashes": [],
+            "analysis_complete": true,
+            "api_failures_during_analysis": 0
+        },
+        {
+            "wallet": "0xbb2288f895b882adfbc8e6dda886dfed0b09935e",
+            "early_buy_rank": 8,
+            "entry_transaction_hash": "0xcb7a0395e3a31563ba7af11c70f9ec8442e1b7f597d4cef53fb9a46eaa66b371",
+            "entry_time_utc": "2026-07-10T20:38:07+00:00",
+            "entry_block": 6373276,
+            "seconds_after_launch": 495,
+            "delay_after_launch": "8m 15s",
+            "blocks_after_launch": 4933,
+            "initial_tokens_bought": 143331.64521792557,
+            "initial_spent_eth": 0.3,
+            "initial_spent_stable": 0.0,
+            "confirmed_sell_count": 13,
+            "confirmed_sells": [
+                {
+                    "transaction_hash": "0xfdc3ba16cd447d7472591e2330d5d6597a00331210439519d8d1fa94c795cc1e",
+                    "block_number": 6427530,
+                    "transaction_index": 43,
+                    "tokens_out": 42364.60131460207,
+                    "timestamp_utc": "2026-07-10T22:08:38+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 42364.60131460207,
+                    "received_eth": 0.13884287181089688,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.13884287181089688
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0x76d7a50ec6f762f83f2d5e5a6f2299b2d9f50ad9b5f42ba697112b8945c51b60",
+                    "block_number": 6851603,
+                    "transaction_index": 4,
+                    "tokens_out": 20000.0,
+                    "timestamp_utc": "2026-07-11T09:56:07+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 20000.0,
+                    "received_eth": 0.05311985499051936,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.05311985499051936
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0x2c8a54f0b8904b5cd4f2e261e64206b42c6c850d64c4ff020a55c646407e0f9e",
+                    "block_number": 7091015,
+                    "transaction_index": 6,
+                    "tokens_out": 2000.0,
+                    "timestamp_utc": "2026-07-11T16:35:50+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 2000.0,
+                    "received_eth": 0.03852902766902439,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.03852902766902439
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0x21bf9403442f3b6f97286f3381e0810382241ee923e278e459f3424e3b6ebe3b",
+                    "block_number": 7092301,
+                    "transaction_index": 12,
+                    "tokens_out": 5000.0,
+                    "timestamp_utc": "2026-07-11T16:37:57+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 5000.0,
+                    "received_eth": 0.1205145393011057,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.1205145393011057
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0x74f02af62746391c23ad985cc17b4e61fd48e68ef628964f61095a170dfc640f",
+                    "block_number": 7092782,
+                    "transaction_index": 23,
+                    "tokens_out": 5000.0,
+                    "timestamp_utc": "2026-07-11T16:38:46+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 5000.0,
+                    "received_eth": 0.13707071412522145,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.13707071412522145
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0xaac57a567a00bd2a979d333c63b43eb0139b6468d384b63eb2da1cbe5a3a9760",
+                    "block_number": 7111494,
+                    "transaction_index": 7,
+                    "tokens_out": 5000.0,
+                    "timestamp_utc": "2026-07-11T17:09:55+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 5000.0,
+                    "received_eth": 0.16163791469660463,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.16163791469660463
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0x2e4564e16293163b97767382db8bbcadd22fa5a8d74104dc184268867f0ab623",
+                    "block_number": 7113534,
+                    "transaction_index": 8,
+                    "tokens_out": 10000.0,
+                    "timestamp_utc": "2026-07-11T17:13:20+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 10000.0,
+                    "received_eth": 0.3128923340319075,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.3128923340319075
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0xdf37d60ecdeb01dc710cdf6e596077221e35bfe95a053848c9cee96ac5be265a",
+                    "block_number": 7114203,
+                    "transaction_index": 11,
+                    "tokens_out": 10000.0,
+                    "timestamp_utc": "2026-07-11T17:14:26+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 10000.0,
+                    "received_eth": 0.34975362950762423,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.34975362950762423
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0x83368550354c32996be97f1b51783eba14feead6aa0fc7ecd6879cf882c8c381",
+                    "block_number": 7267725,
+                    "transaction_index": 71,
+                    "tokens_out": 10000.0,
+                    "timestamp_utc": "2026-07-11T21:30:37+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 10000.0,
+                    "received_eth": 0.12119303200360378,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.12119303200360378
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0x1413f76fc8322610117559dd8a2811269a44bb38963905ee4f486af7bb1709a3",
+                    "block_number": 7857071,
+                    "transaction_index": 5,
+                    "tokens_out": 5000.0,
+                    "timestamp_utc": "2026-07-12T13:55:26+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 5000.0,
+                    "received_eth": 0.08424039981874627,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.08424039981874627
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0x264dc7ef424a777c5fc1022ceb1ea85fce8bda221b5998f24dce8256596ddf40",
+                    "block_number": 8180007,
+                    "transaction_index": 2,
+                    "tokens_out": 5000.0,
+                    "timestamp_utc": "2026-07-12T22:54:29+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 5000.0,
+                    "received_eth": 0.2307147132884558,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.2307147132884558
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0x41065f03580b63a31788ccbd04c12e6d2d9e5f7b21361c6d3748633a44079182",
+                    "block_number": 8239230,
+                    "transaction_index": 4,
+                    "tokens_out": 2000.0,
+                    "timestamp_utc": "2026-07-13T00:33:21+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 2000.0,
+                    "received_eth": 0.1352758524908552,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.1352758524908552
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0x3b51fd6ebe8a8529b030d83e1924791eb266e6c0513153ca34d07eb641ae8bad",
+                    "block_number": 8974942,
+                    "transaction_index": 32,
+                    "tokens_out": 1000.0,
+                    "timestamp_utc": "2026-07-13T21:02:03+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 1000.0,
+                    "received_eth": 0.0442025975439873,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.0442025975439873
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                }
+            ],
+            "cumulative_tokens_sold": 122364.60131460207,
+            "cumulative_percentage_sold": 85.37165754886536,
+            "cumulative_received_eth": 1.9279874812785525,
+            "cumulative_received_stable": 0.0,
+            "cumulative_cost_basis_eth": 0.25611497264659605,
+            "cumulative_cost_basis_stable": 0.0,
+            "first_exit_time_utc": "2026-07-10T22:08:38+00:00",
+            "final_counted_exit_time_utc": "2026-07-13T21:02:03+00:00",
+            "time_to_first_exit": "1h 30m",
+            "time_to_final_counted_exit": "3d",
+            "current_balance": 11938.751143050169,
+            "percentage_of_initial_buy_remaining": 8.329459363211903,
+            "realised_profit": 1.6718725086319564,
+            "realised_roi": 652.7820265076473,
+            "ranking_asset": "ETH",
+            "profit_status": "Cumulative ETH/WETH realised estimate",
+            "qualifies_profit_filter": false,
+            "minimum_profit_required_eth": 2.0,
+            "trader_score": 70.0,
+            "outgoing_candidates_checked": 58,
+            "failed_transaction_hashes": [],
+            "analysis_complete": true,
+            "api_failures_during_analysis": 0
+        },
+        {
+            "wallet": "0x62f560a6be5253afe61bb384512f6d9ec528b8f9",
+            "early_buy_rank": 9,
+            "entry_transaction_hash": "0x8434cf01cf754b883cf03aca9175b346fa51095a9ccd39c424149683111fc428",
+            "entry_time_utc": "2026-07-10T20:38:50+00:00",
+            "entry_block": 6373710,
+            "seconds_after_launch": 538,
+            "delay_after_launch": "8m 58s",
+            "blocks_after_launch": 5367,
+            "initial_tokens_bought": 116493.1775711212,
+            "initial_spent_eth": 0.25,
+            "initial_spent_stable": 0.0,
+            "confirmed_sell_count": 0,
+            "confirmed_sells": [],
+            "cumulative_tokens_sold": 0.0,
+            "cumulative_percentage_sold": 0.0,
+            "cumulative_received_eth": 0.0,
+            "cumulative_received_stable": 0.0,
+            "cumulative_cost_basis_eth": 0.0,
+            "cumulative_cost_basis_stable": 0.0,
+            "first_exit_time_utc": null,
+            "final_counted_exit_time_utc": null,
+            "time_to_first_exit": "Unknown",
+            "time_to_final_counted_exit": "Unknown",
+            "current_balance": 447691.69123230356,
+            "percentage_of_initial_buy_remaining": 384.3072191579457,
+            "realised_profit": null,
+            "realised_roi": null,
+            "ranking_asset": null,
+            "profit_status": "No confirmed cumulative sale found",
+            "qualifies_profit_filter": false,
+            "minimum_profit_required_eth": 2.0,
+            "trader_score": 13.0,
+            "outgoing_candidates_checked": 0,
+            "failed_transaction_hashes": [],
+            "analysis_complete": true,
+            "api_failures_during_analysis": 0
+        },
+        {
+            "wallet": "0x5945f0798d81c56864670d444a5007c4f2b2bd9f",
+            "early_buy_rank": 10,
+            "entry_transaction_hash": "0x0ea3a2cc03e1d614aea1031e8c88b85c261b388d06385513c4173a434ffa89c3",
+            "entry_time_utc": "2026-07-10T20:38:57+00:00",
+            "entry_block": 6373777,
+            "seconds_after_launch": 545,
+            "delay_after_launch": "9m 5s",
+            "blocks_after_launch": 5434,
+            "initial_tokens_bought": 947155.4597396672,
+            "initial_spent_eth": 2.2647766695602938,
+            "initial_spent_stable": 0.0,
+            "confirmed_sell_count": 0,
+            "confirmed_sells": [],
+            "cumulative_tokens_sold": 0.0,
+            "cumulative_percentage_sold": 0.0,
+            "cumulative_received_eth": 0.0,
+            "cumulative_received_stable": 0.0,
+            "cumulative_cost_basis_eth": 0.0,
+            "cumulative_cost_basis_stable": 0.0,
+            "first_exit_time_utc": null,
+            "final_counted_exit_time_utc": null,
+            "time_to_first_exit": "Unknown",
+            "time_to_final_counted_exit": "Unknown",
+            "current_balance": 0.0,
+            "percentage_of_initial_buy_remaining": 0.0,
+            "realised_profit": null,
+            "realised_roi": null,
+            "ranking_asset": null,
+            "profit_status": "No confirmed cumulative sale found",
+            "qualifies_profit_filter": false,
+            "minimum_profit_required_eth": 2.0,
+            "trader_score": 13.0,
+            "outgoing_candidates_checked": 2,
+            "failed_transaction_hashes": [],
+            "analysis_complete": true,
+            "api_failures_during_analysis": 0
+        },
+        {
+            "wallet": "0x24f5dcc2d9dd3d90c36ad3eea3f27ab692556fbe",
+            "early_buy_rank": 11,
+            "entry_transaction_hash": "0x9e7d4297f115bdace8f3832534867b4632d292b5c3112ede568101d89f472f39",
+            "entry_time_utc": "2026-07-10T20:39:43+00:00",
+            "entry_block": 6374248,
+            "seconds_after_launch": 591,
+            "delay_after_launch": "9m 51s",
+            "blocks_after_launch": 5905,
+            "initial_tokens_bought": 65741.66920033983,
+            "initial_spent_eth": 0.181057,
+            "initial_spent_stable": 0.0,
+            "confirmed_sell_count": 3,
+            "confirmed_sells": [
+                {
+                    "transaction_hash": "0xd4304ff857e952ec0f41a0b4ef99b9084e5c19032edbdc1b1e687c3c8e0e6a53",
+                    "block_number": 8423372,
+                    "transaction_index": 1,
+                    "tokens_out": 5557.241946820233,
+                    "timestamp_utc": "2026-07-13T05:41:06+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 5557.241946820233,
+                    "received_eth": 0.28029265520680513,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.28029265520680513
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0x64f850b29d5dbbf84378a66a1b78d187620becdb27c69da95251f065f3b8d774",
+                    "block_number": 8734545,
+                    "transaction_index": 13,
+                    "tokens_out": 7300.0,
+                    "timestamp_utc": "2026-07-13T14:20:34+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 7300.0,
+                    "received_eth": 0.45433839289444883,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.45433839289444883
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0xdc105e1802818628ffc1e9eaf5408d38efcc42b8f498ff7f6207e96c9bbbd8c4",
+                    "block_number": 8756235,
+                    "transaction_index": 5,
+                    "tokens_out": 5700.0,
+                    "timestamp_utc": "2026-07-13T14:56:47+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 5700.0,
+                    "received_eth": 0.33164251531410055,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.33164251531410055
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                }
+            ],
+            "cumulative_tokens_sold": 18557.241946820235,
+            "cumulative_percentage_sold": 28.22751866897275,
+            "cumulative_received_eth": 1.0662735634153544,
+            "cumulative_received_stable": 0.0,
+            "cumulative_cost_basis_eth": 0.05110789847648199,
+            "cumulative_cost_basis_stable": 0.0,
+            "first_exit_time_utc": "2026-07-13T05:41:06+00:00",
+            "final_counted_exit_time_utc": "2026-07-13T14:56:47+00:00",
+            "time_to_first_exit": "2d 9h",
+            "time_to_final_counted_exit": "2d 18h",
+            "current_balance": 0.0,
+            "percentage_of_initial_buy_remaining": 0.0,
+            "realised_profit": 1.0151656649388725,
+            "realised_roi": 1986.318544101388,
+            "ranking_asset": "ETH",
+            "profit_status": "Cumulative ETH/WETH realised estimate",
+            "qualifies_profit_filter": false,
+            "minimum_profit_required_eth": 2.0,
+            "trader_score": 77.0,
+            "outgoing_candidates_checked": 14,
+            "failed_transaction_hashes": [],
+            "analysis_complete": true,
+            "api_failures_during_analysis": 0
+        },
+        {
+            "wallet": "0x96438977f4963d2b08f8f463e5fd2c4e04fa5268",
+            "early_buy_rank": 12,
+            "entry_transaction_hash": "0xaffc024ba9f91f25c6b0a6651165e1253a990139682816e6133b466fa9dc531b",
+            "entry_time_utc": "2026-07-10T20:40:20+00:00",
+            "entry_block": 6374616,
+            "seconds_after_launch": 628,
+            "delay_after_launch": "10m 28s",
+            "blocks_after_launch": 6273,
+            "initial_tokens_bought": 136613.2516661587,
+            "initial_spent_eth": 0.4,
+            "initial_spent_stable": 0.0,
+            "confirmed_sell_count": 2,
+            "confirmed_sells": [
+                {
+                    "transaction_hash": "0x58ea8501c5b27f8d5ca48172525a1870e110c3a84c40c75116c47cee5ed385bf",
+                    "block_number": 7110352,
+                    "transaction_index": 12,
+                    "tokens_out": 86439.28982946364,
+                    "timestamp_utc": "2026-07-11T17:08:01+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 86439.28982946364,
+                    "received_eth": 2.6502391975941006,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 2.6502391975941006
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0x032fa35c7415679b20e22451bbd16ae54427af27b44a65475dc7ad7ef8752f05",
+                    "block_number": 7111709,
+                    "transaction_index": 10,
+                    "tokens_out": 64829.46737209772,
+                    "timestamp_utc": "2026-07-11T17:10:17+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 50173.96183669506,
+                    "received_eth": 1.540813518151993,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 1.9908756662796845
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                }
+            ],
+            "cumulative_tokens_sold": 136613.2516661587,
+            "cumulative_percentage_sold": 100.0,
+            "cumulative_received_eth": 4.1910527157460935,
+            "cumulative_received_stable": 0.0,
+            "cumulative_cost_basis_eth": 0.4,
+            "cumulative_cost_basis_stable": 0.0,
+            "first_exit_time_utc": "2026-07-11T17:08:01+00:00",
+            "final_counted_exit_time_utc": "2026-07-11T17:10:17+00:00",
+            "time_to_first_exit": "20h 27m",
+            "time_to_final_counted_exit": "20h 29m",
+            "current_balance": 7506.74929807901,
+            "percentage_of_initial_buy_remaining": 5.494891020106326,
+            "realised_profit": 3.7910527157460936,
+            "realised_roi": 947.7631789365233,
+            "ranking_asset": "ETH",
+            "profit_status": "Cumulative ETH/WETH realised estimate",
+            "qualifies_profit_filter": true,
+            "minimum_profit_required_eth": 2.0,
+            "trader_score": 69.0,
+            "outgoing_candidates_checked": 2,
+            "failed_transaction_hashes": [],
+            "analysis_complete": true,
+            "api_failures_during_analysis": 0
+        },
+        {
+            "wallet": "0x516ac603f68b405a4e382f08bd5646bb07a29db3",
+            "early_buy_rank": 13,
+            "entry_transaction_hash": "0x07a81df56b3e96e26c962f1410c91ff98f68f16e28a58ffbdcc076f385090ef6",
+            "entry_time_utc": "2026-07-10T20:41:17+00:00",
+            "entry_block": 6375188,
+            "seconds_after_launch": 685,
+            "delay_after_launch": "11m 25s",
+            "blocks_after_launch": 6845,
+            "initial_tokens_bought": 401129.90801589657,
+            "initial_spent_eth": 1.25,
+            "initial_spent_stable": 0.0,
+            "confirmed_sell_count": 0,
+            "confirmed_sells": [],
+            "cumulative_tokens_sold": 0.0,
+            "cumulative_percentage_sold": 0.0,
+            "cumulative_received_eth": 0.0,
+            "cumulative_received_stable": 0.0,
+            "cumulative_cost_basis_eth": 0.0,
+            "cumulative_cost_basis_stable": 0.0,
+            "first_exit_time_utc": null,
+            "final_counted_exit_time_utc": null,
+            "time_to_first_exit": "Unknown",
+            "time_to_final_counted_exit": "Unknown",
+            "current_balance": 0.0,
+            "percentage_of_initial_buy_remaining": 0.0,
+            "realised_profit": null,
+            "realised_roi": null,
+            "ranking_asset": null,
+            "profit_status": "No confirmed cumulative sale found",
+            "qualifies_profit_filter": false,
+            "minimum_profit_required_eth": 2.0,
+            "trader_score": 9.0,
+            "outgoing_candidates_checked": 1,
+            "failed_transaction_hashes": [],
+            "analysis_complete": true,
+            "api_failures_during_analysis": 0
+        },
+        {
+            "wallet": "0x1e6676cd1fff4a96703091c608b01c1658aea633",
+            "early_buy_rank": 14,
+            "entry_transaction_hash": "0x72cf12ed0e83c3fcc96cf91d76c0f8ca542873da1ead620eb21984b401f6fd4c",
+            "entry_time_utc": "2026-07-10T20:43:19+00:00",
+            "entry_block": 6376394,
+            "seconds_after_launch": 807,
+            "delay_after_launch": "13m 27s",
+            "blocks_after_launch": 8051,
+            "initial_tokens_bought": 74350.56720615168,
+            "initial_spent_eth": 0.2457,
+            "initial_spent_stable": 0.0,
+            "confirmed_sell_count": 0,
+            "confirmed_sells": [],
+            "cumulative_tokens_sold": 0.0,
+            "cumulative_percentage_sold": 0.0,
+            "cumulative_received_eth": 0.0,
+            "cumulative_received_stable": 0.0,
+            "cumulative_cost_basis_eth": 0.0,
+            "cumulative_cost_basis_stable": 0.0,
+            "first_exit_time_utc": null,
+            "final_counted_exit_time_utc": null,
+            "time_to_first_exit": "Unknown",
+            "time_to_final_counted_exit": "Unknown",
+            "current_balance": 117500.70791943706,
+            "percentage_of_initial_buy_remaining": 158.03606123628225,
+            "realised_profit": null,
+            "realised_roi": null,
+            "ranking_asset": null,
+            "profit_status": "No confirmed cumulative sale found",
+            "qualifies_profit_filter": false,
+            "minimum_profit_required_eth": 2.0,
+            "trader_score": 9.0,
+            "outgoing_candidates_checked": 77,
+            "failed_transaction_hashes": [],
+            "analysis_complete": true,
+            "api_failures_during_analysis": 0
+        },
+        {
+            "wallet": "0xf61e165c6504e86987cf66503945f709992937bf",
+            "early_buy_rank": 15,
+            "entry_transaction_hash": "0x18307714208693afe5e57fb8501e8f22fab1054817d268e65050dec669efd1d9",
+            "entry_time_utc": "2026-07-10T21:21:27+00:00",
+            "entry_block": 6399251,
+            "seconds_after_launch": 3095,
+            "delay_after_launch": "51m 35s",
+            "blocks_after_launch": 30908,
+            "initial_tokens_bought": 35872.973270387236,
+            "initial_spent_eth": 0.13010120942260975,
+            "initial_spent_stable": 0.0,
+            "confirmed_sell_count": 5,
+            "confirmed_sells": [
+                {
+                    "transaction_hash": "0x0c2d6f8fc9d5a6c2030df619fe53b8f6e4c5010a091df9efdcd8d7f72a8a4fed",
+                    "block_number": 7089984,
+                    "transaction_index": 2,
+                    "tokens_out": 4500.0,
+                    "timestamp_utc": "2026-07-11T16:34:07+00:00",
+                    "method": "0x3593564c",
+                    "tokens_out_counted": 4500.0,
+                    "received_eth": 0.14353623342121033,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.14353623342121033
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0xe74216f8f4dcea44d3bc86543cb325812b4cf747edae7399a265adc144b67c91",
+                    "block_number": 7093876,
+                    "transaction_index": 3,
+                    "tokens_out": 5000.0,
+                    "timestamp_utc": "2026-07-11T16:40:36+00:00",
+                    "method": "0x3593564c",
+                    "tokens_out_counted": 5000.0,
+                    "received_eth": 0.1333605220803525,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.1333605220803525
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0x8c37991439b1d7119c5dd5748a8135dfa9c89ca2a3fcadecc7c7a5abb75b5707",
+                    "block_number": 7095610,
+                    "transaction_index": 8,
+                    "tokens_out": 10018.407448650752,
+                    "timestamp_utc": "2026-07-11T16:43:28+00:00",
+                    "method": "0x3593564c",
+                    "tokens_out_counted": 10018.407448650752,
+                    "received_eth": 0.29148145263766595,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.29148145263766595
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0xebc804e7cc3feba1ec07a0fb3b3ea27c39767672248e5118876ce4ea0de7122f",
+                    "block_number": 7106109,
+                    "transaction_index": 8,
+                    "tokens_out": 5000.0,
+                    "timestamp_utc": "2026-07-11T17:00:59+00:00",
+                    "method": "0x3593564c",
+                    "tokens_out_counted": 5000.0,
+                    "received_eth": 0.12492447867812742,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.12492447867812742
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0x8c796fac3cee727c1f55d5d9ab6f18e27e6831ab34e7c46b30540c9a3349d0b6",
+                    "block_number": 7893110,
+                    "transaction_index": 1,
+                    "tokens_out": 10000.0,
+                    "timestamp_utc": "2026-07-12T14:55:34+00:00",
+                    "method": "0x3593564c",
+                    "tokens_out_counted": 10000.0,
+                    "received_eth": 0.2134648421818773,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.2134648421818773
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                }
+            ],
+            "cumulative_tokens_sold": 34518.40744865075,
+            "cumulative_percentage_sold": 96.22399344618958,
+            "cumulative_received_eth": 0.9067675289992335,
+            "cumulative_received_stable": 0.0,
+            "cumulative_cost_basis_eth": 0.12518857922822538,
+            "cumulative_cost_basis_stable": 0.0,
+            "first_exit_time_utc": "2026-07-11T16:34:07+00:00",
+            "final_counted_exit_time_utc": "2026-07-12T14:55:34+00:00",
+            "time_to_first_exit": "19h 12m",
+            "time_to_final_counted_exit": "1d 17h",
+            "current_balance": 0.0,
+            "percentage_of_initial_buy_remaining": 0.0,
+            "realised_profit": 0.7815789497710082,
+            "realised_roi": 624.321287604158,
+            "ranking_asset": "ETH",
+            "profit_status": "Cumulative ETH/WETH realised estimate",
+            "qualifies_profit_filter": false,
+            "minimum_profit_required_eth": 2.0,
+            "trader_score": 62.0,
+            "outgoing_candidates_checked": 5,
+            "failed_transaction_hashes": [],
+            "analysis_complete": true,
+            "api_failures_during_analysis": 0
+        },
+        {
+            "wallet": "0x7c0b48c29a06355ec6f01a982163be08e5b56007",
+            "early_buy_rank": 16,
+            "entry_transaction_hash": "0xc6d33faccecd67d3a7f63137c92660858d3acdeaac6b784d40dfeb941e2ad283",
+            "entry_time_utc": "2026-07-10T21:29:30+00:00",
+            "entry_block": 6404078,
+            "seconds_after_launch": 3578,
+            "delay_after_launch": "59m 38s",
+            "blocks_after_launch": 35735,
+            "initial_tokens_bought": 18412.187452377366,
+            "initial_spent_eth": 0.06746811202270916,
+            "initial_spent_stable": 0.0,
+            "confirmed_sell_count": 1,
+            "confirmed_sells": [
+                {
+                    "transaction_hash": "0xaf3627caeea49d1e56069a99869ba21a1f2f3ca6ac91dc354682cde60db4b1cb",
+                    "block_number": 21821277,
+                    "transaction_index": 2,
+                    "tokens_out": 68126.29910349972,
+                    "timestamp_utc": "2026-07-28T18:51:37+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 18412.187452377366,
+                    "received_eth": 0.45568544837301594,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 1.6860659947802166
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                }
+            ],
+            "cumulative_tokens_sold": 18412.187452377366,
+            "cumulative_percentage_sold": 100.0,
+            "cumulative_received_eth": 0.45568544837301594,
+            "cumulative_received_stable": 0.0,
+            "cumulative_cost_basis_eth": 0.06746811202270916,
+            "cumulative_cost_basis_stable": 0.0,
+            "first_exit_time_utc": "2026-07-28T18:51:37+00:00",
+            "final_counted_exit_time_utc": "2026-07-28T18:51:37+00:00",
+            "time_to_first_exit": "17d 21h",
+            "time_to_final_counted_exit": "17d 21h",
+            "current_balance": 4.577218700543481,
+            "percentage_of_initial_buy_remaining": 0.024859722465797915,
+            "realised_profit": 0.38821733635030675,
+            "realised_roi": 575.4086259589363,
+            "ranking_asset": "ETH",
+            "profit_status": "Cumulative ETH/WETH realised estimate",
+            "qualifies_profit_filter": false,
+            "minimum_profit_required_eth": 2.0,
+            "trader_score": 62.0,
+            "outgoing_candidates_checked": 3,
+            "failed_transaction_hashes": [],
+            "analysis_complete": true,
+            "api_failures_during_analysis": 0
+        },
+        {
+            "wallet": "0x135e710100cf75d8b7d0e086b5cdb283e9edc0de",
+            "early_buy_rank": 17,
+            "entry_transaction_hash": "0x9eb07ef2a8bc6f451e6d66b8a503a61bdab68c8f6d09fd7aab57acdc81e8ecc5",
+            "entry_time_utc": "2026-07-10T21:58:48+00:00",
+            "entry_block": 6421649,
+            "seconds_after_launch": 5336,
+            "delay_after_launch": "1h 28m",
+            "blocks_after_launch": 53306,
+            "initial_tokens_bought": 29866.623737458824,
+            "initial_spent_eth": 0.1,
+            "initial_spent_stable": 0.0,
+            "confirmed_sell_count": 1,
+            "confirmed_sells": [
+                {
+                    "transaction_hash": "0xa019817f58642baa4dff9da3fdfcfccce085e2018caa0afc1c1b9526a429560b",
+                    "block_number": 6494036,
+                    "transaction_index": 2,
+                    "tokens_out": 29866.623737458824,
+                    "timestamp_utc": "2026-07-10T23:59:34+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 29866.623737458824,
+                    "received_eth": 0.09799155951306489,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.09799155951306489
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                }
+            ],
+            "cumulative_tokens_sold": 29866.623737458824,
+            "cumulative_percentage_sold": 100.0,
+            "cumulative_received_eth": 0.09799155951306489,
+            "cumulative_received_stable": 0.0,
+            "cumulative_cost_basis_eth": 0.1,
+            "cumulative_cost_basis_stable": 0.0,
+            "first_exit_time_utc": "2026-07-10T23:59:34+00:00",
+            "final_counted_exit_time_utc": "2026-07-10T23:59:34+00:00",
+            "time_to_first_exit": "2h",
+            "time_to_final_counted_exit": "2h",
+            "current_balance": 0.0,
+            "percentage_of_initial_buy_remaining": 0.0,
+            "realised_profit": -0.0020084404869351175,
+            "realised_roi": -2.0084404869351173,
+            "ranking_asset": "ETH",
+            "profit_status": "Cumulative ETH/WETH realised estimate",
+            "qualifies_profit_filter": false,
+            "minimum_profit_required_eth": 2.0,
+            "trader_score": 10.0,
+            "outgoing_candidates_checked": 1,
+            "failed_transaction_hashes": [],
+            "analysis_complete": true,
+            "api_failures_during_analysis": 0
+        },
+        {
+            "wallet": "0x0510def5068244076a2979f6254973cc4cc2e52e",
+            "early_buy_rank": 18,
+            "entry_transaction_hash": "0x56a703094ad6bd71b3e44a99721b2de0ce2f7d5df8b80059e310a02650f689de",
+            "entry_time_utc": "2026-07-10T21:59:52+00:00",
+            "entry_block": 6422280,
+            "seconds_after_launch": 5400,
+            "delay_after_launch": "1h 30m",
+            "blocks_after_launch": 53937,
+            "initial_tokens_bought": 83949.28728155502,
+            "initial_spent_eth": 0.285,
+            "initial_spent_stable": 0.0,
+            "confirmed_sell_count": 9,
+            "confirmed_sells": [
+                {
+                    "transaction_hash": "0x6122652fa20682e6d12338ff3510ed486ed7210d3cfe64ad011fd9e4800aff5d",
+                    "block_number": 8259201,
+                    "transaction_index": 4,
+                    "tokens_out": 5000.0,
+                    "timestamp_utc": "2026-07-13T01:06:41+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 5000.0,
+                    "received_eth": 0.2594820633595686,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.2594820633595686
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0x9d7369aaf2e17fd8eca3446b8dc0aee3b379ae827f4e33702bf1b9341d801dae",
+                    "block_number": 8259777,
+                    "transaction_index": 3,
+                    "tokens_out": 5000.0,
+                    "timestamp_utc": "2026-07-13T01:07:39+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 5000.0,
+                    "received_eth": 0.26291804602490965,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.26291804602490965
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0xc3dcd74ac07d1d049752524ded212b01d3157736fd0475ad2325cfea6632f949",
+                    "block_number": 8260453,
+                    "transaction_index": 2,
+                    "tokens_out": 5000.0,
+                    "timestamp_utc": "2026-07-13T01:08:46+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 5000.0,
+                    "received_eth": 0.26291812191585423,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.26291812191585423
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0xda98723f7080b6bf34c323733248d92856ed5a7f28435837b2c6b6d2f6016ad2",
+                    "block_number": 8261145,
+                    "transaction_index": 3,
+                    "tokens_out": 5000.0,
+                    "timestamp_utc": "2026-07-13T01:09:55+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 5000.0,
+                    "received_eth": 0.2616703973198211,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.2616703973198211
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0xfecafda0f7b2342b84cf252be111670b397f1c3c8f2d5a103ef8a313e7c3cfcd",
+                    "block_number": 8262515,
+                    "transaction_index": 9,
+                    "tokens_out": 5000.0,
+                    "timestamp_utc": "2026-07-13T01:12:13+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 5000.0,
+                    "received_eth": 0.2604181034830985,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.2604181034830985
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0xc4e097539c8b2cce13c9c241d77c2da1eba688008466ac322a8ada5800f9c661",
+                    "block_number": 8263156,
+                    "transaction_index": 8,
+                    "tokens_out": 5000.0,
+                    "timestamp_utc": "2026-07-13T01:13:18+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 5000.0,
+                    "received_eth": 0.25915171508208623,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.25915171508208623
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0x9ded89b947be7756b22f47d9dced666e2e3680d3a5785bc3f8e4ceaf75c833c4",
+                    "block_number": 8264714,
+                    "transaction_index": 6,
+                    "tokens_out": 5000.0,
+                    "timestamp_utc": "2026-07-13T01:15:53+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 5000.0,
+                    "received_eth": 0.2579268902749369,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.2579268902749369
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0x0f6a66b0dd50a8abdbb0f50bdb04d6474916569d08ddef417cc9c7049cd2d06d",
+                    "block_number": 8268955,
+                    "transaction_index": 5,
+                    "tokens_out": 5000.0,
+                    "timestamp_utc": "2026-07-13T01:22:59+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 5000.0,
+                    "received_eth": 0.25824052378054113,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.25824052378054113
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                },
+                {
+                    "transaction_hash": "0x5d4b1b3aef2503b916ca28fdcbc35da66110a8c4c629858667a129625c40e968",
+                    "block_number": 8269963,
+                    "transaction_index": 11,
+                    "tokens_out": 2500.0,
+                    "timestamp_utc": "2026-07-13T01:24:40+00:00",
+                    "method": "0xac9650d8",
+                    "tokens_out_counted": 2500.0,
+                    "received_eth": 0.12477893633592965,
+                    "received_stable": 0.0,
+                    "quote_flows": {
+                        "incoming": {
+                            "ETH": 0.12477893633592965
+                        },
+                        "outgoing": {}
+                    },
+                    "classification_source": "Robinhood RPC receipt",
+                    "used_internal_eth_fallback": true
+                }
+            ],
+            "cumulative_tokens_sold": 42500.0,
+            "cumulative_percentage_sold": 50.62580204815856,
+            "cumulative_received_eth": 2.207504797576746,
+            "cumulative_received_stable": 0.0,
+            "cumulative_cost_basis_eth": 0.1442835358372519,
+            "cumulative_cost_basis_stable": 0.0,
+            "first_exit_time_utc": "2026-07-13T01:06:41+00:00",
+            "final_counted_exit_time_utc": "2026-07-13T01:24:40+00:00",
+            "time_to_first_exit": "2d 3h",
+            "time_to_final_counted_exit": "2d 3h",
+            "current_balance": 0.0,
+            "percentage_of_initial_buy_remaining": 0.0,
+            "realised_profit": 2.063221261739494,
+            "realised_roi": 1429.976919935449,
+            "ranking_asset": "ETH",
+            "profit_status": "Cumulative ETH/WETH realised estimate",
+            "qualifies_profit_filter": true,
+            "minimum_profit_required_eth": 2.0,
+            "trader_score": 72.0,
+            "outgoing_candidates_checked": 13,
+            "failed_transaction_hashes": [],
+            "analysis_complete": true,
+            "api_failures_during_analysis": 0
+        },
+        {
+            "wallet": "0x4ae0330d68d5a1b6e8c011353cdbae669bd61bdf",
+            "early_buy_rank": 19,
+            "entry_transaction_hash": "0x39e738594208f831ebc90b5f681a433c81748ea3b451b8cd8a57ab7a89376335",
+            "entry_time_utc": "2026-07-11T01:49:30+00:00",
+            "entry_block": 6559894,
+            "seconds_after_launch": 19178,
+            "delay_after_launch": "5h 19m",
+            "blocks_after_launch": 191551,
+            "initial_tokens_bought": 1.6443392139559603,
+            "initial_spent_eth": 4e-06,
+            "initial_spent_stable": 0.0,
+            "confirmed_sell_count": 0,
+            "confirmed_sells": [],
+            "cumulative_tokens_sold": 0.0,
+            "cumulative_percentage_sold": 0.0,
+            "cumulative_received_eth": 0.0,
+            "cumulative_received_stable": 0.0,
+            "cumulative_cost_basis_eth": 0.0,
+            "cumulative_cost_basis_stable": 0.0,
+            "first_exit_time_utc": null,
+            "final_counted_exit_time_utc": null,
+            "time_to_first_exit": "Unknown",
+            "time_to_final_counted_exit": "Unknown",
+            "current_balance": 0.0,
+            "percentage_of_initial_buy_remaining": 0.0,
+            "realised_profit": null,
+            "realised_roi": null,
+            "ranking_asset": null,
+            "profit_status": "No confirmed cumulative sale found",
+            "qualifies_profit_filter": false,
+            "minimum_profit_required_eth": 2.0,
+            "trader_score": 5.0,
+            "outgoing_candidates_checked": 1,
+            "failed_transaction_hashes": [],
+            "analysis_complete": true,
+            "api_failures_during_analysis": 0
+        },
+        {
+            "wallet": "0x85fb9f9bc8a44663a234adb4cfe4e1459c096651",
+            "early_buy_rank": 20,
+            "entry_transaction_hash": "0xdf7536c5e74a2e136241a2561f4e07d088e886150f5a02c8899fb21ea51e6a49",
+            "entry_time_utc": "2026-07-11T01:53:11+00:00",
+            "entry_block": 6562115,
+            "seconds_after_launch": 19399,
+            "delay_after_launch": "5h 23m",
+            "blocks_after_launch": 193772,
+            "initial_tokens_bought": 3.98607937934462,
+            "initial_spent_eth": 1e-05,
+            "initial_spent_stable": 0.0,
+            "confirmed_sell_count": 0,
+            "confirmed_sells": [],
+            "cumulative_tokens_sold": 0.0,
+            "cumulative_percentage_sold": 0.0,
+            "cumulative_received_eth": 0.0,
+            "cumulative_received_stable": 0.0,
+            "cumulative_cost_basis_eth": 0.0,
+            "cumulative_cost_basis_stable": 0.0,
+            "first_exit_time_utc": null,
+            "final_counted_exit_time_utc": null,
+            "time_to_first_exit": "Unknown",
+            "time_to_final_counted_exit": "Unknown",
+            "current_balance": 0.0,
+            "percentage_of_initial_buy_remaining": 0.0,
+            "realised_profit": null,
+            "realised_roi": null,
+            "ranking_asset": null,
+            "profit_status": "No confirmed cumulative sale found",
+            "qualifies_profit_filter": false,
+            "minimum_profit_required_eth": 2.0,
+            "trader_score": 5.0,
+            "outgoing_candidates_checked": 6,
+            "failed_transaction_hashes": [],
+            "analysis_complete": true,
+            "api_failures_during_analysis": 0
+        }
+    ],
+    "failed_transaction_hashes": [],
+    "api_failure_count": 0,
+    "api_failure_log": []
+}

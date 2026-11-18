@@ -1,0 +1,1237 @@
+{
+    "generated_at_utc": "2026-07-14T20:05:49.749771+00:00",
+    "token": {
+        "name": "Cash Cat",
+        "symbol": "CASHCAT",
+        "contract": "0x020bfc650a365f8bb26819deaabf3e21291018b4",
+        "decimals": 18,
+        "automatic_start_block": 88836
+    },
+    "launch_reference": {
+        "first_token_block": 88836,
+        "first_buy_block": 88990,
+        "first_buy_time_utc": "2026-06-18T20:11:29.000000Z",
+        "first_buy_transaction": "0x3e2ee0e5b83897b073e9a9801800e381d4ee8228e0de53eb8701374936ecf8b3"
+    },
+    "settings": {
+        "first_buyer_display_limit": 20,
+        "top_holder_limit": 50,
+        "maximum_trace_hops": 8,
+        "maximum_transfer_pages": 5
+    },
+    "first_buyers_context": [
+        {
+            "wallet": "0xcdfc08a1c1fbafb355645e5ddc32122e5716ca90",
+            "transaction_initiator": "0xcdfc08a1c1fbafb355645e5ddc32122e5716ca90",
+            "classification": "Confirmed direct DEX buy",
+            "token_amount_bought": 5604792.408719537,
+            "spent": {
+                "symbol": "ETH",
+                "amount": 0.008343241576127789,
+                "display": "0.0083432416 ETH"
+            },
+            "method": "multicall",
+            "block_number": 88990,
+            "timestamp_utc": "2026-06-18T20:11:29.000000Z",
+            "transaction_hash": "0x3e2ee0e5b83897b073e9a9801800e381d4ee8228e0de53eb8701374936ecf8b3",
+            "smart_candidate_match": false,
+            "early_buy_rank": 1,
+            "still_holding": true,
+            "current_balance": 879.1253253223167,
+            "estimated_percentage_remaining": 0.015685243292055496,
+            "is_current_top_holder": false,
+            "current_holder_rank": null,
+            "candidate_information": null
+        },
+        {
+            "wallet": "0x61944afc89c9accea52e4a8c8851185d872ad10e",
+            "transaction_initiator": "0x61944afc89c9accea52e4a8c8851185d872ad10e",
+            "classification": "Confirmed direct DEX buy",
+            "token_amount_bought": 3494266.3633748465,
+            "spent": {
+                "symbol": "ETH",
+                "amount": 0.005,
+                "display": "0.005 ETH"
+            },
+            "method": "multicall",
+            "block_number": 89007,
+            "timestamp_utc": "2026-06-18T20:12:09.000000Z",
+            "transaction_hash": "0xed8f179cf8a02970280e59caf8d2819a620fe93c24e4c5c3d97a19d0e2c5ca64",
+            "smart_candidate_match": false,
+            "early_buy_rank": 2,
+            "still_holding": false,
+            "current_balance": 0.0,
+            "estimated_percentage_remaining": 0.0,
+            "is_current_top_holder": false,
+            "current_holder_rank": null,
+            "candidate_information": null
+        },
+        {
+            "wallet": "0x6d8ac75d911bf7339fcf414ea79ae1edde18dabc",
+            "transaction_initiator": "0x6d8ac75d911bf7339fcf414ea79ae1edde18dabc",
+            "classification": "Confirmed direct DEX buy",
+            "token_amount_bought": 20000000.0,
+            "spent": {
+                "symbol": "ETH",
+                "amount": 0.030787313176018162,
+                "display": "0.0307873132 ETH"
+            },
+            "method": "multicall",
+            "block_number": 89032,
+            "timestamp_utc": "2026-06-18T20:12:53.000000Z",
+            "transaction_hash": "0x4d4b436988147cdcfb82cdb940dc266f7b8cf9b7c1008a19e0749806bba9669c",
+            "smart_candidate_match": false,
+            "early_buy_rank": 3,
+            "still_holding": false,
+            "current_balance": 0.0,
+            "estimated_percentage_remaining": 0.0,
+            "is_current_top_holder": false,
+            "current_holder_rank": null,
+            "candidate_information": null
+        },
+        {
+            "wallet": "0x16657de1a0faac319359d6dc15d31b355cb535c0",
+            "transaction_initiator": "0x16657de1a0faac319359d6dc15d31b355cb535c0",
+            "classification": "Confirmed direct DEX buy",
+            "token_amount_bought": 6634943.672687482,
+            "spent": {
+                "symbol": "ETH",
+                "amount": 0.01,
+                "display": "0.01 ETH"
+            },
+            "method": "multicall",
+            "block_number": 89041,
+            "timestamp_utc": "2026-06-18T20:13:24.000000Z",
+            "transaction_hash": "0x243490c3d830caea6bc07e62cf00ab2702cf204eef675329f2509a1d63a5e4bd",
+            "smart_candidate_match": false,
+            "early_buy_rank": 4,
+            "still_holding": false,
+            "current_balance": 0.0,
+            "estimated_percentage_remaining": 0.0,
+            "is_current_top_holder": false,
+            "current_holder_rank": null,
+            "candidate_information": null
+        },
+        {
+            "wallet": "0xdaf696e031b133060c3ee50da1c8ef160bee355f",
+            "transaction_initiator": "0xdaf696e031b133060c3ee50da1c8ef160bee355f",
+            "classification": "Confirmed direct DEX buy",
+            "token_amount_bought": 6543529.243670281,
+            "spent": {
+                "symbol": "ETH",
+                "amount": 0.01,
+                "display": "0.01 ETH"
+            },
+            "method": "multicall",
+            "block_number": 89044,
+            "timestamp_utc": "2026-06-18T20:13:29.000000Z",
+            "transaction_hash": "0xf3f1348010dc11cd109cd5ae74bc4535ae5a858546785b5ad642c8ec1c421543",
+            "smart_candidate_match": false,
+            "early_buy_rank": 5,
+            "still_holding": false,
+            "current_balance": 0.0,
+            "estimated_percentage_remaining": 0.0,
+            "is_current_top_holder": false,
+            "current_holder_rank": null,
+            "candidate_information": null
+        },
+        {
+            "wallet": "0x5214eed778fd780b270c47dd99600433cfdf7841",
+            "transaction_initiator": "0x5214eed778fd780b270c47dd99600433cfdf7841",
+            "classification": "Confirmed direct DEX buy",
+            "token_amount_bought": 19000000.0,
+            "spent": {
+                "symbol": "ETH",
+                "amount": 0.031768316404021925,
+                "display": "0.0317683164 ETH"
+            },
+            "method": "multicall",
+            "block_number": 89129,
+            "timestamp_utc": "2026-06-18T20:19:12.000000Z",
+            "transaction_hash": "0xa680058cb61592d09e7605e6d35fe4e9b64e56244b6b68a70a673812bb74ab3f",
+            "smart_candidate_match": false,
+            "early_buy_rank": 6,
+            "still_holding": true,
+            "current_balance": 4000000.754431156,
+            "estimated_percentage_remaining": 21.052635549637664,
+            "is_current_top_holder": true,
+            "current_holder_rank": 30,
+            "candidate_information": null
+        },
+        {
+            "wallet": "0x1984305458e75621ddf0d0b5247aa753091f359c",
+            "transaction_initiator": "0x1984305458e75621ddf0d0b5247aa753091f359c",
+            "classification": "Confirmed direct DEX buy",
+            "token_amount_bought": 20000000.0,
+            "spent": {
+                "symbol": "ETH",
+                "amount": 0.034892846494300224,
+                "display": "0.0348928465 ETH"
+            },
+            "method": "multicall",
+            "block_number": 89156,
+            "timestamp_utc": "2026-06-18T20:21:27.000000Z",
+            "transaction_hash": "0x638f515e6d465340411eea9b300fe21fdabc98366ce3a46c9ac353d1d77723ce",
+            "smart_candidate_match": false,
+            "early_buy_rank": 7,
+            "still_holding": false,
+            "current_balance": 0.0,
+            "estimated_percentage_remaining": 0.0,
+            "is_current_top_holder": false,
+            "current_holder_rank": null,
+            "candidate_information": null
+        },
+        {
+            "wallet": "0xded3aa90c7698e57c6fc502e50dd5cba1d40d2c6",
+            "transaction_initiator": "0xded3aa90c7698e57c6fc502e50dd5cba1d40d2c6",
+            "classification": "Confirmed direct DEX buy",
+            "token_amount_bought": 20000000.0,
+            "spent": {
+                "symbol": "ETH",
+                "amount": 0.034892846494300224,
+                "display": "0.0348928465 ETH"
+            },
+            "method": "multicall",
+            "block_number": 89157,
+            "timestamp_utc": "2026-06-18T20:21:28.000000Z",
+            "transaction_hash": "0x69ff18deaf6d8c9bf4a461a0627acf2d8724f1e85246bc5192cb13db780f3134",
+            "smart_candidate_match": false,
+            "early_buy_rank": 8,
+            "still_holding": false,
+            "current_balance": 0.0,
+            "estimated_percentage_remaining": 0.0,
+            "is_current_top_holder": false,
+            "current_holder_rank": null,
+            "candidate_information": null
+        },
+        {
+            "wallet": "0x3b4fc8851d4db362431fd4bf45518d00eae08b5b",
+            "transaction_initiator": "0x3b4fc8851d4db362431fd4bf45518d00eae08b5b",
+            "classification": "Confirmed direct DEX buy",
+            "token_amount_bought": 20000000.0,
+            "spent": {
+                "symbol": "ETH",
+                "amount": 0.03818380500256513,
+                "display": "0.038183805 ETH"
+            },
+            "method": "multicall",
+            "block_number": 89160,
+            "timestamp_utc": "2026-06-18T20:21:37.000000Z",
+            "transaction_hash": "0x67873013eefa11cd0767ad0c453f651b9c33461d31c4bd045266583ac746e8b1",
+            "smart_candidate_match": false,
+            "early_buy_rank": 9,
+            "still_holding": true,
+            "current_balance": 18.619722747079717,
+            "estimated_percentage_remaining": 9.309861373539858e-05,
+            "is_current_top_holder": false,
+            "current_holder_rank": null,
+            "candidate_information": null
+        },
+        {
+            "wallet": "0xf3d756a3431182ee75e9e41652e21da76f2d97e0",
+            "transaction_initiator": "0xf3d756a3431182ee75e9e41652e21da76f2d97e0",
+            "classification": "Confirmed direct DEX buy",
+            "token_amount_bought": 1609300.6627414227,
+            "spent": {
+                "symbol": "ETH",
+                "amount": 0.003,
+                "display": "0.003 ETH"
+            },
+            "method": "multicall",
+            "block_number": 89161,
+            "timestamp_utc": "2026-06-18T20:21:39.000000Z",
+            "transaction_hash": "0xc6f63cd71f5858fa7c4fc860e2b76b9da0f9e985fd553a611d5915e183277c78",
+            "smart_candidate_match": false,
+            "early_buy_rank": 10,
+            "still_holding": true,
+            "current_balance": 48.67661484276972,
+            "estimated_percentage_remaining": 0.003024706070763045,
+            "is_current_top_holder": false,
+            "current_holder_rank": null,
+            "candidate_information": null
+        },
+        {
+            "wallet": "0x8c3514ea0c0e7603272d62c12ea46069fdba9953",
+            "transaction_initiator": "0x8c3514ea0c0e7603272d62c12ea46069fdba9953",
+            "classification": "Confirmed direct DEX buy",
+            "token_amount_bought": 20000000.0,
+            "spent": {
+                "symbol": "ETH",
+                "amount": 0.040159020346214054,
+                "display": "0.0401590203 ETH"
+            },
+            "method": "multicall",
+            "block_number": 89167,
+            "timestamp_utc": "2026-06-18T20:21:51.000000Z",
+            "transaction_hash": "0x2857b00fd704516cfba38322e49c92856bd59cfe1481bf4f8d1fdd8781940e11",
+            "smart_candidate_match": false,
+            "early_buy_rank": 11,
+            "still_holding": false,
+            "current_balance": 0.0,
+            "estimated_percentage_remaining": 0.0,
+            "is_current_top_holder": false,
+            "current_holder_rank": null,
+            "candidate_information": null
+        },
+        {
+            "wallet": "0x4c9064c39d549dd09fc9b49af27ecb02942525a2",
+            "transaction_initiator": "0x4c9064c39d549dd09fc9b49af27ecb02942525a2",
+            "classification": "Confirmed direct DEX buy",
+            "token_amount_bought": 20000000.0,
+            "spent": {
+                "symbol": "ETH",
+                "amount": 0.040159020346214054,
+                "display": "0.0401590203 ETH"
+            },
+            "method": "multicall",
+            "block_number": 89168,
+            "timestamp_utc": "2026-06-18T20:21:53.000000Z",
+            "transaction_hash": "0x296255fc9e4105da2edee11a0324ae1c83c41cdcf45bd40c435fc69496c031a8",
+            "smart_candidate_match": false,
+            "early_buy_rank": 12,
+            "still_holding": false,
+            "current_balance": 0.0,
+            "estimated_percentage_remaining": 0.0,
+            "is_current_top_holder": false,
+            "current_holder_rank": null,
+            "candidate_information": null
+        },
+        {
+            "wallet": "0x04fa941f3fa799f86fe9207d1c77ee4f3331b2f3",
+            "transaction_initiator": "0xa3a8e97d2e95bb682d999fe98c04650a7f2873f8",
+            "classification": "DEX buy sent to another wallet",
+            "token_amount_bought": 4862.813114093064,
+            "spent": {
+                "symbol": "ETH",
+                "amount": 0.001,
+                "display": "0.001 ETH"
+            },
+            "method": "multicall",
+            "block_number": 89170,
+            "timestamp_utc": "2026-06-18T20:22:20.000000Z",
+            "transaction_hash": "0x283cb0921b348f453619651514e91c560373b22ff343c367df11292839a4b69c",
+            "smart_candidate_match": false,
+            "early_buy_rank": 13,
+            "still_holding": false,
+            "current_balance": 0.0,
+            "estimated_percentage_remaining": 0.0,
+            "is_current_top_holder": false,
+            "current_holder_rank": null,
+            "candidate_information": null
+        },
+        {
+            "wallet": "0xa3a8e97d2e95bb682d999fe98c04650a7f2873f8",
+            "transaction_initiator": "0xa3a8e97d2e95bb682d999fe98c04650a7f2873f8",
+            "classification": "Confirmed direct DEX buy",
+            "token_amount_bought": 481418.4982952133,
+            "spent": {
+                "symbol": "ETH",
+                "amount": 0.001,
+                "display": "0.001 ETH"
+            },
+            "method": "multicall",
+            "block_number": 89170,
+            "timestamp_utc": "2026-06-18T20:22:20.000000Z",
+            "transaction_hash": "0x283cb0921b348f453619651514e91c560373b22ff343c367df11292839a4b69c",
+            "smart_candidate_match": false,
+            "early_buy_rank": 14,
+            "still_holding": false,
+            "current_balance": 0.0,
+            "estimated_percentage_remaining": 0.0,
+            "is_current_top_holder": false,
+            "current_holder_rank": null,
+            "candidate_information": null
+        },
+        {
+            "wallet": "0x5aac811bfea8d00716a3bb7a54d4b8a306914793",
+            "transaction_initiator": "0x5aac811bfea8d00716a3bb7a54d4b8a306914793",
+            "classification": "Confirmed direct DEX buy",
+            "token_amount_bought": 20000000.0,
+            "spent": {
+                "symbol": "ETH",
+                "amount": 0.04429661947254267,
+                "display": "0.0442966195 ETH"
+            },
+            "method": "multicall",
+            "block_number": 89189,
+            "timestamp_utc": "2026-06-18T20:22:56.000000Z",
+            "transaction_hash": "0x380edd3f1228cdd1db72fd0b3e7f6e185d0e9fa63048527907bed163bbe2a14f",
+            "smart_candidate_match": false,
+            "early_buy_rank": 15,
+            "still_holding": false,
+            "current_balance": 0.0,
+            "estimated_percentage_remaining": 0.0,
+            "is_current_top_holder": false,
+            "current_holder_rank": null,
+            "candidate_information": null
+        },
+        {
+            "wallet": "0xa6735bb37672908c2c5e57a52682898d4612838f",
+            "transaction_initiator": "0xa6735bb37672908c2c5e57a52682898d4612838f",
+            "classification": "Confirmed direct DEX buy",
+            "token_amount_bought": 18238364.712513547,
+            "spent": {
+                "symbol": "ETH",
+                "amount": 0.04036329815636645,
+                "display": "0.0403632982 ETH"
+            },
+            "method": "multicall",
+            "block_number": 89199,
+            "timestamp_utc": "2026-06-18T20:23:19.000000Z",
+            "transaction_hash": "0x9bd9017dbe3870593c3139f2a0fc9fcf7919aacfdbc0d72888eb7a43088c70e3",
+            "smart_candidate_match": false,
+            "early_buy_rank": 16,
+            "still_holding": false,
+            "current_balance": 0.0,
+            "estimated_percentage_remaining": 0.0,
+            "is_current_top_holder": false,
+            "current_holder_rank": null,
+            "candidate_information": null
+        },
+        {
+            "wallet": "0x5c7c18ef518821957b3e7d07056e6346a4590119",
+            "transaction_initiator": "0x5c7c18ef518821957b3e7d07056e6346a4590119",
+            "classification": "Confirmed direct DEX buy",
+            "token_amount_bought": 17267768.785257228,
+            "spent": {
+                "symbol": "ETH",
+                "amount": 0.04,
+                "display": "0.04 ETH"
+            },
+            "method": "multicall",
+            "block_number": 89214,
+            "timestamp_utc": "2026-06-18T20:24:07.000000Z",
+            "transaction_hash": "0xaa8bdc75770d0fb30614eb7a8a8235bffa37fba02c8ee349fe8241717ec0d166",
+            "smart_candidate_match": false,
+            "early_buy_rank": 17,
+            "still_holding": true,
+            "current_balance": 49517.44640128716,
+            "estimated_percentage_remaining": 0.28676227378932634,
+            "is_current_top_holder": false,
+            "current_holder_rank": null,
+            "candidate_information": null
+        },
+        {
+            "wallet": "0xece2d90a7276f767883b335a25df77e2620497b1",
+            "transaction_initiator": "0xece2d90a7276f767883b335a25df77e2620497b1",
+            "classification": "Confirmed direct DEX buy",
+            "token_amount_bought": 15850437.400651358,
+            "spent": {
+                "symbol": "ETH",
+                "amount": 0.038,
+                "display": "0.038 ETH"
+            },
+            "method": "multicall",
+            "block_number": 89224,
+            "timestamp_utc": "2026-06-18T20:24:34.000000Z",
+            "transaction_hash": "0xb2b30a8f1e6b1c480f28806d3aaaa1dd026f094220d38fc33e1172f80b023e70",
+            "smart_candidate_match": false,
+            "early_buy_rank": 18,
+            "still_holding": false,
+            "current_balance": 0.0,
+            "estimated_percentage_remaining": 0.0,
+            "is_current_top_holder": false,
+            "current_holder_rank": null,
+            "candidate_information": null
+        },
+        {
+            "wallet": "0xa95fa68dc05d82ff5398527308944e2fcfad3a69",
+            "transaction_initiator": "0xa95fa68dc05d82ff5398527308944e2fcfad3a69",
+            "classification": "Confirmed direct DEX buy",
+            "token_amount_bought": 10073949.865507325,
+            "spent": {
+                "symbol": "ETH",
+                "amount": 0.025,
+                "display": "0.025 ETH"
+            },
+            "method": "multicall",
+            "block_number": 89226,
+            "timestamp_utc": "2026-06-18T20:24:44.000000Z",
+            "transaction_hash": "0x3a18796462f27faadd4bbf6986649f5b9e5a531f0a096eee50ea9739a1d23f07",
+            "smart_candidate_match": false,
+            "early_buy_rank": 19,
+            "still_holding": false,
+            "current_balance": 0.0,
+            "estimated_percentage_remaining": 0.0,
+            "is_current_top_holder": false,
+            "current_holder_rank": null,
+            "candidate_information": null
+        },
+        {
+            "wallet": "0xe123c38d65be8e4f269b6d629fe87d63cdecf923",
+            "transaction_initiator": "0xe123c38d65be8e4f269b6d629fe87d63cdecf923",
+            "classification": "Confirmed direct DEX buy",
+            "token_amount_bought": 5131945.751286327,
+            "spent": {
+                "symbol": "ETH",
+                "amount": 0.013,
+                "display": "0.013 ETH"
+            },
+            "method": "multicall",
+            "block_number": 89234,
+            "timestamp_utc": "2026-06-18T20:25:13.000000Z",
+            "transaction_hash": "0x6b12873e7578e1c54cc515f7db7b2ffc9d6b5d17f9cdc2baaa970fb585c5b584",
+            "smart_candidate_match": false,
+            "early_buy_rank": 20,
+            "still_holding": false,
+            "current_balance": 0.0,
+            "estimated_percentage_remaining": 0.0,
+            "is_current_top_holder": false,
+            "current_holder_rank": null,
+            "candidate_information": null
+        }
+    ],
+    "top_holders": [
+        {
+            "wallet": "0xeb877e7b5614b1ca58c6b00ec4ffcd248ed414ee",
+            "balance": 19720643.67386806,
+            "holder_rank": 1
+        },
+        {
+            "wallet": "0x4a5b304ded44a521ffece44a6386fa2014d96f7d",
+            "balance": 12265091.06244936,
+            "holder_rank": 2
+        },
+        {
+            "wallet": "0x1caf028cd72d4cf62d7aa2d312113f3be58458bc",
+            "balance": 10564833.560279513,
+            "holder_rank": 3
+        },
+        {
+            "wallet": "0xf29f0a86420399f662577b68c48137d510084d96",
+            "balance": 10278644.217686662,
+            "holder_rank": 4
+        },
+        {
+            "wallet": "0x9963597a9246b39b13330992f571f8378c18c262",
+            "balance": 10194436.647470215,
+            "holder_rank": 5
+        },
+        {
+            "wallet": "0x3ea937589ea5ee0fbccbccef29473e7f957a19a5",
+            "balance": 10167575.193888798,
+            "holder_rank": 6
+        },
+        {
+            "wallet": "0x2dbaf98620ac5bbe3441f756feff82702d095b1a",
+            "balance": 8825983.58293061,
+            "holder_rank": 7
+        },
+        {
+            "wallet": "0xa3b6cad9402396761244cfd0b5476e16ca8affda",
+            "balance": 8500000.004505172,
+            "holder_rank": 8
+        },
+        {
+            "wallet": "0x77acc36fcc41dc3bfb51441e003831c74d4ecaf0",
+            "balance": 8193125.89417474,
+            "holder_rank": 9
+        },
+        {
+            "wallet": "0x03e8fb0f68d497936231a1de70f84bc33b568529",
+            "balance": 8000000.114290619,
+            "holder_rank": 10
+        },
+        {
+            "wallet": "0x56e95b47a07210f1ea9fa418c7c5dc164c419ac0",
+            "balance": 7400396.137301824,
+            "holder_rank": 11
+        },
+        {
+            "wallet": "0x9e7ee2fc7aaff1196b8277f797a3e2393a4017f4",
+            "balance": 7136370.309428139,
+            "holder_rank": 12
+        },
+        {
+            "wallet": "0x6f9e09423dc1591e6cabff233932cee6935bb135",
+            "balance": 6910731.253188522,
+            "holder_rank": 13
+        },
+        {
+            "wallet": "0x5638484ba2d2f1d1d35020572b0aa439a9869192",
+            "balance": 6551725.008617136,
+            "holder_rank": 14
+        },
+        {
+            "wallet": "0xbf732ea04197942783e34730ed6e0f6099575d58",
+            "balance": 6122848.84669811,
+            "holder_rank": 15
+        },
+        {
+            "wallet": "0xc38f2021b6b6349b8f662b7f207d84beb7bc8308",
+            "balance": 6000259.515093876,
+            "holder_rank": 16
+        },
+        {
+            "wallet": "0x81ea6ad8f91a4c16c250a55d77729438bab138ba",
+            "balance": 5693902.9866885515,
+            "holder_rank": 17
+        },
+        {
+            "wallet": "0x255a80c3307011abc09669114627edece667a743",
+            "balance": 5634350.376513334,
+            "holder_rank": 18
+        },
+        {
+            "wallet": "0x9169bdd3f7163508a14468f8d7892dc0fe2f737f",
+            "balance": 5620076.538660639,
+            "holder_rank": 19
+        },
+        {
+            "wallet": "0x091e3a29506f611b1ec9418fc2a6b3f0977210bc",
+            "balance": 5619657.892076801,
+            "holder_rank": 20
+        },
+        {
+            "wallet": "0x249b697e462829acda803446ee2cd5a965977453",
+            "balance": 5499688.907563157,
+            "holder_rank": 21
+        },
+        {
+            "wallet": "0x5fe6e062248ba768d8f62c0f288f33ed1e430479",
+            "balance": 5036663.232866521,
+            "holder_rank": 22
+        },
+        {
+            "wallet": "0xe4a84326e4293ef0067da9475690996b6f5416b4",
+            "balance": 5036371.923953622,
+            "holder_rank": 23
+        },
+        {
+            "wallet": "0x7799945a143140f41e558e8a0d62facd3c4d39c8",
+            "balance": 5000000.0,
+            "holder_rank": 24
+        },
+        {
+            "wallet": "0x44cea07ff231a66cf3689cf4e4e1cf9f831e3988",
+            "balance": 4922875.997451146,
+            "holder_rank": 25
+        },
+        {
+            "wallet": "0xb5f0452bb5358b3e2b73a8518efed4bf647c8d1e",
+            "balance": 4612339.432833612,
+            "holder_rank": 26
+        },
+        {
+            "wallet": "0x32c34a18cc5fd58c0ece1e472e9bf95de8906a8a",
+            "balance": 4349953.1863142075,
+            "holder_rank": 27
+        },
+        {
+            "wallet": "0xdd35a714941a6777a835d21dc1b37fd474b59f4a",
+            "balance": 4064406.9209860307,
+            "holder_rank": 28
+        },
+        {
+            "wallet": "0x0428ef4923513f73d53fd6c28875574fc7ed0413",
+            "balance": 4041199.6479203543,
+            "holder_rank": 29
+        },
+        {
+            "wallet": "0x5214eed778fd780b270c47dd99600433cfdf7841",
+            "balance": 4000000.754431156,
+            "holder_rank": 30
+        },
+        {
+            "wallet": "0xc247e6bc07dc49a606a6978653bdbab7adb83357",
+            "balance": 4000000.0,
+            "holder_rank": 31
+        },
+        {
+            "wallet": "0xbd34523189edc7a9e9c202a15e00afe18ba4bc7f",
+            "balance": 4000000.0,
+            "holder_rank": 32
+        },
+        {
+            "wallet": "0x79e3a5bb91ec7d8dcb3b8b96625a549eff5738f4",
+            "balance": 3899970.0045383363,
+            "holder_rank": 33
+        },
+        {
+            "wallet": "0x87ffa8125ba62870e439c2486ca0b0b336ccd180",
+            "balance": 3840470.471028845,
+            "holder_rank": 34
+        },
+        {
+            "wallet": "0xb5b10ad0f811d0efce0fa8e06e7e0dfa70f32b16",
+            "balance": 3807269.754107271,
+            "holder_rank": 35
+        },
+        {
+            "wallet": "0xb3cc5770d07fc393e58e1db3badbb26f8cd0b861",
+            "balance": 3676585.6630701288,
+            "holder_rank": 36
+        },
+        {
+            "wallet": "0xff2bcd8e3a12d6930518a45519da1c5e67129948",
+            "balance": 3586895.630722172,
+            "holder_rank": 37
+        },
+        {
+            "wallet": "0x7c85a758c75b4dfcd00a1730863a7520f90aa08d",
+            "balance": 3576439.8315227893,
+            "holder_rank": 38
+        },
+        {
+            "wallet": "0x5b0051e4ea8eaf6ec523ab2aa76fe0149e68b040",
+            "balance": 3549325.2141331215,
+            "holder_rank": 39
+        },
+        {
+            "wallet": "0x776b1e178bd80fea40999bf4291e30af1a56ec10",
+            "balance": 3370000.0007371213,
+            "holder_rank": 40
+        },
+        {
+            "wallet": "0x7e3ba68c49561aae7c23c1d20fef0f1d7615a3ad",
+            "balance": 3235000.1189281275,
+            "holder_rank": 41
+        },
+        {
+            "wallet": "0x3d59284cdef876861157a70f8a3f462d3200d8a8",
+            "balance": 3163296.1252726186,
+            "holder_rank": 42
+        },
+        {
+            "wallet": "0xaf8fdd812e757292410073d4261a9d72151c3de7",
+            "balance": 3149777.8901189263,
+            "holder_rank": 43
+        },
+        {
+            "wallet": "0x43fefb2146bda62cacc0f32b7b50bbf556482d10",
+            "balance": 3118968.745224568,
+            "holder_rank": 44
+        },
+        {
+            "wallet": "0x82fc58011d50bfda0dd10bbecab41803a7758939",
+            "balance": 3105514.239059232,
+            "holder_rank": 45
+        },
+        {
+            "wallet": "0x2c9ee560e9d05e5df0764b9c9451b71498de43c0",
+            "balance": 3074587.935060561,
+            "holder_rank": 46
+        },
+        {
+            "wallet": "0xc52fbb9c4a7373b85de6415f888e5e2e3f195176",
+            "balance": 3013061.039361269,
+            "holder_rank": 47
+        },
+        {
+            "wallet": "0x79b43eb824c9c872c7b072b88f7119c31e602d3c",
+            "balance": 3002864.7072200147,
+            "holder_rank": 48
+        },
+        {
+            "wallet": "0x97466fd4be6756dd4e64532dee674ce10a31f8f2",
+            "balance": 3000000.0,
+            "holder_rank": 49
+        },
+        {
+            "wallet": "0x3c3d3660152704a16efef4015d4e00d488c71c1e",
+            "balance": 2960000.0,
+            "holder_rank": 50
+        }
+    ],
+    "candidate_entry_reports": [
+        {
+            "candidate_wallet": "0x9963597a9246b39b13330992f571f8378c18c262",
+            "candidate_information": {
+                "count": 5,
+                "tokens": [
+                    {
+                        "name": "Cash Cat",
+                        "symbol": "CASHCAT",
+                        "contract": "0x020bfC650A365f8BB26819deAAbF3E21291018b4",
+                        "balance": "10194436647470215657924016",
+                        "market_cap": 189889791.0,
+                        "volume_24h": 20642329.66,
+                        "liquidity": 10683373.03,
+                        "dex_url": "https://dexscreener.com/robinhood/0xa70fc67c9f69da90b63a0e4c05d229954574e313"
+                    },
+                    {
+                        "name": "up",
+                        "symbol": "UP",
+                        "contract": "0x57C0E45cB534413D1C20A4240955d6bB250BB4F1",
+                        "balance": "252460580900102355051748",
+                        "market_cap": 36707788.0,
+                        "volume_24h": 383972.87,
+                        "liquidity": 183175.44,
+                        "dex_url": "https://dexscreener.com/robinhood/0x4ef94cd1ab45ebbb50f9e73cd6e45c5027caa3f7"
+                    },
+                    {
+                        "name": "Arrow",
+                        "symbol": "ARROW",
+                        "contract": "0xf2915d1e3C1B0c769d0c756Ec43F1c1f6c99cD03",
+                        "balance": "50062405868998647157356",
+                        "market_cap": 15457949.0,
+                        "volume_24h": 1197136.65,
+                        "liquidity": 307049.65,
+                        "dex_url": "https://dexscreener.com/robinhood/0xe40d98d88038e0b844f844dce6ae3c79ec01ec53"
+                    },
+                    {
+                        "name": "Hoodrat",
+                        "symbol": "HOODRAT",
+                        "contract": "0x8e62F281f282686fCa6dCB39288069a93fC23F1c",
+                        "balance": "10012962255813090379980689",
+                        "market_cap": 10899307.0,
+                        "volume_24h": 2293826.76,
+                        "liquidity": 384363.18,
+                        "dex_url": "https://dexscreener.com/robinhood/0x451c0da3b774045a822a129eedcc5c667dcbfdd8"
+                    },
+                    {
+                        "name": "WISHBONE",
+                        "symbol": "WISHBONE",
+                        "contract": "0x77581054581B9c525E7dd7a0155DE43867532d03",
+                        "balance": "7814795716540513575374499",
+                        "market_cap": 8914556.0,
+                        "volume_24h": 2787341.03,
+                        "liquidity": 423384.55,
+                        "dex_url": "https://dexscreener.com/robinhood/0x6ec89bff5e684c2561d0a88e185d8d4eb4b3aa30"
+                    }
+                ]
+            },
+            "is_current_top_holder": true,
+            "current_holder_rank": 5,
+            "current_balance": 10194436.647470215,
+            "direct_first_buyers_match": false,
+            "first_buyers_information": null,
+            "source_trace": [
+                {
+                    "hop": 1,
+                    "wallet": "0x9963597a9246b39b13330992f571f8378c18c262",
+                    "received_from": "0xa70fc67c9f69da90b63a0e4c05d229954574e313",
+                    "token_amount": 389687.4213615275,
+                    "block_number": 823985,
+                    "timestamp_utc": "2026-07-01T19:16:55+00:00",
+                    "transaction_hash": "0x2ee9efa384725f46b85904fb76b093e4c4152879172f56a1b35df25e9804b739",
+                    "method": "execute",
+                    "transaction_initiator": "0x9963597a9246b39b13330992f571f8378c18c262",
+                    "spent": {
+                        "symbol": "ETH",
+                        "amount": 1.0,
+                        "display": "1 ETH"
+                    },
+                    "classification": "Confirmed DEX acquisition source",
+                    "source_buyer": "0x9963597a9246b39b13330992f571f8378c18c262",
+                    "entry_timing": {
+                        "purchase_block": 823985,
+                        "purchase_time_utc": "2026-07-01T19:16:55+00:00",
+                        "blocks_after_first_buy": 734995,
+                        "blocks_after_first_token_activity": 735149,
+                        "seconds_after_first_buy": 1119926,
+                        "delay_after_first_buy": "311h 5m"
+                    }
+                }
+            ],
+            "confirmed_source": {
+                "source_buyer": "0x9963597a9246b39b13330992f571f8378c18c262",
+                "source_wallet": "0x9963597a9246b39b13330992f571f8378c18c262",
+                "transaction_hash": "0x2ee9efa384725f46b85904fb76b093e4c4152879172f56a1b35df25e9804b739",
+                "method": "execute",
+                "spent": {
+                    "symbol": "ETH",
+                    "amount": 1.0,
+                    "display": "1 ETH"
+                },
+                "token_amount": 389687.4213615275,
+                "hop_count": 1,
+                "purchase_block": 823985,
+                "purchase_time_utc": "2026-07-01T19:16:55+00:00",
+                "blocks_after_first_buy": 734995,
+                "blocks_after_first_token_activity": 735149,
+                "seconds_after_first_buy": 1119926,
+                "delay_after_first_buy": "311h 5m"
+            },
+            "status": "Confirmed acquisition source found"
+        },
+        {
+            "candidate_wallet": "0x2dbaf98620ac5bbe3441f756feff82702d095b1a",
+            "candidate_information": {
+                "count": 2,
+                "tokens": [
+                    {
+                        "name": "Cash Cat",
+                        "symbol": "CASHCAT",
+                        "contract": "0x020bfC650A365f8BB26819deAAbF3E21291018b4",
+                        "balance": "8200284247215117389395345",
+                        "market_cap": 189889791.0,
+                        "volume_24h": 20642329.66,
+                        "liquidity": 10683373.03,
+                        "dex_url": "https://dexscreener.com/robinhood/0xa70fc67c9f69da90b63a0e4c05d229954574e313"
+                    },
+                    {
+                        "name": "Hoodrat",
+                        "symbol": "HOODRAT",
+                        "contract": "0x8e62F281f282686fCa6dCB39288069a93fC23F1c",
+                        "balance": "5267830017267176084112400",
+                        "market_cap": 10899307.0,
+                        "volume_24h": 2293826.76,
+                        "liquidity": 384363.18,
+                        "dex_url": "https://dexscreener.com/robinhood/0x451c0da3b774045a822a129eedcc5c667dcbfdd8"
+                    }
+                ]
+            },
+            "is_current_top_holder": true,
+            "current_holder_rank": 7,
+            "current_balance": 8825983.58293061,
+            "direct_first_buyers_match": false,
+            "first_buyers_information": null,
+            "source_trace": [
+                {
+                    "hop": 1,
+                    "wallet": "0x2dbaf98620ac5bbe3441f756feff82702d095b1a",
+                    "received_from": "0x24a531a747a7797069f65a97ab366dd9b3f99848",
+                    "token_amount": 3.12345,
+                    "block_number": 4398835,
+                    "timestamp_utc": "2026-07-08T13:39:37+00:00",
+                    "transaction_hash": "0xcb7df8be6262e6a188fc3bcd8fcb592717bf38c6d7edd30188b7344a733a7bf8",
+                    "method": "transfer",
+                    "transaction_initiator": "0x24a531a747a7797069f65a97ab366dd9b3f99848",
+                    "spent": null,
+                    "classification": "Intermediary wallet transfer"
+                },
+                {
+                    "hop": 2,
+                    "wallet": "0x24a531a747a7797069f65a97ab366dd9b3f99848",
+                    "received_from": "0xae8a27249f000113adddc837314473389e7facc8",
+                    "token_amount": 3.12345,
+                    "block_number": 4390760,
+                    "timestamp_utc": "2026-07-08T13:26:08+00:00",
+                    "transaction_hash": "0x96c08a40e8dacdf310698b138a1a54d0fe98448455e6c8876a4f03c6c1a4050c",
+                    "method": "transfer",
+                    "transaction_initiator": "0xae8a27249f000113adddc837314473389e7facc8",
+                    "spent": null,
+                    "classification": "Intermediary wallet transfer"
+                },
+                {
+                    "hop": 3,
+                    "wallet": "0xae8a27249f000113adddc837314473389e7facc8",
+                    "received_from": "0x2e9b3fc5e73221e8ac0da2a1d836bda0273eab7f",
+                    "token_amount": 18.42446898127459,
+                    "block_number": 4275174,
+                    "timestamp_utc": "2026-07-08T10:12:44+00:00",
+                    "transaction_hash": "0xed7dd92f0e549c62f81321cdade70b6c097bd9dd5382b777ff0c95455c336169",
+                    "method": "swap",
+                    "transaction_initiator": "0xae8a27249f000113adddc837314473389e7facc8",
+                    "spent": {
+                        "symbol": "ETH",
+                        "amount": 0.001,
+                        "display": "0.001 ETH"
+                    },
+                    "classification": "Confirmed DEX acquisition source",
+                    "source_buyer": "0xae8a27249f000113adddc837314473389e7facc8",
+                    "entry_timing": {
+                        "purchase_block": 4275174,
+                        "purchase_time_utc": "2026-07-08T10:12:44+00:00",
+                        "blocks_after_first_buy": 4186184,
+                        "blocks_after_first_token_activity": 4186338,
+                        "seconds_after_first_buy": 1692075,
+                        "delay_after_first_buy": "470h 1m"
+                    }
+                }
+            ],
+            "confirmed_source": {
+                "source_buyer": "0xae8a27249f000113adddc837314473389e7facc8",
+                "source_wallet": "0xae8a27249f000113adddc837314473389e7facc8",
+                "transaction_hash": "0xed7dd92f0e549c62f81321cdade70b6c097bd9dd5382b777ff0c95455c336169",
+                "method": "swap",
+                "spent": {
+                    "symbol": "ETH",
+                    "amount": 0.001,
+                    "display": "0.001 ETH"
+                },
+                "token_amount": 18.42446898127459,
+                "hop_count": 3,
+                "purchase_block": 4275174,
+                "purchase_time_utc": "2026-07-08T10:12:44+00:00",
+                "blocks_after_first_buy": 4186184,
+                "blocks_after_first_token_activity": 4186338,
+                "seconds_after_first_buy": 1692075,
+                "delay_after_first_buy": "470h 1m"
+            },
+            "status": "Confirmed acquisition source found"
+        },
+        {
+            "candidate_wallet": "0x56e95b47a07210f1ea9fa418c7c5dc164c419ac0",
+            "candidate_information": {
+                "count": 2,
+                "tokens": [
+                    {
+                        "name": "Cash Cat",
+                        "symbol": "CASHCAT",
+                        "contract": "0x020bfC650A365f8BB26819deAAbF3E21291018b4",
+                        "balance": "7470396137301824391036858",
+                        "market_cap": 189889791.0,
+                        "volume_24h": 20642329.66,
+                        "liquidity": 10683373.03,
+                        "dex_url": "https://dexscreener.com/robinhood/0xa70fc67c9f69da90b63a0e4c05d229954574e313"
+                    },
+                    {
+                        "name": "Hoodrat",
+                        "symbol": "HOODRAT",
+                        "contract": "0x8e62F281f282686fCa6dCB39288069a93fC23F1c",
+                        "balance": "9251158199684279828873077",
+                        "market_cap": 10899307.0,
+                        "volume_24h": 2293826.76,
+                        "liquidity": 384363.18,
+                        "dex_url": "https://dexscreener.com/robinhood/0x451c0da3b774045a822a129eedcc5c667dcbfdd8"
+                    }
+                ]
+            },
+            "is_current_top_holder": true,
+            "current_holder_rank": 11,
+            "current_balance": 7400396.137301824,
+            "direct_first_buyers_match": false,
+            "first_buyers_information": null,
+            "source_trace": [
+                {
+                    "hop": 1,
+                    "wallet": "0x56e95b47a07210f1ea9fa418c7c5dc164c419ac0",
+                    "received_from": "0xa70fc67c9f69da90b63a0e4c05d229954574e313",
+                    "token_amount": 1107409.0930043762,
+                    "block_number": 2411406,
+                    "timestamp_utc": "2026-07-04T14:59:59+00:00",
+                    "transaction_hash": "0x02bb3035ad75d25be79da218c15981e7b04e8296260673cda791f5f947ad8a81",
+                    "method": "execute",
+                    "transaction_initiator": "0x56e95b47a07210f1ea9fa418c7c5dc164c419ac0",
+                    "spent": {
+                        "symbol": "ETH",
+                        "amount": 4.0,
+                        "display": "4 ETH"
+                    },
+                    "classification": "Confirmed DEX acquisition source",
+                    "source_buyer": "0x56e95b47a07210f1ea9fa418c7c5dc164c419ac0",
+                    "entry_timing": {
+                        "purchase_block": 2411406,
+                        "purchase_time_utc": "2026-07-04T14:59:59+00:00",
+                        "blocks_after_first_buy": 2322416,
+                        "blocks_after_first_token_activity": 2322570,
+                        "seconds_after_first_buy": 1363710,
+                        "delay_after_first_buy": "378h 48m"
+                    }
+                }
+            ],
+            "confirmed_source": {
+                "source_buyer": "0x56e95b47a07210f1ea9fa418c7c5dc164c419ac0",
+                "source_wallet": "0x56e95b47a07210f1ea9fa418c7c5dc164c419ac0",
+                "transaction_hash": "0x02bb3035ad75d25be79da218c15981e7b04e8296260673cda791f5f947ad8a81",
+                "method": "execute",
+                "spent": {
+                    "symbol": "ETH",
+                    "amount": 4.0,
+                    "display": "4 ETH"
+                },
+                "token_amount": 1107409.0930043762,
+                "hop_count": 1,
+                "purchase_block": 2411406,
+                "purchase_time_utc": "2026-07-04T14:59:59+00:00",
+                "blocks_after_first_buy": 2322416,
+                "blocks_after_first_token_activity": 2322570,
+                "seconds_after_first_buy": 1363710,
+                "delay_after_first_buy": "378h 48m"
+            },
+            "status": "Confirmed acquisition source found"
+        },
+        {
+            "candidate_wallet": "0x44cea07ff231a66cf3689cf4e4e1cf9f831e3988",
+            "candidate_information": {
+                "count": 2,
+                "tokens": [
+                    {
+                        "name": "Cash Cat",
+                        "symbol": "CASHCAT",
+                        "contract": "0x020bfC650A365f8BB26819deAAbF3E21291018b4",
+                        "balance": "4922875997451145891647877",
+                        "market_cap": 189889791.0,
+                        "volume_24h": 20642329.66,
+                        "liquidity": 10683373.03,
+                        "dex_url": "https://dexscreener.com/robinhood/0xa70fc67c9f69da90b63a0e4c05d229954574e313"
+                    },
+                    {
+                        "name": "Hoodrat",
+                        "symbol": "HOODRAT",
+                        "contract": "0x8e62F281f282686fCa6dCB39288069a93fC23F1c",
+                        "balance": "20001197686115242146574736",
+                        "market_cap": 10899307.0,
+                        "volume_24h": 2293826.76,
+                        "liquidity": 384363.18,
+                        "dex_url": "https://dexscreener.com/robinhood/0x451c0da3b774045a822a129eedcc5c667dcbfdd8"
+                    }
+                ]
+            },
+            "is_current_top_holder": true,
+            "current_holder_rank": 25,
+            "current_balance": 4922875.997451146,
+            "direct_first_buyers_match": false,
+            "first_buyers_information": null,
+            "source_trace": [
+                {
+                    "hop": 1,
+                    "wallet": "0x44cea07ff231a66cf3689cf4e4e1cf9f831e3988",
+                    "received_from": "0xa70fc67c9f69da90b63a0e4c05d229954574e313",
+                    "token_amount": 583783.4672929592,
+                    "block_number": 5961162,
+                    "timestamp_utc": "2026-07-10T09:10:43+00:00",
+                    "transaction_hash": "0xd10fdd2c3ab82ac60c4006db60440b51897caf4de9d75b97f72fe89967fcfde1",
+                    "method": "execute",
+                    "transaction_initiator": "0x44cea07ff231a66cf3689cf4e4e1cf9f831e3988",
+                    "spent": {
+                        "symbol": "ETH",
+                        "amount": 56.14613938526861,
+                        "display": "56.1461 ETH"
+                    },
+                    "classification": "Confirmed DEX acquisition source",
+                    "source_buyer": "0x44cea07ff231a66cf3689cf4e4e1cf9f831e3988",
+                    "entry_timing": {
+                        "purchase_block": 5961162,
+                        "purchase_time_utc": "2026-07-10T09:10:43+00:00",
+                        "blocks_after_first_buy": 5872172,
+                        "blocks_after_first_token_activity": 5872326,
+                        "seconds_after_first_buy": 1861154,
+                        "delay_after_first_buy": "516h 59m"
+                    }
+                }
+            ],
+            "confirmed_source": {
+                "source_buyer": "0x44cea07ff231a66cf3689cf4e4e1cf9f831e3988",
+                "source_wallet": "0x44cea07ff231a66cf3689cf4e4e1cf9f831e3988",
+                "transaction_hash": "0xd10fdd2c3ab82ac60c4006db60440b51897caf4de9d75b97f72fe89967fcfde1",
+                "method": "execute",
+                "spent": {
+                    "symbol": "ETH",
+                    "amount": 56.14613938526861,
+                    "display": "56.1461 ETH"
+                },
+                "token_amount": 583783.4672929592,
+                "hop_count": 1,
+                "purchase_block": 5961162,
+                "purchase_time_utc": "2026-07-10T09:10:43+00:00",
+                "blocks_after_first_buy": 5872172,
+                "blocks_after_first_token_activity": 5872326,
+                "seconds_after_first_buy": 1861154,
+                "delay_after_first_buy": "516h 59m"
+            },
+            "status": "Confirmed acquisition source found"
+        },
+        {
+            "candidate_wallet": "0x7e3ba68c49561aae7c23c1d20fef0f1d7615a3ad",
+            "candidate_information": {
+                "count": 2,
+                "tokens": [
+                    {
+                        "name": "Cash Cat",
+                        "symbol": "CASHCAT",
+                        "contract": "0x020bfC650A365f8BB26819deAAbF3E21291018b4",
+                        "balance": "3240000118928127332506128",
+                        "market_cap": 189889791.0,
+                        "volume_24h": 20642329.66,
+                        "liquidity": 10683373.03,
+                        "dex_url": "https://dexscreener.com/robinhood/0xa70fc67c9f69da90b63a0e4c05d229954574e313"
+                    },
+                    {
+                        "name": "WISHBONE",
+                        "symbol": "WISHBONE",
+                        "contract": "0x77581054581B9c525E7dd7a0155DE43867532d03",
+                        "balance": "11548005580757634295958789",
+                        "market_cap": 8914556.0,
+                        "volume_24h": 2787341.03,
+                        "liquidity": 423384.55,
+                        "dex_url": "https://dexscreener.com/robinhood/0x6ec89bff5e684c2561d0a88e185d8d4eb4b3aa30"
+                    }
+                ]
+            },
+            "is_current_top_holder": true,
+            "current_holder_rank": 41,
+            "current_balance": 3235000.1189281275,
+            "direct_first_buyers_match": false,
+            "first_buyers_information": null,
+            "source_trace": [
+                {
+                    "hop": 1,
+                    "wallet": "0x7e3ba68c49561aae7c23c1d20fef0f1d7615a3ad",
+                    "received_from": "0xa70fc67c9f69da90b63a0e4c05d229954574e313",
+                    "token_amount": 383551.6263254812,
+                    "block_number": 1545707,
+                    "timestamp_utc": "2026-07-02T22:17:48+00:00",
+                    "transaction_hash": "0xc2384f6cc8aeac428e23af8db46bfa6e0b728656c19057f910a56cad121e27f2",
+                    "method": "execute",
+                    "transaction_initiator": "0x7e3ba68c49561aae7c23c1d20fef0f1d7615a3ad",
+                    "spent": {
+                        "symbol": "WETH",
+                        "amount": 1.0,
+                        "contract": "0x0bd7d308f8e1639fab988df18a8011f41eacad73",
+                        "display": "1 WETH"
+                    },
+                    "classification": "Confirmed DEX acquisition source",
+                    "source_buyer": "0x7e3ba68c49561aae7c23c1d20fef0f1d7615a3ad",
+                    "entry_timing": {
+                        "purchase_block": 1545707,
+                        "purchase_time_utc": "2026-07-02T22:17:48+00:00",
+                        "blocks_after_first_buy": 1456717,
+                        "blocks_after_first_token_activity": 1456871,
+                        "seconds_after_first_buy": 1217179,
+                        "delay_after_first_buy": "338h 6m"
+                    }
+                }
+            ],
+            "confirmed_source": {
+                "source_buyer": "0x7e3ba68c49561aae7c23c1d20fef0f1d7615a3ad",
+                "source_wallet": "0x7e3ba68c49561aae7c23c1d20fef0f1d7615a3ad",
+                "transaction_hash": "0xc2384f6cc8aeac428e23af8db46bfa6e0b728656c19057f910a56cad121e27f2",
+                "method": "execute",
+                "spent": {
+                    "symbol": "WETH",
+                    "amount": 1.0,
+                    "contract": "0x0bd7d308f8e1639fab988df18a8011f41eacad73",
+                    "display": "1 WETH"
+                },
+                "token_amount": 383551.6263254812,
+                "hop_count": 1,
+                "purchase_block": 1545707,
+                "purchase_time_utc": "2026-07-02T22:17:48+00:00",
+                "blocks_after_first_buy": 1456717,
+                "blocks_after_first_token_activity": 1456871,
+                "seconds_after_first_buy": 1217179,
+                "delay_after_first_buy": "338h 6m"
+            },
+            "status": "Confirmed acquisition source found"
+        },
+        {
+            "candidate_wallet": "0xd1b13c91bbe6322d0c7dbc36334d184728addb88",
+            "candidate_information": {
+                "count": 2,
+                "tokens": [
+                    {
+                        "name": "Arrow",
+                        "symbol": "ARROW",
+                        "contract": "0xf2915d1e3C1B0c769d0c756Ec43F1c1f6c99cD03",
+                        "balance": "50000000000000000000000",
+                        "market_cap": 15457949.0,
+                        "volume_24h": 1197136.65,
+                        "liquidity": 307049.65,
+                        "dex_url": "https://dexscreener.com/robinhood/0xe40d98d88038e0b844f844dce6ae3c79ec01ec53"
+                    },
+                    {
+                        "name": "Hoodrat",
+                        "symbol": "HOODRAT",
+                        "contract": "0x8e62F281f282686fCa6dCB39288069a93fC23F1c",
+                        "balance": "10000000000000000000000000",
+                        "market_cap": 10899307.0,
+                        "volume_24h": 2293826.76,
+                        "liquidity": 384363.18,
+                        "dex_url": "https://dexscreener.com/robinhood/0x451c0da3b774045a822a129eedcc5c667dcbfdd8"
+                    }
+                ]
+            },
+            "is_current_top_holder": false,
+            "current_holder_rank": null,
+            "current_balance": 0.0,
+            "direct_first_buyers_match": false,
+            "first_buyers_information": null,
+            "status": "No current position and no match within displayed first buyers",
+            "source_trace": [],
+            "confirmed_source": null
+        }
+    ]
+}

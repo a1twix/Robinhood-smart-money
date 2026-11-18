@@ -1,0 +1,494 @@
+====================================================================================================
+Virtuals Protocol (VIRTUAL)
+Contract: 0xc6911796042b15d7fa4f6cde69e245ddcd3d9c31
+====================================================================================================
+No traders met the minimum profit requirement.
+
+====================================================================================================
+WISHBONE (WISHBONE)
+Contract: 0x77581054581b9c525e7dd7a0155de43867532d03
+====================================================================================================
+#1
+Wallet: 0xb35522495e33e3c962788e4e2098a5b4798d2d60
+Early buyer rank: #15
+Entry after launch: 43m 5s
+Exit after entry: 3d 5h
+Realised profit: 8.478633 ETH
+Realised ROI: 4,324.48%
+Original position sold: 85.24%
+Current token balance: 0
+----------------------------------------------------------------------------------------------------
+#2
+Wallet: 0xb3d9658bffad502fc09fce3d31e61a44bc310a6e
+Early buyer rank: #6
+Entry after launch: 2m 36s
+Exit after entry: 5d 2h
+Realised profit: 4.513565 ETH
+Realised ROI: 17,913.95%
+Original position sold: 97.11%
+Current token balance: 200,000
+----------------------------------------------------------------------------------------------------
+#3
+Wallet: 0x9d34151abe8d1594e74f463d350840119ab0689b
+Early buyer rank: #20
+Entry after launch: 44m 30s
+Exit after entry: 3h 10m
+Realised profit: 2.213 ETH
+Realised ROI: 1,106.50%
+Original position sold: 100.00%
+Current token balance: 0
+----------------------------------------------------------------------------------------------------
+#4
+Wallet: 0x6b6e4c1afd72024b1749a1322a524557f033ac04
+Early buyer rank: #12
+Entry after launch: 42m 28s
+Exit after entry: 6d 5h
+Realised profit: 2.13864 ETH
+Realised ROI: 9,740.07%
+Original position sold: 21.96%
+Current token balance: 0
+----------------------------------------------------------------------------------------------------
+
+====================================================================================================
+Lady Marian (MARIAN)
+Contract: 0x01637b14b7378b99de75a64d50656d98488d9a4d
+====================================================================================================
+#1
+Wallet: 0x700499b35771565e8c9bad73e9a3b3476afffab6
+Early buyer rank: #8
+Entry after launch: 18h 33m
+Exit after entry: 23d 22h
+Realised profit: 8.189602 ETH
+Realised ROI: 15,114.97%
+Original position sold: 63.74%
+Current token balance: 0
+----------------------------------------------------------------------------------------------------
+#2
+Wallet: 0x287420053b8fdfc042945358d530173c90109da6
+Early buyer rank: #4
+Entry after launch: 15h 9m
+Exit after entry: 25d 6h
+Realised profit: 5.182536 ETH
+Realised ROI: 11,849.22%
+Original position sold: 70.54%
+Current token balance: 16,000,000.00
+----------------------------------------------------------------------------------------------------
+#3
+Wallet: 0x3b4fc8851d4db362431fd4bf45518d00eae08b5b
+Early buyer rank: #20
+Entry after launch: 19h 17m
+Exit after entry: 4d 5h
+Realised profit: 4.649124 ETH
+Realised ROI: 4,893.81%
+Original position sold: 100.00%
+Current token balance: 0
+----------------------------------------------------------------------------------------------------
+#4
+Wallet: 0xc38f2021b6b6349b8f662b7f207d84beb7bc8308
+Early buyer rank: #15
+Entry after launch: 19h 10m
+Exit after entry: 28d 13h
+Realised profit: 4.470237 ETH
+Realised ROI: 10,097.72%
+Original position sold: 88.54%
+Current token balance: 8,866,016.85
+----------------------------------------------------------------------------------------------------
+#5
+Wallet: 0xdcef4dd17028a9f10a826db9965a6d3f9298c607
+Early buyer rank: #9
+Entry after launch: 18h 36m
+Exit after entry: 15d 8h
+Realised profit: 4.431019 ETH
+Realised ROI: 7,639.69%
+Original position sold: 100.00%
+Current token balance: 0
+----------------------------------------------------------------------------------------------------
+
+====================================================================================================
+TENDIES (TENDIES)
+Contract: 0x45242320dbb855eea8fd36804c6487e10e97fcf9
+====================================================================================================
+#1
+Wallet: 0x3e68c81f62a9bbf78c820458bc60e327f2b22295
+Early buyer rank: #8
+Entry after launch: 1m 10s
+Exit after entry: 20d 21h
+Realised profit: 4.874394 ETH
+Realised ROI: 101,259.03%
+Original position sold: 24.07%
+Current token balance: 16,101,468.69
+----------------------------------------------------------------------------------------------------
+
+====================================================================================================
+Pons (PONS)
+Contract: 0x39dbed3a2bd333467115de45665cc57f813c4571
+====================================================================================================
+#1
+Wallet: 0x7a426099120f387378a1fad0ad6e1ad5c6bd8871
+Early buyer rank: #4
+Entry after launch: 2m 29s
+Exit after entry: 1d 15h
+Realised profit: 3.010254 ETH
+Realised ROI: 184,319.27%
+Original position sold: 8.17%
+Current token balance: 0
+----------------------------------------------------------------------------------------------------
+
+====================================================================================================
+YOLO (YOLO)
+Contract: 0x62c71cd34a52c30d894419cbcc55db2afa8032ea
+====================================================================================================
+No traders met the minimum profit requirement.
+
+====================================================================================================
+pipedog (PIPEDOG)
+Contract: 0x5cb6f181081301b44905f3ae15419112ecabd8a6
+====================================================================================================
+#1
+Wallet: 0xd128cb4732e15b2302d6993e065bc0a78b19224d
+Early buyer rank: #13
+Entry after launch: 1s
+Exit after entry: 1h 53m
+Realised profit: 13.370982 ETH
+Realised ROI: 5,734.19%
+Original position sold: 39.00%
+Current token balance: 29,521,221.37
+----------------------------------------------------------------------------------------------------
+
+====================================================================================================
+What IF (IF)
+Contract: 0x232cdfc415d10b673845d83dc02ba2eabe7e30d1
+====================================================================================================
+No traders met the minimum profit requirement.
+
+====================================================================================================
+The Index (INDEX)
+Contract: 0x56910d4409f3a0c78c64dd8d0545ff0705389870
+====================================================================================================
+No traders met the minimum profit requirement.
+
+====================================================================================================
+NVIDIA • Robinhood Token (NVDA)
+Contract: 0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec
+====================================================================================================
+No traders met the minimum profit requirement.
+
+====================================================================================================
+Shibinhood (WOOF)
+Contract: 0xe15db7c8547a0add11eb26a700246cca08aefce5
+====================================================================================================
+No traders met the minimum profit requirement.
+
+====================================================================================================
+Cash Cat (CASHCAT)
+Contract: 0x020bfc650a365f8bb26819deaabf3e21291018b4
+====================================================================================================
+#1
+Wallet: 0x5214eed778fd780b270c47dd99600433cfdf7841
+Early buyer rank: #6
+Entry after launch: 7m 43s
+Exit after entry: 19d 18h
+Realised profit: 132.420802 ETH
+Realised ROI: 660,167.13%
+Original position sold: 63.14%
+Current token balance: 3,749,999.80
+----------------------------------------------------------------------------------------------------
+#2
+Wallet: 0xa6735bb37672908c2c5e57a52682898d4612838f
+Early buyer rank: #15
+Entry after launch: 11m 50s
+Exit after entry: 13d 20h
+Realised profit: 18.531853 ETH
+Realised ROI: 45,912.63%
+Original position sold: 100.00%
+Current token balance: 0
+----------------------------------------------------------------------------------------------------
+#3
+Wallet: 0x6d8ac75d911bf7339fcf414ea79ae1edde18dabc
+Early buyer rank: #3
+Entry after launch: 1m 24s
+Exit after entry: 15d 20h
+Realised profit: 16.855453 ETH
+Realised ROI: 282,156.14%
+Original position sold: 19.40%
+Current token balance: 0
+----------------------------------------------------------------------------------------------------
+#4
+Wallet: 0x16657de1a0faac319359d6dc15d31b355cb535c0
+Early buyer rank: #4
+Entry after launch: 1m 55s
+Exit after entry: 13d 17h
+Realised profit: 10.814689 ETH
+Realised ROI: 113,455.98%
+Original position sold: 95.32%
+Current token balance: 20.330655
+----------------------------------------------------------------------------------------------------
+#5
+Wallet: 0xa95fa68dc05d82ff5398527308944e2fcfad3a69
+Early buyer rank: #18
+Entry after launch: 13m 15s
+Exit after entry: 12d 22h
+Realised profit: 9.769743 ETH
+Realised ROI: 39,078.97%
+Original position sold: 100.00%
+Current token balance: 0
+----------------------------------------------------------------------------------------------------
+
+====================================================================================================
+Arrow (ARROW)
+Contract: 0xf2915d1e3c1b0c769d0c756ec43f1c1f6c99cd03
+====================================================================================================
+#1
+Wallet: 0x9d53a05174c7dfa196c8332bbdcfbab93c51201e
+Early buyer rank: #10
+Entry after launch: 1s
+Exit after entry: 6d 21h
+Realised profit: 15.854707 ETH
+Realised ROI: 893,631.37%
+Original position sold: 39.37%
+Current token balance: 0
+----------------------------------------------------------------------------------------------------
+#2
+Wallet: 0x64bd9d71b779173dad361f66e7388d72179beb51
+Early buyer rank: #18
+Entry after launch: 1s
+Exit after entry: 4d 18h
+Realised profit: 15.151294 ETH
+Realised ROI: 201,621.56%
+Original position sold: 95.01%
+Current token balance: 0
+----------------------------------------------------------------------------------------------------
+#3
+Wallet: 0x6a5fbf02abba08dad1ea6cb8ed2ab4ed0dfd587d
+Early buyer rank: #1
+Entry after launch: 0s
+Exit after entry: 6d 20h
+Realised profit: 14.420713 ETH
+Realised ROI: 658,200.65%
+Original position sold: 33.59%
+Current token balance: 0
+----------------------------------------------------------------------------------------------------
+#4
+Wallet: 0x5d6f0a4bf6139e044e147e8395e53dd87c473461
+Early buyer rank: #17
+Entry after launch: 1s
+Exit after entry: 6d 20h
+Realised profit: 13.965397 ETH
+Realised ROI: 797,673.87%
+Original position sold: 19.80%
+Current token balance: 0
+----------------------------------------------------------------------------------------------------
+#5
+Wallet: 0x668fec72afde8916645988bd26e1cee4a4f946df
+Early buyer rank: #11
+Entry after launch: 1s
+Exit after entry: 6d 21h
+Realised profit: 12.541758 ETH
+Realised ROI: 930,904.56%
+Original position sold: 24.97%
+Current token balance: 0
+----------------------------------------------------------------------------------------------------
+
+====================================================================================================
+up (UP)
+Contract: 0x57c0e45cb534413d1c20a4240955d6bb250bb4f1
+====================================================================================================
+#1
+Wallet: 0x393d4197b6e3e3f9bc316dff3158f9220c4895bb
+Early buyer rank: #6
+Entry after launch: 6m 41s
+Exit after entry: 19h 58m
+Realised profit: 20.921889 ETH
+Realised ROI: 1,307.62%
+Original position sold: 100.00%
+Current token balance: 0
+----------------------------------------------------------------------------------------------------
+#2
+Wallet: 0x5aa3b0b953bd381211e8c0cf982cfcb7977a0690
+Early buyer rank: #4
+Entry after launch: 3m 34s
+Exit after entry: 21h 16m
+Realised profit: 4.526978 ETH
+Realised ROI: 3,171.13%
+Original position sold: 95.17%
+Current token balance: 57,750.39581
+----------------------------------------------------------------------------------------------------
+#3
+Wallet: 0x594e6aeec7db691cc45852111a8871134afb37e7
+Early buyer rank: #3
+Entry after launch: 2m 52s
+Exit after entry: 20h 41m
+Realised profit: 4.268061 ETH
+Realised ROI: 4,268.06%
+Original position sold: 100.00%
+Current token balance: 0
+----------------------------------------------------------------------------------------------------
+#4
+Wallet: 0x96438977f4963d2b08f8f463e5fd2c4e04fa5268
+Early buyer rank: #12
+Entry after launch: 10m 28s
+Exit after entry: 20h 29m
+Realised profit: 3.791053 ETH
+Realised ROI: 947.76%
+Original position sold: 100.00%
+Current token balance: 7,506.749298
+----------------------------------------------------------------------------------------------------
+#5
+Wallet: 0x0510def5068244076a2979f6254973cc4cc2e52e
+Early buyer rank: #18
+Entry after launch: 1h 30m
+Exit after entry: 2d 3h
+Realised profit: 2.063221 ETH
+Realised ROI: 1,429.98%
+Original position sold: 50.63%
+Current token balance: 0
+----------------------------------------------------------------------------------------------------
+
+====================================================================================================
+Hoodrat (HOODRAT)
+Contract: 0x8e62f281f282686fca6dcb39288069a93fc23f1c
+====================================================================================================
+#1
+Wallet: 0xdc926a0d6b4af17fd7f94bc484dc70ed434ba33d
+Early buyer rank: #3
+Entry after launch: 1s
+Exit after entry: 8h 11m
+Realised profit: 2.310806 ETH
+Realised ROI: 53,534.86%
+Original position sold: 89.78%
+Current token balance: 0
+----------------------------------------------------------------------------------------------------
+#2
+Wallet: 0x12354feeb269c45b4772d3343c58f72d2ae64c4b
+Early buyer rank: #14
+Entry after launch: 5s
+Exit after entry: 4d 8h
+Realised profit: 2.122176 ETH
+Realised ROI: 39,123.81%
+Original position sold: 95.34%
+Current token balance: 0
+----------------------------------------------------------------------------------------------------
+#3
+Wallet: 0x2a5265eb022de4e48c546413627afbfa2f868cc5
+Early buyer rank: #1
+Entry after launch: 0s
+Exit after entry: 5h 8m
+Realised profit: 2.069485 ETH
+Realised ROI: 48,007.65%
+Original position sold: 97.08%
+Current token balance: 0
+----------------------------------------------------------------------------------------------------
+
+====================================================================================================
+Sherwood Protocol (WOOD)
+Contract: 0xf8bc08092c06db6148114dcf82af881f1085f92b
+====================================================================================================
+#1
+Wallet: 0x6e5c3577da844044be468290b5ad46dfeb5521bd
+Early buyer rank: #2
+Entry after launch: 1s
+Exit after entry: 8d 11h
+Realised profit: 4.307417 ETH
+Realised ROI: 179.24%
+Original position sold: 29.13%
+Current token balance: 704,083.884804
+----------------------------------------------------------------------------------------------------
+
+====================================================================================================
+Goose Token (GOOSE)
+Contract: 0x348cc963411fb82cd6e0b64345714fec94f242cb
+====================================================================================================
+No traders met the minimum profit requirement.
+
+====================================================================================================
+Chump Coin (CHUMP)
+Contract: 0x0e0d2c89a5a019fe1cf762e5e33187631dacc21b
+====================================================================================================
+No traders met the minimum profit requirement.
+
+====================================================================================================
+Thinking Cat (HMM)
+Contract: 0x7fe995a80075df3dc8ae11a9b82c7fe4202cd87f
+====================================================================================================
+No traders met the minimum profit requirement.
+
+====================================================================================================
+SPDR S&P 500 ETF Trust • Robinhood Token (SPY)
+Contract: 0x117cc2133c37b721f49de2a7a74833232b3b4c0c
+====================================================================================================
+No traders met the minimum profit requirement.
+
+====================================================================================================
+Ramses (RAM)
+Contract: 0x5173d45a1191ee33cbb7d8c7e65f21b04ed54802
+====================================================================================================
+No traders met the minimum profit requirement.
+
+====================================================================================================
+Lil' Shrub (SHRUB)
+Contract: 0x5d9144d2d017386519a7134fcc7f1e4ba22f920c
+====================================================================================================
+No traders met the minimum profit requirement.
+
+====================================================================================================
+frong (FRONG)
+Contract: 0x6245e67affa44a23077f0ea7f981a8dc743a0c47
+====================================================================================================
+No traders met the minimum profit requirement.
+
+====================================================================================================
+Hookr.fun (HOOKR)
+Contract: 0x18e674231a58c239dc7daedcffe15ec3a24cff5c
+====================================================================================================
+#1
+Wallet: 0xf62c9ebf99607be71567c35a3e066e5b90baa7eb
+Early buyer rank: #9
+Entry after launch: 16m 10s
+Exit after entry: 3d 21h
+Realised profit: 2.384821 ETH
+Realised ROI: 11,133.12%
+Original position sold: 97.89%
+Current token balance: 0
+----------------------------------------------------------------------------------------------------
+
+====================================================================================================
+Down to Finance (DTF)
+Contract: 0xee5576fa1bcaa380e591d01245f406f3f384eb01
+====================================================================================================
+No traders met the minimum profit requirement.
+
+====================================================================================================
+NetNet (NET)
+Contract: 0xca9c78dd337a67f6e0077f65f5e9218719d30edf
+====================================================================================================
+No traders met the minimum profit requirement.
+
+====================================================================================================
+The Juggernaut (JUGGERNAUT)
+Contract: 0xd7321801caae694090694ff55a9323139f043b88
+====================================================================================================
+No traders met the minimum profit requirement.
+
+====================================================================================================
+Space Exploration Technologies Corp • Robinhood Token (SPCX)
+Contract: 0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea
+====================================================================================================
+No traders met the minimum profit requirement.
+
+====================================================================================================
+Prologue (PROLOGUE)
+Contract: 0xb9972ca7188e511174947e3936a5315ac7073277
+====================================================================================================
+No traders met the minimum profit requirement.
+
+====================================================================================================
+mooncat (MOON)
+Contract: 0x862cdccb67c8a22fdb247d09a08b1dad09447777
+====================================================================================================
+No traders met the minimum profit requirement.
+
+====================================================================================================
+Good In The Hood (GOOD)
+Contract: 0x5f62c57e5c537887117eef828b7e3ad41c009feb
+====================================================================================================
+No traders met the minimum profit requirement.

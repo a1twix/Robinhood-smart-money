@@ -1,0 +1,392 @@
+{
+  "token": {
+    "name": "Cash Cat",
+    "symbol": "CASHCAT",
+    "contract": "0x020bfc650a365f8bb26819deaabf3e21291018b4",
+    "decimals": 18
+  },
+  "snapshot_block": 113544308,
+  "analysis_complete": false,
+  "results": [
+    {
+      "holder_rank": 18,
+      "wallet": "0xc38f2021b6b6349b8f662b7f207d84beb7bc8308",
+      "original_whale_holdings": {
+        "first_acquisition_block": 89479,
+        "first_acquisition_transaction": "0x4c3ba4405d5797eef191b2754248c61656e711348aae8252ba4179dead9f3360",
+        "first_acquisition_method": "OBSERVED TOKEN INBOUND",
+        "total_tokens_received": 10109405.739453401,
+        "total_tokens_sent": 5015740.885120255,
+        "current_tokens_held": 5093664.854333147,
+        "retained_percentage_of_received": 50.38540331262392,
+        "sales_not_inferred_from_transfers": true
+      },
+      "full_position_analysis": {
+        "position_status": "UNVERIFIED",
+        "reason": "Position requires multi-asset valuation or transfer reconciliation",
+        "unresolved_transactions": [
+          "0x4c3ba4405d5797eef191b2754248c61656e711348aae8252ba4179dead9f3360",
+          "0x9dec2408b733f5f82833dcc7855a5fb336f772ff9f8be79c12ab7a0341e2cca1",
+          "0xf478a832262a9aaa12fdadf4b2fc6eb13ee2b9f16a4de5860cd6187d354245d7",
+          "0xff83fd9b48636c38a072cddc0203bb413ae0d47ab1bb6bd6ff30dd0029aba315",
+          "0xe0686c7b6594275fd7839d158d290ec60c46a05ca57a55916ca434f7da3491c5",
+          "0x42def6586742e9ed3607b02909fbcd3ae03f4b9764e0a5202ee4e823c5c5bdcb"
+        ],
+        "unresolved_details": [
+          {
+            "transaction_hash": "0x4c3ba4405d5797eef191b2754248c61656e711348aae8252ba4179dead9f3360",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0x9dec2408b733f5f82833dcc7855a5fb336f772ff9f8be79c12ab7a0341e2cca1",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0xf478a832262a9aaa12fdadf4b2fc6eb13ee2b9f16a4de5860cd6187d354245d7",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0xff83fd9b48636c38a072cddc0203bb413ae0d47ab1bb6bd6ff30dd0029aba315",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0xe0686c7b6594275fd7839d158d290ec60c46a05ca57a55916ca434f7da3491c5",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0x42def6586742e9ed3607b02909fbcd3ae03f4b9764e0a5202ee4e823c5c5bdcb",
+            "reason": "Unrecognised swap selector"
+          }
+        ],
+        "verified_eth_trade_count": 170,
+        "multi_asset_valuation_candidates": [],
+        "other_unverified_transactions": [
+          {
+            "transaction_hash": "0x4c3ba4405d5797eef191b2754248c61656e711348aae8252ba4179dead9f3360",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0x9dec2408b733f5f82833dcc7855a5fb336f772ff9f8be79c12ab7a0341e2cca1",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0xf478a832262a9aaa12fdadf4b2fc6eb13ee2b9f16a4de5860cd6187d354245d7",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0xff83fd9b48636c38a072cddc0203bb413ae0d47ab1bb6bd6ff30dd0029aba315",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0xe0686c7b6594275fd7839d158d290ec60c46a05ca57a55916ca434f7da3491c5",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0x42def6586742e9ed3607b02909fbcd3ae03f4b9764e0a5202ee4e823c5c5bdcb",
+            "reason": "Unrecognised swap selector"
+          }
+        ],
+        "multi_asset_candidate_count": 0,
+        "other_unverified_count": 6
+      }
+    },
+    {
+      "holder_rank": 25,
+      "wallet": "0x255a80c3307011abc09669114627edece667a743",
+      "original_whale_holdings": {
+        "first_acquisition_block": 101878,
+        "first_acquisition_transaction": "0x51ccbc5bbc5fba94bdf296e86c45ec0df38caa5ee21e6c180db801a5abef0e93",
+        "first_acquisition_method": "OBSERVED TOKEN INBOUND",
+        "total_tokens_received": 5674350.376513334,
+        "total_tokens_sent": 974350.015,
+        "current_tokens_held": 4700000.361513334,
+        "retained_percentage_of_received": 82.82887114209716,
+        "sales_not_inferred_from_transfers": true
+      },
+      "full_position_analysis": {
+        "position_status": "UNVERIFIED",
+        "reason": "Position requires multi-asset valuation or transfer reconciliation",
+        "unresolved_transactions": [
+          "0xeaf67ef953c11bd8d57088d58efadb6a2b9aa7a39b2877bb8d1558423d0cfbc4",
+          "0x50ad37d77576d5684da5ea963a39d56786ce76ec5c0648a487e440b84b373fb6",
+          "0x102ff90e5d2d0e1b73baa23be5a2c233d68a6c1d68ea671769fd1f31cab70fe4",
+          "0xd742e8d63553af12f610dae55ca75b31772a622af4a74a20b73075bede843c0a",
+          "0xbb0096dbc2489eaf1809aa3d60f5c6b4f50a9c421f36657defb22f0aa4277d92",
+          "0xd0bff4ae8390a50d002166fa6fcf1578fadbbf603552ea6adf16715aa846c360",
+          "0x607f167993ea0f9198652f958dce6eb35750ac16091f284fbd2116cc72964aa2",
+          "0x81c0654f77202595a2a31e999819e711f0bf1b0fc86800e95bbc3cfd74f9a059",
+          "0x45bf4d26f96c904b1aca1b25c102f38dac47dd5181f6d1c50622ae8523621c23",
+          "0xffa166fa342df25c8c161f075120146b993d29eb95c6843e7ac547be1ae9597f",
+          "0xa05bb4a617a6e316517aba4495770b080e8145342e2dc1ad8a1a349de4f425fb",
+          "0x1adafa312a4c635eae22f45ce513d906beb4e56c1bc0090094f5dd08b81009e5",
+          "0x4224b8f10d294b102c38dd33a07ea1d3d48b9ed184a353e9943910ef4db57a79",
+          "0xa490e025c90ae3de9ec39550f32157d647c09e6e77d7760ad07a137e6a57d316",
+          "0x02bf6f217783df72eb8052f6940eb3619d1c0cbd933a337355573d941f337868",
+          "0x320bfe62e416d1efee47897fbacf9dcf0644437e8d9831a4530fc24097e551c1",
+          "0x76582da6300e8106694d7ad105a6584b38f81997fa793b52532fc0ba08db7220",
+          "0x3e27ba2b3f294e4ee8f2078f667d765422c5ecb8ff2f96c3509cdc9b7aa9bd20",
+          "0x732c6baec0280cfb0c8b4202673b62f96b1f7c48f8a209f46ae2ec6a0f4d9664",
+          "0x9bbede0d311d2aa12db212eb467c9d07072a7e4036ab158b63b922018ed076a2",
+          "0xc2c1672bfd04adb440ba565b234c78786d6f5fe9ab7be09ed1923c2627bb5bda",
+          "0x89bfb86b3adea33820b46fe0e222b7c29332a6c9cf6468b83e7c1900a42e5d6b",
+          "0x010250749a3649534588a39504f430312727460a0e0515c38aac4ba9afff5517",
+          "0xd944fc63e5a674858803a9d0d472a6531ece1aa716b5206273a08d6091e78609",
+          "0x458c2dbc1f0626144f1fd7463d8ebaabd36c7c469ac26deadb6815f7051811b6",
+          "0xc16b3d1e76642f75a5c136fe4e14f2bfb98d348e027918fda51fc58256ead03c",
+          "0x46d12e38fc6d01bab902c7ea5e6d78bdb505fad732e99e7237b040c2875aeac7",
+          "0xac08942187e0b61da21b8f222a0f2dc60be086c528e42fcd1735822a04b6f278",
+          "0xa9b2057da2462ba0522c376a79395bee74e62a7b7cf71d33dad83dd2245ae4e5",
+          "0xea0b447aff29dabc6a740f2e1036fb3d30ae8af42bf7388a45f087cde43a0cf6"
+        ],
+        "unresolved_details": [
+          {
+            "transaction_hash": "0xeaf67ef953c11bd8d57088d58efadb6a2b9aa7a39b2877bb8d1558423d0cfbc4",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0x50ad37d77576d5684da5ea963a39d56786ce76ec5c0648a487e440b84b373fb6",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0x102ff90e5d2d0e1b73baa23be5a2c233d68a6c1d68ea671769fd1f31cab70fe4",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0xd742e8d63553af12f610dae55ca75b31772a622af4a74a20b73075bede843c0a",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0xbb0096dbc2489eaf1809aa3d60f5c6b4f50a9c421f36657defb22f0aa4277d92",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0xd0bff4ae8390a50d002166fa6fcf1578fadbbf603552ea6adf16715aa846c360",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0x607f167993ea0f9198652f958dce6eb35750ac16091f284fbd2116cc72964aa2",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0x81c0654f77202595a2a31e999819e711f0bf1b0fc86800e95bbc3cfd74f9a059",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0x45bf4d26f96c904b1aca1b25c102f38dac47dd5181f6d1c50622ae8523621c23",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0xffa166fa342df25c8c161f075120146b993d29eb95c6843e7ac547be1ae9597f",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0xa05bb4a617a6e316517aba4495770b080e8145342e2dc1ad8a1a349de4f425fb",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0x1adafa312a4c635eae22f45ce513d906beb4e56c1bc0090094f5dd08b81009e5",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0x4224b8f10d294b102c38dd33a07ea1d3d48b9ed184a353e9943910ef4db57a79",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0xa490e025c90ae3de9ec39550f32157d647c09e6e77d7760ad07a137e6a57d316",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0x02bf6f217783df72eb8052f6940eb3619d1c0cbd933a337355573d941f337868",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0x320bfe62e416d1efee47897fbacf9dcf0644437e8d9831a4530fc24097e551c1",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0x76582da6300e8106694d7ad105a6584b38f81997fa793b52532fc0ba08db7220",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0x3e27ba2b3f294e4ee8f2078f667d765422c5ecb8ff2f96c3509cdc9b7aa9bd20",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0x732c6baec0280cfb0c8b4202673b62f96b1f7c48f8a209f46ae2ec6a0f4d9664",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0x9bbede0d311d2aa12db212eb467c9d07072a7e4036ab158b63b922018ed076a2",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0xc2c1672bfd04adb440ba565b234c78786d6f5fe9ab7be09ed1923c2627bb5bda",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0x89bfb86b3adea33820b46fe0e222b7c29332a6c9cf6468b83e7c1900a42e5d6b",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0x010250749a3649534588a39504f430312727460a0e0515c38aac4ba9afff5517",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0xd944fc63e5a674858803a9d0d472a6531ece1aa716b5206273a08d6091e78609",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0x458c2dbc1f0626144f1fd7463d8ebaabd36c7c469ac26deadb6815f7051811b6",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0xc16b3d1e76642f75a5c136fe4e14f2bfb98d348e027918fda51fc58256ead03c",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0x46d12e38fc6d01bab902c7ea5e6d78bdb505fad732e99e7237b040c2875aeac7",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0xac08942187e0b61da21b8f222a0f2dc60be086c528e42fcd1735822a04b6f278",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0xa9b2057da2462ba0522c376a79395bee74e62a7b7cf71d33dad83dd2245ae4e5",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0xea0b447aff29dabc6a740f2e1036fb3d30ae8af42bf7388a45f087cde43a0cf6",
+            "reason": "Unrecognised swap selector"
+          }
+        ],
+        "verified_eth_trade_count": 1,
+        "multi_asset_valuation_candidates": [],
+        "other_unverified_transactions": [
+          {
+            "transaction_hash": "0xeaf67ef953c11bd8d57088d58efadb6a2b9aa7a39b2877bb8d1558423d0cfbc4",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0x50ad37d77576d5684da5ea963a39d56786ce76ec5c0648a487e440b84b373fb6",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0x102ff90e5d2d0e1b73baa23be5a2c233d68a6c1d68ea671769fd1f31cab70fe4",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0xd742e8d63553af12f610dae55ca75b31772a622af4a74a20b73075bede843c0a",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0xbb0096dbc2489eaf1809aa3d60f5c6b4f50a9c421f36657defb22f0aa4277d92",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0xd0bff4ae8390a50d002166fa6fcf1578fadbbf603552ea6adf16715aa846c360",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0x607f167993ea0f9198652f958dce6eb35750ac16091f284fbd2116cc72964aa2",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0x81c0654f77202595a2a31e999819e711f0bf1b0fc86800e95bbc3cfd74f9a059",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0x45bf4d26f96c904b1aca1b25c102f38dac47dd5181f6d1c50622ae8523621c23",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0xffa166fa342df25c8c161f075120146b993d29eb95c6843e7ac547be1ae9597f",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0xa05bb4a617a6e316517aba4495770b080e8145342e2dc1ad8a1a349de4f425fb",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0x1adafa312a4c635eae22f45ce513d906beb4e56c1bc0090094f5dd08b81009e5",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0x4224b8f10d294b102c38dd33a07ea1d3d48b9ed184a353e9943910ef4db57a79",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0xa490e025c90ae3de9ec39550f32157d647c09e6e77d7760ad07a137e6a57d316",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0x02bf6f217783df72eb8052f6940eb3619d1c0cbd933a337355573d941f337868",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0x320bfe62e416d1efee47897fbacf9dcf0644437e8d9831a4530fc24097e551c1",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0x76582da6300e8106694d7ad105a6584b38f81997fa793b52532fc0ba08db7220",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0x3e27ba2b3f294e4ee8f2078f667d765422c5ecb8ff2f96c3509cdc9b7aa9bd20",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0x732c6baec0280cfb0c8b4202673b62f96b1f7c48f8a209f46ae2ec6a0f4d9664",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0x9bbede0d311d2aa12db212eb467c9d07072a7e4036ab158b63b922018ed076a2",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0xc2c1672bfd04adb440ba565b234c78786d6f5fe9ab7be09ed1923c2627bb5bda",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0x89bfb86b3adea33820b46fe0e222b7c29332a6c9cf6468b83e7c1900a42e5d6b",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0x010250749a3649534588a39504f430312727460a0e0515c38aac4ba9afff5517",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0xd944fc63e5a674858803a9d0d472a6531ece1aa716b5206273a08d6091e78609",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0x458c2dbc1f0626144f1fd7463d8ebaabd36c7c469ac26deadb6815f7051811b6",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0xc16b3d1e76642f75a5c136fe4e14f2bfb98d348e027918fda51fc58256ead03c",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0x46d12e38fc6d01bab902c7ea5e6d78bdb505fad732e99e7237b040c2875aeac7",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0xac08942187e0b61da21b8f222a0f2dc60be086c528e42fcd1735822a04b6f278",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0xa9b2057da2462ba0522c376a79395bee74e62a7b7cf71d33dad83dd2245ae4e5",
+            "reason": "Unrecognised swap selector"
+          },
+          {
+            "transaction_hash": "0xea0b447aff29dabc6a740f2e1036fb3d30ae8af42bf7388a45f087cde43a0cf6",
+            "reason": "Unrecognised swap selector"
+          }
+        ],
+        "multi_asset_candidate_count": 0,
+        "other_unverified_count": 30
+      }
+    }
+  ]
+}

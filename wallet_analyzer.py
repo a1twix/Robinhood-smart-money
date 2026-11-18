@@ -63,7 +63,7 @@ def fetch_wallet_transfers(wallet: str) -> list[dict[str, Any]] | None:
             engine.PRO_LEGACY_API_URL,
             params={
                 "module": "account", "action": "tokentx", "address": wallet,
-                "startblock": 0, "endblock": 99999999, "page": page,
+                "startblock": 0, "endblock": 999999999, "page": page,
                 "offset": PAGE_SIZE, "sort": "asc",
             },
             description=f"Wallet token-transfer page {page}",
@@ -334,6 +334,14 @@ def main() -> None:
         return
 
     candidates = discover_tokens(wallet, wallet_rows)
+    priority = {"WISHBONE", "WOOD", "KITSU", "PLTS", "NAV"}
+    candidates = sorted(
+        candidates,
+        key=lambda t: (
+            str(t.get("symbol", "")).upper() not in priority,
+            str(t.get("symbol", "")).upper()
+        )
+    )[:10]
     print(f"\nCandidate non-quote tokens received: {len(candidates)}")
 
     cp = load_checkpoint(wallet)

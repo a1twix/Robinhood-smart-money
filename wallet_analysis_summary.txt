@@ -1,0 +1,169 @@
+====================================================================================================
+ROBINHOOD CHAIN WALLET DUE-DILIGENCE REPORT
+====================================================================================================
+Wallet: 0xb35522495e33e3c962788e4e2098a5b4798d2d60
+Genuine token buys analysed: 10
+Completed exact ETH positions: 3
+Profitable: 0
+Losing: 3
+Win rate: 0.00%
+Counted ETH cost basis: 0.850000 ETH
+Counted ETH proceeds: 0.645914 ETH
+Realised ETH profit: -0.204086 ETH
+
+NOTE: Each token is measured from the wallet's first genuine buy allocation.
+Later additional buys are not merged into that position. Mixed/stable quote
+positions are shown individually but excluded from aggregate ETH P&L.
+
+POSITIONS
+----------------------------------------------------------------------------------------------------
+1. Net Asset Value (NAV)
+   Contract: 0x3e7f2c3a81a1c8302eace254928e0fba5a3bc447
+   Entry: 2026-09-01T04:58:56+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.250000
+   Initial stable spent: 0.000000
+   Confirmed sells: 1
+   Original position sold: 100.00%
+   ETH proceeds: 0.207368
+   Realised profit: -0.042632 ETH
+   Realised ROI: -17.05%
+   Current token balance: 0.000000
+   Profit status: Cumulative ETH/WETH realised estimate
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+2. Pilates (PLTS)
+   Contract: 0xc1a0d0ef8c0c353d03f006b8304a4efb32016d3c
+   Entry: 2026-07-28T09:27:03+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.100000
+   Initial stable spent: 0.000000
+   Confirmed sells: 1
+   Original position sold: 100.00%
+   ETH proceeds: 0.055218
+   Realised profit: -0.044782 ETH
+   Realised ROI: -44.78%
+   Current token balance: 0.000000
+   Profit status: Cumulative ETH/WETH realised estimate
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+3. Kitsu (KITSU)
+   Contract: 0x8d4dfaaa4198b6486e0293fec914c2b6a821d4dc
+   Entry: 2026-07-22T01:00:25+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.500000
+   Initial stable spent: 0.000000
+   Confirmed sells: 1
+   Original position sold: 100.00%
+   ETH proceeds: 0.383328
+   Realised profit: -0.116672 ETH
+   Realised ROI: -23.33%
+   Current token balance: 0.000000
+   Profit status: Cumulative ETH/WETH realised estimate
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+4. WISHBONE (WISHBONE)
+   Contract: 0x77581054581b9c525e7dd7a0155de43867532d03
+   Entry: 2026-07-08T17:42:08+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.230000
+   Initial stable spent: 0.000000
+   Confirmed sells: 0
+   Original position sold: 0.00%
+   ETH proceeds: 0.000000
+   Realised profit: N/A
+   Realised ROI: N/A%
+   Current token balance: 0.000000
+   Profit status: No confirmed cumulative sale found
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+5. Sherwood Protocol (WOOD)
+   Contract: 0xf8bc08092c06db6148114dcf82af881f1085f92b
+   Entry: 2026-07-13T16:45:20+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.200000
+   Initial stable spent: 0.000000
+   Confirmed sells: 0
+   Original position sold: 0.00%
+   ETH proceeds: 0.000000
+   Realised profit: N/A
+   Realised ROI: N/A%
+   Current token balance: 0.000000
+   Profit status: No confirmed cumulative sale found
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+6. Solar (SLR)
+   Contract: 0xc8ff13306a3be6fa2b1b39f54475d461a1a96a36
+   Entry: 2026-07-03T22:38:40+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.150000
+   Initial stable spent: 0.000000
+   Confirmed sells: 0
+   Original position sold: 0.00%
+   ETH proceeds: 0.000000
+   Realised profit: N/A
+   Realised ROI: N/A%
+   Current token balance: 0.000000
+   Profit status: No confirmed cumulative sale found
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+7. foreskin (HOOD)
+   Contract: 0x3f5e952b29be5d70846fc2ba472bea05761a769e
+   Entry: 2026-07-06T08:39:59+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.150000
+   Initial stable spent: 0.000000
+   Confirmed sells: 0
+   Original position sold: 0.00%
+   ETH proceeds: 0.000000
+   Realised profit: N/A
+   Realised ROI: N/A%
+   Current token balance: 0.000000
+   Profit status: No confirmed cumulative sale found
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+8. Trump Accounts Funds (530A)
+   Contract: 0x346d23a41bade4434483576a9dcfd30180383bc4
+   Entry: 2026-07-06T15:54:07+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.150000
+   Initial stable spent: 0.000000
+   Confirmed sells: 0
+   Original position sold: 0.00%
+   ETH proceeds: 0.000000
+   Realised profit: N/A
+   Realised ROI: N/A%
+   Current token balance: 0.000000
+   Profit status: No confirmed cumulative sale found
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+9. Neon Waka Waka Chair (NEON)
+   Contract: 0x91f6d734ef5ee764749d67ec02931dbfcc188b5a
+   Entry: 2026-07-06T19:19:47+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.046990
+   Initial stable spent: 0.000000
+   Confirmed sells: 0
+   Original position sold: 0.00%
+   ETH proceeds: 0.000000
+   Realised profit: N/A
+   Realised ROI: N/A%
+   Current token balance: 0.000000
+   Profit status: No confirmed cumulative sale found
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+10. Mintly (MLY)
+   Contract: 0x84b7515081a7ac5adc26179b77a8b18a8c6725c0
+   Entry: 2026-07-07T14:12:44+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.150000
+   Initial stable spent: 0.000000
+   Confirmed sells: 0
+   Original position sold: 0.00%
+   ETH proceeds: 0.000000
+   Realised profit: N/A
+   Realised ROI: N/A%
+   Current token balance: 0.000000
+   Profit status: No confirmed cumulative sale found
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------

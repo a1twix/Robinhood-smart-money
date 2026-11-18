@@ -1,0 +1,40 @@
+{
+  "token": {
+    "name": "Cash Cat",
+    "symbol": "CASHCAT",
+    "contract": "0x020bfc650a365f8bb26819deaabf3e21291018b4",
+    "decimals": 18
+  },
+  "source_checkpoint_updated_at": "2026-11-13T18:37:38.638549+00:00",
+  "generated_at_utc": "2026-11-13T20:24:46.276755+00:00",
+  "analysis_complete": false,
+  "early_whale_count": 2,
+  "early_whales": [
+    {
+      "wallet": "0xc38f2021b6b6349b8f662b7f207d84beb7bc8308",
+      "holder_rank": 18,
+      "seconds_after_launch": 1578,
+      "classification": "EARLY WHALE - HOLDING",
+      "total_tokens_received": 10109405.739453401,
+      "total_tokens_sent": 5015740.885120255,
+      "current_tokens_held": 5093664.854333147,
+      "retained_percentage_of_received": 50.38540331262392,
+      "profitability_status": "INCOMPLETE",
+      "profitability_reason": "Historical opening balance unavailable",
+      "sales_verified": false
+    },
+    {
+      "wallet": "0x255a80c3307011abc09669114627edece667a743",
+      "holder_rank": 25,
+      "seconds_after_launch": 51199,
+      "classification": "EARLY WHALE - HOLDING",
+      "total_tokens_received": 5674350.376513334,
+      "total_tokens_sent": 974350.015,
+      "current_tokens_held": 4700000.361513334,
+      "retained_percentage_of_received": 82.82887114209716,
+      "profitability_status": "INCOMPLETE",
+      "profitability_reason": "Historical opening balance unavailable",
+      "sales_verified": false
+    }
+  ]
+}

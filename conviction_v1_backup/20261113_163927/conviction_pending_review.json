@@ -1,0 +1,2893 @@
+{
+  "0x020bfc650a365f8bb26819deaabf3e21291018b4": {
+    "updated_at_utc": "2026-11-12T23:35:35.316348+00:00",
+    "token": {
+      "name": "Cash Cat",
+      "symbol": "CASHCAT",
+      "contract": "0x020bfc650a365f8bb26819deaabf3e21291018b4",
+      "decimals": 18
+    },
+    "launch": {
+      "first_confirmed_buy_wallet": "0xcdfc08a1c1fbafb355645e5ddc32122e5716ca90",
+      "first_confirmed_buy_transaction_hash": "0x3e2ee0e5b83897b073e9a9801800e381d4ee8228e0de53eb8701374936ecf8b3",
+      "first_confirmed_buy_block": 88990,
+      "first_confirmed_buy_time_utc": "2026-06-18T20:11:29+00:00",
+      "early_window_seconds": 1800,
+      "early_window": "30 minutes"
+    },
+    "holders_checked": [
+      {
+        "wallet": "0x1d48963dd8fada6ab5c2c7b92eba81ecc5030270",
+        "raw_balance": 120956822690000000000000000,
+        "current_balance": 120956822.69,
+        "is_contract": false,
+        "address_metadata": {},
+        "holder_rank": 1,
+        "analysis_complete": true,
+        "qualifies_30_minute_filter": false,
+        "reason": "No genuine DEX buy found; holder may have received/transferred tokens"
+      },
+      {
+        "wallet": "0xb1c9a41640d1566a7fee4770e3e3b8cd01a78d00",
+        "raw_balance": 59274774102726212679414279,
+        "current_balance": 59274774.10272621,
+        "is_contract": false,
+        "address_metadata": {},
+        "holder_rank": 2,
+        "analysis_complete": true,
+        "qualifies_30_minute_filter": false,
+        "reason": "No genuine DEX buy found; holder may have received/transferred tokens"
+      },
+      {
+        "wallet": "0x841ed663f2636863d40be4ee76243377dff13a34",
+        "raw_balance": 51820136971071671392387953,
+        "current_balance": 51820136.97107167,
+        "is_contract": false,
+        "address_metadata": {},
+        "holder_rank": 3,
+        "analysis_complete": true,
+        "qualifies_30_minute_filter": false,
+        "reason": "No genuine DEX buy found; holder may have received/transferred tokens"
+      },
+      {
+        "wallet": "0x65b0141486541fd041ecc3e9dec797c5529b4474",
+        "raw_balance": 38968348261791101296895464,
+        "current_balance": 38968348.2617911,
+        "is_contract": false,
+        "address_metadata": {},
+        "holder_rank": 4,
+        "analysis_complete": true,
+        "qualifies_30_minute_filter": false,
+        "reason": "No genuine DEX buy found; holder may have received/transferred tokens"
+      },
+      {
+        "wallet": "0x1a18a8b96eac3f980133a18402d04194f1faa4e7",
+        "raw_balance": 25854887997521955997730052,
+        "current_balance": 25854887.997521956,
+        "is_contract": false,
+        "address_metadata": {},
+        "holder_rank": 5,
+        "analysis_complete": true,
+        "qualifies_30_minute_filter": false,
+        "reason": "No genuine DEX buy found; holder may have received/transferred tokens"
+      },
+      {
+        "wallet": "0xc882b111a75c0c657fc507c04fbfcd2cc984f071",
+        "raw_balance": 18192371392912853829486344,
+        "current_balance": 18192371.392912854,
+        "is_contract": false,
+        "address_metadata": {},
+        "holder_rank": 6,
+        "analysis_complete": true,
+        "qualifies_30_minute_filter": false,
+        "reason": "No genuine DEX buy found; holder may have received/transferred tokens"
+      },
+      {
+        "wallet": "0x1887fa9edadeab7562b01cc3f4fa246ace2c3cdd",
+        "raw_balance": 16317619159079160570153700,
+        "current_balance": 16317619.15907916,
+        "is_contract": false,
+        "address_metadata": {},
+        "holder_rank": 7,
+        "analysis_complete": true,
+        "qualifies_30_minute_filter": false,
+        "reason": "No genuine DEX buy found; holder may have received/transferred tokens"
+      },
+      {
+        "wallet": "0xde52c75041371b5e08d8a50b82c63734850628c1",
+        "raw_balance": 11619240782142528319684478,
+        "current_balance": 11619240.782142527,
+        "is_contract": false,
+        "address_metadata": {},
+        "holder_rank": 8,
+        "analysis_complete": true,
+        "qualifies_30_minute_filter": false,
+        "reason": "No genuine DEX buy found; holder may have received/transferred tokens"
+      },
+      {
+        "wallet": "0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+        "raw_balance": 11340394061744420438469350,
+        "current_balance": 11340394.06174442,
+        "is_contract": false,
+        "address_metadata": {},
+        "holder_rank": 9,
+        "analysis_complete": true,
+        "qualifies_30_minute_filter": false,
+        "reason": "No genuine DEX buy found; holder may have received/transferred tokens"
+      },
+      {
+        "wallet": "0x88d25c861938a91af4ad57ad964a8fcc6c6351d3",
+        "raw_balance": 10002508241307059520877249,
+        "current_balance": 10002508.24130706,
+        "is_contract": false,
+        "address_metadata": {},
+        "holder_rank": 10,
+        "analysis_complete": true,
+        "qualifies_30_minute_filter": false,
+        "reason": "No genuine DEX buy found; holder may have received/transferred tokens"
+      },
+      {
+        "wallet": "0x1aa780bb10425b86bcf05ecbb7953f9a93729ed9",
+        "raw_balance": 9000000000000000000000000,
+        "current_balance": 9000000.0,
+        "is_contract": false,
+        "address_metadata": {},
+        "holder_rank": 11,
+        "analysis_complete": true,
+        "qualifies_30_minute_filter": false,
+        "reason": "No genuine DEX buy found; holder may have received/transferred tokens"
+      },
+      {
+        "wallet": "0xdfe5d7b83a1085b9a6414f8e885599581af6a28a",
+        "raw_balance": 7488747700806258621269122,
+        "current_balance": 7488747.700806258,
+        "is_contract": false,
+        "address_metadata": {},
+        "holder_rank": 12,
+        "entry_transaction_hash": "0x24164f894c262b70cc42a79a9da8116e7c2e11bd9e0ff6079b129199943203b3",
+        "entry_block": 17584143,
+        "entry_time_utc": "2026-07-23T20:43:55+00:00",
+        "initial_tokens_bought": 103994.8778859431,
+        "initial_spent_eth": 2.344442779922743,
+        "initial_spent_stable": 0.0,
+        "entry_method": "0x3593564c",
+        "seconds_after_launch": 3025946,
+        "delay_after_launch": "35d 32m 26s",
+        "qualifies_30_minute_filter": false,
+        "analysis_complete": true,
+        "classification": "PROFITABILITY UNVERIFIED",
+        "reason": "Current major holder with a genuine DEX purchase; full-position profitability verification pending",
+        "full_position_analysis": {
+          "position_status": "UNVERIFIED",
+          "reason": "Position requires multi-asset valuation or transfer reconciliation",
+          "unresolved_transactions": [
+            "0x6181c0ba76bdf780c75afdd8c20ca571ddd6d110a5dce361cfbe77f1de642975",
+            "0xa790a45c3e9edb700c5edeeff2703b02a5529ce5072e7383282c177d12922a12",
+            "0x5c6af1d8ee04be529e24b9d73dda994f440231ccb8d3bed9db70deb2f403bf75",
+            "0x5395e170ff259b305aa96549d78fdb89a17e16d5fbbba32620760215eded8dc0",
+            "0x42d0a9638afe8b1f3c5a08279819c309bc35b8124a8984bb532ce29b6c495a33",
+            "0xd3a568f128f7aaa6a347927ac825ffc6830869d428c197fc4ba8d1bb0f4a537a",
+            "0xe4ef363e8b7f2d166e45a6bfc8880fa704a67f4f8bc02d357987bdf4177b7d24",
+            "0x26521c7e0109f178a3cfcb9dd8aaa57d3fd2aab891b580a18d10a704c461c45e",
+            "0x54239d350c64bcc3bea73fcc42f681455b92de449ecb3bf48b48529f65f2660c",
+            "0xc60ebc2ffb0a5db3a1c427f27dd4cc4e2b230010dcb5e0c69f261936d72b4a0b",
+            "0x22fa8d0f7cdc9ece10fda1d87f95ea7ed13be8872b9e361e72a00f2521a91c03",
+            "0x03e54028002e41835bd422b0db75bcec31c8fe827360ff23e7629ba5ec38a328",
+            "0xeb486c78ac05a05a5f3f0680b640132e70fc54522aec5e366c8a0e87a9afa9f8",
+            "0x7510298eefc9824b50506122559afa8c541ee16ad8344579cbc25dbd232d5601",
+            "0x68431504d9c4480373044c02e71e72dddd862200a8a0a7ef5d55b27c91a39b90",
+            "0xf6aa1bf16000c9cfac3e95e68f8f054aaa7b223151c45784fc2fc03a5d33a291",
+            "0x630335bacec0d1acf2fd29639c894c399c48bfd059a11ff1d41763241d85d9dd",
+            "0xd0f46f3c41f81764113b29e584815c75c3fdfc0bd232856c27c9012e81031464",
+            "0xf04ed0aa3a706127968cc46899e77ad0f4ef88bb66b04794615a3797c6d60d2f",
+            "0x0fac69ae1f058bb9e699e5af4faba1971f6c13f480182a0513a181c76e22f647",
+            "0xdc3ad652c67b339f6a2c1893d85d0320eb3e9a84986d7cf53c9a5e4a65aa97a6",
+            "0x032a7d46ef52829ab3e674bbc50efcf15920191aabc9c31343fdd6c484d711de",
+            "0xb41f47753b50b1ce51983afe4dff64e5af042d39db638bd5b9544d2627c5dfa7"
+          ],
+          "unresolved_details": [
+            {
+              "transaction_hash": "0x6181c0ba76bdf780c75afdd8c20ca571ddd6d110a5dce361cfbe77f1de642975",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xa790a45c3e9edb700c5edeeff2703b02a5529ce5072e7383282c177d12922a12",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x5c6af1d8ee04be529e24b9d73dda994f440231ccb8d3bed9db70deb2f403bf75",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x5395e170ff259b305aa96549d78fdb89a17e16d5fbbba32620760215eded8dc0",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0x42d0a9638afe8b1f3c5a08279819c309bc35b8124a8984bb532ce29b6c495a33",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0xd3a568f128f7aaa6a347927ac825ffc6830869d428c197fc4ba8d1bb0f4a537a",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0xe4ef363e8b7f2d166e45a6bfc8880fa704a67f4f8bc02d357987bdf4177b7d24",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0x26521c7e0109f178a3cfcb9dd8aaa57d3fd2aab891b580a18d10a704c461c45e",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0x54239d350c64bcc3bea73fcc42f681455b92de449ecb3bf48b48529f65f2660c",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0xc60ebc2ffb0a5db3a1c427f27dd4cc4e2b230010dcb5e0c69f261936d72b4a0b",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x22fa8d0f7cdc9ece10fda1d87f95ea7ed13be8872b9e361e72a00f2521a91c03",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0x03e54028002e41835bd422b0db75bcec31c8fe827360ff23e7629ba5ec38a328",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0xeb486c78ac05a05a5f3f0680b640132e70fc54522aec5e366c8a0e87a9afa9f8",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0x7510298eefc9824b50506122559afa8c541ee16ad8344579cbc25dbd232d5601",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0x68431504d9c4480373044c02e71e72dddd862200a8a0a7ef5d55b27c91a39b90",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0xf6aa1bf16000c9cfac3e95e68f8f054aaa7b223151c45784fc2fc03a5d33a291",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0x630335bacec0d1acf2fd29639c894c399c48bfd059a11ff1d41763241d85d9dd",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0xd0f46f3c41f81764113b29e584815c75c3fdfc0bd232856c27c9012e81031464",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0xf04ed0aa3a706127968cc46899e77ad0f4ef88bb66b04794615a3797c6d60d2f",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0x0fac69ae1f058bb9e699e5af4faba1971f6c13f480182a0513a181c76e22f647",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0xdc3ad652c67b339f6a2c1893d85d0320eb3e9a84986d7cf53c9a5e4a65aa97a6",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0x032a7d46ef52829ab3e674bbc50efcf15920191aabc9c31343fdd6c484d711de",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0xb41f47753b50b1ce51983afe4dff64e5af042d39db638bd5b9544d2627c5dfa7",
+              "reason": "Wallet was not transaction initiator"
+            }
+          ],
+          "verified_eth_trade_count": 13,
+          "multi_asset_valuation_candidates": [],
+          "other_unverified_transactions": [
+            {
+              "transaction_hash": "0x6181c0ba76bdf780c75afdd8c20ca571ddd6d110a5dce361cfbe77f1de642975",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xa790a45c3e9edb700c5edeeff2703b02a5529ce5072e7383282c177d12922a12",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x5c6af1d8ee04be529e24b9d73dda994f440231ccb8d3bed9db70deb2f403bf75",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x5395e170ff259b305aa96549d78fdb89a17e16d5fbbba32620760215eded8dc0",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0x42d0a9638afe8b1f3c5a08279819c309bc35b8124a8984bb532ce29b6c495a33",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0xd3a568f128f7aaa6a347927ac825ffc6830869d428c197fc4ba8d1bb0f4a537a",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0xe4ef363e8b7f2d166e45a6bfc8880fa704a67f4f8bc02d357987bdf4177b7d24",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0x26521c7e0109f178a3cfcb9dd8aaa57d3fd2aab891b580a18d10a704c461c45e",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0x54239d350c64bcc3bea73fcc42f681455b92de449ecb3bf48b48529f65f2660c",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0xc60ebc2ffb0a5db3a1c427f27dd4cc4e2b230010dcb5e0c69f261936d72b4a0b",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x22fa8d0f7cdc9ece10fda1d87f95ea7ed13be8872b9e361e72a00f2521a91c03",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0x03e54028002e41835bd422b0db75bcec31c8fe827360ff23e7629ba5ec38a328",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0xeb486c78ac05a05a5f3f0680b640132e70fc54522aec5e366c8a0e87a9afa9f8",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0x7510298eefc9824b50506122559afa8c541ee16ad8344579cbc25dbd232d5601",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0x68431504d9c4480373044c02e71e72dddd862200a8a0a7ef5d55b27c91a39b90",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0xf6aa1bf16000c9cfac3e95e68f8f054aaa7b223151c45784fc2fc03a5d33a291",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0x630335bacec0d1acf2fd29639c894c399c48bfd059a11ff1d41763241d85d9dd",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0xd0f46f3c41f81764113b29e584815c75c3fdfc0bd232856c27c9012e81031464",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0xf04ed0aa3a706127968cc46899e77ad0f4ef88bb66b04794615a3797c6d60d2f",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0x0fac69ae1f058bb9e699e5af4faba1971f6c13f480182a0513a181c76e22f647",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0xdc3ad652c67b339f6a2c1893d85d0320eb3e9a84986d7cf53c9a5e4a65aa97a6",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0x032a7d46ef52829ab3e674bbc50efcf15920191aabc9c31343fdd6c484d711de",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0xb41f47753b50b1ce51983afe4dff64e5af042d39db638bd5b9544d2627c5dfa7",
+              "reason": "Wallet was not transaction initiator"
+            }
+          ],
+          "multi_asset_candidate_count": 0,
+          "other_unverified_count": 23
+        }
+      },
+      {
+        "wallet": "0xd3ce8492b2dc31c6bf2029f2d4e9782c15cbfb14",
+        "raw_balance": 7000000000000000000000000,
+        "current_balance": 7000000.0,
+        "is_contract": false,
+        "address_metadata": {},
+        "holder_rank": 13,
+        "analysis_complete": true,
+        "qualifies_30_minute_filter": false,
+        "reason": "No genuine DEX buy found; holder may have received/transferred tokens"
+      },
+      {
+        "wallet": "0xa8a57dc6adfaed37349cb8a20b3dc83f37e9643b",
+        "raw_balance": 6476201453337162986261325,
+        "current_balance": 6476201.453337163,
+        "is_contract": false,
+        "address_metadata": {},
+        "holder_rank": 14,
+        "entry_transaction_hash": "0xa3023875f30896bf6d1d175317bc42c7f5a57275f408cfe5ca02a2bdc065afad",
+        "entry_block": 21935648,
+        "entry_time_utc": "2026-07-28T22:02:43+00:00",
+        "initial_tokens_bought": 1330780.1517616748,
+        "initial_spent_eth": 25.0,
+        "initial_spent_stable": 0.0,
+        "entry_method": "0x3593564c",
+        "seconds_after_launch": 3462674,
+        "delay_after_launch": "40d 1h 51m",
+        "qualifies_30_minute_filter": false,
+        "analysis_complete": true,
+        "classification": "PROFITABILITY UNVERIFIED",
+        "reason": "Current major holder with a genuine DEX purchase; full-position profitability verification pending",
+        "full_position_analysis": {
+          "position_status": "UNVERIFIED",
+          "reason": "Position requires multi-asset valuation or transfer reconciliation",
+          "unresolved_transactions": [
+            "0xd17b8b9d0c814ad27ffac91d7d56a7e5fdcd6ebba675afdc4c76a6aaa9e24c74",
+            "0x1d6610108152c8515a4946ce7ffe38f523f74ed46b27b3709cb6f84e3eee192e",
+            "0x92125602aedcb0fb2fdb75e12300b55b15d1ad360527d782c393f2dc0f6209a6",
+            "0xeb38b429f2ff833d79e5f3295aff77f106c70424ebc7013d08cb1a6bd53b474a",
+            "0x991db1098e7cc297d4f44c79097a114fb47b1d337ed503d101e56f82cb5e1559",
+            "0x5daf4b43c7494cf2e9290421ed55df6ae6f37c717191d5baf0144e5c1477bcc9",
+            "0x5d38c254b80881dbfada22c263093785e48f2ae3e33732d588e422e3f46be1d8",
+            "0x942d6a20f83cb5d89891c739c93170e4837bf492f7ec3e237203b62eca53150e"
+          ],
+          "unresolved_details": [
+            {
+              "transaction_hash": "0xd17b8b9d0c814ad27ffac91d7d56a7e5fdcd6ebba675afdc4c76a6aaa9e24c74",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0x1d6610108152c8515a4946ce7ffe38f523f74ed46b27b3709cb6f84e3eee192e",
+              "reason": "Mixed incoming and outgoing target tokens"
+            },
+            {
+              "transaction_hash": "0x92125602aedcb0fb2fdb75e12300b55b15d1ad360527d782c393f2dc0f6209a6",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0xeb38b429f2ff833d79e5f3295aff77f106c70424ebc7013d08cb1a6bd53b474a",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x991db1098e7cc297d4f44c79097a114fb47b1d337ed503d101e56f82cb5e1559",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0x5daf4b43c7494cf2e9290421ed55df6ae6f37c717191d5baf0144e5c1477bcc9",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0x5d38c254b80881dbfada22c263093785e48f2ae3e33732d588e422e3f46be1d8",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0x942d6a20f83cb5d89891c739c93170e4837bf492f7ec3e237203b62eca53150e",
+              "reason": "Wallet was not transaction initiator"
+            }
+          ],
+          "verified_eth_trade_count": 16,
+          "multi_asset_valuation_candidates": [],
+          "other_unverified_transactions": [
+            {
+              "transaction_hash": "0xd17b8b9d0c814ad27ffac91d7d56a7e5fdcd6ebba675afdc4c76a6aaa9e24c74",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0x1d6610108152c8515a4946ce7ffe38f523f74ed46b27b3709cb6f84e3eee192e",
+              "reason": "Mixed incoming and outgoing target tokens"
+            },
+            {
+              "transaction_hash": "0x92125602aedcb0fb2fdb75e12300b55b15d1ad360527d782c393f2dc0f6209a6",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0xeb38b429f2ff833d79e5f3295aff77f106c70424ebc7013d08cb1a6bd53b474a",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x991db1098e7cc297d4f44c79097a114fb47b1d337ed503d101e56f82cb5e1559",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0x5daf4b43c7494cf2e9290421ed55df6ae6f37c717191d5baf0144e5c1477bcc9",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0x5d38c254b80881dbfada22c263093785e48f2ae3e33732d588e422e3f46be1d8",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0x942d6a20f83cb5d89891c739c93170e4837bf492f7ec3e237203b62eca53150e",
+              "reason": "Wallet was not transaction initiator"
+            }
+          ],
+          "multi_asset_candidate_count": 0,
+          "other_unverified_count": 8
+        }
+      },
+      {
+        "wallet": "0x32c34a18cc5fd58c0ece1e472e9bf95de8906a8a",
+        "raw_balance": 6039843676209183474813689,
+        "current_balance": 6039843.676209183,
+        "is_contract": false,
+        "address_metadata": {},
+        "holder_rank": 15,
+        "entry_transaction_hash": "0xf9de8f87aecf6e3534485904c47ed7c6f47416c529b97bf435e2ab26680717eb",
+        "entry_block": 12453974,
+        "entry_time_utc": "2026-07-17T21:47:47+00:00",
+        "initial_tokens_bought": 825555.3293481155,
+        "initial_spent_eth": 18.5,
+        "initial_spent_stable": 0.0,
+        "entry_method": "0x3593564c",
+        "seconds_after_launch": 2511378,
+        "delay_after_launch": "29d 1h 36m",
+        "qualifies_30_minute_filter": false,
+        "analysis_complete": true,
+        "classification": "PROFITABILITY UNVERIFIED",
+        "reason": "Current major holder with a genuine DEX purchase; full-position profitability verification pending",
+        "full_position_analysis": {
+          "position_status": "UNVERIFIED",
+          "reason": "Position requires multi-asset valuation or transfer reconciliation",
+          "unresolved_transactions": [
+            "0x91af511616f2329bdb8cffc3c50e387b7832cc1efa0092a139ad89ae2b555172",
+            "0x46e03e3788578a1b4020419d0d8565898a54567f13fb65d025c38d5e1b042fb2",
+            "0x75ef24458bfd6e322f5faaccdb3c81440049ecca37d36cb0d4413274a1df9515",
+            "0x3a9c8c4533288e4acae9262917f7d724e503fe59a8d8ead39633cfba343592a8",
+            "0xbccd8c9e5aaf6bddb141be6596733bd8d21698621d2fab30ac48be48fc251a07",
+            "0xdc6dedab07398f6355481019cac3198cc16ce9c189df1867c6b6403eae07f303",
+            "0xce93ae8b2d855d87759a321b7f87478ae22f9f356fa5868a87752213e9b1702b",
+            "0x5dfafb3decb99c5d426c66bf7bb3dae1494c639775e720d143d355e77761899b",
+            "0x7682ce7f700e069141257a36a7fea3492d59008ccebf041596f4dbe21cec06b6",
+            "0x0160609d425f10e1bc6654c7b4d71a8f6f1e0ae6edc49a422fbf592ee8aee43d",
+            "0xcdd1bf0715f6f787b475780cd7d7355aa982dc9c4054f4d19a7482fbd4abfcde",
+            "0x04273276f95eede68ad5c38bac48c2e8efd8c6cacd1b1ea05a75562e0b96ce22",
+            "0x915b38d44d32fc32de5139c041b0580f3caea3d95571a49b97772754573a5144",
+            "0x13859f6e3c25c3a0f318ee55734235ff09dd5128e16c0126a6f1886e101193c5",
+            "0x1d879a3579bf3ed5239f44f70d96f6567c8e061fa6061d718c2927501a9c05c4",
+            "0x4d78f4a9aa7c9c79c0ae7551b170e45eac8321a155152f84af1f2edea6d728fb",
+            "0xfecd8c9dc5ce712789559e8786a8e4a8ef93586058776ea9c1ab7edcc50a2c3b",
+            "0xeedb4dcb9cfdb4c58fc9bc5c0a2e16c95f1901b931584bb8bac52f3b6df028b6"
+          ],
+          "unresolved_details": [
+            {
+              "transaction_hash": "0x91af511616f2329bdb8cffc3c50e387b7832cc1efa0092a139ad89ae2b555172",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0x46e03e3788578a1b4020419d0d8565898a54567f13fb65d025c38d5e1b042fb2",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x75ef24458bfd6e322f5faaccdb3c81440049ecca37d36cb0d4413274a1df9515",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x3a9c8c4533288e4acae9262917f7d724e503fe59a8d8ead39633cfba343592a8",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xbccd8c9e5aaf6bddb141be6596733bd8d21698621d2fab30ac48be48fc251a07",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xdc6dedab07398f6355481019cac3198cc16ce9c189df1867c6b6403eae07f303",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xce93ae8b2d855d87759a321b7f87478ae22f9f356fa5868a87752213e9b1702b",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x5dfafb3decb99c5d426c66bf7bb3dae1494c639775e720d143d355e77761899b",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x7682ce7f700e069141257a36a7fea3492d59008ccebf041596f4dbe21cec06b6",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0x0160609d425f10e1bc6654c7b4d71a8f6f1e0ae6edc49a422fbf592ee8aee43d",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0xcdd1bf0715f6f787b475780cd7d7355aa982dc9c4054f4d19a7482fbd4abfcde",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x04273276f95eede68ad5c38bac48c2e8efd8c6cacd1b1ea05a75562e0b96ce22",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x915b38d44d32fc32de5139c041b0580f3caea3d95571a49b97772754573a5144",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x13859f6e3c25c3a0f318ee55734235ff09dd5128e16c0126a6f1886e101193c5",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0x1d879a3579bf3ed5239f44f70d96f6567c8e061fa6061d718c2927501a9c05c4",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x4d78f4a9aa7c9c79c0ae7551b170e45eac8321a155152f84af1f2edea6d728fb",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0xfecd8c9dc5ce712789559e8786a8e4a8ef93586058776ea9c1ab7edcc50a2c3b",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xeedb4dcb9cfdb4c58fc9bc5c0a2e16c95f1901b931584bb8bac52f3b6df028b6",
+              "reason": "Unrecognised swap selector"
+            }
+          ],
+          "verified_eth_trade_count": 3,
+          "multi_asset_valuation_candidates": [],
+          "other_unverified_transactions": [
+            {
+              "transaction_hash": "0x91af511616f2329bdb8cffc3c50e387b7832cc1efa0092a139ad89ae2b555172",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0x46e03e3788578a1b4020419d0d8565898a54567f13fb65d025c38d5e1b042fb2",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x75ef24458bfd6e322f5faaccdb3c81440049ecca37d36cb0d4413274a1df9515",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x3a9c8c4533288e4acae9262917f7d724e503fe59a8d8ead39633cfba343592a8",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xbccd8c9e5aaf6bddb141be6596733bd8d21698621d2fab30ac48be48fc251a07",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xdc6dedab07398f6355481019cac3198cc16ce9c189df1867c6b6403eae07f303",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xce93ae8b2d855d87759a321b7f87478ae22f9f356fa5868a87752213e9b1702b",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x5dfafb3decb99c5d426c66bf7bb3dae1494c639775e720d143d355e77761899b",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x7682ce7f700e069141257a36a7fea3492d59008ccebf041596f4dbe21cec06b6",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0x0160609d425f10e1bc6654c7b4d71a8f6f1e0ae6edc49a422fbf592ee8aee43d",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0xcdd1bf0715f6f787b475780cd7d7355aa982dc9c4054f4d19a7482fbd4abfcde",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x04273276f95eede68ad5c38bac48c2e8efd8c6cacd1b1ea05a75562e0b96ce22",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x915b38d44d32fc32de5139c041b0580f3caea3d95571a49b97772754573a5144",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x13859f6e3c25c3a0f318ee55734235ff09dd5128e16c0126a6f1886e101193c5",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0x1d879a3579bf3ed5239f44f70d96f6567c8e061fa6061d718c2927501a9c05c4",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x4d78f4a9aa7c9c79c0ae7551b170e45eac8321a155152f84af1f2edea6d728fb",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0xfecd8c9dc5ce712789559e8786a8e4a8ef93586058776ea9c1ab7edcc50a2c3b",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xeedb4dcb9cfdb4c58fc9bc5c0a2e16c95f1901b931584bb8bac52f3b6df028b6",
+              "reason": "Unrecognised swap selector"
+            }
+          ],
+          "multi_asset_candidate_count": 0,
+          "other_unverified_count": 18
+        }
+      },
+      {
+        "wallet": "0xcc0c581613dfd4ace7c8686668427236f8bd5cc5",
+        "raw_balance": 5500000000000000000000000,
+        "current_balance": 5500000.0,
+        "is_contract": false,
+        "address_metadata": {},
+        "holder_rank": 16,
+        "analysis_complete": true,
+        "qualifies_30_minute_filter": false,
+        "reason": "No genuine DEX buy found; holder may have received/transferred tokens"
+      },
+      {
+        "wallet": "0xc38f2021b6b6349b8f662b7f207d84beb7bc8308",
+        "raw_balance": 5093664854333147172487526,
+        "current_balance": 5093664.854333147,
+        "is_contract": false,
+        "address_metadata": {},
+        "holder_rank": 17,
+        "analysis_complete": true,
+        "qualifies_30_minute_filter": false,
+        "reason": "No genuine DEX buy found; holder may have received/transferred tokens"
+      },
+      {
+        "wallet": "0xa75c9890caee194fb598cdf7b84c9610e6e21a12",
+        "raw_balance": 5069833233418261197025258,
+        "current_balance": 5069833.233418262,
+        "is_contract": false,
+        "address_metadata": {},
+        "holder_rank": 18,
+        "entry_transaction_hash": "0x6105014303c00572c9376bc2b50d175ff3bd4931d20d30ac3be427854add3e02",
+        "entry_block": 960573,
+        "entry_time_utc": "2026-07-02T00:14:56+00:00",
+        "initial_tokens_bought": 12037.780748382947,
+        "initial_spent_eth": 0.03749317836356696,
+        "initial_spent_stable": 0.0,
+        "entry_method": "0x3593564c",
+        "seconds_after_launch": 1137807,
+        "delay_after_launch": "13d 4h 3m",
+        "qualifies_30_minute_filter": false,
+        "analysis_complete": true,
+        "classification": "PROFITABILITY UNVERIFIED",
+        "reason": "Current major holder with a genuine DEX purchase; full-position profitability verification pending",
+        "full_position_analysis": {
+          "position_status": "UNVERIFIED",
+          "reason": "Position requires multi-asset valuation or transfer reconciliation",
+          "unresolved_transactions": [
+            "0x89ae3fec575ddc46d99c99a7138a4143fc9e391091075b7c7e14571d8bac2576",
+            "0x1d0a32405ef1e06d59ddd0fd215442ec10e77c0a9044588a1aeaa721b56ef6b8",
+            "0x3baed1f4b4e02817cb5f9d20f327ffb2eb49765c800a4ee2a5b5bf85351fa2af",
+            "0x8c507efe63ea466cfd98bb1ffcb4a1196c5b82f90b5eea3383dfe0dfac50d297",
+            "0x9a26d0c4d1d18d66316d95408185cbb4f044e3f58068e8c25508c497511ead46",
+            "0x3cd261983ddbf5d657356b331a044bcc91a79e0f97a59c8f56221e0728dfe88f",
+            "0xa0e2a76711bd0a9a2b3dfcfd5e1d51a8e2a870fe3183385adca6b3b2e0f17616",
+            "0x4c0e2238a59ec1cf863aa9ff35d49580484ee0e92cbc5893916a28714b3d82ac",
+            "0xa1c8db1daf39c862ced6315f06ae0c1be4bba2e0bb378546eefeba027e5cb682",
+            "0xb4a67a80d69709f1896efb14bcf08c2ae00aa81d734cb38019a81d4867b83aa7",
+            "0x06e202c74025da01723129b968352cc7de44b9a8cb0dccaa1daaa2d6cbcb059c",
+            "0x0d2d41f203e8e0737dd1e9848a4ed92035f86419ce1d1e5fe3f61810335c95fd",
+            "0xedf47210e0d07b35af7e874a630ed3815b289083372f8f390ac87cc36aebedae",
+            "0x5a6d9508f4d8c564cb6672652c74741e6680d7bfce2c9eac117582d0ff921896",
+            "0x5c9a88ffe2ea9b300c69d656940715da3860dc273a8fe624fed314dc5b731031",
+            "0xbeaf219edce8fce0f982c6232664e4faf1c13eddb9bec1ce678a3bd4ce0253ed",
+            "0xe3d3dd976c190827664979eb051756b11952717c60bcf7974f731f959909320c",
+            "0x2ffda8df43b4d716b4763e92a406faee003f8a1c5cdc89bfef8066becd34e437",
+            "0x357c9a6d2b18457d94409a8ed7c90f36d71e89dfcb2eda608830c6103fd562b0",
+            "0x78ea3454d86addd35935771e4e88bd586cec72000b5137f1975b978959e85077",
+            "0x04a430c673f55e4a8707e6b67b8694df51ef7cef4a35cdf83207d0763886979f",
+            "0x77cc503b65cba5590bceae06fcbb75ebfd27ac5b959d92f919079a45883812a2",
+            "0x7043d7ed0dd19892e9510d73e607caa748032e95c8aaca8c1d9b0690671400b1",
+            "0x784ed317e5eb692c65225f1fc7fabd92901e8057bd287dcecd520ce9da368d0f",
+            "0x5d1129c5e410a56b14ed2bd4cac25cd09b5d29918b10a190953ec035b302d0f8",
+            "0xc1ebddc585229803008b9b0f56f7271f1c52a9ceb7f136526558f828c57489a4",
+            "0x854693fac628ba2c7f6d451b64be3612f12c27fdaa582122c6cdd30d50eafd32",
+            "0x5b971af52caa42b02fd2d8adde393d73f296a0ee65e3a1127b4df9de36ea3622",
+            "0x4ae34de0ea84343f26f8ad461e6ddfaad30a0b93e26779a055be9f3858602253",
+            "0xf93141511e1e55bfd617d5ba1e0cd1987a89712e19a964c9a6d1c3e7754944d1",
+            "0x7d81f3641105d8a12565a8105fbbcb70f0daee8bd17f25ac195a679ac9b6802f",
+            "0xde38a702e7ec6540be4979d7c929d879db775d3d551d8163b77be3cc66788e97",
+            "0x1739f739fdaa0f2a0c303886cb2bc354beff85e05848bbebd848c544737cbce6",
+            "0xea47edc72b20f61bab497f93e7b1b4e5b0f1df73efed8e6374309f170da9b48b",
+            "0xfbedb860483d203e23881568c7f0a7249a5e078074281a2ecfa60084a434c2f0",
+            "0xe4b23076ac923c50ded65652add81419d3ace75b0247c613a00cac14cf1ae332",
+            "0xe8ff5e1cceeb22c330e844e76e28f572ebc5674f993387380e5be54b36c7c35a",
+            "0xf8bde0e86d64b5a0787430f15fe37b46fd5bc5acd60bd5ed78454fc96b69f374",
+            "0x2cf17963a7db1dddd793e29cbc0d8acb2e36ce876f4906475123810f0d574c64",
+            "0x0dec86dd40fbfc64f6bd0b38a0020e7d1ff3ae7f83e47fbe5cb7fa732385243e",
+            "0x66fa72ac9050afe200753b20c317372d8478ca16b0809d2e6cd25ed421d06f1b",
+            "0xe8d694162857d1a19cd472c61835e4cb8b0f6c852aa3fc19fd0ca37a74e70f1a",
+            "0xc7587eba1d18e921f07085c61e5eac9a26c3ff434cda95fd9dcb02a1a6bf39c8",
+            "0xa81fc469dee2a6ef02603404fc5fe7cb60b65fd6bbbbcaa822205373798c8e6b",
+            "0x60bcfe425ce6f583c669d896fe1616534de1e95cf6aa0502a9a84bc3ddea51ae",
+            "0xfb801a8bbf1a4386a0d256bd26297e18bc98d950a7fa256c8787a347298de2cb",
+            "0x543da55e33a5b86306de1e30895d7948de50bd1c20a2df763c7db68eec67f232",
+            "0xf3940796e024da221503cf8fb98ba5e846c4fe57754b74831b9c85f14bfbfb34",
+            "0x1aab388cc01e3a5d493e80bc1e1146a15d6cbcc2f5e48eab5dba226ee5edcd4e",
+            "0xf1299eb8ae2f3948f6d4db01f64019ae16fd29fa11433b099014ff5c9037eb27",
+            "0x19139393ef488c1908a51a6e681eb81b171744ff5be07b816a0d59321853e196",
+            "0xc58b7eeff2b0c759c31c9b5651455df77a4696cd0c0eaa951709726eb7124f0d",
+            "0x48552ea4529aebbd35493b7f9706fd71e0286f09a6e5cdd48755b0d7db5da645",
+            "0x92356a4700ec8fdd4edc167345874f02b9167c3772d124b1461cf927dd0bd62c",
+            "0xb3e7eb706f6212afb318a84fdff84d7e3af790ac82b6f9bfea0b1475b6f769c0",
+            "0x70008c37ce75c32d3950bab8376f829dad2566d9daa5f7fccb5611aefa6e08f0",
+            "0x59544803bae708a1f3f839991598886310b16feab4a9f49803e1f796f0a30700",
+            "0x422c8903369687772ea45ce2f6c3fd77cb0ffb5c16a7b608b0e32281ad630237",
+            "0x817d37afcdb018bfe2ac572ef4372f34c71eaa09bd83de15408890bf4c2a8490",
+            "0xd88dd71978999b11658dce9a0c7b0e4f9a6650eb2ce3d9e19ae669fa9236bf2a",
+            "0x91f5783cde6e6b66756f4f046b1ea90398c9ecf3f2571de427d37a76b5410e8b",
+            "0x1caedf4eb22506bad94ea9a502879f92fe131b9f19e4c1a08a7277a68b032a7d",
+            "0xc66836280491c85561d3ce1adc05a316e639a49c3829830199e1beec67a65ab0",
+            "0xa4202449431b32bdab60631cf494f53a71621ddec0c468445ccdb293e72e7736",
+            "0x37f00aeefa173b5b232de21be14ad074e128d9a71270f40194de7ba03902b9ea",
+            "0xb4f12844994c731c31c87cc69f7cdd53573cd0309c7b36139c3b82715d0e500f"
+          ],
+          "unresolved_details": [
+            {
+              "transaction_hash": "0x89ae3fec575ddc46d99c99a7138a4143fc9e391091075b7c7e14571d8bac2576",
+              "reason": "Purchase quote asset not eligible for ETH profit calculation",
+              "spent_eth": 0.0,
+              "spent_stable": 1.0,
+              "asset_flows": {
+                "assets": [
+                  {
+                    "contract": "0xd4052415613b34af236024b895574c467f65b6dd",
+                    "symbol": "4663",
+                    "amount": 2558113.0476904004,
+                    "direction": "spent"
+                  }
+                ],
+                "valuation_status": "NOT_VALUED",
+                "valuation": {
+                  "net_eth": 0.0,
+                  "net_stable": 0.0,
+                  "other_assets": [
+                    {
+                      "contract": "0xd4052415613b34af236024b895574c467f65b6dd",
+                      "symbol": "4663",
+                      "amount": 2558113.0476904004,
+                      "direction": "spent"
+                    }
+                  ],
+                  "historical_valuation_complete": false
+                }
+              }
+            },
+            {
+              "transaction_hash": "0x1d0a32405ef1e06d59ddd0fd215442ec10e77c0a9044588a1aeaa721b56ef6b8",
+              "reason": "Unsupported or mixed sale proceeds",
+              "received_eth": 0.0,
+              "received_stable": 0.0,
+              "unsupported_proceeds": {
+                "VLAD": 3079213.785605
+              },
+              "asset_flows": {
+                "assets": [
+                  {
+                    "contract": "0xa138975b14f1f6bb595715c77e22ea9ed2732a99",
+                    "symbol": "VLAD",
+                    "amount": 3079213.785605,
+                    "direction": "received"
+                  }
+                ],
+                "valuation_status": "NOT_VALUED",
+                "valuation": {
+                  "net_eth": 0.0,
+                  "net_stable": 0.0,
+                  "other_assets": [
+                    {
+                      "contract": "0xa138975b14f1f6bb595715c77e22ea9ed2732a99",
+                      "symbol": "VLAD",
+                      "amount": 3079213.785605,
+                      "direction": "received"
+                    }
+                  ],
+                  "historical_valuation_complete": false
+                }
+              }
+            },
+            {
+              "transaction_hash": "0x3baed1f4b4e02817cb5f9d20f327ffb2eb49765c800a4ee2a5b5bf85351fa2af",
+              "reason": "Purchase quote asset not eligible for ETH profit calculation",
+              "spent_eth": 0.0,
+              "spent_stable": 1.0,
+              "asset_flows": {
+                "assets": [
+                  {
+                    "contract": "0xa138975b14f1f6bb595715c77e22ea9ed2732a99",
+                    "symbol": "VLAD",
+                    "amount": 2827769.435172,
+                    "direction": "spent"
+                  }
+                ],
+                "valuation_status": "NOT_VALUED",
+                "valuation": {
+                  "net_eth": 0.0,
+                  "net_stable": 0.0,
+                  "other_assets": [
+                    {
+                      "contract": "0xa138975b14f1f6bb595715c77e22ea9ed2732a99",
+                      "symbol": "VLAD",
+                      "amount": 2827769.435172,
+                      "direction": "spent"
+                    }
+                  ],
+                  "historical_valuation_complete": false
+                }
+              }
+            },
+            {
+              "transaction_hash": "0x8c507efe63ea466cfd98bb1ffcb4a1196c5b82f90b5eea3383dfe0dfac50d297",
+              "reason": "Purchase quote asset not eligible for ETH profit calculation",
+              "spent_eth": 0.0,
+              "spent_stable": 1.0,
+              "asset_flows": {
+                "assets": [
+                  {
+                    "contract": "0xa138975b14f1f6bb595715c77e22ea9ed2732a99",
+                    "symbol": "VLAD",
+                    "amount": 2827769.435172,
+                    "direction": "spent"
+                  }
+                ],
+                "valuation_status": "NOT_VALUED",
+                "valuation": {
+                  "net_eth": 0.0,
+                  "net_stable": 0.0,
+                  "other_assets": [
+                    {
+                      "contract": "0xa138975b14f1f6bb595715c77e22ea9ed2732a99",
+                      "symbol": "VLAD",
+                      "amount": 2827769.435172,
+                      "direction": "spent"
+                    }
+                  ],
+                  "historical_valuation_complete": false
+                }
+              }
+            },
+            {
+              "transaction_hash": "0x9a26d0c4d1d18d66316d95408185cbb4f044e3f58068e8c25508c497511ead46",
+              "reason": "Purchase quote asset not eligible for ETH profit calculation",
+              "spent_eth": 0.0,
+              "spent_stable": 1.0,
+              "asset_flows": {
+                "assets": [
+                  {
+                    "contract": "0x17bb0c898254406b1ea2e8e99b0c263e26c9e4a4",
+                    "symbol": "DIH",
+                    "amount": 300000.0,
+                    "direction": "spent"
+                  }
+                ],
+                "valuation_status": "NOT_VALUED",
+                "valuation": {
+                  "net_eth": 0.0,
+                  "net_stable": 0.0,
+                  "other_assets": [
+                    {
+                      "contract": "0x17bb0c898254406b1ea2e8e99b0c263e26c9e4a4",
+                      "symbol": "DIH",
+                      "amount": 300000.0,
+                      "direction": "spent"
+                    }
+                  ],
+                  "historical_valuation_complete": false
+                }
+              }
+            },
+            {
+              "transaction_hash": "0x3cd261983ddbf5d657356b331a044bcc91a79e0f97a59c8f56221e0728dfe88f",
+              "reason": "Purchase quote asset not eligible for ETH profit calculation",
+              "spent_eth": 0.0,
+              "spent_stable": 1.0,
+              "asset_flows": {
+                "assets": [
+                  {
+                    "contract": "0x17bb0c898254406b1ea2e8e99b0c263e26c9e4a4",
+                    "symbol": "DIH",
+                    "amount": 375008.0111821341,
+                    "direction": "spent"
+                  }
+                ],
+                "valuation_status": "NOT_VALUED",
+                "valuation": {
+                  "net_eth": 0.0,
+                  "net_stable": 0.0,
+                  "other_assets": [
+                    {
+                      "contract": "0x17bb0c898254406b1ea2e8e99b0c263e26c9e4a4",
+                      "symbol": "DIH",
+                      "amount": 375008.0111821341,
+                      "direction": "spent"
+                    }
+                  ],
+                  "historical_valuation_complete": false
+                }
+              }
+            },
+            {
+              "transaction_hash": "0xa0e2a76711bd0a9a2b3dfcfd5e1d51a8e2a870fe3183385adca6b3b2e0f17616",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x4c0e2238a59ec1cf863aa9ff35d49580484ee0e92cbc5893916a28714b3d82ac",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0xa1c8db1daf39c862ced6315f06ae0c1be4bba2e0bb378546eefeba027e5cb682",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xb4a67a80d69709f1896efb14bcf08c2ae00aa81d734cb38019a81d4867b83aa7",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x06e202c74025da01723129b968352cc7de44b9a8cb0dccaa1daaa2d6cbcb059c",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x0d2d41f203e8e0737dd1e9848a4ed92035f86419ce1d1e5fe3f61810335c95fd",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xedf47210e0d07b35af7e874a630ed3815b289083372f8f390ac87cc36aebedae",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x5a6d9508f4d8c564cb6672652c74741e6680d7bfce2c9eac117582d0ff921896",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x5c9a88ffe2ea9b300c69d656940715da3860dc273a8fe624fed314dc5b731031",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xbeaf219edce8fce0f982c6232664e4faf1c13eddb9bec1ce678a3bd4ce0253ed",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xe3d3dd976c190827664979eb051756b11952717c60bcf7974f731f959909320c",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x2ffda8df43b4d716b4763e92a406faee003f8a1c5cdc89bfef8066becd34e437",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x357c9a6d2b18457d94409a8ed7c90f36d71e89dfcb2eda608830c6103fd562b0",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x78ea3454d86addd35935771e4e88bd586cec72000b5137f1975b978959e85077",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x04a430c673f55e4a8707e6b67b8694df51ef7cef4a35cdf83207d0763886979f",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x77cc503b65cba5590bceae06fcbb75ebfd27ac5b959d92f919079a45883812a2",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x7043d7ed0dd19892e9510d73e607caa748032e95c8aaca8c1d9b0690671400b1",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x784ed317e5eb692c65225f1fc7fabd92901e8057bd287dcecd520ce9da368d0f",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x5d1129c5e410a56b14ed2bd4cac25cd09b5d29918b10a190953ec035b302d0f8",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xc1ebddc585229803008b9b0f56f7271f1c52a9ceb7f136526558f828c57489a4",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x854693fac628ba2c7f6d451b64be3612f12c27fdaa582122c6cdd30d50eafd32",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x5b971af52caa42b02fd2d8adde393d73f296a0ee65e3a1127b4df9de36ea3622",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x4ae34de0ea84343f26f8ad461e6ddfaad30a0b93e26779a055be9f3858602253",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xf93141511e1e55bfd617d5ba1e0cd1987a89712e19a964c9a6d1c3e7754944d1",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x7d81f3641105d8a12565a8105fbbcb70f0daee8bd17f25ac195a679ac9b6802f",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xde38a702e7ec6540be4979d7c929d879db775d3d551d8163b77be3cc66788e97",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x1739f739fdaa0f2a0c303886cb2bc354beff85e05848bbebd848c544737cbce6",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xea47edc72b20f61bab497f93e7b1b4e5b0f1df73efed8e6374309f170da9b48b",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xfbedb860483d203e23881568c7f0a7249a5e078074281a2ecfa60084a434c2f0",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xe4b23076ac923c50ded65652add81419d3ace75b0247c613a00cac14cf1ae332",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xe8ff5e1cceeb22c330e844e76e28f572ebc5674f993387380e5be54b36c7c35a",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xf8bde0e86d64b5a0787430f15fe37b46fd5bc5acd60bd5ed78454fc96b69f374",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x2cf17963a7db1dddd793e29cbc0d8acb2e36ce876f4906475123810f0d574c64",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x0dec86dd40fbfc64f6bd0b38a0020e7d1ff3ae7f83e47fbe5cb7fa732385243e",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x66fa72ac9050afe200753b20c317372d8478ca16b0809d2e6cd25ed421d06f1b",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xe8d694162857d1a19cd472c61835e4cb8b0f6c852aa3fc19fd0ca37a74e70f1a",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0xc7587eba1d18e921f07085c61e5eac9a26c3ff434cda95fd9dcb02a1a6bf39c8",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xa81fc469dee2a6ef02603404fc5fe7cb60b65fd6bbbbcaa822205373798c8e6b",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x60bcfe425ce6f583c669d896fe1616534de1e95cf6aa0502a9a84bc3ddea51ae",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0xfb801a8bbf1a4386a0d256bd26297e18bc98d950a7fa256c8787a347298de2cb",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0x543da55e33a5b86306de1e30895d7948de50bd1c20a2df763c7db68eec67f232",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0xf3940796e024da221503cf8fb98ba5e846c4fe57754b74831b9c85f14bfbfb34",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0x1aab388cc01e3a5d493e80bc1e1146a15d6cbcc2f5e48eab5dba226ee5edcd4e",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0xf1299eb8ae2f3948f6d4db01f64019ae16fd29fa11433b099014ff5c9037eb27",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0x19139393ef488c1908a51a6e681eb81b171744ff5be07b816a0d59321853e196",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0xc58b7eeff2b0c759c31c9b5651455df77a4696cd0c0eaa951709726eb7124f0d",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x48552ea4529aebbd35493b7f9706fd71e0286f09a6e5cdd48755b0d7db5da645",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x92356a4700ec8fdd4edc167345874f02b9167c3772d124b1461cf927dd0bd62c",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xb3e7eb706f6212afb318a84fdff84d7e3af790ac82b6f9bfea0b1475b6f769c0",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0x70008c37ce75c32d3950bab8376f829dad2566d9daa5f7fccb5611aefa6e08f0",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0x59544803bae708a1f3f839991598886310b16feab4a9f49803e1f796f0a30700",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0x422c8903369687772ea45ce2f6c3fd77cb0ffb5c16a7b608b0e32281ad630237",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0x817d37afcdb018bfe2ac572ef4372f34c71eaa09bd83de15408890bf4c2a8490",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0xd88dd71978999b11658dce9a0c7b0e4f9a6650eb2ce3d9e19ae669fa9236bf2a",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0x91f5783cde6e6b66756f4f046b1ea90398c9ecf3f2571de427d37a76b5410e8b",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x1caedf4eb22506bad94ea9a502879f92fe131b9f19e4c1a08a7277a68b032a7d",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0xc66836280491c85561d3ce1adc05a316e639a49c3829830199e1beec67a65ab0",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0xa4202449431b32bdab60631cf494f53a71621ddec0c468445ccdb293e72e7736",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0x37f00aeefa173b5b232de21be14ad074e128d9a71270f40194de7ba03902b9ea",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0xb4f12844994c731c31c87cc69f7cdd53573cd0309c7b36139c3b82715d0e500f",
+              "reason": "Wallet was not transaction initiator"
+            }
+          ],
+          "verified_eth_trade_count": 77,
+          "multi_asset_valuation_candidates": [
+            {
+              "transaction_hash": "0x89ae3fec575ddc46d99c99a7138a4143fc9e391091075b7c7e14571d8bac2576",
+              "reason": "Purchase quote asset not eligible for ETH profit calculation",
+              "spent_eth": 0.0,
+              "spent_stable": 1.0,
+              "asset_flows": {
+                "assets": [
+                  {
+                    "contract": "0xd4052415613b34af236024b895574c467f65b6dd",
+                    "symbol": "4663",
+                    "amount": 2558113.0476904004,
+                    "direction": "spent"
+                  }
+                ],
+                "valuation_status": "NOT_VALUED",
+                "valuation": {
+                  "net_eth": 0.0,
+                  "net_stable": 0.0,
+                  "other_assets": [
+                    {
+                      "contract": "0xd4052415613b34af236024b895574c467f65b6dd",
+                      "symbol": "4663",
+                      "amount": 2558113.0476904004,
+                      "direction": "spent"
+                    }
+                  ],
+                  "historical_valuation_complete": false
+                }
+              }
+            },
+            {
+              "transaction_hash": "0x1d0a32405ef1e06d59ddd0fd215442ec10e77c0a9044588a1aeaa721b56ef6b8",
+              "reason": "Unsupported or mixed sale proceeds",
+              "received_eth": 0.0,
+              "received_stable": 0.0,
+              "unsupported_proceeds": {
+                "VLAD": 3079213.785605
+              },
+              "asset_flows": {
+                "assets": [
+                  {
+                    "contract": "0xa138975b14f1f6bb595715c77e22ea9ed2732a99",
+                    "symbol": "VLAD",
+                    "amount": 3079213.785605,
+                    "direction": "received"
+                  }
+                ],
+                "valuation_status": "NOT_VALUED",
+                "valuation": {
+                  "net_eth": 0.0,
+                  "net_stable": 0.0,
+                  "other_assets": [
+                    {
+                      "contract": "0xa138975b14f1f6bb595715c77e22ea9ed2732a99",
+                      "symbol": "VLAD",
+                      "amount": 3079213.785605,
+                      "direction": "received"
+                    }
+                  ],
+                  "historical_valuation_complete": false
+                }
+              }
+            },
+            {
+              "transaction_hash": "0x3baed1f4b4e02817cb5f9d20f327ffb2eb49765c800a4ee2a5b5bf85351fa2af",
+              "reason": "Purchase quote asset not eligible for ETH profit calculation",
+              "spent_eth": 0.0,
+              "spent_stable": 1.0,
+              "asset_flows": {
+                "assets": [
+                  {
+                    "contract": "0xa138975b14f1f6bb595715c77e22ea9ed2732a99",
+                    "symbol": "VLAD",
+                    "amount": 2827769.435172,
+                    "direction": "spent"
+                  }
+                ],
+                "valuation_status": "NOT_VALUED",
+                "valuation": {
+                  "net_eth": 0.0,
+                  "net_stable": 0.0,
+                  "other_assets": [
+                    {
+                      "contract": "0xa138975b14f1f6bb595715c77e22ea9ed2732a99",
+                      "symbol": "VLAD",
+                      "amount": 2827769.435172,
+                      "direction": "spent"
+                    }
+                  ],
+                  "historical_valuation_complete": false
+                }
+              }
+            },
+            {
+              "transaction_hash": "0x8c507efe63ea466cfd98bb1ffcb4a1196c5b82f90b5eea3383dfe0dfac50d297",
+              "reason": "Purchase quote asset not eligible for ETH profit calculation",
+              "spent_eth": 0.0,
+              "spent_stable": 1.0,
+              "asset_flows": {
+                "assets": [
+                  {
+                    "contract": "0xa138975b14f1f6bb595715c77e22ea9ed2732a99",
+                    "symbol": "VLAD",
+                    "amount": 2827769.435172,
+                    "direction": "spent"
+                  }
+                ],
+                "valuation_status": "NOT_VALUED",
+                "valuation": {
+                  "net_eth": 0.0,
+                  "net_stable": 0.0,
+                  "other_assets": [
+                    {
+                      "contract": "0xa138975b14f1f6bb595715c77e22ea9ed2732a99",
+                      "symbol": "VLAD",
+                      "amount": 2827769.435172,
+                      "direction": "spent"
+                    }
+                  ],
+                  "historical_valuation_complete": false
+                }
+              }
+            },
+            {
+              "transaction_hash": "0x9a26d0c4d1d18d66316d95408185cbb4f044e3f58068e8c25508c497511ead46",
+              "reason": "Purchase quote asset not eligible for ETH profit calculation",
+              "spent_eth": 0.0,
+              "spent_stable": 1.0,
+              "asset_flows": {
+                "assets": [
+                  {
+                    "contract": "0x17bb0c898254406b1ea2e8e99b0c263e26c9e4a4",
+                    "symbol": "DIH",
+                    "amount": 300000.0,
+                    "direction": "spent"
+                  }
+                ],
+                "valuation_status": "NOT_VALUED",
+                "valuation": {
+                  "net_eth": 0.0,
+                  "net_stable": 0.0,
+                  "other_assets": [
+                    {
+                      "contract": "0x17bb0c898254406b1ea2e8e99b0c263e26c9e4a4",
+                      "symbol": "DIH",
+                      "amount": 300000.0,
+                      "direction": "spent"
+                    }
+                  ],
+                  "historical_valuation_complete": false
+                }
+              }
+            },
+            {
+              "transaction_hash": "0x3cd261983ddbf5d657356b331a044bcc91a79e0f97a59c8f56221e0728dfe88f",
+              "reason": "Purchase quote asset not eligible for ETH profit calculation",
+              "spent_eth": 0.0,
+              "spent_stable": 1.0,
+              "asset_flows": {
+                "assets": [
+                  {
+                    "contract": "0x17bb0c898254406b1ea2e8e99b0c263e26c9e4a4",
+                    "symbol": "DIH",
+                    "amount": 375008.0111821341,
+                    "direction": "spent"
+                  }
+                ],
+                "valuation_status": "NOT_VALUED",
+                "valuation": {
+                  "net_eth": 0.0,
+                  "net_stable": 0.0,
+                  "other_assets": [
+                    {
+                      "contract": "0x17bb0c898254406b1ea2e8e99b0c263e26c9e4a4",
+                      "symbol": "DIH",
+                      "amount": 375008.0111821341,
+                      "direction": "spent"
+                    }
+                  ],
+                  "historical_valuation_complete": false
+                }
+              }
+            }
+          ],
+          "other_unverified_transactions": [
+            {
+              "transaction_hash": "0xa0e2a76711bd0a9a2b3dfcfd5e1d51a8e2a870fe3183385adca6b3b2e0f17616",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x4c0e2238a59ec1cf863aa9ff35d49580484ee0e92cbc5893916a28714b3d82ac",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0xa1c8db1daf39c862ced6315f06ae0c1be4bba2e0bb378546eefeba027e5cb682",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xb4a67a80d69709f1896efb14bcf08c2ae00aa81d734cb38019a81d4867b83aa7",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x06e202c74025da01723129b968352cc7de44b9a8cb0dccaa1daaa2d6cbcb059c",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x0d2d41f203e8e0737dd1e9848a4ed92035f86419ce1d1e5fe3f61810335c95fd",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xedf47210e0d07b35af7e874a630ed3815b289083372f8f390ac87cc36aebedae",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x5a6d9508f4d8c564cb6672652c74741e6680d7bfce2c9eac117582d0ff921896",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x5c9a88ffe2ea9b300c69d656940715da3860dc273a8fe624fed314dc5b731031",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xbeaf219edce8fce0f982c6232664e4faf1c13eddb9bec1ce678a3bd4ce0253ed",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xe3d3dd976c190827664979eb051756b11952717c60bcf7974f731f959909320c",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x2ffda8df43b4d716b4763e92a406faee003f8a1c5cdc89bfef8066becd34e437",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x357c9a6d2b18457d94409a8ed7c90f36d71e89dfcb2eda608830c6103fd562b0",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x78ea3454d86addd35935771e4e88bd586cec72000b5137f1975b978959e85077",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x04a430c673f55e4a8707e6b67b8694df51ef7cef4a35cdf83207d0763886979f",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x77cc503b65cba5590bceae06fcbb75ebfd27ac5b959d92f919079a45883812a2",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x7043d7ed0dd19892e9510d73e607caa748032e95c8aaca8c1d9b0690671400b1",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x784ed317e5eb692c65225f1fc7fabd92901e8057bd287dcecd520ce9da368d0f",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x5d1129c5e410a56b14ed2bd4cac25cd09b5d29918b10a190953ec035b302d0f8",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xc1ebddc585229803008b9b0f56f7271f1c52a9ceb7f136526558f828c57489a4",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x854693fac628ba2c7f6d451b64be3612f12c27fdaa582122c6cdd30d50eafd32",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x5b971af52caa42b02fd2d8adde393d73f296a0ee65e3a1127b4df9de36ea3622",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x4ae34de0ea84343f26f8ad461e6ddfaad30a0b93e26779a055be9f3858602253",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xf93141511e1e55bfd617d5ba1e0cd1987a89712e19a964c9a6d1c3e7754944d1",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x7d81f3641105d8a12565a8105fbbcb70f0daee8bd17f25ac195a679ac9b6802f",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xde38a702e7ec6540be4979d7c929d879db775d3d551d8163b77be3cc66788e97",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x1739f739fdaa0f2a0c303886cb2bc354beff85e05848bbebd848c544737cbce6",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xea47edc72b20f61bab497f93e7b1b4e5b0f1df73efed8e6374309f170da9b48b",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xfbedb860483d203e23881568c7f0a7249a5e078074281a2ecfa60084a434c2f0",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xe4b23076ac923c50ded65652add81419d3ace75b0247c613a00cac14cf1ae332",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xe8ff5e1cceeb22c330e844e76e28f572ebc5674f993387380e5be54b36c7c35a",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xf8bde0e86d64b5a0787430f15fe37b46fd5bc5acd60bd5ed78454fc96b69f374",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x2cf17963a7db1dddd793e29cbc0d8acb2e36ce876f4906475123810f0d574c64",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x0dec86dd40fbfc64f6bd0b38a0020e7d1ff3ae7f83e47fbe5cb7fa732385243e",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x66fa72ac9050afe200753b20c317372d8478ca16b0809d2e6cd25ed421d06f1b",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xe8d694162857d1a19cd472c61835e4cb8b0f6c852aa3fc19fd0ca37a74e70f1a",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0xc7587eba1d18e921f07085c61e5eac9a26c3ff434cda95fd9dcb02a1a6bf39c8",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xa81fc469dee2a6ef02603404fc5fe7cb60b65fd6bbbbcaa822205373798c8e6b",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x60bcfe425ce6f583c669d896fe1616534de1e95cf6aa0502a9a84bc3ddea51ae",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0xfb801a8bbf1a4386a0d256bd26297e18bc98d950a7fa256c8787a347298de2cb",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0x543da55e33a5b86306de1e30895d7948de50bd1c20a2df763c7db68eec67f232",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0xf3940796e024da221503cf8fb98ba5e846c4fe57754b74831b9c85f14bfbfb34",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0x1aab388cc01e3a5d493e80bc1e1146a15d6cbcc2f5e48eab5dba226ee5edcd4e",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0xf1299eb8ae2f3948f6d4db01f64019ae16fd29fa11433b099014ff5c9037eb27",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0x19139393ef488c1908a51a6e681eb81b171744ff5be07b816a0d59321853e196",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0xc58b7eeff2b0c759c31c9b5651455df77a4696cd0c0eaa951709726eb7124f0d",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x48552ea4529aebbd35493b7f9706fd71e0286f09a6e5cdd48755b0d7db5da645",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x92356a4700ec8fdd4edc167345874f02b9167c3772d124b1461cf927dd0bd62c",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xb3e7eb706f6212afb318a84fdff84d7e3af790ac82b6f9bfea0b1475b6f769c0",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0x70008c37ce75c32d3950bab8376f829dad2566d9daa5f7fccb5611aefa6e08f0",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0x59544803bae708a1f3f839991598886310b16feab4a9f49803e1f796f0a30700",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0x422c8903369687772ea45ce2f6c3fd77cb0ffb5c16a7b608b0e32281ad630237",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0x817d37afcdb018bfe2ac572ef4372f34c71eaa09bd83de15408890bf4c2a8490",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0xd88dd71978999b11658dce9a0c7b0e4f9a6650eb2ce3d9e19ae669fa9236bf2a",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0x91f5783cde6e6b66756f4f046b1ea90398c9ecf3f2571de427d37a76b5410e8b",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x1caedf4eb22506bad94ea9a502879f92fe131b9f19e4c1a08a7277a68b032a7d",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0xc66836280491c85561d3ce1adc05a316e639a49c3829830199e1beec67a65ab0",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0xa4202449431b32bdab60631cf494f53a71621ddec0c468445ccdb293e72e7736",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0x37f00aeefa173b5b232de21be14ad074e128d9a71270f40194de7ba03902b9ea",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0xb4f12844994c731c31c87cc69f7cdd53573cd0309c7b36139c3b82715d0e500f",
+              "reason": "Wallet was not transaction initiator"
+            }
+          ],
+          "multi_asset_candidate_count": 6,
+          "other_unverified_count": 60
+        }
+      },
+      {
+        "wallet": "0xa3b6cad9402396761244cfd0b5476e16ca8affda",
+        "raw_balance": 5000002269687735634350920,
+        "current_balance": 5000002.2696877355,
+        "is_contract": false,
+        "address_metadata": {},
+        "holder_rank": 19,
+        "analysis_complete": true,
+        "qualifies_30_minute_filter": false,
+        "reason": "No genuine DEX buy found; holder may have received/transferred tokens"
+      },
+      {
+        "wallet": "0xc1ad66f94c379414c286a5977ab5636a686d0054",
+        "raw_balance": 5000000000000000000000000,
+        "current_balance": 5000000.0,
+        "is_contract": false,
+        "address_metadata": {},
+        "holder_rank": 20,
+        "entry_transaction_hash": "0x6d74afc46e8632b53ceb48d739020721b737f29b3191e8bb675f816830f0353f",
+        "entry_block": 5944817,
+        "entry_time_utc": "2026-07-10T08:43:26+00:00",
+        "initial_tokens_bought": 11493.491390920803,
+        "initial_spent_eth": 1.0,
+        "initial_spent_stable": 0.0,
+        "entry_method": "0x3593564c",
+        "seconds_after_launch": 1859517,
+        "delay_after_launch": "21d 12h 31m",
+        "qualifies_30_minute_filter": false,
+        "analysis_complete": true,
+        "classification": "PROFITABILITY UNVERIFIED",
+        "reason": "Current major holder with a genuine DEX purchase; full-position profitability verification pending",
+        "full_position_analysis": {
+          "position_status": "UNVERIFIED",
+          "reason": "Position requires multi-asset valuation or transfer reconciliation",
+          "unresolved_transactions": [
+            "0x439ebabdf04c8e81e0adc415050b9e7fa096661089506fd1555d2857a29cea3c",
+            "0x5fea6e6813207b8c69ced508348fed82e107ef21da05bc5c98861051a06f3303",
+            "0x1dd62781b829b3621d57c0f56877dbcbc1c3d8c7b1fce9ea31a57b375ba6d5c8",
+            "0xf79ddac0f20dbd34c044ce249370aae16fcb5298c1dc70638919b1eaa34076cf",
+            "0x918ae03b4975f8d8207f15214dc18dfb711a0bfaf236001f2df19412d5df8014",
+            "0x4cfc93f896f38ed6ba4dcdc3d6677b33b7f5d2ab57359b75681b355d6ba4816d",
+            "0x82c815ffed294a1d24bb506749990ace7ead66258b7b8d9ec4f8b85afcc118e5",
+            "0x5f0c27ce3440c21d6ba7b53193e5acad9d28785f909de9216c14f1baa1c450c9",
+            "0x9e12a4df9865c6d98817d8b21ae7d6cbdc3130a19b9f8e5df56ae9ee0eae2e6a",
+            "0xd0ba3f9ee2bf2123a368335469d2fe4570775b9c5ed3988dd50e32892905a733",
+            "0xd42dd908c4e85bbc5a52fdf519a72a12897352d80e906dfd0c0561fa47408d7b",
+            "0x884660d89aadc45d2c4e996497d693a783d16ab11f0f054bbfc184269fb33f6c",
+            "0x8fbcdc17337c93edbb8b952d7db94d183bb6874c2243635c4569f532cd05941d",
+            "0xd900277db85c9773c59ddddec0b68fe6fbf82e4760e47782535ce7ec621fe0d1",
+            "0xa6c360dec3a1c03033425c77fe8bdd94bc87bebc6385b161cf3008580b044b9f",
+            "0x6b2ee52842b02ac939bfe02f6d594d3034d981225c2eb375c2c7fb232749b095",
+            "0x23ae18b637c471a8cf4ce1998797161e01dc6f342bcef820caec8ea22adeb9f5",
+            "0xb2e9a2729f71f876eadbeb5d488b6f078dafd276a9a267fa278f919c45bdf251",
+            "0x0eef5980b7028a2168a1d4c1e38089c7e4ade6d9e1bcb189fa4b15c04f1ee3bc",
+            "0x7e5b49c555f0aede10dc7e76b82e0eebef1b4265e1408a43a8b5717f06fd4801",
+            "0xd2914d1bc5526a8bb87eede9a856bbed0da2bc11cc0c031e4d9ef61c216ebf41",
+            "0xef750373de4e15838e7a6638755449b2282f5a245b23e718008f44eaa0291d05"
+          ],
+          "unresolved_details": [
+            {
+              "transaction_hash": "0x439ebabdf04c8e81e0adc415050b9e7fa096661089506fd1555d2857a29cea3c",
+              "reason": "No recognised ETH/WETH/stable proceeds",
+              "received_eth": 0.0,
+              "received_stable": 0.0,
+              "unsupported_proceeds": {},
+              "asset_flows": {
+                "assets": [
+                  {
+                    "contract": null,
+                    "symbol": "ETH",
+                    "amount": 0.29757165494260224,
+                    "direction": "spent"
+                  }
+                ],
+                "valuation_status": "NOT_VALUED",
+                "valuation": {
+                  "net_eth": -0.29757165494260224,
+                  "net_stable": 0.0,
+                  "other_assets": [],
+                  "historical_valuation_complete": true
+                }
+              }
+            },
+            {
+              "transaction_hash": "0x5fea6e6813207b8c69ced508348fed82e107ef21da05bc5c98861051a06f3303",
+              "reason": "Purchase quote asset not eligible for ETH profit calculation",
+              "spent_eth": 0.0,
+              "spent_stable": 0.0,
+              "asset_flows": {
+                "assets": [],
+                "valuation_status": "NOT_VALUED",
+                "valuation": {
+                  "net_eth": 0.0,
+                  "net_stable": 0.0,
+                  "other_assets": [],
+                  "historical_valuation_complete": true
+                }
+              }
+            },
+            {
+              "transaction_hash": "0x1dd62781b829b3621d57c0f56877dbcbc1c3d8c7b1fce9ea31a57b375ba6d5c8",
+              "reason": "No recognised ETH/WETH/stable proceeds",
+              "received_eth": 0.0,
+              "received_stable": 0.0,
+              "unsupported_proceeds": {},
+              "asset_flows": {
+                "assets": [
+                  {
+                    "contract": null,
+                    "symbol": "ETH",
+                    "amount": 1.8079278503862986,
+                    "direction": "spent"
+                  }
+                ],
+                "valuation_status": "NOT_VALUED",
+                "valuation": {
+                  "net_eth": -1.8079278503862986,
+                  "net_stable": 0.0,
+                  "other_assets": [],
+                  "historical_valuation_complete": true
+                }
+              }
+            },
+            {
+              "transaction_hash": "0xf79ddac0f20dbd34c044ce249370aae16fcb5298c1dc70638919b1eaa34076cf",
+              "reason": "Purchase quote asset not eligible for ETH profit calculation",
+              "spent_eth": 0.0,
+              "spent_stable": 0.0,
+              "asset_flows": {
+                "assets": [],
+                "valuation_status": "NOT_VALUED",
+                "valuation": {
+                  "net_eth": 0.0,
+                  "net_stable": 0.0,
+                  "other_assets": [],
+                  "historical_valuation_complete": true
+                }
+              }
+            },
+            {
+              "transaction_hash": "0x918ae03b4975f8d8207f15214dc18dfb711a0bfaf236001f2df19412d5df8014",
+              "reason": "No recognised ETH/WETH/stable proceeds",
+              "received_eth": 0.0,
+              "received_stable": 0.0,
+              "unsupported_proceeds": {},
+              "asset_flows": {
+                "assets": [
+                  {
+                    "contract": null,
+                    "symbol": "ETH",
+                    "amount": 2.3736171789145146,
+                    "direction": "spent"
+                  }
+                ],
+                "valuation_status": "NOT_VALUED",
+                "valuation": {
+                  "net_eth": -2.3736171789145146,
+                  "net_stable": 0.0,
+                  "other_assets": [],
+                  "historical_valuation_complete": true
+                }
+              }
+            },
+            {
+              "transaction_hash": "0x4cfc93f896f38ed6ba4dcdc3d6677b33b7f5d2ab57359b75681b355d6ba4816d",
+              "reason": "No recognised ETH/WETH/stable proceeds",
+              "received_eth": 0.0,
+              "received_stable": 0.0,
+              "unsupported_proceeds": {},
+              "asset_flows": {
+                "assets": [
+                  {
+                    "contract": null,
+                    "symbol": "ETH",
+                    "amount": 1.050361619203978,
+                    "direction": "spent"
+                  }
+                ],
+                "valuation_status": "NOT_VALUED",
+                "valuation": {
+                  "net_eth": -1.050361619203978,
+                  "net_stable": 0.0,
+                  "other_assets": [],
+                  "historical_valuation_complete": true
+                }
+              }
+            },
+            {
+              "transaction_hash": "0x82c815ffed294a1d24bb506749990ace7ead66258b7b8d9ec4f8b85afcc118e5",
+              "reason": "Purchase quote asset not eligible for ETH profit calculation",
+              "spent_eth": 0.0,
+              "spent_stable": 0.0,
+              "asset_flows": {
+                "assets": [],
+                "valuation_status": "NOT_VALUED",
+                "valuation": {
+                  "net_eth": 0.0,
+                  "net_stable": 0.0,
+                  "other_assets": [],
+                  "historical_valuation_complete": true
+                }
+              }
+            },
+            {
+              "transaction_hash": "0x5f0c27ce3440c21d6ba7b53193e5acad9d28785f909de9216c14f1baa1c450c9",
+              "reason": "No recognised ETH/WETH/stable proceeds",
+              "received_eth": 0.0,
+              "received_stable": 0.0,
+              "unsupported_proceeds": {},
+              "asset_flows": {
+                "assets": [
+                  {
+                    "contract": null,
+                    "symbol": "ETH",
+                    "amount": 2.3028229235021573,
+                    "direction": "spent"
+                  }
+                ],
+                "valuation_status": "NOT_VALUED",
+                "valuation": {
+                  "net_eth": -2.3028229235021573,
+                  "net_stable": 0.0,
+                  "other_assets": [],
+                  "historical_valuation_complete": true
+                }
+              }
+            },
+            {
+              "transaction_hash": "0x9e12a4df9865c6d98817d8b21ae7d6cbdc3130a19b9f8e5df56ae9ee0eae2e6a",
+              "reason": "No recognised ETH/WETH/stable proceeds",
+              "received_eth": 0.0,
+              "received_stable": 0.0,
+              "unsupported_proceeds": {},
+              "asset_flows": {
+                "assets": [
+                  {
+                    "contract": null,
+                    "symbol": "ETH",
+                    "amount": 1.0036205620343603,
+                    "direction": "spent"
+                  }
+                ],
+                "valuation_status": "NOT_VALUED",
+                "valuation": {
+                  "net_eth": -1.0036205620343603,
+                  "net_stable": 0.0,
+                  "other_assets": [],
+                  "historical_valuation_complete": true
+                }
+              }
+            },
+            {
+              "transaction_hash": "0xd0ba3f9ee2bf2123a368335469d2fe4570775b9c5ed3988dd50e32892905a733",
+              "reason": "Purchase quote asset not eligible for ETH profit calculation",
+              "spent_eth": 0.0,
+              "spent_stable": 0.0,
+              "asset_flows": {
+                "assets": [],
+                "valuation_status": "NOT_VALUED",
+                "valuation": {
+                  "net_eth": 0.0,
+                  "net_stable": 0.0,
+                  "other_assets": [],
+                  "historical_valuation_complete": true
+                }
+              }
+            },
+            {
+              "transaction_hash": "0xd42dd908c4e85bbc5a52fdf519a72a12897352d80e906dfd0c0561fa47408d7b",
+              "reason": "No recognised ETH/WETH/stable proceeds",
+              "received_eth": 0.0,
+              "received_stable": 0.0,
+              "unsupported_proceeds": {},
+              "asset_flows": {
+                "assets": [
+                  {
+                    "contract": null,
+                    "symbol": "ETH",
+                    "amount": 1.004798194878664,
+                    "direction": "spent"
+                  }
+                ],
+                "valuation_status": "NOT_VALUED",
+                "valuation": {
+                  "net_eth": -1.004798194878664,
+                  "net_stable": 0.0,
+                  "other_assets": [],
+                  "historical_valuation_complete": true
+                }
+              }
+            },
+            {
+              "transaction_hash": "0x884660d89aadc45d2c4e996497d693a783d16ab11f0f054bbfc184269fb33f6c",
+              "reason": "No recognised ETH/WETH/stable proceeds",
+              "received_eth": 0.0,
+              "received_stable": 0.0,
+              "unsupported_proceeds": {},
+              "asset_flows": {
+                "assets": [
+                  {
+                    "contract": null,
+                    "symbol": "ETH",
+                    "amount": 0.4859429500776389,
+                    "direction": "spent"
+                  }
+                ],
+                "valuation_status": "NOT_VALUED",
+                "valuation": {
+                  "net_eth": -0.4859429500776389,
+                  "net_stable": 0.0,
+                  "other_assets": [],
+                  "historical_valuation_complete": true
+                }
+              }
+            },
+            {
+              "transaction_hash": "0x8fbcdc17337c93edbb8b952d7db94d183bb6874c2243635c4569f532cd05941d",
+              "reason": "Purchase quote asset not eligible for ETH profit calculation",
+              "spent_eth": 0.0,
+              "spent_stable": 0.0,
+              "asset_flows": {
+                "assets": [],
+                "valuation_status": "NOT_VALUED",
+                "valuation": {
+                  "net_eth": 0.0,
+                  "net_stable": 0.0,
+                  "other_assets": [],
+                  "historical_valuation_complete": true
+                }
+              }
+            },
+            {
+              "transaction_hash": "0xd900277db85c9773c59ddddec0b68fe6fbf82e4760e47782535ce7ec621fe0d1",
+              "reason": "No recognised ETH/WETH/stable proceeds",
+              "received_eth": 0.0,
+              "received_stable": 0.0,
+              "unsupported_proceeds": {},
+              "asset_flows": {
+                "assets": [
+                  {
+                    "contract": null,
+                    "symbol": "ETH",
+                    "amount": 1.7142566928665026,
+                    "direction": "spent"
+                  }
+                ],
+                "valuation_status": "NOT_VALUED",
+                "valuation": {
+                  "net_eth": -1.7142566928665026,
+                  "net_stable": 0.0,
+                  "other_assets": [],
+                  "historical_valuation_complete": true
+                }
+              }
+            },
+            {
+              "transaction_hash": "0xa6c360dec3a1c03033425c77fe8bdd94bc87bebc6385b161cf3008580b044b9f",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x6b2ee52842b02ac939bfe02f6d594d3034d981225c2eb375c2c7fb232749b095",
+              "reason": "No recognised ETH/WETH/stable proceeds",
+              "received_eth": 0.0,
+              "received_stable": 0.0,
+              "unsupported_proceeds": {},
+              "asset_flows": {
+                "assets": [
+                  {
+                    "contract": null,
+                    "symbol": "ETH",
+                    "amount": 0.7601762221138129,
+                    "direction": "spent"
+                  }
+                ],
+                "valuation_status": "NOT_VALUED",
+                "valuation": {
+                  "net_eth": -0.7601762221138129,
+                  "net_stable": 0.0,
+                  "other_assets": [],
+                  "historical_valuation_complete": true
+                }
+              }
+            },
+            {
+              "transaction_hash": "0x23ae18b637c471a8cf4ce1998797161e01dc6f342bcef820caec8ea22adeb9f5",
+              "reason": "Purchase quote asset not eligible for ETH profit calculation",
+              "spent_eth": 0.0,
+              "spent_stable": 0.0,
+              "asset_flows": {
+                "assets": [],
+                "valuation_status": "NOT_VALUED",
+                "valuation": {
+                  "net_eth": 0.0,
+                  "net_stable": 0.0,
+                  "other_assets": [],
+                  "historical_valuation_complete": true
+                }
+              }
+            },
+            {
+              "transaction_hash": "0xb2e9a2729f71f876eadbeb5d488b6f078dafd276a9a267fa278f919c45bdf251",
+              "reason": "No recognised ETH/WETH/stable proceeds",
+              "received_eth": 0.0,
+              "received_stable": 0.0,
+              "unsupported_proceeds": {},
+              "asset_flows": {
+                "assets": [
+                  {
+                    "contract": null,
+                    "symbol": "ETH",
+                    "amount": 1.275273270177484,
+                    "direction": "spent"
+                  }
+                ],
+                "valuation_status": "NOT_VALUED",
+                "valuation": {
+                  "net_eth": -1.275273270177484,
+                  "net_stable": 0.0,
+                  "other_assets": [],
+                  "historical_valuation_complete": true
+                }
+              }
+            },
+            {
+              "transaction_hash": "0x0eef5980b7028a2168a1d4c1e38089c7e4ade6d9e1bcb189fa4b15c04f1ee3bc",
+              "reason": "No recognised ETH/WETH/stable proceeds",
+              "received_eth": 0.0,
+              "received_stable": 0.0,
+              "unsupported_proceeds": {},
+              "asset_flows": {
+                "assets": [
+                  {
+                    "contract": null,
+                    "symbol": "ETH",
+                    "amount": 0.6719305161292451,
+                    "direction": "spent"
+                  }
+                ],
+                "valuation_status": "NOT_VALUED",
+                "valuation": {
+                  "net_eth": -0.6719305161292451,
+                  "net_stable": 0.0,
+                  "other_assets": [],
+                  "historical_valuation_complete": true
+                }
+              }
+            },
+            {
+              "transaction_hash": "0x7e5b49c555f0aede10dc7e76b82e0eebef1b4265e1408a43a8b5717f06fd4801",
+              "reason": "Purchase quote asset not eligible for ETH profit calculation",
+              "spent_eth": 0.0,
+              "spent_stable": 0.0,
+              "asset_flows": {
+                "assets": [],
+                "valuation_status": "NOT_VALUED",
+                "valuation": {
+                  "net_eth": 0.0,
+                  "net_stable": 0.0,
+                  "other_assets": [],
+                  "historical_valuation_complete": true
+                }
+              }
+            },
+            {
+              "transaction_hash": "0xd2914d1bc5526a8bb87eede9a856bbed0da2bc11cc0c031e4d9ef61c216ebf41",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0xef750373de4e15838e7a6638755449b2282f5a245b23e718008f44eaa0291d05",
+              "reason": "Wallet was not transaction initiator"
+            }
+          ],
+          "verified_eth_trade_count": 34,
+          "multi_asset_valuation_candidates": [],
+          "other_unverified_transactions": [
+            {
+              "transaction_hash": "0x439ebabdf04c8e81e0adc415050b9e7fa096661089506fd1555d2857a29cea3c",
+              "reason": "No recognised ETH/WETH/stable proceeds",
+              "received_eth": 0.0,
+              "received_stable": 0.0,
+              "unsupported_proceeds": {},
+              "asset_flows": {
+                "assets": [
+                  {
+                    "contract": null,
+                    "symbol": "ETH",
+                    "amount": 0.29757165494260224,
+                    "direction": "spent"
+                  }
+                ],
+                "valuation_status": "NOT_VALUED",
+                "valuation": {
+                  "net_eth": -0.29757165494260224,
+                  "net_stable": 0.0,
+                  "other_assets": [],
+                  "historical_valuation_complete": true
+                }
+              }
+            },
+            {
+              "transaction_hash": "0x5fea6e6813207b8c69ced508348fed82e107ef21da05bc5c98861051a06f3303",
+              "reason": "Purchase quote asset not eligible for ETH profit calculation",
+              "spent_eth": 0.0,
+              "spent_stable": 0.0,
+              "asset_flows": {
+                "assets": [],
+                "valuation_status": "NOT_VALUED",
+                "valuation": {
+                  "net_eth": 0.0,
+                  "net_stable": 0.0,
+                  "other_assets": [],
+                  "historical_valuation_complete": true
+                }
+              }
+            },
+            {
+              "transaction_hash": "0x1dd62781b829b3621d57c0f56877dbcbc1c3d8c7b1fce9ea31a57b375ba6d5c8",
+              "reason": "No recognised ETH/WETH/stable proceeds",
+              "received_eth": 0.0,
+              "received_stable": 0.0,
+              "unsupported_proceeds": {},
+              "asset_flows": {
+                "assets": [
+                  {
+                    "contract": null,
+                    "symbol": "ETH",
+                    "amount": 1.8079278503862986,
+                    "direction": "spent"
+                  }
+                ],
+                "valuation_status": "NOT_VALUED",
+                "valuation": {
+                  "net_eth": -1.8079278503862986,
+                  "net_stable": 0.0,
+                  "other_assets": [],
+                  "historical_valuation_complete": true
+                }
+              }
+            },
+            {
+              "transaction_hash": "0xf79ddac0f20dbd34c044ce249370aae16fcb5298c1dc70638919b1eaa34076cf",
+              "reason": "Purchase quote asset not eligible for ETH profit calculation",
+              "spent_eth": 0.0,
+              "spent_stable": 0.0,
+              "asset_flows": {
+                "assets": [],
+                "valuation_status": "NOT_VALUED",
+                "valuation": {
+                  "net_eth": 0.0,
+                  "net_stable": 0.0,
+                  "other_assets": [],
+                  "historical_valuation_complete": true
+                }
+              }
+            },
+            {
+              "transaction_hash": "0x918ae03b4975f8d8207f15214dc18dfb711a0bfaf236001f2df19412d5df8014",
+              "reason": "No recognised ETH/WETH/stable proceeds",
+              "received_eth": 0.0,
+              "received_stable": 0.0,
+              "unsupported_proceeds": {},
+              "asset_flows": {
+                "assets": [
+                  {
+                    "contract": null,
+                    "symbol": "ETH",
+                    "amount": 2.3736171789145146,
+                    "direction": "spent"
+                  }
+                ],
+                "valuation_status": "NOT_VALUED",
+                "valuation": {
+                  "net_eth": -2.3736171789145146,
+                  "net_stable": 0.0,
+                  "other_assets": [],
+                  "historical_valuation_complete": true
+                }
+              }
+            },
+            {
+              "transaction_hash": "0x4cfc93f896f38ed6ba4dcdc3d6677b33b7f5d2ab57359b75681b355d6ba4816d",
+              "reason": "No recognised ETH/WETH/stable proceeds",
+              "received_eth": 0.0,
+              "received_stable": 0.0,
+              "unsupported_proceeds": {},
+              "asset_flows": {
+                "assets": [
+                  {
+                    "contract": null,
+                    "symbol": "ETH",
+                    "amount": 1.050361619203978,
+                    "direction": "spent"
+                  }
+                ],
+                "valuation_status": "NOT_VALUED",
+                "valuation": {
+                  "net_eth": -1.050361619203978,
+                  "net_stable": 0.0,
+                  "other_assets": [],
+                  "historical_valuation_complete": true
+                }
+              }
+            },
+            {
+              "transaction_hash": "0x82c815ffed294a1d24bb506749990ace7ead66258b7b8d9ec4f8b85afcc118e5",
+              "reason": "Purchase quote asset not eligible for ETH profit calculation",
+              "spent_eth": 0.0,
+              "spent_stable": 0.0,
+              "asset_flows": {
+                "assets": [],
+                "valuation_status": "NOT_VALUED",
+                "valuation": {
+                  "net_eth": 0.0,
+                  "net_stable": 0.0,
+                  "other_assets": [],
+                  "historical_valuation_complete": true
+                }
+              }
+            },
+            {
+              "transaction_hash": "0x5f0c27ce3440c21d6ba7b53193e5acad9d28785f909de9216c14f1baa1c450c9",
+              "reason": "No recognised ETH/WETH/stable proceeds",
+              "received_eth": 0.0,
+              "received_stable": 0.0,
+              "unsupported_proceeds": {},
+              "asset_flows": {
+                "assets": [
+                  {
+                    "contract": null,
+                    "symbol": "ETH",
+                    "amount": 2.3028229235021573,
+                    "direction": "spent"
+                  }
+                ],
+                "valuation_status": "NOT_VALUED",
+                "valuation": {
+                  "net_eth": -2.3028229235021573,
+                  "net_stable": 0.0,
+                  "other_assets": [],
+                  "historical_valuation_complete": true
+                }
+              }
+            },
+            {
+              "transaction_hash": "0x9e12a4df9865c6d98817d8b21ae7d6cbdc3130a19b9f8e5df56ae9ee0eae2e6a",
+              "reason": "No recognised ETH/WETH/stable proceeds",
+              "received_eth": 0.0,
+              "received_stable": 0.0,
+              "unsupported_proceeds": {},
+              "asset_flows": {
+                "assets": [
+                  {
+                    "contract": null,
+                    "symbol": "ETH",
+                    "amount": 1.0036205620343603,
+                    "direction": "spent"
+                  }
+                ],
+                "valuation_status": "NOT_VALUED",
+                "valuation": {
+                  "net_eth": -1.0036205620343603,
+                  "net_stable": 0.0,
+                  "other_assets": [],
+                  "historical_valuation_complete": true
+                }
+              }
+            },
+            {
+              "transaction_hash": "0xd0ba3f9ee2bf2123a368335469d2fe4570775b9c5ed3988dd50e32892905a733",
+              "reason": "Purchase quote asset not eligible for ETH profit calculation",
+              "spent_eth": 0.0,
+              "spent_stable": 0.0,
+              "asset_flows": {
+                "assets": [],
+                "valuation_status": "NOT_VALUED",
+                "valuation": {
+                  "net_eth": 0.0,
+                  "net_stable": 0.0,
+                  "other_assets": [],
+                  "historical_valuation_complete": true
+                }
+              }
+            },
+            {
+              "transaction_hash": "0xd42dd908c4e85bbc5a52fdf519a72a12897352d80e906dfd0c0561fa47408d7b",
+              "reason": "No recognised ETH/WETH/stable proceeds",
+              "received_eth": 0.0,
+              "received_stable": 0.0,
+              "unsupported_proceeds": {},
+              "asset_flows": {
+                "assets": [
+                  {
+                    "contract": null,
+                    "symbol": "ETH",
+                    "amount": 1.004798194878664,
+                    "direction": "spent"
+                  }
+                ],
+                "valuation_status": "NOT_VALUED",
+                "valuation": {
+                  "net_eth": -1.004798194878664,
+                  "net_stable": 0.0,
+                  "other_assets": [],
+                  "historical_valuation_complete": true
+                }
+              }
+            },
+            {
+              "transaction_hash": "0x884660d89aadc45d2c4e996497d693a783d16ab11f0f054bbfc184269fb33f6c",
+              "reason": "No recognised ETH/WETH/stable proceeds",
+              "received_eth": 0.0,
+              "received_stable": 0.0,
+              "unsupported_proceeds": {},
+              "asset_flows": {
+                "assets": [
+                  {
+                    "contract": null,
+                    "symbol": "ETH",
+                    "amount": 0.4859429500776389,
+                    "direction": "spent"
+                  }
+                ],
+                "valuation_status": "NOT_VALUED",
+                "valuation": {
+                  "net_eth": -0.4859429500776389,
+                  "net_stable": 0.0,
+                  "other_assets": [],
+                  "historical_valuation_complete": true
+                }
+              }
+            },
+            {
+              "transaction_hash": "0x8fbcdc17337c93edbb8b952d7db94d183bb6874c2243635c4569f532cd05941d",
+              "reason": "Purchase quote asset not eligible for ETH profit calculation",
+              "spent_eth": 0.0,
+              "spent_stable": 0.0,
+              "asset_flows": {
+                "assets": [],
+                "valuation_status": "NOT_VALUED",
+                "valuation": {
+                  "net_eth": 0.0,
+                  "net_stable": 0.0,
+                  "other_assets": [],
+                  "historical_valuation_complete": true
+                }
+              }
+            },
+            {
+              "transaction_hash": "0xd900277db85c9773c59ddddec0b68fe6fbf82e4760e47782535ce7ec621fe0d1",
+              "reason": "No recognised ETH/WETH/stable proceeds",
+              "received_eth": 0.0,
+              "received_stable": 0.0,
+              "unsupported_proceeds": {},
+              "asset_flows": {
+                "assets": [
+                  {
+                    "contract": null,
+                    "symbol": "ETH",
+                    "amount": 1.7142566928665026,
+                    "direction": "spent"
+                  }
+                ],
+                "valuation_status": "NOT_VALUED",
+                "valuation": {
+                  "net_eth": -1.7142566928665026,
+                  "net_stable": 0.0,
+                  "other_assets": [],
+                  "historical_valuation_complete": true
+                }
+              }
+            },
+            {
+              "transaction_hash": "0xa6c360dec3a1c03033425c77fe8bdd94bc87bebc6385b161cf3008580b044b9f",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x6b2ee52842b02ac939bfe02f6d594d3034d981225c2eb375c2c7fb232749b095",
+              "reason": "No recognised ETH/WETH/stable proceeds",
+              "received_eth": 0.0,
+              "received_stable": 0.0,
+              "unsupported_proceeds": {},
+              "asset_flows": {
+                "assets": [
+                  {
+                    "contract": null,
+                    "symbol": "ETH",
+                    "amount": 0.7601762221138129,
+                    "direction": "spent"
+                  }
+                ],
+                "valuation_status": "NOT_VALUED",
+                "valuation": {
+                  "net_eth": -0.7601762221138129,
+                  "net_stable": 0.0,
+                  "other_assets": [],
+                  "historical_valuation_complete": true
+                }
+              }
+            },
+            {
+              "transaction_hash": "0x23ae18b637c471a8cf4ce1998797161e01dc6f342bcef820caec8ea22adeb9f5",
+              "reason": "Purchase quote asset not eligible for ETH profit calculation",
+              "spent_eth": 0.0,
+              "spent_stable": 0.0,
+              "asset_flows": {
+                "assets": [],
+                "valuation_status": "NOT_VALUED",
+                "valuation": {
+                  "net_eth": 0.0,
+                  "net_stable": 0.0,
+                  "other_assets": [],
+                  "historical_valuation_complete": true
+                }
+              }
+            },
+            {
+              "transaction_hash": "0xb2e9a2729f71f876eadbeb5d488b6f078dafd276a9a267fa278f919c45bdf251",
+              "reason": "No recognised ETH/WETH/stable proceeds",
+              "received_eth": 0.0,
+              "received_stable": 0.0,
+              "unsupported_proceeds": {},
+              "asset_flows": {
+                "assets": [
+                  {
+                    "contract": null,
+                    "symbol": "ETH",
+                    "amount": 1.275273270177484,
+                    "direction": "spent"
+                  }
+                ],
+                "valuation_status": "NOT_VALUED",
+                "valuation": {
+                  "net_eth": -1.275273270177484,
+                  "net_stable": 0.0,
+                  "other_assets": [],
+                  "historical_valuation_complete": true
+                }
+              }
+            },
+            {
+              "transaction_hash": "0x0eef5980b7028a2168a1d4c1e38089c7e4ade6d9e1bcb189fa4b15c04f1ee3bc",
+              "reason": "No recognised ETH/WETH/stable proceeds",
+              "received_eth": 0.0,
+              "received_stable": 0.0,
+              "unsupported_proceeds": {},
+              "asset_flows": {
+                "assets": [
+                  {
+                    "contract": null,
+                    "symbol": "ETH",
+                    "amount": 0.6719305161292451,
+                    "direction": "spent"
+                  }
+                ],
+                "valuation_status": "NOT_VALUED",
+                "valuation": {
+                  "net_eth": -0.6719305161292451,
+                  "net_stable": 0.0,
+                  "other_assets": [],
+                  "historical_valuation_complete": true
+                }
+              }
+            },
+            {
+              "transaction_hash": "0x7e5b49c555f0aede10dc7e76b82e0eebef1b4265e1408a43a8b5717f06fd4801",
+              "reason": "Purchase quote asset not eligible for ETH profit calculation",
+              "spent_eth": 0.0,
+              "spent_stable": 0.0,
+              "asset_flows": {
+                "assets": [],
+                "valuation_status": "NOT_VALUED",
+                "valuation": {
+                  "net_eth": 0.0,
+                  "net_stable": 0.0,
+                  "other_assets": [],
+                  "historical_valuation_complete": true
+                }
+              }
+            },
+            {
+              "transaction_hash": "0xd2914d1bc5526a8bb87eede9a856bbed0da2bc11cc0c031e4d9ef61c216ebf41",
+              "reason": "Wallet was not transaction initiator"
+            },
+            {
+              "transaction_hash": "0xef750373de4e15838e7a6638755449b2282f5a245b23e718008f44eaa0291d05",
+              "reason": "Wallet was not transaction initiator"
+            }
+          ],
+          "multi_asset_candidate_count": 0,
+          "other_unverified_count": 22
+        }
+      },
+      {
+        "wallet": "0x69420c67545e5ee95d1375f93ec0da06c05c9c1f",
+        "raw_balance": 5000000000000000000000000,
+        "current_balance": 5000000.0,
+        "is_contract": false,
+        "address_metadata": {},
+        "holder_rank": 21,
+        "analysis_complete": true,
+        "qualifies_30_minute_filter": false,
+        "reason": "No genuine DEX buy found; holder may have received/transferred tokens"
+      },
+      {
+        "wallet": "0x0cb831ff374e3827272ffe543f3feb31cf40f5aa",
+        "raw_balance": 5000000000000000000000000,
+        "current_balance": 5000000.0,
+        "is_contract": false,
+        "address_metadata": {},
+        "holder_rank": 22,
+        "analysis_complete": true,
+        "qualifies_30_minute_filter": false,
+        "reason": "No genuine DEX buy found; holder may have received/transferred tokens"
+      },
+      {
+        "wallet": "0x255a80c3307011abc09669114627edece667a743",
+        "raw_balance": 4780000361513333934682049,
+        "current_balance": 4780000.361513334,
+        "is_contract": false,
+        "address_metadata": {},
+        "holder_rank": 23,
+        "entry_transaction_hash": "0x51ccbc5bbc5fba94bdf296e86c45ec0df38caa5ee21e6c180db801a5abef0e93",
+        "entry_block": 101878,
+        "entry_time_utc": "2026-06-19T10:24:48+00:00",
+        "initial_tokens_bought": 5674301.566848465,
+        "initial_spent_eth": 0.7,
+        "initial_spent_stable": 0.0,
+        "entry_method": "0x5ae401dc",
+        "seconds_after_launch": 51199,
+        "delay_after_launch": "14h 13m 19s",
+        "qualifies_30_minute_filter": false,
+        "analysis_complete": true,
+        "classification": "PROFITABILITY UNVERIFIED",
+        "reason": "Current major holder with a genuine DEX purchase; full-position profitability verification pending",
+        "full_position_analysis": {
+          "position_status": "UNVERIFIED",
+          "reason": "Position requires multi-asset valuation or transfer reconciliation",
+          "unresolved_transactions": [
+            "0xeaf67ef953c11bd8d57088d58efadb6a2b9aa7a39b2877bb8d1558423d0cfbc4",
+            "0x50ad37d77576d5684da5ea963a39d56786ce76ec5c0648a487e440b84b373fb6",
+            "0x102ff90e5d2d0e1b73baa23be5a2c233d68a6c1d68ea671769fd1f31cab70fe4",
+            "0xd742e8d63553af12f610dae55ca75b31772a622af4a74a20b73075bede843c0a",
+            "0xbb0096dbc2489eaf1809aa3d60f5c6b4f50a9c421f36657defb22f0aa4277d92",
+            "0xd0bff4ae8390a50d002166fa6fcf1578fadbbf603552ea6adf16715aa846c360",
+            "0x607f167993ea0f9198652f958dce6eb35750ac16091f284fbd2116cc72964aa2",
+            "0x81c0654f77202595a2a31e999819e711f0bf1b0fc86800e95bbc3cfd74f9a059",
+            "0x45bf4d26f96c904b1aca1b25c102f38dac47dd5181f6d1c50622ae8523621c23",
+            "0xffa166fa342df25c8c161f075120146b993d29eb95c6843e7ac547be1ae9597f",
+            "0xa05bb4a617a6e316517aba4495770b080e8145342e2dc1ad8a1a349de4f425fb",
+            "0x1adafa312a4c635eae22f45ce513d906beb4e56c1bc0090094f5dd08b81009e5",
+            "0x4224b8f10d294b102c38dd33a07ea1d3d48b9ed184a353e9943910ef4db57a79",
+            "0xa490e025c90ae3de9ec39550f32157d647c09e6e77d7760ad07a137e6a57d316",
+            "0x02bf6f217783df72eb8052f6940eb3619d1c0cbd933a337355573d941f337868",
+            "0x320bfe62e416d1efee47897fbacf9dcf0644437e8d9831a4530fc24097e551c1",
+            "0x76582da6300e8106694d7ad105a6584b38f81997fa793b52532fc0ba08db7220",
+            "0x3e27ba2b3f294e4ee8f2078f667d765422c5ecb8ff2f96c3509cdc9b7aa9bd20",
+            "0x732c6baec0280cfb0c8b4202673b62f96b1f7c48f8a209f46ae2ec6a0f4d9664",
+            "0x9bbede0d311d2aa12db212eb467c9d07072a7e4036ab158b63b922018ed076a2",
+            "0xc2c1672bfd04adb440ba565b234c78786d6f5fe9ab7be09ed1923c2627bb5bda",
+            "0x89bfb86b3adea33820b46fe0e222b7c29332a6c9cf6468b83e7c1900a42e5d6b",
+            "0x010250749a3649534588a39504f430312727460a0e0515c38aac4ba9afff5517",
+            "0xd944fc63e5a674858803a9d0d472a6531ece1aa716b5206273a08d6091e78609",
+            "0x458c2dbc1f0626144f1fd7463d8ebaabd36c7c469ac26deadb6815f7051811b6",
+            "0xc16b3d1e76642f75a5c136fe4e14f2bfb98d348e027918fda51fc58256ead03c",
+            "0x46d12e38fc6d01bab902c7ea5e6d78bdb505fad732e99e7237b040c2875aeac7",
+            "0xac08942187e0b61da21b8f222a0f2dc60be086c528e42fcd1735822a04b6f278",
+            "0xa9b2057da2462ba0522c376a79395bee74e62a7b7cf71d33dad83dd2245ae4e5"
+          ],
+          "unresolved_details": [
+            {
+              "transaction_hash": "0xeaf67ef953c11bd8d57088d58efadb6a2b9aa7a39b2877bb8d1558423d0cfbc4",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x50ad37d77576d5684da5ea963a39d56786ce76ec5c0648a487e440b84b373fb6",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x102ff90e5d2d0e1b73baa23be5a2c233d68a6c1d68ea671769fd1f31cab70fe4",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xd742e8d63553af12f610dae55ca75b31772a622af4a74a20b73075bede843c0a",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xbb0096dbc2489eaf1809aa3d60f5c6b4f50a9c421f36657defb22f0aa4277d92",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xd0bff4ae8390a50d002166fa6fcf1578fadbbf603552ea6adf16715aa846c360",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x607f167993ea0f9198652f958dce6eb35750ac16091f284fbd2116cc72964aa2",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x81c0654f77202595a2a31e999819e711f0bf1b0fc86800e95bbc3cfd74f9a059",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x45bf4d26f96c904b1aca1b25c102f38dac47dd5181f6d1c50622ae8523621c23",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xffa166fa342df25c8c161f075120146b993d29eb95c6843e7ac547be1ae9597f",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xa05bb4a617a6e316517aba4495770b080e8145342e2dc1ad8a1a349de4f425fb",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x1adafa312a4c635eae22f45ce513d906beb4e56c1bc0090094f5dd08b81009e5",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x4224b8f10d294b102c38dd33a07ea1d3d48b9ed184a353e9943910ef4db57a79",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xa490e025c90ae3de9ec39550f32157d647c09e6e77d7760ad07a137e6a57d316",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x02bf6f217783df72eb8052f6940eb3619d1c0cbd933a337355573d941f337868",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x320bfe62e416d1efee47897fbacf9dcf0644437e8d9831a4530fc24097e551c1",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x76582da6300e8106694d7ad105a6584b38f81997fa793b52532fc0ba08db7220",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x3e27ba2b3f294e4ee8f2078f667d765422c5ecb8ff2f96c3509cdc9b7aa9bd20",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x732c6baec0280cfb0c8b4202673b62f96b1f7c48f8a209f46ae2ec6a0f4d9664",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x9bbede0d311d2aa12db212eb467c9d07072a7e4036ab158b63b922018ed076a2",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xc2c1672bfd04adb440ba565b234c78786d6f5fe9ab7be09ed1923c2627bb5bda",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x89bfb86b3adea33820b46fe0e222b7c29332a6c9cf6468b83e7c1900a42e5d6b",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x010250749a3649534588a39504f430312727460a0e0515c38aac4ba9afff5517",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xd944fc63e5a674858803a9d0d472a6531ece1aa716b5206273a08d6091e78609",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x458c2dbc1f0626144f1fd7463d8ebaabd36c7c469ac26deadb6815f7051811b6",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xc16b3d1e76642f75a5c136fe4e14f2bfb98d348e027918fda51fc58256ead03c",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x46d12e38fc6d01bab902c7ea5e6d78bdb505fad732e99e7237b040c2875aeac7",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xac08942187e0b61da21b8f222a0f2dc60be086c528e42fcd1735822a04b6f278",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xa9b2057da2462ba0522c376a79395bee74e62a7b7cf71d33dad83dd2245ae4e5",
+              "reason": "Unrecognised swap selector"
+            }
+          ],
+          "verified_eth_trade_count": 1,
+          "multi_asset_valuation_candidates": [],
+          "other_unverified_transactions": [
+            {
+              "transaction_hash": "0xeaf67ef953c11bd8d57088d58efadb6a2b9aa7a39b2877bb8d1558423d0cfbc4",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x50ad37d77576d5684da5ea963a39d56786ce76ec5c0648a487e440b84b373fb6",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x102ff90e5d2d0e1b73baa23be5a2c233d68a6c1d68ea671769fd1f31cab70fe4",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xd742e8d63553af12f610dae55ca75b31772a622af4a74a20b73075bede843c0a",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xbb0096dbc2489eaf1809aa3d60f5c6b4f50a9c421f36657defb22f0aa4277d92",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xd0bff4ae8390a50d002166fa6fcf1578fadbbf603552ea6adf16715aa846c360",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x607f167993ea0f9198652f958dce6eb35750ac16091f284fbd2116cc72964aa2",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x81c0654f77202595a2a31e999819e711f0bf1b0fc86800e95bbc3cfd74f9a059",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x45bf4d26f96c904b1aca1b25c102f38dac47dd5181f6d1c50622ae8523621c23",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xffa166fa342df25c8c161f075120146b993d29eb95c6843e7ac547be1ae9597f",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xa05bb4a617a6e316517aba4495770b080e8145342e2dc1ad8a1a349de4f425fb",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x1adafa312a4c635eae22f45ce513d906beb4e56c1bc0090094f5dd08b81009e5",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x4224b8f10d294b102c38dd33a07ea1d3d48b9ed184a353e9943910ef4db57a79",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xa490e025c90ae3de9ec39550f32157d647c09e6e77d7760ad07a137e6a57d316",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x02bf6f217783df72eb8052f6940eb3619d1c0cbd933a337355573d941f337868",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x320bfe62e416d1efee47897fbacf9dcf0644437e8d9831a4530fc24097e551c1",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x76582da6300e8106694d7ad105a6584b38f81997fa793b52532fc0ba08db7220",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x3e27ba2b3f294e4ee8f2078f667d765422c5ecb8ff2f96c3509cdc9b7aa9bd20",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x732c6baec0280cfb0c8b4202673b62f96b1f7c48f8a209f46ae2ec6a0f4d9664",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x9bbede0d311d2aa12db212eb467c9d07072a7e4036ab158b63b922018ed076a2",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xc2c1672bfd04adb440ba565b234c78786d6f5fe9ab7be09ed1923c2627bb5bda",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x89bfb86b3adea33820b46fe0e222b7c29332a6c9cf6468b83e7c1900a42e5d6b",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x010250749a3649534588a39504f430312727460a0e0515c38aac4ba9afff5517",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xd944fc63e5a674858803a9d0d472a6531ece1aa716b5206273a08d6091e78609",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x458c2dbc1f0626144f1fd7463d8ebaabd36c7c469ac26deadb6815f7051811b6",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xc16b3d1e76642f75a5c136fe4e14f2bfb98d348e027918fda51fc58256ead03c",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0x46d12e38fc6d01bab902c7ea5e6d78bdb505fad732e99e7237b040c2875aeac7",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xac08942187e0b61da21b8f222a0f2dc60be086c528e42fcd1735822a04b6f278",
+              "reason": "Unrecognised swap selector"
+            },
+            {
+              "transaction_hash": "0xa9b2057da2462ba0522c376a79395bee74e62a7b7cf71d33dad83dd2245ae4e5",
+              "reason": "Unrecognised swap selector"
+            }
+          ],
+          "multi_asset_candidate_count": 0,
+          "other_unverified_count": 29
+        }
+      },
+      {
+        "wallet": "0x2dbaf98620ac5bbe3441f756feff82702d095b1a",
+        "raw_balance": 4621806420695351716405838,
+        "current_balance": 4621806.420695351,
+        "is_contract": false,
+        "address_metadata": {},
+        "holder_rank": 24,
+        "analysis_complete": false,
+        "qualifies_30_minute_filter": false,
+        "reason": "Wallet token history API failure"
+      }
+    ],
+    "qualifying_holders": [],
+    "api_failure_count": 1,
+    "api_failure_log": []
+  }
+}

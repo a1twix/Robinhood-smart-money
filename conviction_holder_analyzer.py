@@ -3760,19 +3760,7 @@ def main() -> None:
         token
         for token in scanner_tokens
         if token["contract"] not in completed_contracts
-        and (
-            normalise_address(token["contract"]) not in pending_reviews
-            or (
-                str(token.get("symbol") or "").upper() == "CASHCAT"
-                and not any(
-                    str(report.get("token", {}).get("symbol") or "").upper()
-                    == "CASHCAT"
-                    and report_is_complete(report)
-                    and report.get("analysis_version", 1) >= ANALYSIS_VERSION
-                    for report in existing_reports
-                )
-            )
-        )
+        and normalise_address(token["contract"]) not in pending_reviews
     ]
 
     if MAX_NEW_TOKENS_PER_RUN > 0:

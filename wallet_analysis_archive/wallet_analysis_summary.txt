@@ -1,0 +1,934 @@
+====================================================================================================
+ROBINHOOD CHAIN WALLET DUE-DILIGENCE REPORT
+====================================================================================================
+Wallet: 0xf62c9ebf99607be71567c35a3e066e5b90baa7eb
+Genuine token buys analysed: 61
+Completed exact ETH positions: 41
+Profitable: 6
+Losing: 35
+Win rate: 14.63%
+Counted ETH cost basis: 5.241710 ETH
+Counted ETH proceeds: 5.905037 ETH
+Realised ETH profit: 0.663327 ETH
+
+NOTE: Each token is measured from the wallet's first genuine buy allocation.
+Later additional buys are not merged into that position. Mixed/stable quote
+positions are shown individually but excluded from aggregate ETH P&L.
+
+POSITIONS
+----------------------------------------------------------------------------------------------------
+1. Hookr.fun (HOOKR)
+   Contract: 0x18e674231a58c239dc7daedcffe15ec3a24cff5c
+   Entry: 2026-08-06T04:37:07+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.021883
+   Initial stable spent: 0.000000
+   Confirmed sells: 4
+   Original position sold: 97.89%
+   ETH proceeds: 2.406241
+   Realised profit: 2.384821 ETH
+   Realised ROI: 11,133.12%
+   Current token balance: 0.000000
+   Profit status: Cumulative ETH/WETH realised estimate
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+2. Netflix & Chill (CHILL)
+   Contract: 0xbbf2c91fdcc488ba736e0c38adc82c9a92597deb
+   Entry: 2026-08-07T15:51:42+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.374909
+   Initial stable spent: 0.000000
+   Confirmed sells: 2
+   Original position sold: 100.00%
+   ETH proceeds: 0.509331
+   Realised profit: 0.134422 ETH
+   Realised ROI: 35.85%
+   Current token balance: 19,959,406.277264
+   Profit status: Cumulative ETH/WETH realised estimate
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+3. SAFEHOOD (SAFEHOOD)
+   Contract: 0x87e1ed2ade9db5dea0e805f296b796219a05636b
+   Entry: 2026-07-10T04:45:13+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.120000
+   Initial stable spent: 0.000000
+   Confirmed sells: 1
+   Original position sold: 100.00%
+   ETH proceeds: 0.128479
+   Realised profit: 0.008479 ETH
+   Realised ROI: 7.07%
+   Current token balance: 0.000000
+   Profit status: Cumulative ETH/WETH realised estimate
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+4. HarryPotterCashcatMethHoodVladTrump4663Inu (HOOD)
+   Contract: 0x191403b1f642b9a447126e08d866767dbbace310
+   Entry: 2026-07-09T02:19:19+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.030000
+   Initial stable spent: 0.000000
+   Confirmed sells: 1
+   Original position sold: 100.00%
+   ETH proceeds: 0.032791
+   Realised profit: 0.002791 ETH
+   Realised ROI: 9.30%
+   Current token balance: 0.000000
+   Profit status: Cumulative ETH/WETH realised estimate
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+5. ComputeHood (COMPUTE)
+   Contract: 0xef52c3a8f0ad778c2e567384c405bb0aa0f97777
+   Entry: 2026-07-13T03:06:50+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.006992
+   Initial stable spent: 0.000000
+   Confirmed sells: 1
+   Original position sold: 100.00%
+   ETH proceeds: 0.009615
+   Realised profit: 0.002623 ETH
+   Realised ROI: 37.51%
+   Current token balance: 0.000000
+   Profit status: Cumulative ETH/WETH realised estimate
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+6. ZEROSUM (ZEROSUM)
+   Contract: 0x4ba0584afeb42ab531332bb530cf5e460c7633a6
+   Entry: 2026-07-09T14:02:57+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.024045
+   Initial stable spent: 0.000000
+   Confirmed sells: 1
+   Original position sold: 100.00%
+   ETH proceeds: 0.024391
+   Realised profit: 0.000346 ETH
+   Realised ROI: 1.44%
+   Current token balance: 0.000000
+   Profit status: Cumulative ETH/WETH realised estimate
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+7. The Index (INDEX)
+   Contract: 0x56910d4409f3a0c78c64dd8d0545ff0705389870
+   Entry: 2026-07-23T08:54:25+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.026435
+   Initial stable spent: 0.000000
+   Confirmed sells: 1
+   Original position sold: 100.00%
+   ETH proceeds: 0.025821
+   Realised profit: -0.000614 ETH
+   Realised ROI: -2.32%
+   Current token balance: 0.000000
+   Profit status: Cumulative ETH/WETH realised estimate
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+8. Netflix • Robinhood Token (NFLX)
+   Contract: 0xe0444ef8bf4ed74f74fd73686e2ddf4c1c5591e8
+   Entry: 2026-08-08T13:54:33+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.184072
+   Initial stable spent: 0.000000
+   Confirmed sells: 1
+   Original position sold: 100.00%
+   ETH proceeds: 0.182457
+   Realised profit: -0.001615 ETH
+   Realised ROI: -0.88%
+   Current token balance: 1.141199
+   Profit status: Cumulative ETH/WETH realised estimate
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+9. The Lindy Effect (LINDY)
+   Contract: 0xe9b7fefd6f8a7870602334207f4d9090deac5767
+   Entry: 2026-07-17T04:47:15+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.026919
+   Initial stable spent: 0.000000
+   Confirmed sells: 1
+   Original position sold: 100.00%
+   ETH proceeds: 0.024065
+   Realised profit: -0.002854 ETH
+   Realised ROI: -10.60%
+   Current token balance: 0.000000
+   Profit status: Cumulative ETH/WETH realised estimate
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+10. KEITHSART (KEITHS)
+   Contract: 0x40d32be801fb455997a6fad378df34f92f66bba3
+   Entry: 2026-07-17T06:59:21+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.024016
+   Initial stable spent: 0.000000
+   Confirmed sells: 1
+   Original position sold: 100.00%
+   ETH proceeds: 0.018242
+   Realised profit: -0.005774 ETH
+   Realised ROI: -24.04%
+   Current token balance: 0.000000
+   Profit status: Cumulative ETH/WETH realised estimate
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+11. Unifrog (UNIFROG)
+   Contract: 0xe702a01968800d6249522771fcc3f970f6a25403
+   Entry: 2026-08-05T14:12:55+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.124534
+   Initial stable spent: 0.000000
+   Confirmed sells: 1
+   Original position sold: 100.00%
+   ETH proceeds: 0.116524
+   Realised profit: -0.008010 ETH
+   Realised ROI: -6.43%
+   Current token balance: 0.000000
+   Profit status: Cumulative ETH/WETH realised estimate
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+12. r/RobinHoodPennyStocks (PENNYSTOCKS)
+   Contract: 0x71a0a04b03e5293aec4ac23265b89e2052dab891
+   Entry: 2026-07-17T07:38:19+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.011691
+   Initial stable spent: 0.000000
+   Confirmed sells: 1
+   Original position sold: 100.00%
+   ETH proceeds: 0.003615
+   Realised profit: -0.008077 ETH
+   Realised ROI: -69.08%
+   Current token balance: 0.000000
+   Profit status: Cumulative ETH/WETH realised estimate
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+13. ROB.N (ROB.N)
+   Contract: 0xbbe9595d3de5339de08c4697732b538f8b413b0f
+   Entry: 2026-07-09T15:07:35+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.053030
+   Initial stable spent: 0.000000
+   Confirmed sells: 1
+   Original position sold: 100.00%
+   ETH proceeds: 0.042865
+   Realised profit: -0.010165 ETH
+   Realised ROI: -19.17%
+   Current token balance: 0.000000
+   Profit status: Cumulative ETH/WETH realised estimate
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+14. Schmuserkadser (SCHMUSERKADSER)
+   Contract: 0xe4a8ccccbeb0071bdd641075fcbc05552e33c59c
+   Entry: 2026-07-17T07:22:06+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.023192
+   Initial stable spent: 0.000000
+   Confirmed sells: 1
+   Original position sold: 100.00%
+   ETH proceeds: 0.011724
+   Realised profit: -0.011469 ETH
+   Realised ROI: -49.45%
+   Current token balance: 0.000000
+   Profit status: Cumulative ETH/WETH realised estimate
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+15. ENDGAME (FEES)
+   Contract: 0x77948655831f48aa17ac85233e6c921f7ef7bb2e
+   Entry: 2026-08-07T15:55:37+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.369903
+   Initial stable spent: 0.000000
+   Confirmed sells: 1
+   Original position sold: 100.00%
+   ETH proceeds: 0.358165
+   Realised profit: -0.011738 ETH
+   Realised ROI: -3.17%
+   Current token balance: 0.000000
+   Profit status: Cumulative ETH/WETH realised estimate
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+16. Sushi Cat (SUSHICAT)
+   Contract: 0xaa4b6a79df257e50e0079cd812a92262ee3951b0
+   Entry: 2026-07-18T05:39:53+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.156641
+   Initial stable spent: 0.000000
+   Confirmed sells: 1
+   Original position sold: 100.00%
+   ETH proceeds: 0.139196
+   Realised profit: -0.017445 ETH
+   Realised ROI: -11.14%
+   Current token balance: 0.000000
+   Profit status: Cumulative ETH/WETH realised estimate
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+17. Be Online Retire Early Die (BORED)
+   Contract: 0x1f106d6b3dece222b6d562580d3c0978edcf4e0d
+   Entry: 2026-07-24T04:11:55+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.072100
+   Initial stable spent: 0.000000
+   Confirmed sells: 1
+   Original position sold: 100.00%
+   ETH proceeds: 0.054105
+   Realised profit: -0.017995 ETH
+   Realised ROI: -24.96%
+   Current token balance: 0.000000
+   Profit status: Cumulative ETH/WETH realised estimate
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+18. RH (RH)
+   Contract: 0x9264df4bca9ac77f9c8583b177b36f0a97259999
+   Entry: 2026-07-22T08:05:12+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.040242
+   Initial stable spent: 0.000000
+   Confirmed sells: 1
+   Original position sold: 100.00%
+   ETH proceeds: 0.021839
+   Realised profit: -0.018403 ETH
+   Realised ROI: -45.73%
+   Current token balance: 0.000000
+   Profit status: Cumulative ETH/WETH realised estimate
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+19. ATH GIRL (ATH)
+   Contract: 0x8aeff8de4910e0ae0a0731eab61f56da6ef047c0
+   Entry: 2026-07-23T09:12:04+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.020647
+   Initial stable spent: 0.000000
+   Confirmed sells: 1
+   Original position sold: 100.00%
+   ETH proceeds: 0.001249
+   Realised profit: -0.019397 ETH
+   Realised ROI: -93.95%
+   Current token balance: 0.000000
+   Profit status: Cumulative ETH/WETH realised estimate
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+20. KoharuENV (KOHA)
+   Contract: 0x39366425c7f8d0aed38e9312f8b20bcbe4b62dd8
+   Entry: 2026-07-23T08:03:52+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.045914
+   Initial stable spent: 0.000000
+   Confirmed sells: 1
+   Original position sold: 100.00%
+   ETH proceeds: 0.026473
+   Realised profit: -0.019441 ETH
+   Realised ROI: -42.34%
+   Current token balance: 0.000000
+   Profit status: Cumulative ETH/WETH realised estimate
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+21. Bucket Shop (BUCKET)
+   Contract: 0xbc9e7b1c5c0081f4ae85e71ec95703d3dec9ffad
+   Entry: 2026-08-10T03:48:53+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.098234
+   Initial stable spent: 0.000000
+   Confirmed sells: 1
+   Original position sold: 54.06%
+   ETH proceeds: 0.032696
+   Realised profit: -0.020409 ETH
+   Realised ROI: -38.43%
+   Current token balance: 22,182,500.280452
+   Profit status: Cumulative ETH/WETH realised estimate
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+22. Financial independence, retire early (FIRE)
+   Contract: 0x41a3ae7655f0568a61fec519475ebf060597e544
+   Entry: 2026-07-23T07:30:30+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.066592
+   Initial stable spent: 0.000000
+   Confirmed sells: 1
+   Original position sold: 100.00%
+   ETH proceeds: 0.045952
+   Realised profit: -0.020640 ETH
+   Realised ROI: -30.99%
+   Current token balance: 0.000000
+   Profit status: Cumulative ETH/WETH realised estimate
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+23. SnowBall (SNOWBALL)
+   Contract: 0x9b561439ff9e43f59388c5240d8b8f2a25c47777
+   Entry: 2026-07-17T09:11:49+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.030641
+   Initial stable spent: 0.000000
+   Confirmed sells: 1
+   Original position sold: 100.00%
+   ETH proceeds: 0.002975
+   Realised profit: -0.027666 ETH
+   Realised ROI: -90.29%
+   Current token balance: 0.000000
+   Profit status: Cumulative ETH/WETH realised estimate
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+24. Green Kitten Crew (GKC)
+   Contract: 0xa8bf74f4748e333226a0793cf6570c70964a0824
+   Entry: 2026-07-17T07:59:16+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.040866
+   Initial stable spent: 0.000000
+   Confirmed sells: 1
+   Original position sold: 100.00%
+   ETH proceeds: 0.011909
+   Realised profit: -0.028957 ETH
+   Realised ROI: -70.86%
+   Current token balance: 0.000000
+   Profit status: Cumulative ETH/WETH realised estimate
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+25. The 1% (1%)
+   Contract: 0x9d23b0660409a00f3348c1ece2e5cbdf20886958
+   Entry: 2026-07-12T16:34:27+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.154808
+   Initial stable spent: 0.000000
+   Confirmed sells: 1
+   Original position sold: 100.00%
+   ETH proceeds: 0.120088
+   Realised profit: -0.034720 ETH
+   Realised ROI: -22.43%
+   Current token balance: 0.000000
+   Profit status: Cumulative ETH/WETH realised estimate
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+26. fugazi (FUGAZI)
+   Contract: 0x08f9c3ed65459876c1f43243689585f5739357a1
+   Entry: 2026-07-17T03:54:12+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.047745
+   Initial stable spent: 0.000000
+   Confirmed sells: 1
+   Original position sold: 100.00%
+   ETH proceeds: 0.007780
+   Realised profit: -0.039965 ETH
+   Realised ROI: -83.71%
+   Current token balance: 0.000000
+   Profit status: Cumulative ETH/WETH realised estimate
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+27. Pointless Coin (POINTLESS)
+   Contract: 0x71a9835b8c4df70bdae613b1cfa91bf35240de4e
+   Entry: 2026-07-11T09:17:27+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.073895
+   Initial stable spent: 0.000000
+   Confirmed sells: 1
+   Original position sold: 100.00%
+   ETH proceeds: 0.032538
+   Realised profit: -0.041357 ETH
+   Realised ROI: -55.97%
+   Current token balance: 0.000000
+   Profit status: Cumulative ETH/WETH realised estimate
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+28. ArcherAutomates (ARCHER)
+   Contract: 0x3d0a2e4763eee58a7c631acf7ff13ad6398a5141
+   Entry: 2026-07-10T15:56:02+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.066682
+   Initial stable spent: 0.000000
+   Confirmed sells: 1
+   Original position sold: 100.00%
+   ETH proceeds: 0.024036
+   Realised profit: -0.042646 ETH
+   Realised ROI: -63.95%
+   Current token balance: 0.000000
+   Profit status: Cumulative ETH/WETH realised estimate
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+29. Oasis Protocol (OASIS)
+   Contract: 0x488faf4ee769efef12ca11a00e976e2aa6044fa6
+   Entry: 2026-07-09T09:54:39+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.119745
+   Initial stable spent: 0.000000
+   Confirmed sells: 1
+   Original position sold: 100.00%
+   ETH proceeds: 0.070989
+   Realised profit: -0.048756 ETH
+   Realised ROI: -40.72%
+   Current token balance: 0.000000
+   Profit status: Cumulative ETH/WETH realised estimate
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+30. AMC (AMC)
+   Contract: 0x1ce22bf16d108f5b1c2503f64b4201489ec6a19a
+   Entry: 2026-07-17T01:57:05+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.080233
+   Initial stable spent: 0.000000
+   Confirmed sells: 1
+   Original position sold: 100.00%
+   ETH proceeds: 0.028473
+   Realised profit: -0.051760 ETH
+   Realised ROI: -64.51%
+   Current token balance: 0.000000
+   Profit status: Cumulative ETH/WETH realised estimate
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+31. 🟩🟩🟩🟩🟩🟩🟩 🟩🟩⬜⬛⬜⬜⬛🟩 🟩🟩🟩🟩🟩🟩🟩 🟩🟩🟩🟥🟥🟥🟥🟥 (🟩🟩🟩🟩🟩🟩🟩 🟩🟩⬜)
+   Contract: 0xa8c2cd3702a2218694cf9a76bdc8b3bea4ea8c7e
+   Entry: 2026-07-09T13:06:04+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.070978
+   Initial stable spent: 0.000000
+   Confirmed sells: 1
+   Original position sold: 100.00%
+   ETH proceeds: 0.014082
+   Realised profit: -0.056896 ETH
+   Realised ROI: -80.16%
+   Current token balance: 0.000000
+   Profit status: Cumulative ETH/WETH realised estimate
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+32. Robinhood Punks (PUNKS)
+   Contract: 0xe1ea5f02858fec9d6f0b828cdd49486b930315e7
+   Entry: 2026-07-09T04:12:58+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.261697
+   Initial stable spent: 0.000000
+   Confirmed sells: 1
+   Original position sold: 100.00%
+   ETH proceeds: 0.201534
+   Realised profit: -0.060163 ETH
+   Realised ROI: -22.99%
+   Current token balance: 0.000000
+   Profit status: Cumulative ETH/WETH realised estimate
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+33. AssetHood (ASSETH)
+   Contract: 0x9077841e155faaf4e4e89470822c2187eeef7777
+   Entry: 2026-07-15T07:36:23+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.197601
+   Initial stable spent: 0.000000
+   Confirmed sells: 1
+   Original position sold: 100.00%
+   ETH proceeds: 0.134855
+   Realised profit: -0.062746 ETH
+   Realised ROI: -31.75%
+   Current token balance: 0.000000
+   Profit status: Cumulative ETH/WETH realised estimate
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+34. Delphic Arena (DELPHIC)
+   Contract: 0xaa730f8cca8a22600f92d854322c560390fcff87
+   Entry: 2026-07-18T07:51:18+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.160571
+   Initial stable spent: 0.000000
+   Confirmed sells: 2
+   Original position sold: 100.00%
+   ETH proceeds: 0.092820
+   Realised profit: -0.067752 ETH
+   Realised ROI: -42.19%
+   Current token balance: 0.000000
+   Profit status: Cumulative ETH/WETH realised estimate
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+35. Perps GO (PERPSGO)
+   Contract: 0xc7d61418886c3460d9cfee57db39466f763aeb94
+   Entry: 2026-07-24T00:46:05+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.154528
+   Initial stable spent: 0.000000
+   Confirmed sells: 1
+   Original position sold: 100.00%
+   ETH proceeds: 0.063845
+   Realised profit: -0.090682 ETH
+   Realised ROI: -58.68%
+   Current token balance: 0.000000
+   Profit status: Cumulative ETH/WETH realised estimate
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+36. VladFun (VLAD)
+   Contract: 0x088447c873693c1a7fefbc259c10f4d625a2302d
+   Entry: 2026-07-15T16:26:56+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.109200
+   Initial stable spent: 0.000000
+   Confirmed sells: 1
+   Original position sold: 100.00%
+   ETH proceeds: 0.004303
+   Realised profit: -0.104897 ETH
+   Realised ROI: -96.06%
+   Current token balance: 0.000000
+   Profit status: Cumulative ETH/WETH realised estimate
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+37. UNIFROG (UNIFROG)
+   Contract: 0x87f1ed895b460c002e82075f1038e7f2ce4d51cd
+   Entry: 2026-08-05T15:11:13+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.122530
+   Initial stable spent: 0.000000
+   Confirmed sells: 1
+   Original position sold: 100.00%
+   ETH proceeds: 0.006379
+   Realised profit: -0.116151 ETH
+   Realised ROI: -94.79%
+   Current token balance: 0.000000
+   Profit status: Cumulative ETH/WETH realised estimate
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+38. Palantir Inu (PI)
+   Contract: 0xa5bd1f841b94b0f3bd1c05bda004317a387696cb
+   Entry: 2026-07-26T02:19:08+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.158600
+   Initial stable spent: 0.000000
+   Confirmed sells: 1
+   Original position sold: 100.00%
+   ETH proceeds: 0.034646
+   Realised profit: -0.123954 ETH
+   Realised ROI: -78.16%
+   Current token balance: 0.000000
+   Profit status: Cumulative ETH/WETH realised estimate
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+39. Boomer (BOOMER)
+   Contract: 0xfdf085fc400504ca734e9ef89c68d2b98e604c2c
+   Entry: 2026-08-10T02:13:46+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.877535
+   Initial stable spent: 0.000000
+   Confirmed sells: 1
+   Original position sold: 100.00%
+   ETH proceeds: 0.728691
+   Realised profit: -0.148843 ETH
+   Realised ROI: -16.96%
+   Current token balance: 0.000000
+   Profit status: Cumulative ETH/WETH realised estimate
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+40. AAAAAAAAAAAAAAAAAAAA (AAAAAAAAAAAAAAAAAAAA)
+   Contract: 0x9edf50590d1686cdb491d5f6046539e0d7c48d67
+   Entry: 2026-07-09T07:36:54+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.201520
+   Initial stable spent: 0.000000
+   Confirmed sells: 1
+   Original position sold: 100.00%
+   ETH proceeds: 0.039523
+   Realised profit: -0.161997 ETH
+   Realised ROI: -80.39%
+   Current token balance: 0.000000
+   Profit status: Cumulative ETH/WETH realised estimate
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+41. Robinhood Andy (ANDY)
+   Contract: 0xf7a3b803e1129c2b4711b39df21e898645c6a03c
+   Entry: 2026-07-09T02:10:17+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.435935
+   Initial stable spent: 0.000000
+   Confirmed sells: 1
+   Original position sold: 100.00%
+   ETH proceeds: 0.069735
+   Realised profit: -0.366200 ETH
+   Realised ROI: -84.00%
+   Current token balance: 0.000000
+   Profit status: Cumulative ETH/WETH realised estimate
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+42. ASCII (ASCII)
+   Contract: 0x1ed85f03ead679901808ae340345562b3707db1c
+   Entry: 2026-07-13T11:45:19+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.261502
+   Initial stable spent: 0.000000
+   Confirmed sells: 0
+   Original position sold: 0.00%
+   ETH proceeds: 0.000000
+   Realised profit: N/A
+   Realised ROI: N/A%
+   Current token balance: 145,290.725804
+   Profit status: No confirmed cumulative sale found
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+43. Vladdotfun (VLAD)
+   Contract: 0x46364b5f668ec44195d497d46ef170bdd5ada5ee
+   Entry: 2026-07-15T15:06:29+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.038059
+   Initial stable spent: 0.000000
+   Confirmed sells: 0
+   Original position sold: 0.00%
+   ETH proceeds: 0.000000
+   Realised profit: N/A
+   Realised ROI: N/A%
+   Current token balance: 0.000000
+   Profit status: No confirmed cumulative sale found
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+44. TrumpButtCoin (TRUMPBUTT)
+   Contract: 0x1d7b161921300a60a42233a1388ddf1b7990520b
+   Entry: 2026-07-17T03:59:24+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.027742
+   Initial stable spent: 0.000000
+   Confirmed sells: 0
+   Original position sold: 0.00%
+   ETH proceeds: 0.000000
+   Realised profit: N/A
+   Realised ROI: N/A%
+   Current token balance: 0.000000
+   Profit status: No confirmed cumulative sale found
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+45. MachineFi (MACHINEFI)
+   Contract: 0x1e2d93a78ff82920ff899d2d58aa1c38996a7777
+   Entry: 2026-07-17T14:49:20+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.004926
+   Initial stable spent: 0.000000
+   Confirmed sells: 0
+   Original position sold: 0.00%
+   ETH proceeds: 0.000000
+   Realised profit: N/A
+   Realised ROI: N/A%
+   Current token balance: 89,867.531053
+   Profit status: No confirmed cumulative sale found
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+46. NVDA (NVDA)
+   Contract: 0x5a3db8953f65d2e606e8151121191cfe85afc166
+   Entry: 2026-07-23T07:00:16+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.046580
+   Initial stable spent: 0.000000
+   Confirmed sells: 0
+   Original position sold: 0.00%
+   ETH proceeds: 0.000000
+   Realised profit: N/A
+   Realised ROI: N/A%
+   Current token balance: 0.000000
+   Profit status: No confirmed cumulative sale found
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+47. spcxcoin (SPCX)
+   Contract: 0xee85fb7d16dba80423e82509f03549315b594abc
+   Entry: 2026-07-23T07:04:42+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.022478
+   Initial stable spent: 0.000000
+   Confirmed sells: 0
+   Original position sold: 0.00%
+   ETH proceeds: 0.000000
+   Realised profit: N/A
+   Realised ROI: N/A%
+   Current token balance: 0.000000
+   Profit status: No confirmed cumulative sale found
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+48. Roaring Cat (ROAR)
+   Contract: 0x84e8f0f454153c393c81e38b8884e90ebcfa6c0b
+   Entry: 2026-07-26T07:50:01+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.031099
+   Initial stable spent: 0.000000
+   Confirmed sells: 0
+   Original position sold: 0.00%
+   ETH proceeds: 0.000000
+   Realised profit: N/A
+   Realised ROI: N/A%
+   Current token balance: 0.000000
+   Profit status: No confirmed cumulative sale found
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+49. Platypus (PLATYPUS)
+   Contract: 0x4c87b69f0d862cd66b84f7bef639180980b8ae67
+   Entry: 2026-08-11T16:02:25+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.037480
+   Initial stable spent: 0.000000
+   Confirmed sells: 0
+   Original position sold: 0.00%
+   ETH proceeds: 0.000000
+   Realised profit: N/A
+   Realised ROI: N/A%
+   Current token balance: 0.000000
+   Profit status: No confirmed cumulative sale found
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+50. Truth socian (TRUTH)
+   Contract: 0x3fe0072ba1da93699ec157386209649245f9fb3f
+   Entry: 2026-08-22T12:08:41+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 2.122370
+   Initial stable spent: 0.000000
+   Confirmed sells: 0
+   Original position sold: 0.00%
+   ETH proceeds: 0.000000
+   Realised profit: N/A
+   Realised ROI: N/A%
+   Current token balance: 14,371.407721
+   Profit status: No confirmed cumulative sale found
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+51. MIT (MIT)
+   Contract: 0x7783f628022f6956540508cf65497f93d0de9e1e
+   Entry: 2026-08-29T16:51:46+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.100000
+   Initial stable spent: 0.000000
+   Confirmed sells: 0
+   Original position sold: 0.00%
+   ETH proceeds: 0.000000
+   Realised profit: N/A
+   Realised ROI: N/A%
+   Current token balance: 24,937,531.175765
+   Profit status: No confirmed cumulative sale found
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+52. BANDIT (BANDIT)
+   Contract: 0x80bced7cc2bbb44a41f5ba30c7090a7ba1bec605
+   Entry: 2026-08-30T14:13:21+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.300000
+   Initial stable spent: 0.000000
+   Confirmed sells: 0
+   Original position sold: 0.00%
+   ETH proceeds: 0.000000
+   Realised profit: N/A
+   Realised ROI: N/A%
+   Current token balance: 19,603.000000
+   Profit status: No confirmed cumulative sale found
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+53. Syndromics (SYNDROMICS)
+   Contract: 0xe33ab021662e23f745be8e5b237babe8c7ad626c
+   Entry: 2026-08-30T18:28:48+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.200000
+   Initial stable spent: 0.000000
+   Confirmed sells: 0
+   Original position sold: 0.00%
+   ETH proceeds: 0.000000
+   Realised profit: N/A
+   Realised ROI: N/A%
+   Current token balance: 0.000000
+   Profit status: No confirmed cumulative sale found
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+54. ZK Privacy Layer (UNROUTE)
+   Contract: 0xe5661e2b2161ba993e4b02764e8be056498ae9fe
+   Entry: 2026-08-30T23:32:12+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.400000
+   Initial stable spent: 0.000000
+   Confirmed sells: 0
+   Original position sold: 0.00%
+   ETH proceeds: 0.000000
+   Realised profit: N/A
+   Realised ROI: N/A%
+   Current token balance: 0.000000
+   Profit status: No confirmed cumulative sale found
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+55. Google Pixel (PIXEL)
+   Contract: 0xf6c763ac04b7824af822d18fbf8b5c48ae309c53
+   Entry: 2026-08-31T01:02:02+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.100000
+   Initial stable spent: 0.000000
+   Confirmed sells: 0
+   Original position sold: 0.00%
+   ETH proceeds: 0.000000
+   Realised profit: N/A
+   Realised ROI: N/A%
+   Current token balance: 0.000000
+   Profit status: No confirmed cumulative sale found
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+56. Infinite Ponzi Glitch (IPG)
+   Contract: 0xccec70b160c7b01a7497933fce9b2f4be99fbab3
+   Entry: 2026-08-31T01:23:33+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.100000
+   Initial stable spent: 0.000000
+   Confirmed sells: 0
+   Original position sold: 0.00%
+   ETH proceeds: 0.000000
+   Realised profit: N/A
+   Realised ROI: N/A%
+   Current token balance: 0.000000
+   Profit status: No confirmed cumulative sale found
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+57. Famidex (FAMI)
+   Contract: 0x35b3f1a110ab4dc7209dcf653c81a7d75038208a
+   Entry: 2026-08-31T02:21:41+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.050000
+   Initial stable spent: 0.000000
+   Confirmed sells: 0
+   Original position sold: 0.00%
+   ETH proceeds: 0.000000
+   Realised profit: N/A
+   Realised ROI: N/A%
+   Current token balance: 0.000000
+   Profit status: No confirmed cumulative sale found
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+58. Hood of Meme (HOME)
+   Contract: 0xe9ab3214a9b77baebfde2b6d17dec4823599ff6f
+   Entry: 2026-08-31T07:42:38+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 1.000000
+   Initial stable spent: 0.000000
+   Confirmed sells: 0
+   Original position sold: 0.00%
+   ETH proceeds: 0.000000
+   Realised profit: N/A
+   Realised ROI: N/A%
+   Current token balance: 0.000000
+   Profit status: No confirmed cumulative sale found
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+59. Protocol 4096 (P4096)
+   Contract: 0x584e8cb49cc6a94a112bf2bfb40d928ec14996c9
+   Entry: 2026-08-31T17:30:54+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.100000
+   Initial stable spent: 0.000000
+   Confirmed sells: 0
+   Original position sold: 0.00%
+   ETH proceeds: 0.000000
+   Realised profit: N/A
+   Realised ROI: N/A%
+   Current token balance: 0.000000
+   Profit status: No confirmed cumulative sale found
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+60. Kezin (KEZ)
+   Contract: 0x70fab7d80676d4433985d256d08e062de7715332
+   Entry: 2026-09-01T12:45:42+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.100000
+   Initial stable spent: 0.000000
+   Confirmed sells: 0
+   Original position sold: 0.00%
+   ETH proceeds: 0.000000
+   Realised profit: N/A
+   Realised ROI: N/A%
+   Current token balance: 0.000000
+   Profit status: No confirmed cumulative sale found
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------
+61. hdfi (HDFI)
+   Contract: 0xe572163f928dc223ddbbde611e367116a5279d41
+   Entry: 2026-09-01T16:23:01+00:00
+   Entry after launch: Unknown
+   Initial ETH spent: 0.300000
+   Initial stable spent: 0.000000
+   Confirmed sells: 0
+   Original position sold: 0.00%
+   ETH proceeds: 0.000000
+   Realised profit: N/A
+   Realised ROI: N/A%
+   Current token balance: 0.000000
+   Profit status: No confirmed cumulative sale found
+   Analysis complete: True
+----------------------------------------------------------------------------------------------------

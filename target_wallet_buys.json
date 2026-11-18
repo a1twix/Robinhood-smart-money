@@ -1,0 +1,17 @@
+{
+    "token_contract": "0x8e62f281f282686fca6dcb39288069a93fc23f1c",
+    "start_block": 2138404,
+    "pages_scanned": 11,
+    "transfer_rows_scanned": 10000,
+    "results": {},
+    "missing_targets": [
+        {
+            "name": "Wallet 1",
+            "wallet": "0xd1b13c91bbe6322d0c7dbc36334d184728addb88"
+        },
+        {
+            "name": "Wallet 2",
+            "wallet": "0x9963597a9246b39b13330992f571f8378c18c262"
+        }
+    ]
+}

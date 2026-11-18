@@ -1,0 +1,78 @@
+{
+  "token": {
+    "name": "Cash Cat",
+    "symbol": "CASHCAT",
+    "contract": "0x020bfc650a365f8bb26819deaabf3e21291018b4",
+    "decimals": 18
+  },
+  "snapshot_block": 113544308,
+  "analysis_complete": false,
+  "results": [
+    {
+      "holder_rank": 18,
+      "wallet": "0xc38f2021b6b6349b8f662b7f207d84beb7bc8308",
+      "original_whale_holdings": {
+        "first_acquisition_block": 89479,
+        "first_acquisition_transaction": "0x4c3ba4405d5797eef191b2754248c61656e711348aae8252ba4179dead9f3360",
+        "first_acquisition_method": "OBSERVED TOKEN INBOUND",
+        "total_tokens_received": 10109405.739453401,
+        "total_tokens_sent": 5015740.885120255,
+        "current_tokens_held": 5093664.854333147,
+        "retained_percentage_of_received": 50.38540331262392,
+        "sales_not_inferred_from_transfers": true
+      },
+      "full_position_analysis": {
+        "position_status": "PROVISIONAL",
+        "reason": "Profit calculated but independent historical RPC balance unavailable",
+        "buy_count": 4,
+        "sell_count": 172,
+        "total_tokens_bought": 10109405.739453401,
+        "total_tokens_sold": 5015740.885120254,
+        "total_spent_eth": 0.1377,
+        "total_received_eth": 205.4504678424166,
+        "reconstructed_tokens_held": 5093664.854333149,
+        "remaining_cost_eth": 0.07385413439835517,
+        "realised_profit_eth": 205.386621976815,
+        "realised_roi_percent": 321691.34217443125,
+        "calculation_method": "weighted_average_cost",
+        "reconstructed_balance": 5093664.854333149,
+        "checkpoint_balance": 5093664.854333147,
+        "snapshot_block": 113544308,
+        "rpc_balance_verified": false
+      }
+    },
+    {
+      "holder_rank": 25,
+      "wallet": "0x255a80c3307011abc09669114627edece667a743",
+      "original_whale_holdings": {
+        "first_acquisition_block": 101878,
+        "first_acquisition_transaction": "0x51ccbc5bbc5fba94bdf296e86c45ec0df38caa5ee21e6c180db801a5abef0e93",
+        "first_acquisition_method": "OBSERVED TOKEN INBOUND",
+        "total_tokens_received": 5674350.376513334,
+        "total_tokens_sent": 974350.015,
+        "current_tokens_held": 4700000.361513334,
+        "retained_percentage_of_received": 82.82887114209716,
+        "sales_not_inferred_from_transfers": true
+      },
+      "full_position_analysis": {
+        "position_status": "PROVISIONAL",
+        "reason": "Profit calculated but independent historical RPC balance unavailable",
+        "buy_count": 2,
+        "sell_count": 29,
+        "total_tokens_bought": 5674350.376513334,
+        "total_tokens_sold": 974350.015,
+        "total_spent_eth": 0.7041999999999999,
+        "total_received_eth": 57.73983184512528,
+        "reconstructed_tokens_held": 4700000.361513334,
+        "remaining_cost_eth": 0.583293197848092,
+        "realised_profit_eth": 57.618925042973366,
+        "realised_roi_percent": 47655.65213657772,
+        "calculation_method": "weighted_average_cost",
+        "reconstructed_balance": 4700000.361513334,
+        "checkpoint_balance": 4700000.361513334,
+        "snapshot_block": 113544308,
+        "rpc_balance_verified": false
+      }
+    }
+  ]
+}

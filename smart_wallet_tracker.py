@@ -463,6 +463,62 @@ def load_tracked_wallets():
         except (OSError, ValueError, TypeError) as exc:
             print(f"Conviction wallet import warning: {exc}")
 
+    # Import CASHCAT provisional discoveries without marking its analysis complete.
+    cashcat_file = Path(__file__).resolve().parent / "cashcat_provisional_profit_results.json"
+    if cashcat_file.exists():
+        with cashcat_file.open() as f:
+            cashcat_data = json.load(f)
+
+        by_address = {
+            details["address"].lower(): details
+            for details in tracked_wallets.values()
+        }
+
+        for holder in cashcat_data.get("results", []):
+            address = holder.get("wallet", "").lower()
+            position = holder.get("full_position_analysis") or {}
+
+            if (
+                len(address) != 42
+                or not address.startswith("0x")
+                or position.get("position_status") != "PROVISIONAL"
+            ):
+                continue
+
+            rank = holder.get("holder_rank", "?")
+            cashcat_discovery = {
+                "token": "CASHCAT",
+                "holder_rank": rank,
+                "status": "PROVISIONAL",
+                "profit_eth": position.get("realised_profit_eth"),
+                "roi_percent": position.get("realised_roi_percent"),
+            }
+
+            if address in by_address:
+                details = by_address[address]
+                discoveries = details.setdefault("conviction_discoveries", [])
+                if not any(
+                    d.get("token") == "CASHCAT"
+                    for d in discoveries
+                ):
+                    discoveries.append(cashcat_discovery)
+            else:
+                name = f"CASHCAT Provisional Conviction #{rank}"
+                details = {
+                    "address": address,
+                    "stars": 4,
+                    "tier": "PROVISIONAL CONVICTION",
+                    "source": "CASHCAT",
+                    "role": "Provisional profitable early conviction holder",
+                    "historical_profit_eth": position.get("realised_profit_eth"),
+                    "historical_roi_percent": position.get("realised_roi_percent"),
+                    "conviction_discoveries": [cashcat_discovery],
+                }
+                tracked_wallets[name] = details
+                by_address[address] = details
+
+        print("CASHCAT provisional wallet import complete.")
+
     return tracked_wallets
 
 
@@ -470,7 +526,7 @@ def load_tracked_wallets():
 def refresh_conviction_wallets():
     global TRACKED_WALLETS, TRACKED_ADDRESS_SET
 
-    updated = load_tracked_wallets()
+    updated = load_approved_wallets()
     known = {v["address"].lower() for v in TRACKED_WALLETS.values()}
     added = 0
 
@@ -487,7 +543,41 @@ def refresh_conviction_wallets():
     return added
 
 
-TRACKED_WALLETS = load_tracked_wallets()
+
+APPROVED_WALLETS = {
+    "WISHBONE Trader #1": "0xb35522495e33e3c962788e4e2098a5b4798d2d60",
+    "TENDIES Trader #1": "0x3e68c81f62a9bbf78c820458bc60e327f2b22295",
+    "UP Trader #2": "0x5aa3b0b953bd381211e8c0cf982cfcb7977a0690",
+    "WISHBONE Trader #2": "0xb3d9658bffad502fc09fce3d31e61a44bc310a6e",
+    "CASHCAT Trader #2": "0xa6735bb37672908c2c5e57a52682898d4612838f",
+    "CASHCAT Trader #5": "0xa95fa68dc05d82ff5398527308944e2fcfad3a69",
+    "Conviction Holder #1": "0xc38f2021b6b6349b8f662b7f207d84beb7bc8308",
+    "Conviction Holder #2": "0x255a80c3307011abc09669114627edece667a743",
+}
+
+def load_approved_wallets():
+    discovered = load_tracked_wallets()
+    metadata = {
+        details["address"].lower(): details
+        for details in discovered.values()
+    }
+
+    selected = {}
+
+    for name, address in APPROVED_WALLETS.items():
+        details = dict(metadata.get(address.lower(), {}))
+        details["address"] = address
+        details.setdefault("stars", 4)
+        details.setdefault("tier", "MANUALLY APPROVED")
+        details.setdefault("source", "Reviewed shortlist")
+        details.setdefault("role", "Approved monitored wallet")
+        selected[name] = details
+
+    return selected
+
+
+TRACKED_WALLETS = load_approved_wallets()
+
 
 
 # ERC-20 Transfer(address,address,uint256) event topic.
