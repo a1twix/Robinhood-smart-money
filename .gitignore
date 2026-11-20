@@ -17,3 +17,10 @@ __pycache__/
 
 # Large historical transaction cache — keep locally
 /early_transaction_cache.json
+
+# Local tracker runtime and secrets
+smart_wallet_rpc_tracker_state.json
+smart_wallet_rpc_tracker_state.before_live_*.json
+smart_wallet_tracker.py.before_*
+early_transaction_cache.json
+!.env.example
