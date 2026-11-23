@@ -573,7 +573,7 @@ def refresh_conviction_wallets():
 
 
 
-APPROVED_WALLETS = {
+{
     "WISHBONE Trader #1": "0xb35522495e33e3c962788e4e2098a5b4798d2d60",
     "TENDIES Trader #1": "0x3e68c81f62a9bbf78c820458bc60e327f2b22295",
     "UP Trader #2": "0x5aa3b0b953bd381211e8c0cf982cfcb7977a0690",
@@ -582,8 +582,9 @@ APPROVED_WALLETS = {
     "CASHCAT Trader #5": "0xa95fa68dc05d82ff5398527308944e2fcfad3a69",
     "Conviction Holder #1": "0xc38f2021b6b6349b8f662b7f207d84beb7bc8308",
     "Conviction Holder #2": "0x255a80c3307011abc09669114627edece667a743",
+    "UP Smart Money #9": "0x393d4197b6e3e3f9bc316dff3158f9220c4895bb",
+    "UP Smart Money #10": "0x594e6aeec7db691cc45852111a8871134afb37e7",
 }
-
 def load_approved_wallets():
     discovered = load_tracked_wallets()
     metadata = {
