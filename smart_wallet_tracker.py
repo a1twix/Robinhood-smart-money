@@ -534,6 +534,20 @@ def load_tracked_wallets():
             "historical_profit_eth": 20.921888983498906,
             "historical_roi_percent": 1307.6180614686818,
         }
+    # Wallet #10: profitable UP sales verified; acquisition quantity unresolved.
+    if not any(
+        d["address"].lower() == "0x594e6aeec7db691cc45852111a8871134afb37e7"
+        for d in tracked_wallets.values()
+    ):
+        tracked_wallets["UP Smart Money #10"] = {
+            "address": "0x594e6aeec7db691cc45852111a8871134afb37e7",
+            "stars": 4,
+            "tier": "PROVISIONAL SMART MONEY",
+            "source": "UP",
+            "role": "Profitable UP seller; full trade P&L unverified",
+            "historical_profit_eth": None,
+            "historical_roi_percent": None,
+        }
     return tracked_wallets
 
 
