@@ -519,6 +519,21 @@ def load_tracked_wallets():
 
         print("CASHCAT provisional wallet import complete.")
 
+    # Wallet #9 — profitable UP early trader.
+    # Provisional: wider trading consistency not yet verified.
+    if not any(
+        d["address"].lower() == "0x393d4197b6e3e3f9bc316dff3158f9220c4895bb"
+        for d in tracked_wallets.values()
+    ):
+        tracked_wallets["UP Smart Money #9"] = {
+            "address": "0x393d4197b6e3e3f9bc316dff3158f9220c4895bb",
+            "stars": 4,
+            "tier": "PROVISIONAL SMART MONEY",
+            "source": "UP",
+            "role": "Profitable early UP trader",
+            "historical_profit_eth": 20.921888983498906,
+            "historical_roi_percent": 1307.6180614686818,
+        }
     return tracked_wallets
 
 
