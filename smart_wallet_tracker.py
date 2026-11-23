@@ -573,7 +573,7 @@ def refresh_conviction_wallets():
 
 
 
-{
+APPROVED_WALLETS = {
     "WISHBONE Trader #1": "0xb35522495e33e3c962788e4e2098a5b4798d2d60",
     "TENDIES Trader #1": "0x3e68c81f62a9bbf78c820458bc60e327f2b22295",
     "UP Trader #2": "0x5aa3b0b953bd381211e8c0cf982cfcb7977a0690",
